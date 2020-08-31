@@ -2,12 +2,22 @@
 <html>
 <head>
 	<title>{{TITLE}}</title>
-    <link rel="stylesheet" type="text/css" href="./shared/reset.css">
-    <link rel="stylesheet" type="text/css" href="./shared/fonts/fontawesome/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="./shared/lib/katex/katex.min.css">
-    <link rel="stylesheet" type="text/css" href="./shared/lib/highlight/styles/monokai-sublime.min.css">
-	<link rel="stylesheet" type="text/css" href="./shared/cse450.css">
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('{{URLROOT}}/shared/fonts/byui/icomoon.eot');
+            src: url('{{URLROOT}}/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('{{URLROOT}}/shared/fonts/byui/icomoon.ttf') format('truetype'), url('{{URLROOT}}/shared/fonts/byui/icomoon.woff') format('woff'), url('{{URLROOT}}/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="{{URLROOT}}/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="{{URLROOT}}/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="{{URLROOT}}/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="{{URLROOT}}/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="{{URLROOT}}/shared/cse450.css">
     <meta charset="utf-8">
+
 </head>
 <body class="{{BODYCLASS}}">
      <div id="modal-screen">

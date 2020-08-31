@@ -67,7 +67,7 @@ The focus of this course will be supervised learning, which is the most common t
 
 ### Supervised Learning
 
-![Credit Card Transaction](./shared/img/cc.jpg)
+![Credit Card Transaction]({{URLROOT}}/shared/img/cc.jpg)
 *[Photo by Clay Banks on Unsplash](https://unsplash.com/photos/E2HgkL3LaFE)*
 
 Many credit card companies use supervised learning to develop models that can predict if a particular transaction looks fraudulent. 
@@ -97,7 +97,7 @@ With that background, we can now define supervised learning this way:
 As you'll see throughout this course, the accuracy and usefulness of these models will depend on a number of factors.
 
 ### Unsupervised Learning
-![Grocery Shopping](./shared/img/grocery.jpg)
+![Grocery Shopping]({{URLROOT}}/shared/img/grocery.jpg)
 *[Photo by nrd on Unsplash](https://unsplash.com/photos/D6Tu_L3chLE)*
 
 A grocery store chain might wish to decide which customers to target for a particular sales promotion. Historic shopping data can be analyzed using a technique known as *cluster analysis* to determine which groups of customers would be most likely to respond to a particular ad campaign.
@@ -110,7 +110,7 @@ Cluster analysis and dimensional reduction are examples of unsupervised learning
 	Unsupervised learning algorithms generate models that allow us to identify patterns in unlabeled training data, make inferences about those patterns, and predict where future data might fall within those patterns. 
 
 ### Reinforcement Learning
-![Robot](./shared/img/robot.jpg)
+![Robot]({{URLROOT}}/shared/img/robot.jpg)
 *[Photo by Lenin Estrada on Unsplash](https://unsplash.com/photos/OI1ToozsKBw)*
 
 Reinforcement learning is what most people think of when they think of artificial intelligence. 

@@ -69,6 +69,7 @@ def parse_markdown(markdown_file_path):
 
 	output_string = output_string.replace("{{CONTENT}}", html_content)
 	output_string = output_string.replace("{{TOC}}", md.toc)
+	output_string = output_string.replace("{{URLROOT}}", config["url_root"])
 
 	if 'title' in md.Meta:
 		output_string = output_string.replace("{{TITLE}}", md.Meta["title"][0])
@@ -117,6 +118,9 @@ def parseConfig(config_file_path):
 	config['default_template'] = fixPath(template_path)
 	config['output_path'] = fixPath(output_path)
 	config['content_path'] = fixPath(content_path)
+
+	# Get URL root
+	config['url_root'] = config_parser.get("URLs", "root")
 
 
 if __name__ == "__main__":

@@ -17,15 +17,6 @@
   --light-border-color: #DDD;
 }
 
-@font-face {
-  font-family: 'icomoon';
-  src: url('./fonts/byui/icomoon.eot');
-  src: url('./fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('./fonts/byui/icomoon.ttf') format('truetype'), url('./fonts/byui/icomoon.woff') format('woff'), url('./fonts/byui/icomoon.svg#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 /* Base styles */
 
 body {

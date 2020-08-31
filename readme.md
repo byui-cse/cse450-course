@@ -24,7 +24,7 @@ Settings for this build process are stored in the `settings.cfg` file. The build
 
 The transformed HTML data is inserted into the template wherever the `{{CONTENT}}` placeholder is found.
 
-Additional placeholders include `{{TITLE}}`, `{{TOC}}`, and `{{BODYCLASS}}`.
+Additional placeholders include `{{TITLE}}`, `{{TOC}}`, `{{URLROOT}}`, and `{{BODYCLASS}}`.
 
 When the markdown file is parsed, metadata at the top of the file is indexed by the [meta-data](https://python-markdown.github.io/extensions/meta_data/) markdown extension.
 
@@ -43,6 +43,8 @@ The `template` value may be used to override the HTML template used for a partic
 New templates should generally only be used if you need a significant change to the structure of the HTML. 
 
 If you only need page-specific styling, the body-class metadata value will allow you to selectively style pages based on the class of their `body` tags.
+
+The `{{URLROOT}}` value comes from `settings.cfg`.
 
 
 ## Markdown Extensions
