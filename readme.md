@@ -98,7 +98,7 @@ Here's an example of a definition block:
 		us better understand the relationship between the response 
 		and the predictors (inference). 
 
-An a warning block:
+And a warning block:
 
 	!!! warning "Synonym Madness"
 		
