@@ -29,7 +29,9 @@ Settings for this build process are stored in the `settings.cfg` file. The build
 
 ## Markdown Extensions
 
-Aside from the [standard markdown syntax](https://www.markdownguide.org/basic-syntax/), the build toolchain provides some additional extensions:
+Aside from the [standard markdown syntax](https://www.markdownguide.org/basic-syntax/), the build toolchain provides some additional extensions. Note that these extensions simply output raw HTML. 
+
+All styling is either provided by external libraries or CSS files linked in the default template.
 
 ### KaTeX Equation Support
 
