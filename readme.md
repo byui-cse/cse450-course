@@ -25,7 +25,7 @@ After making changes, the build process can be run from the repository root by t
 
 	make
 
-Settings for this build process are stored in the `settings.cfg` file. The build script may be found at [./build-toolchain/build-site.py].
+Settings for this build process are stored in the `settings.cfg` file. The build script is written in Python: `/build-toolchain/build-site.py`.
 
 ## Markdown Extensions
 
@@ -37,7 +37,7 @@ All styling is either provided by external libraries or CSS files linked in the 
 
 LaTeX like formatting is provided for the default template by Khan Academy's [Katex library](https://katex.org). Equations may be embeded in markdown using one of two formats.
 
-Inline mode makes it easy to embed math type directly in text by using single dollar signs: `$\bar{x}$`.
+Inline mode makes it easy to embed math type directly in text by using single dollar signs: `$ \bar{x} $`.
 
 LaTeX display mode can be used as well, by using double dollar signs:
 
@@ -145,6 +145,9 @@ Heading numbering is not part of the table of contents, but is controlled via CS
 In the default template, the table of contents is hidden until the table of contents icon in the upper right corner of the window is clicked.
 
 ![Table of contents - closed](readme-img/toc1.png)
+
+Visible: 
+
 ![Table of contents - visible](readme-img/toc2.png)
 
 
