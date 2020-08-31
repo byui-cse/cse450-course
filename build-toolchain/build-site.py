@@ -75,6 +75,8 @@ def parse_markdown(markdown_file_path):
 
 	if 'body-class' in md.Meta:
 		output_string = output_string.replace("{{BODYCLASS}}", md.Meta["body-class"][0])
+	else:
+		output_string = output_string.replace("{{BODYCLASS}}", "")
 
 
 	return output_string
