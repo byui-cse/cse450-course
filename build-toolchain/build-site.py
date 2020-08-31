@@ -73,6 +73,8 @@ def parse_markdown(markdown_file_path):
 	if 'title' in md.Meta:
 		output_string = output_string.replace("{{TITLE}}", md.Meta["title"][0])
 
+	if 'body-class' in md.Meta:
+		output_string = output_string.replace("{{BODYCLASS}}", md.Meta["body-class"][0])
 
 
 	return output_string

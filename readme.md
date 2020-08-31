@@ -13,19 +13,37 @@ All markdown files are transformed by the build script into HTML. A default temp
 - Code syntax highlighting provided by the [Highlight.js library](https://highlightjs.org)
 - Automatic smart quote transformation via [smartquotes.js](https://smartquotes.js.org)
 
-The template used may to transform a markdown file can be overrideen on a file-by-file basis. To do so, simply specify the path to the desired template in the markdown file's header. The path should be relative to the repository's root folder.
-
-	---
-	title: Prepare 01: Introduction
-	template: ./templates/some-template.html
-	---
-
 ## Building the Site
 After making changes, the build process can be run from the repository root by typing:
 
 	make
 
 Settings for this build process are stored in the `settings.cfg` file. The build script is written in Python: `/build-toolchain/build-site.py`.
+
+## Template and Metadata
+
+The transformed HTML data is inserted into the template wherever the `{{CONTENT}}` placeholder is found.
+
+Additional placeholders include `{{TITLE}}`, `{{TOC}}`, and `{{BODYCLASS}}`.
+
+When the markdown file is parsed, metadata at the top of the file is indexed by the [meta-data](https://python-markdown.github.io/extensions/meta_data/) markdown extension.
+
+	---
+	title: Prepare 01: Introduction
+	template: ./templates/some-template.html
+	body-class: index-page
+	---
+
+Any metadata tags may be included in the metadata section, but the only values currently used by the build toolchain are `title`, `tempalte`, and `body-class`. 
+
+The `title` and `body-class` values are inserted into the template at their corresponding placeholders.
+
+The `template` value may be used to override the HTML template used for a particular markdown file. To do so, simply specify the path to the desired template in the markdown file's header. The path should be relative to the repository's root folder.
+
+New templates should generally only be used if you need a significant change to the structure of the HTML. 
+
+If you only need page-specific styling, the body-class metadata value will allow you to selectively style pages based on the class of their `body` tags.
+
 
 ## Markdown Extensions
 
@@ -115,7 +133,7 @@ And a warning block:
 
 ![Admonition Blocks](readme-img/admonition.png)
 
-These blocks are generall in the format:
+The format for these blocks is:
 
 	!!! <type> "TITLE"
 
@@ -134,7 +152,7 @@ Generated HTML is in this format:
 		   the same thing and are sometimes used interchangeably.</p>
 	</div>
 
-There are no predifined admonition types. The appearance and icons used for a given type are all controlled by CSS formatting. The default template supports `note`, `warning`, and `def`.
+There are no predefined admonition types. The appearance and icons used for a given type are all controlled by CSS formatting. The default template supports `note`, `warning`, and `def`.
 
 ### Table of Contents
 
