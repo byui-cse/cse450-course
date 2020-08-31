@@ -41,7 +41,7 @@ LaTeX display mode can be used as well, by using double dollar signs:
 
 	$$ X \cdot Y = \sum_{i=1}^{n} x_iy_i $$
 
-![Admonition Blocks][readme-img/katex.png]
+![Katex equations](readme-img/katex.png)
 
 ### Syntax highlighting
 
@@ -60,7 +60,7 @@ Language specific code formatting is provided using the [fenced-code extension](
 	    return sum(X) / len(X)
 	```
 
-![Admonition Blocks][readme-img/code.png]
+![Code highlighting](readme-img/code.png)
 
 ### Footnote support
 
@@ -76,9 +76,9 @@ Footnotes can be used according to the standard [footnotes extension](https://py
 	
 	[^1]: [Mind Children, by Hans Moravec (Harvard University Press, 1988)](http://www.hup.harvard.edu/catalog.php?isbn=9780674576186&content=reviews)
 
-![Admonition Blocks][readme-img/footnote1.png]
+![Footnote in text](readme-img/footnote1.png)
 ...
-![Admonition Blocks][readme-img/footenote2.png]
+![Footnote reference](readme-img/footnote2.png)
 
 ### Admonition Blocks
 
@@ -111,7 +111,7 @@ An a warning block:
 		"features" that came from different fields, but which mean 
 		the same thing and are sometimes used interchangeably.
 
-![Admonition Blocks][readme-img/admonition.png]
+![Admonition Blocks](readme-img/admonition.png)
 
 These blocks are generall in the format:
 
@@ -142,7 +142,7 @@ Heading numbering is not part of the table of contents, but is controlled via CS
 
 In the default template, the table of contents is hidden until the table of contents icon in the upper right corner of the window is clicked.
 
-![Admonition Blocks][readme-img/toc1.png]
-![Admonition Blocks][readme-img/toc2.png]
+![Table of contents - closed](readme-img/toc1.png)
+![Table of contents - visible](readme-img/toc2.png)
 
 
