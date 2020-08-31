@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Course Index</title>
+    <link rel="stylesheet" type="text/css" href="/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="/shared/cse450.css">
+    <meta charset="utf-8">
+</head>
+<body class="index-page">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#cse-450-course-index">CSE 450 - Course Index</a><ul>
+<li><a href="#lesson-01">Lesson 01</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
+            <h2>Course Index</h2>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<h2 id="cse-450-course-index">CSE 450 - Course Index</h2>
+<p>This is a handy index page for the course content and readings in CSE 450. This content is subject to change without notice and is for informational purposes only. If you're a student, the content, assignments, and deadlines you'll be responsible for are those linked to from I-Learn.</p>
+<h3 id="lesson-01">Lesson 01</h3>
+<ul>
+<li><a href="./lesson-01/prepare.html">Prepare</a></li>
+</ul>
+	</article>
+	<script src="/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="/shared/lib/katex/katex.min.js"></script>
+    <script src="/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>

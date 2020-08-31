@@ -180,6 +180,10 @@ article h3:before {
   content: counter(section-counter) "." counter(subsection-counter) " - " ;
 }
 
+.index-page article h2:before, .index-page article h3:before {
+  content: none;
+}
+
 article em {
   font-style: italic;
   color: var(--emphasis-color);
