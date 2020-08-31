@@ -19,8 +19,8 @@
 
 @font-face {
   font-family: 'icomoon';
-  src: url('/shared/fonts/byui/icomoon.eot');
-  src: url('/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('/shared/fonts/byui/icomoon.ttf') format('truetype'), url('/shared/fonts/byui/icomoon.woff') format('woff'), url('/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+  src: url('./shared/fonts/byui/icomoon.eot');
+  src: url('./shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('./shared/fonts/byui/icomoon.ttf') format('truetype'), url('./shared/fonts/byui/icomoon.woff') format('woff'), url('./shared/fonts/byui/icomoon.svg#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
