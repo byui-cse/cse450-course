@@ -67,7 +67,7 @@ LaTeX display mode can be used as well, by using double dollar signs:
 
 ### Syntax highlighting
 
-Language specific code formatting is provided using the [fenced-code extension](https://python-markdown.github.io/extensions/fenced_code_blocks/). Note that GitHub's backtick format is preferred: 
+Language specific code formatting is provided using the [fenced-code extension](https://python-markdown.github.io/extensions/fenced_code_blocks/) and [highlight.js](https://highlightjs.org). Note that GitHub's backtick format is preferred: 
 
 	```python
 	# Verbose version
