@@ -14,11 +14,28 @@ All markdown files are transformed by the build script into HTML. A default temp
 - Automatic smart quote transformation via [smartquotes.js](https://smartquotes.js.org)
 
 ## Building the Site
-After making changes, the build process can be run from the repository root by typing:
+The build toolchain is based on Python 3 (tested with 3.8.2). Aside from the standard libraries, the build script has two dependencies:[Python markdown](https://python-markdown.github.io), and [PyEmbed Markdown](https://pyembed.github.io/usage/markdown/). Both may be installed in the standard way:
+
+	pip install markdown
+	pip install pyembed-markdown
+
+While not required, it is recommended that you use a [virtual environment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
+
+Once the dependencies are install, the build process can be run from the repository root via a makefile by typing:
 
 	make
 
-Settings for this build process are stored in the `settings.cfg` file. The build script is written in Python: `/build-toolchain/build-site.py`.
+If your system doesn't have make installed, you can also manualy run the build script:
+
+	python3 ./build-toolchain/build-site.py -s ./settings.cfg
+
+The `settings.cfg` file contains site-specific settings for the build process. By default, the script will look in the current directory for `settings.cfg`, but you can also specify its path using the `-s` flag.
+
+An alternate configuration `settings-local.cfg` is also provided, which changes the host URL to `localhost`. This allows easy local development and testing with something like [MAMP](https://www.mamp.info).
+
+A local build rule is also provided in the makefile for convienience:
+
+	make local
 
 ## Template and Metadata
 
@@ -170,4 +187,15 @@ Visible:
 
 ![Table of contents - visible](readme-img/toc2.png)
 
+### Embeds
+
+The [PyEmbed Markdown](https://pyembed.github.io/usage/markdown/) library is used to add support for embedding content in an `iframe`.
+
+	[!embed](http://www.youtube.com/watch?v=PJzijKS7sOo)
+
+Results in:
+
+	<iframe width="480" height="270" src="https://www.youtube.com/embed/PJzijKS7sOo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Other customization options are described in the [PyEmbed Markdown docs](https://pyembed.github.io/usage/markdown/).
 

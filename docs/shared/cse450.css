@@ -139,6 +139,11 @@ article img ~ em a:link, article img ~ em a:visited {
   text-align: center;
 }
 
+article iframe {
+  display: block;
+  margin: 10px auto 20px auto;
+}
+
 article ol, article ul {
   margin: -10px 0 20px 20px;
 }
