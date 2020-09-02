@@ -15,13 +15,13 @@ The exact rhythm of the assignments in this module will depend on your [course d
 
 ### Classroom Delivery {: .delivery .classroom }
 
-You'll complete a *Preparation* reading assignment prior to coming to each class session.
+Prior to coming to each class session, you'll complete a *Preparation* reading assignment.
 
-You'll then complete the associated reading quiz in Canvas. Each reading quiz may be taken as many times as you like until the due date, and your highest score for each quiz will be kept. You must achieve a *90% or higher* on the quiz to pass. 
+You will then complete the associated reading quiz in Canvas. Each reading quiz may be taken as many times as you like until the due date, and your highest score for each quiz will be kept. You must achieve a *90% or higher* on the quiz to pass. 
 
-In class, you'll be assigned to a temporary team, where you'll work together to complete *Data Exploration* assignments. These assignments give you an opportunity to practice data science skills.
+In class, you'll be assigned to a temporary team, where you'll work together to complete *Data Exploration* assignments. These assignments give you an opportunity to practice the foundational skills you've been learning.
 
-At the end of this module, you'll take an assessment quiz, and then be assigned to permanent groups.
+At the end of Module 01, you'll take an assessment quiz, then be assigned to permanent groups.
 
 ### Remote Delivery {: .delivery .remote }
 
@@ -33,9 +33,22 @@ Students will then work in temporary groups in Zoom breakout rooms to complete *
 
 At the end of this module, you'll take an assessment quiz, and then be assigned to permanent groups.
 
+### Blended Delivery {: .delivery .blended }
+
+This course is not currently offered via Blended delivery.
+
+### Flexible / HyFlex Delivery {: .delivery .flexible }
+
+This course is not currently offered via Flexible delivery.
+
+### Online Delivery {: .delivery .online }
+
+This course is not currently offered via Online delivery.
+
+
 ## Preparation Readings
 
-For your convenience, all six `Preparation` reading assignments are listed below:
+For your convenience, all six `Preparation` reading assignments are listed below, but please remember that the assignments listed in your Canvas session by your instructor are the final word on what is actually due on a given day:
 
 * [Preparation Reading One](./preparation-01.html)
 * [Preparation Reading Two](./preparation-02.html)
