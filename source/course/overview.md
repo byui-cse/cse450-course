@@ -34,11 +34,11 @@ The exact rhythm of the assignments in each module will depend on your [course d
 
 #### Module 01
 
-Each student will complete a foundational reading assignment prior to each class meeting. During class, the instructor will review the material and answer questions. 
+Students will complete a foundational reading assignment prior to each class meeting. During class, the instructor will review the material and answer questions. 
 
 Students will then work in temporary groups during class to complete data exploration assignments.
 
-At the end of module one, students will take an assessment quiz, and then be assigned to permanent groups.
+At the end of module one, students will take an assessment quiz, and then be assigned to permanent groups for the remainder of the semester.
 
 #### Modules 02 - 07
 
@@ -46,13 +46,15 @@ For classroom delivery, modules 02 - 07 will each follow this pattern:
 
 *Day 1* - We'll introduce the module's topic, and discuss a case study related to it.
 
-*Day 2* - Students will complete the `Prepare` reading before class. In class, they will complete an individual assessment quiz, and a team assessment quiz. 
+*Day 2* - Students will complete the `Prepare` reading before coming to class. In class, they will complete an individual assessment quiz, and a team assessment quiz. 
 
-We'll then discuss a new case study related to the topic. Teams will be asked to evaluate the case study, make decisions, and be prepared to defend those decisions to the rest of the class.
+After the quizzes, the instructor will introduce a new case study related to the topic. Teams will be asked to evaluate the case study, make decisions, and be prepared to defend those decisions to the rest of the class.
 
 *Day 3* - We'll survey each team to hear the decisions they reached and the reasons behind them. We'll then discuss questions about those decisions as a class.
 
-*Day 4 & 5* - We'll discuss a new case study related to the topic. Each team will spend class time on days 4 and 5 analyzing the related dataset using a specified machine learning algorithm. Teams may elect to continue the analysis outside of class if they wish.
+*Day 4 & 5* - We'll discuss a new case study related to the topic. Each team will spend class time on days 4 and 5 analyzing the related dataset using a specified machine learning algorithm. 
+
+Teams may elect to continue the analysis outside of class if they wish, but they must also meet during class time.
 
 Each team will use an Executive Summary template to write up a formal summary of their analysis, including the rationale for the choices made, as well as visualizations that highlight key points.
 
@@ -74,9 +76,9 @@ For remote delivery, modules 02 - 07 will each follow this pattern:
 
 *Day 1* - We'll introduce the module's topic, and discuss a case study related to it.
 
-*Day 2* - Students will complete the `Prepare` reading before class. In class, students will complete an individual assessment quiz. Your team will then jump into a breakout room to complete a team assessment quiz. 
+*Day 2* - Students will complete the `Prepare` reading before coming to class. In class, students will complete an individual assessment quiz. Your team will then jump into a breakout room to complete a team assessment quiz. 
 
-We'll then come back together to discuss a new case study related to the topic. Teams will then return to their breakout rooms where they will evaluate the case study, make decisions, and be prepared to defend those decisions to the rest of the class.
+After the quizzes, we'll come back together and discuss any questions. Then the instructor will introduce a new case study related to the topic. Teams will return to their breakout rooms where they will evaluate the case study, make decisions, and be prepared to defend those decisions to the rest of the class.
 
 *Day 3* - We'll survey each team to hear the decisions they reached and the reasons behind them. We'll then discuss questions about those decisions as a class.
 
