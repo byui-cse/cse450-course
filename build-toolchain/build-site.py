@@ -6,6 +6,7 @@ import markdown
 import codecs
 from distutils import dir_util
 from pyembed.markdown import PyEmbedMarkdown
+from markdown.extensions.toc import TocExtension
 
 # Make our config global so we don't have to pass it to every function
 config = {}
@@ -49,7 +50,7 @@ def processFiles():
 # Loads the contents of the specified file through the markdown processor, then inserts it
 # into the appropriate template
 def parse_markdown(markdown_file_path):
-	md = markdown.Markdown(extensions = ['meta', 'footnotes', 'fenced_code', 'codehilite', 'toc', 'attr_list', 'tables', 'admonition', PyEmbedMarkdown()])
+	md = markdown.Markdown(extensions = ['meta', 'footnotes', 'fenced_code', 'codehilite', 'attr_list', 'tables', 'admonition', TocExtension(toc_depth=3), PyEmbedMarkdown()])
 	
 	# Load the markdown and convert it ot html
 	html_content = ''

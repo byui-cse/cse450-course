@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Foundations 02: Descriptive Statistics and Google Colab</title>
+	<title>Preparation Reading 02: Descriptive Statistics</title>
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -24,20 +24,12 @@
         <div id="contents-wrapper">
             <div class="toc">
 <ul>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#reading">Reading</a><ul>
-<li><a href="#statistics-and-data">Statistics and Data</a></li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#introduction">Introduction</a><ul>
 <li><a href="#continuous-vs-categorical-features">Continuous vs Categorical Features</a></li>
 </ul>
 </li>
-<li><a href="#assignment">Assignment</a><ul>
 <li><a href="#statistics-review">Statistics Review</a></li>
-<li><a href="#data-exploration">Data Exploration</a><ul>
-<li><a href="#using-google-colab">Using Google Colab</a></li>
-</ul>
-</li>
-</ul>
-</li>
 </ul>
 </div>
 
@@ -48,17 +40,14 @@
         <span class="icon-byui-logo"></span>
         <div id="titles">
             <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
-            <h2>Foundations 02: Descriptive Statistics and Google Colab</h2>
+            <h2>Preparation Reading 02: Descriptive Statistics</h2>
         </div>
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<h2 id="introduction">Introduction</h2>
-<p>Throughout the course, we'll be using <a href="https://colab.research.google.com">Google Colab</a> for most of our data exploration and modeling. </p>
-<p>This assignment will teach you how Google Colab works and give you some practice with it while also helping you review some basic statistics you'll need for machine learning.</p>
-<h2 id="reading">Reading</h2>
-<p>First, let's go over some basic statistics that you'll need for machine learning.</p>
-<h3 id="statistics-and-data">Statistics and Data</h3>
+		<h2 id="overview">Overview</h2>
+<p>In this reading we'll review some basic statistics you'll need for machine learning.</p>
+<h2 id="introduction">Introduction</h2>
 <p>Think of a "statistic" as a piece of information that tells you something about a set of data. Broadly speaking, there are two types of statistics: </p>
 <div class="admonition def">
 <p class="admonition-title">Descriptive Statistic</p>
@@ -97,37 +86,13 @@
 <p>Even more tricky is the case of features that could go either way. In our first categorical feature example, we could have asked "Which academic year are you currently in, 1, 2, 3, or 4?". </p>
 <p>There might actually be an important relationship in our data that relies on the fact that senior students have been at school 4 times longer than freshman students. In cases like these, we sometimes have to try treating a feature both ways to see which gives us better results.</p>
 </div>
-<h2 id="assignment">Assignment</h2>
-<p>In this assignment, you'll be using a machine learning tool called Google Colab to calculate some descriptive statistics on continuous features.</p>
-<h3 id="statistics-review">Statistics Review</h3>
+<h2 id="statistics-review">Statistics Review</h2>
 <p>In <em>Appendix A</em> of <em>Machine Learning and Predictive Data Analytics</em>, read the following sections:</p>
 <ul>
 <li>A.1 - Descriptive Statistics for Continuous Features</li>
 <li>A.2 - Descriptive Statistics for Categorical Features</li>
 <li>A.3 - Populations and Samples</li>
 </ul>
-<h3 id="data-exploration">Data Exploration</h3>
-<h4 id="using-google-colab">Using Google Colab</h4>
-<p>Google Colab is a cloud-based data science development environment. It includes support for the most widely used libraries and tools in data science. Colab uses "Jupyter Notebooks" for data exploration and analysis. If you've never heard of those before, Jupyter Notebooks are interactive documents that contain a mix of text and python code "cells".</p>
-<p>The following video demonstrates how to get up and running quickly with Google Colab, options for turning in Colab-based assignments, and a few things to watch out for:</p>
-<iframe width="480" height="270" src="https://www.youtube.com/embed/PJzijKS7sOo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<div class="admonition note">
-<p class="admonition-title">Learning Python and Friends</p>
-<p>The assignments in this course require a fair amount of Python coding as well as the use of a few popular Python-based data science tools. We don't spend much time in this class explicitly learning Python or these tools, for a few reasons:</p>
-<ul>
-<li>
-<p>In industry, you'll often be asked to complete a task or project that requires quickly coming up to speed on a new technology or software library that you've never used before.</p>
-</li>
-<li>
-<p>By the time you start your first job in data science, many of the tools and libraries will be different anyway, so we try to focus on teaching principles and helping you "learn how to learn" on your own so you can keep up with this rapidly changing field.</p>
-</li>
-<li>
-<p>As a 400-level student, we expect that at this point you have enough diligence and experience reading technical documentation and tutorials that you can handle this largely on your own.</p>
-</li>
-</ul>
-<p>However, we have put together <a href="https://byui-cse.github.io/cse450-course/course/tools.html">a guide containing some good references and tutorials</a>, as well as tips for reading technical documentation.</p>
-</div>
 	</article>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>

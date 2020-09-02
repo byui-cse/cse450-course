@@ -1,5 +1,5 @@
 ---
-title: Foundations 02: Descriptive Statistics and Google Colab
+title: Exploration 02: Google Colab
 ---
 
 ## Introduction

@@ -18,40 +18,86 @@ The goal of this course is to help you:
 
 ## Course Structure
 
-This course is divided into seven *modules*. Each module has a set of readings and activities for you to complete. How the activities are handled will largely depend on your [course delivery method](https://www.byui.edu/registration/when-do-i-register/fall-registration-guide). 
+This course is divided into seven *modules*. Each module will last approximately two weeks (six class periods). 
 
-Keep in mind that your instructor may deviate somewhat from this guide, and they have final say on assignment requirements, delivery methods, and due dates. So be sure to pay attention to both in-class and Canvas announcements.
+Module 01 is designed to quickly bring you up to speed on the foundational knowledge and vocabulary you will need to succeed in the rest of the course. 
 
-### Module 01
-The first module is designed to quickly bring you up to speed on the foundational knowledge and vocabulary you will need to succeed in the rest of the course.
+Modules 02 - 07 use a series of case studies to help you learn to understand and apply a variety of machine learning techniques. 
 
-This module will last approximately two weeks (six class periods) and will consist of a mix of reading assignments and data exploration activities. The exact rhythm of the assignments in Module 01 will depend on your [course delivery method](https://www.byui.edu/registration/when-do-i-register/fall-registration-guide):
+The exact rhythm of the assignments in each module will depend on your [course delivery method](https://www.byui.edu/registration/when-do-i-register/fall-registration-guide), as described below.
 
-#### Classroom {: .delivery .classroom }
+!!! warning "Subject to Change"
+	
+	Keep in mind that your instructor may deviate somewhat from the following guide, and they have final say on assignment requirements, delivery methods, and due dates. So be sure to pay attention to both in-class and Canvas announcements.
 
-Complete *one* foundational reading assignment prior to each class meeting. During class, your instructor will review the material and answer questions, you'll then work in groups during class to complete data exploration assignments.
+### Classroom Delivery {: .delivery .classroom }
 
-#### Blended {: .delivery .blended }
+#### Module 01
 
-Complete *two* foundational reading assignments prior to each face-to-face class meeting. During class, your instructor will review the material and answer questions. On alternating days, you'll work remotely in groups during class time to complete two data exploration assignments.
+Each student will complete a foundational reading assignment prior to each class meeting. During class, the instructor will review the material and answer questions. 
 
-#### Flexible / HyFlex {: .delivery .flexible }
+Students will then work in temporary groups during class to complete data exploration assignments.
 
-Complete *one* foundational reading assignment prior to each class meeting. During class, your instructor will review the material and answer questions, you'll then work in groups during class to complete data exploration assignments, with some group members attending remotely.
+At the end of module one, students will take an assessment quiz, and then be assigned to permanent groups.
 
-#### Remote {: .delivery .remote }
+#### Modules 02 - 07
 
-Complete *one* foundational reading assignment prior to each class meeting. During class, your instructor will review the material and answer questions, you'll then work in groups via Zoom breakout rooms during class to complete data exploration assignments.
+For classroom delivery, modules 02 - 07 will each follow this pattern:
 
-#### Online {: .delivery .online }
+*Day 1* - We'll introduce the module's topic, and discuss a case study related to it.
 
-Complete *three* foundational reading assignments each week and complete the corresponding data exploration assignments by the end of each week. Your instructor may assign you to work in online groups.
+*Day 2* - Students will complete the `Prepare` reading before class. In class, they will complete an individual assessment quiz, and a team assessment quiz. 
 
-It is suggested that online students complete one reading assignment and its corresponding data exploration assignment each Monday, Wednesday, and Friday.
+We'll then discuss a new case study related to the topic. Teams will be asked to evaluate the case study, make decisions, and be prepared to defend those decisions to the rest of the class.
+
+*Day 3* - We'll survey each team to hear the decisions they reached and the reasons behind them. We'll then discuss questions about those decisions as a class.
+
+*Day 4 & 5* - We'll discuss a new case study related to the topic. Each team will spend class time on days 4 and 5 analyzing the related dataset using a specified machine learning algorithm. Teams may elect to continue the analysis outside of class if they wish.
+
+Each team will use an Executive Summary template to write up a formal summary of their analysis, including the rationale for the choices made, as well as visualizations that highlight key points.
+
+*Day 6*: Each team will present and defend their recommendations to the rest of the class.
+
+### Remote Delivery {: .delivery .remote }
+
+#### Module 01
+
+Each student will complete a foundational reading assignment prior to each class meeting. During class, the instructor will review the material and answer questions. 
+
+Students will then work in temporary groups in Zoom breakout rooms to complete data exploration assignments.
+
+At the end of module one, students will take an assessment quiz, and then be assigned to permanent groups.
+
+#### Modules 02 - 07
+
+For remote delivery, modules 02 - 07 will each follow this pattern:
+
+*Day 1* - We'll introduce the module's topic, and discuss a case study related to it.
+
+*Day 2* - Students will complete the `Prepare` reading before class. In class, students will complete an individual assessment quiz. Your team will then jump into a breakout room to complete a team assessment quiz. 
+
+We'll then come back together to discuss a new case study related to the topic. Teams will then return to their breakout rooms where they will evaluate the case study, make decisions, and be prepared to defend those decisions to the rest of the class.
+
+*Day 3* - We'll survey each team to hear the decisions they reached and the reasons behind them. We'll then discuss questions about those decisions as a class.
+
+*Day 4 & 5* - We'll discuss a new case study related to the topic. Each team will then spend the rest of class time on days 4 and 5 in breakout rooms analyzing the related dataset using a specified machine learning algorithm. 
+
+Teams may elect to continue the analysis outside of class time if they wish, but they must also meet during class time.
+
+Each team will use an Executive Summary template to write up a formal summary of their analysis, including the rationale for the choices made, as well as visualizations that highlight key points.
+
+*Day 6*: Each team will present and defend their recommendations to the rest of the class
 
 
-### Modules 02 - 07
-Modules 02 - 07 use a case-based approach to help you learn to understand and apply a variety of machine learning techniques.
+### Blended Delivery {: .delivery .blended }
 
+This course is not currently offered via Blended delivery.
 
+### Flexible / HyFlex Delivery {: .delivery .flexible }
+
+This course is not currently offered via Flexible delivery.
+
+### Online Delivery {: .delivery .online }
+
+This course is not currently offered via Online delivery.
 
