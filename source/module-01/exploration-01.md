@@ -52,5 +52,12 @@ A consumer watchdog group wants to see if Netflix has more movies for adults or 
 
 Using a dataset containing metadata for all of the movies Netflix had available on their platform in 2019, use the [MPAA movie rating system](https://en.wikipedia.org/wiki/Motion_Picture_Association_film_rating_system#MPAA_film_ratings) to determine if they are correct.
 
-Click on the link below to open a Google Colab notebook
+Click on the `Open In Colab` button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, upload the notebook to a Github Gist, then paste the URL to the gist into the assignment submission form on Canvas.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/docs/notebooks/Exploration_01.ipynb)
+
+## Teacher's Solution
+
+Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can [view the teacher's solution here]().
+
 
