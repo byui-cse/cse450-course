@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Exploration 01: Google Colab</title>
+	<title>Exploration 01: Netflix Movies</title>
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -24,8 +24,13 @@
         <div id="contents-wrapper">
             <div class="toc">
 <ul>
+<li><a href="#overview">Overview</a></li>
 <li><a href="#introduction">Introduction</a></li>
-<li><a href="#google-colab">Google Colab</a></li>
+<li><a href="#introduction-to-kaggle">Introduction to Kaggle</a></li>
+<li><a href="#assignment">Assignment</a><ul>
+<li><a href="#stage-the-data">Stage the data</a></li>
+</ul>
+</li>
 </ul>
 </div>
 
@@ -36,14 +41,23 @@
         <span class="icon-byui-logo"></span>
         <div id="titles">
             <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
-            <h2>Exploration 01: Google Colab</h2>
+            <h2>Exploration 01: Netflix Movies</h2>
         </div>
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<h2 id="introduction">Introduction</h2>
-<p>Throughout the course, we'll be using <a href="https://colab.research.google.com">Google Colab</a> for most of our data exploration and modeling. </p>
-<p>This assignment will teach you how Google Colab works and give you some practice using it. You'll also get some practice using the Python language, as well as some of the most popular libraries used by professional data scientists.</p>
+		<h2 id="overview">Overview</h2>
+<p>In this data exploration, you will:</p>
+<ul>
+<li>Create a Kaggle account to gain access to the datasets and development environment we'll use in this course.</li>
+<li>Stage the dataset you'll use in this exploration.</li>
+<li>Learn how to load, explore, and filter data with the Pandas library.</li>
+<li>Perform some basic data visualization with the Seaborn graphing library.</li>
+</ul>
+<p>Througout this exploration, when you're asked to use a new function or library, we'll usually provide a link to that function's documentation, or a tutorial related to it. "</p>
+<h2 id="introduction">Introduction</h2>
+<p>Throughout the course, we'll be using <a href="https://kaggle.com">Kaggle</a> for most of our data exploration and modeling. </p>
+<p>This assignment will teach you how Kaggle works and give you some practice using it. You'll also get some practice using the Python language, as well as some of the most popular libraries used by professional data scientists.</p>
 <div class="admonition note">
 <p class="admonition-title">Learning Python and Friends</p>
 <p>The assignments in this course require a fair amount of Python coding as well as the use of a few popular Python-based data science tools. We don't spend much time in this class explicitly learning Python or these tools, for a few reasons:</p>
@@ -60,10 +74,42 @@
 </ul>
 <p>However, we have put together <a href="https://byui-cse.github.io/cse450-course/course/tools.html">a guide containing some good references and tutorials</a>, as well as tips for reading technical documentation.</p>
 </div>
-<h2 id="google-colab">Google Colab</h2>
-<p>Google Colab is a cloud-based data science development environment. It includes support for the most widely used libraries and tools in data science. Colab uses "Jupyter Notebooks" for data exploration and analysis. If you've never heard of those before, Jupyter Notebooks are interactive documents that contain a mix of text and python code "cells".</p>
-<p>The following video will walk you through how to complete this first assignment, demonstrating how to use Google Colab, some things to watch out for when using it, and the different ways you can submit a Google Colab assignment.</p>
+<h2 id="introduction-to-kaggle">Introduction to Kaggle</h2>
+<p>Kaggle is a data repository, data science competiton site, and cloud-based data science development environment. It includes support for the most widely used libraries and tools in data science, as well as providing access to optimized hardware for data analysis.</p>
+<p>Kaggle uses "Jupyter Notebooks" for data exploration and analysis. If you've never heard of those before, Jupyter Notebooks are interactive documents that contain a mix of text and python code "cells".</p>
+<div class="admonition note">
+<p class="admonition-title">Local Development vs Kaggle</p>
+<p>While it's possible to use Jupyter notebooks locally, Kaggle provides a lot of great datasets, and access to cloud-based instances that have all the standard data science libraries pre-installed and configured for use.</p>
+<p>You <em>can</em> opt to do your development locally, but keep in mind that you'll still have to submit via Kaggle, which means you'll have to upload your Jupyter notebooks to that site, and if you run into problems with your local configuration, you'll be largely on your own to sort that out.</p>
+</div>
+<p>The following video will walk you through how to complete this first assignment, demonstrating how to use Kaggle, some things to watch out for when using it, and the different ways you can submit a Kaggle notebook assignment.</p>
 <iframe width="480" height="270" src="https://www.youtube.com/embed/PJzijKS7sOo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2 id="assignment">Assignment</h2>
+<p>A consumer watchdog group wants to see if Netflix has more movies for adults or children. </p>
+<p>Using a dataset containing metadata for all of the movies Netflix had available on their platform in 2019, determine if they are correct.</p>
+<h3 id="stage-the-data">Stage the data</h3>
+<p>First, we'll load the dataset into our development environment. Since this is a Kaggle dataset, we can load it directly from their data repository:</p>
+<ol>
+<li>
+<p>If the right sidebar isn't visible, click on the <code>|&lt;</code> button in the top right-hand corner of the window.</p>
+</li>
+<li>
+<p>In the right sidebar, click the <code>+ Add data</code> button.</p>
+</li>
+<li>
+<p>In the window that appears, search for <code>Netflix</code>, then change <code>Sort By</code> to <code>Most votes</code>.</p>
+</li>
+<li>
+<p>The topmost dataset should be <code>Netflix Movies and TV Shows</code>. Click the <code>Add</code> button next to it.</p>
+</li>
+<li>
+<p>Once you see a little message that the data is read to use, click the <code>⌄</code> button next to <code>+ Add data</code> to view the files available to your notebook. Expand the arrow next to <code>netflix-shows</code> so you can see the <code>netflix_titles.csv</code> file.</p>
+</li>
+<li>
+<p>Hover over that file and click the button on the right to <code>Copy file path</code>. Make sure you copy the path to the <code>netflix_titles.csv</code> file, not the <code>netflix-shows</code> folder.</p>
+</li>
+</ol>
 	</article>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>

@@ -159,6 +159,11 @@ article ul li {
   list-style: disc;
 }
 
+article ol li {
+  margin: 0 0 5px 20px;
+  list-style: decimal;
+}
+
 article li {
   line-height: 1.5;
   font-size: 18px;
@@ -169,7 +174,7 @@ article li {
 }
 
 article h2 {
-  counter-reset: subsection-counter;
+  counter-reset: subsection-counter;;
 }
 
 article h2:before {
@@ -196,10 +201,12 @@ article strong {
   color: var(--text-color);
 }
 
-article p code {
+article p code, article li code {
   color: var(--code-color);
   font-size: 16px;
   font-family: Menlo, Monoco, Consolas, monospace;
+  background: var(--light-border-color);
+  padding: 0 5px;
 }
 
 article pre code.hljs {
