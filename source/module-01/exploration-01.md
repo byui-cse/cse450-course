@@ -50,7 +50,7 @@ The following video will walk you through how to complete this first assignment,
 
 A consumer watchdog group wants to see if Netflix has more movies for adults or children. 
 
-Using a dataset containing metadata for all of the movies Netflix had available on their platform in 2019, determine if they are correct.
+Using a dataset containing metadata for all of the movies Netflix had available on their platform in 2019, use the [MPAA movie rating system](https://en.wikipedia.org/wiki/Motion_Picture_Association_film_rating_system#MPAA_film_ratings) to determine if they are correct.
 
 Click on the link below to open a Google Colab notebook
 
