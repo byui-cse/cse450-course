@@ -29,13 +29,13 @@ Students who elect to continue with the course will then be assigned to permanen
 For your convenience, all six preparation readings and data exploration assignments are listed below, but please remember that the assignments listed in your Canvas session by your instructor are the final word on what is actually due on a given day:
 
 #### Day 01
-* [Preparation Reading 01](./module-01/preparation-01.html)
-* [Data Exploration 01](./module-01/exploration-01.html)
+* [Preparation Reading 01](./preparation-01.html)
+* [Data Exploration 01](./exploration-01.html)
 
 #### Day 02
-* [Preparation Reading 02](./module-01/preparation-02.html)
-* [Data Exploration 02](./module-01/exploration-02.html)
+* [Preparation Reading 02](./preparation-02.html)
+* [Data Exploration 02](./exploration-02.html)
 
 #### Day 03
-* [Preparation Reading 03](./module-01/preparation-03.html)
-* [Data Exploration 03](./module-01/exploration-03.html)
+* [Preparation Reading 03](./preparation-03.html)
+* [Data Exploration 03](./exploration-03.html)
