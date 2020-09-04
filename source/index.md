@@ -14,6 +14,7 @@ If you're a student, the content, assignments, and deadlines you'll be responsib
 * How to Read Technical Documentation
 * Programming Resources
 * Getting Help
+* [Data Reference](./course/data-sources.html)
 
 ### Module 01
 * [Overview](./module-01/overview.html)

@@ -16,6 +16,10 @@ The goal of this course is to help you:
    machine learning / data mining.
 * Understand current challenges and limitations in the field.
 
+## Data Sources
+
+This course uses datasets in the public domain or under a compatible license. Citations and other information for each dataset may be found on the [course data sources page](./data-sources.html).
+
 ## Course Structure
 
 This course is divided into seven *modules*. Each module will last approximately two weeks (six class periods). 
