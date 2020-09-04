@@ -56,9 +56,9 @@ After the quizzes, the instructor will introduce a new case study related to the
 
 *Day 3 (Monday)* - During the first half of the class, teams will continue working on their evaluation of the case study. During the second half of the class, each team will have five to seven minutes to present their conclusions and defend their choices.
 
-We'll then introduce a new case study related to the topic. Teams will have until Saturday at midnight to perform any necessary data preprocessing, analysis, modeling, and visualizations; and to write up their results and conclusions in a formal summary.
+We'll then introduce a new case study related to the topic. Teams will have until `Saturday at midnight` to perform any necessary data preprocessing, analysis, modeling, and visualizations; and to write up their results and conclusions in a formal summary.
 
-Class time will be given to help coordinate this work on Days 4 and 5 (Wednesday and Friday), but students are expected to spend significant time outside of class working on these assignments.
+Class time will be given during the week to help coordinate this work on (Days 4 and 5, Wednesday and Friday), but students are expected to spend significant time outside of class working on these assignments.
 
 *Day 6* (Monday): Each team will present and defend their recommendations to the rest of the class.
 
