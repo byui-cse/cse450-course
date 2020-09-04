@@ -2,6 +2,9 @@
 title: Exploration 01: Netflix Movies
 ---
 
+![Cereal]({{URLROOT}}/shared/img/netflix.jpg)
+*[Photo by Mollie Sivaram on Unsplash](https://unsplash.com/photos/yubCnXAA3H8)*
+
 ## Overview
 
 In this data exploration, you will:

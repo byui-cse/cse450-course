@@ -2,6 +2,9 @@
 title: Exploration 02: Cereal Marketing
 ---
 
+![Cereal]({{URLROOT}}/shared/img/cereal.jpg)
+*[Photo by Haley Owens on Unsplash](https://unsplash.com/photos/QdwrSyJV3_4)*
+
 ## Overview
 
 In this data exploration, you will:
