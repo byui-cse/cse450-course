@@ -22,7 +22,7 @@ This course uses datasets in the public domain or under a compatible license. Ci
 
 ## Course Structure
 
-This course is divided into seven *modules*. Each module will last approximately two weeks (six class periods). 
+This course is divided into seven *modules*. Each module will last approximately two weeks (six class periods). Modules begin on Wednesdays.
 
 Module 01 is designed to quickly bring you up to speed on the foundational knowledge and vocabulary you will need to succeed in the rest of the course. 
 
