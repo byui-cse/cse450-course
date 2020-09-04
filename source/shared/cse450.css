@@ -133,7 +133,7 @@ article blockquote p {
 article img {
   display: block;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
 }
 
 article img ~ em a:link, article img ~ em a:visited {
