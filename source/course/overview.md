@@ -1,5 +1,5 @@
 ---
-title: CSE 450 Course Overview
+title: Course Overview
 body-class: index-page
 ---
 

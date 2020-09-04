@@ -1,5 +1,5 @@
 ---
-title: CSE 450 Data Sources
+title: Data Sources
 body-class: index-page
 ---
 
