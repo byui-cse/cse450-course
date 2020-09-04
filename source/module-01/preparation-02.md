@@ -6,7 +6,10 @@ title: Preparation Reading 02: Descriptive Statistics
 
 In this reading we'll review some basic statistics you'll need for machine learning.
 
-## Introduction
+!!!time "Estimated Reading Time"
+	Plan on around 60 to 90 minutes for this preparation reading, which contains a mix of online and textbook reading.
+
+## Statistic
 
 Think of a "statistic" as a piece of information that tells you something about a set of data. Broadly speaking, there are two types of statistics: 
 

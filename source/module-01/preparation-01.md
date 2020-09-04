@@ -6,6 +6,9 @@ title: Preparation Reading 01: Introduction
 
 In this reading, we'll discuss the definition of terms like "artificial intelligence" and "machine learning". We'll also explore the three main areas of machine learning, and the two most common machine learning tasks.
 
+!!!time "Estimated Reading Time"
+	Plan on around 60 to 90 minutes for this preparation reading, which consists only of online reading.
+
 ## Introduction
 
 In the 1980′s, Hans Moravec made the following observation, which came to be known as Moravec’s Paradox:
