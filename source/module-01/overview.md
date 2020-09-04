@@ -24,25 +24,18 @@ At the end of module one, students will take an assessment quiz. The main purpos
 Students who elect to continue with the course will then be assigned to permanent groups for the remainder of the semester.
 
 
-## Preparation Readings
+## Module 01 Assignemnts
 
-For your convenience, all six `Preparation` reading assignments are listed below, but please remember that the assignments listed in your Canvas session by your instructor are the final word on what is actually due on a given day:
+For your convenience, all six preparation readings and data exploration assignments are listed below, but please remember that the assignments listed in your Canvas session by your instructor are the final word on what is actually due on a given day:
 
-* [Preparation Reading One](./preparation-01.html)
-* [Preparation Reading Two](./preparation-02.html)
-* [Preparation Reading Three](./preparation-03.html)
-* [Preparation Reading Four](./preparation-04.html)
-* [Preparation Reading Five](./preparation-05.html)
-* [Preparation Reading Six](./preparation-06.html)
+#### Day 01
+* [Preparation Reading 01](./module-01/preparation-01.html)
+* [Data Exploration 01](./module-01/exploration-01.html)
 
-## Preparation Readings
+#### Day 02
+* [Preparation Reading 02](./module-01/preparation-02.html)
+* [Data Exploration 02](./module-01/exploration-02.html)
 
-For your convenience, all six `Data Exploration` assignments are listed below, but please remember that the assignments listed in your Canvas session by your instructor are the final word on what is actually due on a given day:
-
-* [Data Exploration One](./exploration-01.html)
-* [Data Exploration Two](./exploration-02.html)
-* [Data Exploration Three](./exploration-03.html)
-* [Data Exploration Four](./exploration-04.html)
-* [Data Exploration Five](./exploration-05.html)
-* [Data Exploration Six](./exploration-06.html)
-
+#### Day 03
+* [Preparation Reading 03](./module-01/preparation-03.html)
+* [Data Exploration 03](./module-01/exploration-03.html)

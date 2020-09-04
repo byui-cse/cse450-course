@@ -16,9 +16,8 @@ If you're a student, the content, assignments, and deadlines you'll be responsib
 * Getting Help
 * [Data Reference](./course/data-sources.html)
 
-### Module 01
-* [Overview](./module-01/overview.html)
-* [Preparation Reading 01](./module-01/preparation-01.html)
-* [Data Exploration 01](./module-01/exploration-01.html)
-* [Preparation Reading 02](./module-01/preparation-02.html)
-* [Data Exploration 02](./module-01/exploration-02.html)
+## Modules
+
+For your convenience, links to each module overview is listed below, but please remember that the assignments listed in your Canvas session by your instructor are the final word on what is actually due on a given day:
+
+* [Module 01](./module-01/overview.html)
