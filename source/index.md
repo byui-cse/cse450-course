@@ -20,3 +20,4 @@ If you're a student, the content, assignments, and deadlines you'll be responsib
 * [Preparation Reading 01](./module-01/preparation-01.html)
 * [Data Exploration 01](./module-01/exploration-01.html)
 * [Preparation Reading 02](./module-01/preparation-02.html)
+* [Data Exploration 02](./module-01/exploration-02.html)
