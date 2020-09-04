@@ -15,6 +15,7 @@
   --note-background-color: #BFE7FE;
   --definition-background-color: #FFEAC0;
   --warning-background-color: rgba(255, 0, 0, 0.31);
+  --time-background-color: #BFFEC6;
   --delivery-classroom-color: #3D82DF;
   --delivery-blended-color: #30C3A6;
   --delivery-flexible-color: #F4A62B;
@@ -271,6 +272,7 @@ article pre code .hljs-comment {
 .note { background-color: var(--note-background-color); }
 .def { background-color: var(--definition-background-color); }
 .warning { background-color: var(--warning-background-color); }
+.time { background-color: var(--time-background-color); }
 
 
 
@@ -285,6 +287,12 @@ article pre code .hljs-comment {
 .def > p:first-child:before {
   content:'\f02d';
 }
+
+.time > p:first-child:before {
+  content:'\f017';
+}
+
+
 
 
 /* Footnotes */
