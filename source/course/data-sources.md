@@ -13,7 +13,7 @@ A dataset listing TV Shows and Movies available on Netflix, along with some meta
 
 * Original Source: [Kaggle](https://www.kaggle.com/shivamb/netflix-shows)
 * License: [Creative Commons 0 (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/)
-
+* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/netflix_titles.csv)
 
 ### Cereal Nutrition
 
@@ -21,3 +21,4 @@ A dataset of nutritional information for major US cereal brands.
 
 * Original Source: [Kaggle](https://www.kaggle.com/crawford/80-cereals)
 * License: [Creative Commons BY-SA 3.0 (Attribution-ShareAlike)](https://creativecommons.org/licenses/by-sa/3.0/)
+* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv)
