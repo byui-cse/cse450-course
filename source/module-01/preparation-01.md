@@ -71,7 +71,7 @@ The focus of this course will be supervised learning, which is the most common t
 ### Supervised Learning
 
 ![Credit Card Transaction]({{URLROOT}}/shared/img/cc.jpg)
-*[Photo by Clay Banks on Unsplash](https://unsplash.com/photos/E2HgkL3LaFE)*
+*[Photo by Blake Wisz on Unsplash](https://unsplash.com/photos/q3o_8MteFM0)*
 
 Many credit card companies use supervised learning to develop models that can predict if a particular transaction looks fraudulent. 
 
