@@ -57,3 +57,14 @@ For your convenience, all six `Preparation` reading assignments are listed below
 * [Preparation Reading Five](./preparation-05.html)
 * [Preparation Reading Six](./preparation-06.html)
 
+## Preparation Readings
+
+For your convenience, all six `Data Exploration` assignments are listed below, but please remember that the assignments listed in your Canvas session by your instructor are the final word on what is actually due on a given day:
+
+* [Data Exploration One](./exploration-01.html)
+* [Data Exploration Two](./exploration-02.html)
+* [Data Exploration Three](./exploration-03.html)
+* [Data Exploration Four](./exploration-04.html)
+* [Data Exploration Five](./exploration-05.html)
+* [Data Exploration Six](./exploration-06.html)
+
