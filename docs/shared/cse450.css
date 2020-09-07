@@ -274,8 +274,6 @@ article pre code .hljs-comment {
 .warning { background-color: var(--warning-background-color); }
 .time { background-color: var(--time-background-color); }
 
-
-
 .note > p:first-child:before {
   content:'\f05a';
 }
