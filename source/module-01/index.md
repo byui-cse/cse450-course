@@ -39,3 +39,9 @@ For your convenience, all six preparation readings and data exploration assignme
 #### Day 03
 * [Preparation Reading 03](./preparation-03.html)
 * [Data Exploration 03](./exploration-03.html)
+
+#### Day 04
+* [Preparation Reading 04](./preparation-04.html)
+* [Data Exploration 04](./exploration-04.html)
+
+
