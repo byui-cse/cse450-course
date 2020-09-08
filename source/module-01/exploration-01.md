@@ -13,7 +13,7 @@ In this data exploration, you will:
 * Learn how to load, explore, and filter data with the Pandas library.
 * Perform some basic data visualization with the Seaborn graphing library.
 
-Througout this exploration, when you're asked to use a new function or library, we'll usually provide a link to that function's documentation, or a tutorial related to it.
+Throughout this exploration, when you're asked to use a new function or library, we'll usually provide a link to that function's documentation, or a tutorial related to it.
 
 ## Introduction
 
