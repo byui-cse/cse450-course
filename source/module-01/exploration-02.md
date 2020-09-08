@@ -13,7 +13,7 @@ In this data exploration, you will:
 * Practice using descriptive statistics on quantitative data.
 * Perform more visualizations with the Seaborn graphing library.
 
-Througout this exploration, when you're asked to use a new function or library, we'll usually provide a link to that function's documentation, or a tutorial related to it.
+Throughout this exploration, when you're asked to use a new function or library, we'll usually provide a link to that function's documentation, or a tutorial related to it.
 
 ## Introduction
 
