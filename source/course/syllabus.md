@@ -29,14 +29,14 @@ This course is divided into seven *modules*. Each module will last approximately
 	Keep in mind that your instructor may deviate somewhat from the following guide, and they have final say on assignment requirements, delivery methods, and due dates. So be sure to pay attention to both in-class and Canvas announcements.
 
 !!!note "Time Expectations" 
-	University guidelines suggest that students should spend an average of three hours per week outside of class per credit hour.
+	University guidelines suggest that students spend an average of three hours per week per credit hour.
 
-	While there will be some time provided in class for team assignments, as this is a three credit course, the expectation is that students will spend an average of nine hours per week on assignments outside of class, including the time spent on preparation readings.
+	While there will be some time provided in class for team assignments, as this is a three credit course, the expectation is that students will spend an average of six hours per week on assignments outside of class, including the time spent on preparation readings.
 
 
 Each module is worth a percentage of your final grade:
 
-### Module 01 (10% of Final Grade)
+### Module 01
 
 Module 01 is designed to quickly bring you up to speed on the foundational knowledge and vocabulary you will need to succeed in the rest of the course. 
 
@@ -50,13 +50,9 @@ If you take a quiz multiple times, the highest passing score you receive will be
 
 At the start of class, the instructor will briefly review the material and answer questions from the reading, but will assume that you have already completed the reading.
 
-Each reading quiz assignment is worth `5%` of the module's grade.
-
 #### Data Explorations
 
 After reviewing the reading, you will work in temporary groups during class to complete hands-on, Data Exploration assignments. Online students will use Zoom breakout rooms.
-
-Each data exploration is worth `10%` of the module's grade.
 
 !!!note "Data Exploration Evaluations"
 
@@ -73,7 +69,7 @@ Each data exploration is worth `10%` of the module's grade.
 
 At the end of Module 01, you will complete an Individual Exploration assignment that will test your Module 01 knowledge as well as your ability to apply that knowledge through a series of exercises. 
 
-This assessment will be done outside of class, should take approximately two hours to complete, and is worth `10%` of the module grade. 
+This assessment will be done outside of class and should take approximately two hours to complete.
 
 Its main purpose is to help you decide if you are adequately prepared to continue in the course. 
 
@@ -81,7 +77,7 @@ Students who elect to continue with the course will be assigned to permanent tea
 
 
 
-### Modules 02 - 07 (90% of Final Grade - 15% each)
+### Modules 02 - 07
 
 Modules 02 - 07 use case studies to help students learn to understand and apply a variety of machine learning techniques. Each module will follow this pattern:
 
@@ -91,9 +87,9 @@ Modules 02 - 07 use case studies to help students learn to understand and apply 
 #### Day 2 (Friday)
 Students will complete the module reading assignment before coming to class. 
 
-In class, each student will complete a timed, individual readiness assessment (iRAT), which is worth `17%` of the module's grade.
+In class, each student will complete a timed, individual readiness assessment (iRAT).
 
-After the individual assessment, teams will work together to complete an identical team readiness assessment (tRAT), which is worth `3%` of the module's grade.
+After the individual assessment, teams will work together to complete an identical team readiness assessment (tRAT).
 
 After the readiness assessments, the instructor will introduce the module's `Minor Case Study` assignment. 
 
@@ -113,10 +109,6 @@ After class, each student will submit a brief personal evaluation for the `Minor
 	After completing a Minor or Major case study, each student fills out a [Case Study Evaluation](./case-study-evaluation.docx).
 
 	To receive credit for a case study assignment, students must completely fill out the case study evaluation according to the instructions provided. 
-
-	Minor Case Studies are worth 30% of the module's grade.
-	
-	Major Case Studies are worth 50% of the module's grade.
 
 	One of the questions in the evaluation will ask you to assess your team's performance on the case study. Another will ask you to assess your personal performance on the case study. 
 
@@ -140,20 +132,7 @@ Each team will present and defend their `Major Case Study` report to the rest of
 This presentation will form a major part of the Instructor's evaluation for the `Major Case Study`.
 
 
-## Grading Summary
-
-Module 01: 10%
-
-* Preparation Reading Quizzes: 30%
-* Data Explorations: 60%
-* Individual Assessment Assignment: 10%
-
-Modules 02 - 07: 15% Each
-
-* Individual Readiness Assessment (iRAT): 17%
-* Team Readiness Assessment (tRAT): 3%
-* Minor Case Study: 30%
-* Major Case Study: 50%
+## Grading
 
 Final Letter grades are given according to the [standard BYU-Idaho grading scale](https://www.byui.edu/student-records/grades/grading-system).
 
