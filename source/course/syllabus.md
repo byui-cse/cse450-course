@@ -56,7 +56,7 @@ After reviewing the reading, you will work in temporary groups during class to c
 
 !!!note "Data Exploration Evaluations"
 
-	In order to receive credit for a Data Exploration, each student must fill out a [Data Exploration Evaluation](./data-exploration-evaluation.docx) according to the instructions provided.
+	In order to receive credit for a Data Exploration, each student must fill out a Data Exploration Evaluation in Canvas, according to the instructions provided.
 
 	One of the questions in the evaluation will ask you to rate your team's performance. Another will ask you to rate your personal performance. 
 
@@ -102,19 +102,9 @@ During the second half of the class, each team will have five to seven minutes t
 
 We'll then introduce the module's `Major Case Study`.
 
-After class, each student will submit a brief personal evaluation for the `Minor Case Study`. This is due by Tuesday at midnight.
+!!!note "Minor Case Study Reflection"
 
-!!!note "Case Study Evaluations"
-
-	After completing a Minor or Major case study, each student fills out a [Case Study Evaluation](./case-study-evaluation.docx).
-
-	To receive credit for a case study assignment, students must completely fill out the case study evaluation according to the instructions provided. 
-
-	One of the questions in the evaluation will ask you to assess your team's performance on the case study. Another will ask you to assess your personal performance on the case study. 
-
-	Your personal grade for the case study will be calculated as:
-
-	    75% of Team + 25% of Individual ± Instructor's Evaluation
+	In order to receive credit for the Minor Case Study, *each* student must submit a personal Minor Case Study Reflection by Tuesday at midnight.
 
 
 #### Days 4 and 5 (Wednesday and Friday)
@@ -124,15 +114,40 @@ Each case study will include a formal Executive Summary Report template to guide
 
 Students are required to meet in class to help coordinate this work, but are also expected to do significant work outside of class on this assignment.
 
-Students must submit their Executive Summary Report (one per team), as well as their personal [Case Study Evaluation](./case-study-evaluation.docx) (one per person) by Saturday at midnight.
+Students must submit their Executive Summary Report (one per team) by Saturday at midnight.
 
 #### Day 6 (Monday)
 Each team will present and defend their `Major Case Study` report to the rest of the class. 
 
 This presentation will form a major part of the Instructor's evaluation for the `Major Case Study`.
 
+!!!note "Major Case Study Reflection"
+
+	In order to receive credit for a case study, *each* student must submit a personal Major Case Study Reflection by Monday at midnight.
+
+	One of the questions in the reflection will ask you to assess your team's performance on the case study. Another will ask you to assess your personal performance on the case study. 
+
+	Your personal grade for the major case study will be calculated as:
+
+	    75% of Team + 25% of Individual ± Instructor's Evaluation
+
 
 ## Grading
+
+See your Canvas section for exact grade weights for each assignment, but in general, assignments are weighted similar to the following:
+
+ Module 01: 10%
+
+ * Preparation Reading Quizzes: 30%
+ * Data Explorations: 60%
+ * Individual Assessment Assignment: 10%
+
+ Modules 02 - 07: 15% Each
+
+ * Individual Readiness Assessment (iRAT): 17%
+ * Team Readiness Assessment (tRAT): 3%
+ * Minor Case Study: 30%
+ * Major Case Study: 50%
 
 Final Letter grades are given according to the [standard BYU-Idaho grading scale](https://www.byui.edu/student-records/grades/grading-system).
 

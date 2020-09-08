@@ -29,4 +29,4 @@ Information about Titanic Passengers
 
 * Original Source: [Kaggle](https://www.kaggle.com/c/titanic/overview)
 * License: [Creative Commons 0 (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/)
-* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv)
+* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/titanic.csv)
