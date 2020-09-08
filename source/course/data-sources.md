@@ -22,3 +22,11 @@ A dataset of nutritional information for major US cereal brands.
 * Original Source: [Kaggle](https://www.kaggle.com/crawford/80-cereals)
 * License: [Creative Commons BY-SA 3.0 (Attribution-ShareAlike)](https://creativecommons.org/licenses/by-sa/3.0/)
 * [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv)
+
+### Titanic Passenger List
+
+Information about Titanic Passengers
+
+* Original Source: [Kaggle](https://www.kaggle.com/c/titanic/overview)
+* License: [Creative Commons 0 (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/)
+* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/cereal.csv)
