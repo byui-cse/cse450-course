@@ -25,9 +25,9 @@ You're working on an exhibit for a local museum called "The Titanic Disaster". T
 The museum curator is particularly interested in why some people might have been more likely to survive than others.
 
 !!!note "Seaborn Version"
-	If you're trying to use a visualization in this assignment that you read about in the Seaborn documentation, but which gives you an error about being unavailable, it might be because that function was added in a more recent version that Google Colab uses.
+	If you're trying to use a visualization in this assignment that you read about in the Seaborn documentation, but which gives you an error about being unavailable, it might be because that function was added in a more recent version than the one Google Colab uses by default.
 
-	You can see what version of seaborn you have installed in your runtime with this commands:
+	You can see what version of seaborn you have installed in your Colab runtime with this commands:
 
 		import seaborn as sns
 		sns.__version__
