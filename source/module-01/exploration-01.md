@@ -31,7 +31,7 @@ This assignment will teach you how Google Colab works and give you some practice
 
 	* As a 400-level student, we expect that at this point you have enough diligence and experience reading technical documentation and tutorials that you can handle this largely on your own.
 
-	However, we have put together [a guide containing some good references and tutorials]({{URLROOT}}/course/tools.html), as well as tips for reading technical documentation.
+	However, we have put together [a guide containing some good references and tutorials]({{URLROOT}}/course/programming-resources.html), as well as [a guide with tips for reading technical documentation]({{URLROOT}}/course/reading-technical-documentation.html).
 
 ## Introduction to Google Colab
 
