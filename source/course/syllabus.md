@@ -58,12 +58,6 @@ After reviewing the reading, you will work in temporary groups during class to c
 
 	In order to receive credit for a Data Exploration, each student must fill out a Data Exploration Evaluation in Canvas, according to the instructions provided.
 
-	One of the questions in the evaluation will ask you to rate your team's performance. Another will ask you to rate your personal performance. 
-
-	Your personal grade for each Data Exploration will then be calculated as:
-
-	    75% of Team + 25% of Individual ± Instructor's Evaluation
-
 
 #### Individual Exploration
 
