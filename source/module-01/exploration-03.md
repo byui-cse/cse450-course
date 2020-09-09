@@ -24,6 +24,26 @@ You're working on an exhibit for a local museum called "The Titanic Disaster". T
 
 The museum curator is particularly interested in why some people might have been more likely to survive than others.
 
+!!!note "Seaborn Version"
+	If you're trying to use a visualization in this assignment that you read about in the Seaborn documentation, but which gives you an error about being unavailable, it might be because that function was added in a more recent version that Google Colab uses.
+
+	You can see what version of seaborn you have installed in your runtime with this commands:
+
+		import seaborn as sns
+		sns.__version__
+
+	The [What's New in Each Version Page](https://seaborn.pydata.org/whatsnew.html) tells you what has been added with each version, so you can see if what you're trying to use is too recent.
+
+	If you want to upgrade the version of seaborn used by your runtime, which will give you access to the latest features, you can issue a command using the `!` prefix:
+
+		!pip install seaborn --upgrade
+
+	Once this command finishes, the runtime will likely tell you that you need to restart the runtime for that change to take affect. This will also require you to re-run all of your code cells, which can result in reimporting an older version of seaborn again. 
+
+	To get around this issue, put the upgrade command in your very first cell, restart the runtime, then run all your cells. 
+
+	If you don't need or want to use the latest version of seaborn, you can ignore this information.
+
 ### Notes about the data
 
 Column Information:

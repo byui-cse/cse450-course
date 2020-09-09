@@ -60,6 +60,23 @@
 <h2 id="assignment">Assignment</h2>
 <p>You're working on an exhibit for a local museum called "The Titanic Disaster". They've asked you to analyze the passenger manifests and see if you can find any interesting information for the exhibit. </p>
 <p>The museum curator is particularly interested in why some people might have been more likely to survive than others.</p>
+<div class="admonition note">
+<p class="admonition-title">Seaborn Version</p>
+<p>If you're trying to use a visualization in this assignment that you read about in the Seaborn documentation, but which gives you an error about being unavailable, it might be because that function was added in a more recent version that Google Colab uses.</p>
+<p>You can see what version of seaborn you have installed in your runtime with this commands:</p>
+<pre class="codehilite"><code>import seaborn as sns
+sns.__version__</code></pre>
+
+
+<p>The <a href="https://seaborn.pydata.org/whatsnew.html">What's New in Each Version Page</a> tells you what has been added with each version, so you can see if what you're trying to use is too recent.</p>
+<p>If you want to upgrade the version of seaborn used by your runtime, which will give you access to the latest features, you can issue a command using the <code>!</code> prefix:</p>
+<pre class="codehilite"><code>!pip install seaborn --upgrade</code></pre>
+
+
+<p>Once this command finishes, the runtime will likely tell you that you need to restart the runtime for that change to take affect. This will also require you to re-run all of your code cells, which can result in reimporting an older version of seaborn again. </p>
+<p>To get around this issue, put the upgrade command in your very first cell, restart the runtime, then run all your cells. </p>
+<p>If you don't need or want to use the latest version of seaborn, you can ignore this information.</p>
+</div>
 <h3 id="notes-about-the-data">Notes about the data</h3>
 <p>Column Information:</p>
 <ul>
