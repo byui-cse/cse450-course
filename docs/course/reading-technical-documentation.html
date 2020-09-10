@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reading Technical Documentation</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css">
+    <meta charset="utf-8">
+
+</head>
+<body class="index-page">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#a-quick-guide-to-reading-technical-documentation">A Quick Guide to Reading Technical Documentation</a><ul>
+<li><a href="#tutorials">Tutorials</a></li>
+<li><a href="#reference-pages">Reference Pages</a></li>
+</ul>
+</li>
+<li><a href="#example">Example</a></li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
+            <h2>Reading Technical Documentation</h2>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<h2 id="a-quick-guide-to-reading-technical-documentation">A Quick Guide to Reading Technical Documentation</h2>
+<p>Reading technical documentation isn't usually like reading a novel or news article. It can take time before you're comfortable enough to be able to quickly scan through a reference page and quickly glean what you need for a particular situation.</p>
+<p>Broadly speaking, there are three types of technical documentation: tutorials, reference pages, and help sites.</p>
+<p>We'll cover the first two types here, and you can read more about how to use help sites on the <a href="./getting-help.html">Getting Help page</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Framework vs Library vs Whatever</p>
+<p>Some people get pretty hung up on the differences between "frameworks", "libraries", "APIs", etc...
+For our purposes (and frankly for most purposes), these differences don't matter that much. </p>
+<p>In order to save some typing, I'll just refer to everything as a "library".</p>
+</div>
+<h3 id="tutorials">Tutorials</h3>
+<p>Tutorials go by a variety of names: quick starts, getting started guides, variations on "Learn the Basics", anything that says "X minutes" or "X hours".</p>
+<p>Tutorials are usually designed to introduce you to the overall philosophy behind a library's design. They focus on teaching you how to use the library to solve a specific problem. </p>
+<p>To get the most out of a tutorial, you need to go beyond the surface a bit. Particularly, you should pay attention to the general flow of how the different parts of a library fit together. Well designed libraries usually have a variety of functions that follow the same general pattern of use.</p>
+<div class="admonition warning">
+<p class="admonition-title">3rd Party Tutorials</p>
+<p>There are usually a ton of "3rd party" tutorials for the more popular libraries, including online tutorials, books, and videos.</p>
+<p>3rd Party Tutorials are those created by someone who isn't directly involved in the library's design or maintenance. You'll see a lot of them on YouTube. These tutorials can be quite good, but there are two things you have to be careful of:</p>
+<ol>
+<li>
+<p>Sometimes, 3rd party tutorials will teach you bad practices or shortcuts, because the person creating the tutorial has only a basic understanding of the concepts behind the library's design.</p>
+</li>
+<li>
+<p>Often, 3rd party tutorials are outdated or are based on outdated techniques, especially in a field that moves as quickly as machine learning. Quite often, libraries will add new techniques, pipelines, or capabilities to make some of the most common uses of that library easier or more powerful.</p>
+</li>
+</ol>
+<p>The best way to avoid these problems is to focus on official tutorials created by the individuals directly involved in the creation and maintenance of the library.</p>
+</div>
+<h3 id="reference-pages">Reference Pages</h3>
+<p>Reference pages are sometimes also called documentation, manual, user manual, API reference, and a few others. </p>
+<p>Reference manuals are not really designed to be read straight through like a tutorial. You <em>can</em> do that, and will likely learn a lot, but chances are you won't have much fun.</p>
+<p>Instead, once you've learned the general design philosophy of a library, you can look up particular functions when you need them. </p>
+<p>When reading a reference page, the most critical thing is not to gloss over words you don't understand. Unlike tutorials, reference pages aren't usually chatty, and typically every word matters.</p>
+<p>If you come a cross a term you don't understand, stop and look it up before continuing. As time goes on, the number of terms you have to look up will decrease.</p>
+<h2 id="example">Example</h2>
+<p>Let's say I wanted to perform a Linear Regression with Python and someone tells me to use the SciKit-Learn library. </p>
+<p>I'd start by reading through the <a href="https://scikit-learn.org/stable/getting_started.html">Getting Started Guide</a> and <a href="https://scikit-learn.org/stable/tutorial/basic/tutorial.html">Introductory Tutorial</a> to understand how the library worked.</p>
+<p>Once I felt like I understood the library's overall design philosophy, I'd jump over to the <a href="https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares">tutorial page for Linear Regression</a>.</p>
+<p>That page links to two import things. First, I'd look at <a href="https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html#sphx-glr-auto-examples-linear-model-plot-ols-py">the more detailed example</a>.</p>
+<p>Next, I'd go to the <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html">Reference Page for the Linear Regression API</a>.</p>
+<p>On the reference page, I'd first note that this is a <code>class</code>:</p>
+<p><img alt="Class" src="https://byui-cse.github.io/cse450-course/shared/img/ref-class.png" /></p>
+<p>This means I'd create an instance of the class with certain <code>parameters</code>, and have access to a variety of <code>attributes</code>. I'd read through those and pay special attention to what the default values were, and how they affected the regression.</p>
+<p><img alt="Class" src="https://byui-cse.github.io/cse450-course/shared/img/ref-parameters.png" /></p>
+<p>I'd then read the notes and the little example to see a simple example of how this library worked:</p>
+<p><img alt="Class" src="https://byui-cse.github.io/cse450-course/shared/img/ref-examples.png" /></p>
+<p>I'd then read through the method list and for each method I'd read what the method did, what parameters and default values it used, and what it returned.</p>
+<p><img alt="Class" src="https://byui-cse.github.io/cse450-course/shared/img/ref-methods.png" /></p>
+<p>Once I had a good understanding of the methods and parameters, I'd go <em>back</em> to <a href="https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html#sphx-glr-auto-examples-linear-model-plot-ols-py">the more detailed example</a> I looked at earlier, and pay more attention to what values are being passed to (and returned from) different methods.</p>
+<p>Finally, I'd browse through the more extended examples to see if there were any variations that looked interesting or relevant. If so, I'd click on each of those and read through what they had to say.</p>
+<p><img alt="Class" src="https://byui-cse.github.io/cse450-course/shared/img/ref-more-examples.png" /></p>
+<p>Only then would I start writing my own code.</p>
+	</article>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>

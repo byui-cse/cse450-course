@@ -10,8 +10,8 @@ This is a handy index page for the course content and readings in CSE 450. This 
 If you're a student, the content, assignments, and deadlines you'll be responsible for are those linked to from I-Learn.
 
 * [Course Syllabus](./course/syllabus.html)
-* How to Read Technical Documentation
-* Programming Resources
+* [How to Read Technical Documentation](./course/reading-technical-documentation.html)
+* [Programming Resources](./course/programming-resources.html)
 * Getting Help
 * [Data Reference](./course/data-sources.html)
 
