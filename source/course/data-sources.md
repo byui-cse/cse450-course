@@ -35,6 +35,6 @@ Information about Titanic Passengers
 
 Voting information for the 1984 US Congress
 
-* Original Source: [Kaggle](https://www.kaggle.com/c/titanic/overview)
-* License: [Creative Commons 0 (Public Domain)](https://archive.ics.uci.edu/ml/datasets/Congressional+Voting+Records)
+* Original Source: [UCI](https://archive.ics.uci.edu/ml/datasets/Congressional+Voting+Records)
+* License: [Citation Requested](https://archive.ics.uci.edu/ml/citation_policy.html)
 * [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/house-votes-84.csv)
