@@ -30,3 +30,11 @@ Information about Titanic Passengers
 * Original Source: [Kaggle](https://www.kaggle.com/c/titanic/overview)
 * License: [Creative Commons 0 (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 * [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/titanic.csv)
+
+### Congressional Voting Record
+
+Voting information for the 1984 US Congress
+
+* Original Source: [Kaggle](https://www.kaggle.com/c/titanic/overview)
+* License: [Creative Commons 0 (Public Domain)](https://archive.ics.uci.edu/ml/datasets/Congressional+Voting+Records)
+* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/house-votes-84.csv)
