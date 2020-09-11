@@ -26,7 +26,10 @@
 <ul>
 <li><a href="#overview">Overview</a></li>
 <li><a href="#introduction">Introduction</a></li>
-<li><a href="#assignment">Assignment</a></li>
+<li><a href="#assignment">Assignment</a><ul>
+<li><a href="#notes-about-the-data">Notes about the data</a></li>
+</ul>
+</li>
 <li><a href="#teachers-solution">Teacher's Solution</a></li>
 </ul>
 </div>
@@ -43,7 +46,7 @@
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<p><img alt="Whitehouse" src="https://byui-cse.github.io/cse450-course/shared/img/whitehouse.jpg" />
+		<p><img alt="White House" src="https://byui-cse.github.io/cse450-course/shared/img/whitehouse.jpg" />
 <em><a href="https://unsplash.com/photos/XWW746i6WoM">Photo by Louis Velazquez on Unsplash</a></em></p>
 <h2 id="overview">Overview</h2>
 <p>In this data exploration, you will:</p>
@@ -54,8 +57,18 @@
 <h2 id="introduction">Introduction</h2>
 <p>As with our previous data explorations, this assignment uses <a href="http://colab.research.google.com">Google Colab</a>. For more information on using Google Colab, including how to submit assignments with it, please see the information in <a href="./exploration-01.html">Data Exploration 01</a> </p>
 <h2 id="assignment">Assignment</h2>
-<p>A <a href="https://en.wikipedia.org/wiki/Think_tank">political think tank</a> is preparing a public relations campain on a variety of policy issues. </p>
+<p>A <a href="https://en.wikipedia.org/wiki/Think_tank">political think tank</a> is preparing a public relations campaign on a variety of policy issues. </p>
 <p>In order to understand how they should best allocate their time, they've asked you to calculate some probabilities based on prior Congressional voting history.</p>
+<h3 id="notes-about-the-data">Notes about the data</h3>
+<p>Each column in the dataset other than <code>class</code> records how a congressional representative voted on a particular piece of legislation. These votes are coded as:</p>
+<ul>
+<li>Y - Voted yea (in favor of passage)</li>
+<li>N - Voted nay (against passage)</li>
+<li>? - Abstained</li>
+</ul>
+<p>To find more information on a particular piece of legislation, try googling for <code>1984 congress &lt;column name&gt;</code>, such as:</p>
+<p>1984 congress mx-missile</p>
+<p>Which brings up <a href="https://www.nytimes.com/1984/05/15/us/issue-and-debate-mx-missile-faces-another-test-in-congress.html">this New York Times article</a> as the first result. Though, the most relevant result may not always be the first one listed.</p>
 <p>Click on the <code>Open In Colab</code> button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, upload the notebook to a Github Gist, then paste the URL to the gist into the assignment submission form on Canvas. </p>
 <p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_04.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
 <h2 id="teachers-solution">Teacher's Solution</h2>

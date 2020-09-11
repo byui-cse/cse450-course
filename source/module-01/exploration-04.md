@@ -2,7 +2,7 @@
 title: Exploration 04: Congressional Votes
 ---
 
-![Whitehouse]({{URLROOT}}/shared/img/whitehouse.jpg)
+![White House]({{URLROOT}}/shared/img/whitehouse.jpg)
 *[Photo by Louis Velazquez on Unsplash](https://unsplash.com/photos/XWW746i6WoM)*
 
 ## Overview
@@ -19,9 +19,24 @@ As with our previous data explorations, this assignment uses [Google Colab](http
 
 ## Assignment
 
-A [political think tank](https://en.wikipedia.org/wiki/Think_tank) is preparing a public relations campain on a variety of policy issues. 
+A [political think tank](https://en.wikipedia.org/wiki/Think_tank) is preparing a public relations campaign on a variety of policy issues. 
 
 In order to understand how they should best allocate their time, they've asked you to calculate some probabilities based on prior Congressional voting history.
+
+
+### Notes about the data
+
+Each column in the dataset other than `class` records how a congressional representative voted on a particular piece of legislation. These votes are coded as:
+
+* Y - Voted yea (in favor of passage)
+* N - Voted nay (against passage)
+* ? - Abstained
+
+To find more information on a particular piece of legislation, try googling for `1984 congress <column name>`, such as:
+
+   1984 congress mx-missile
+
+Which brings up [this New York Times article](https://www.nytimes.com/1984/05/15/us/issue-and-debate-mx-missile-faces-another-test-in-congress.html) as the first result. Though, the most relevant result may not always be the first one listed.
 
 Click on the `Open In Colab` button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, upload the notebook to a Github Gist, then paste the URL to the gist into the assignment submission form on Canvas. 
 
