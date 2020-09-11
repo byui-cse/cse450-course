@@ -1,5 +1,5 @@
 ---
-title: Exploration 04: Probability Will Go On
+title: Exploration 04: Congressional Votes
 ---
 
 ![Whitehouse]({{URLROOT}}/shared/img/whitehouse.jpg)
