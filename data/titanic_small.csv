@@ -6,6 +6,6 @@ FALSE,3,male,35,S
 FALSE,1,male,54,S
 FALSE,3,male,2,S
 TRUE,3,female,27,S
-TRUE,2,female,14,C
+FALSE,2,female,14,C
 TRUE,3,female,4,S
 TRUE,2,male,34,S
