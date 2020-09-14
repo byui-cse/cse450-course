@@ -1,5 +1,5 @@
 ---
-title: Preparation Reading 04: Visualizing Feature Relationships
+title: Preparation Reading 04: Probability Theory
 ---
 
 ## Overview
