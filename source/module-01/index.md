@@ -44,4 +44,9 @@ For your convenience, all six preparation readings and data exploration assignme
 * [Preparation Reading 04](./preparation-04.html)
 * [Data Exploration 04](./exploration-04.html)
 
+#### Day 05
+* [Preparation Reading 05](./preparation-05.html)
+* [Data Exploration 05](./exploration-05.html)
+
+
 
