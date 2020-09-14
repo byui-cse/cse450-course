@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Preparation Reading 04: Probability Theory</title>
+	<title>Preparation Reading 05: Bayes' Theorem and the Base Rate Fallacy</title>
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -37,31 +37,56 @@
         <span class="icon-byui-logo"></span>
         <div id="titles">
             <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
-            <h2>Preparation Reading 04: Probability Theory</h2>
+            <h2>Preparation Reading 05: Bayes' Theorem and the Base Rate Fallacy</h2>
         </div>
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
 		<h2 id="overview">Overview</h2>
-<p>In this reading we'll review some of the most common ways to visualize relationships between features in dataset.</p>
+<p>In this reading you'll learn about Bayes' Theorem and how it applies to Machine Learning.</p>
 <div class="admonition time">
 <p class="admonition-title">Estimated Reading Time</p>
 <p>Plan on around 60 to 90 minutes for this preparation reading, which contains a mix of online and textbook reading.</p>
 </div>
 <h2 id="introduction">Introduction</h2>
-<p>Probability theory is a foundational principle behind most of machine learning. A solid understanding of probability theory will not only help you correctly interpret the results provided by machine learning algorithms, but it will also help you decide which algorithms are best suited for particular types of problems.</p>
+<p>Consider the following question:</p>
+<blockquote>
+<p>If a test to detect a disease whose prevalence is 1/1,000 has a false positive rate of 5 per cent, what is the chance that a person found to have a positive result actually has the disease, assuming that you know nothing about the person’s symptoms or signs?</p>
+</blockquote>
+<p>Your first thought might be:</p>
+<blockquote>
+<p>Well, the test gives a false-positive 5% of the time, so it must be right 95% of the time...so you have a 95% chance of having the disease, right?</p>
+</blockquote>
+<p>Would you be surprised to learn the correct answer is actually only 2%?</p>
+<p>Would you be even more surprised (or perhaps alarmed), that when this question was asked 60 house officers, students, and physicians at the Harvard Medical School, that most of them answered this question incorrectly? Almost half of them stated that the answer was 95%. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> </p>
+<p>This test has been repeated many times amongst medical professionals <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, law students <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, and the general public, all with similar results.</p>
+<p>The flaw in reasoning that leads to this mistake is known as the "Base Rate Fallacy", and sometimes (as in your text) as the "False Positive Paradox". </p>
+<div class="admonition def">
+<p class="admonition-title">Base Rate Fallacy</p>
+<p>A fallacy committed when people attempt to calculate the likelihood of an event in a specific situation, without taking into account the prevelance, or overall likelihood, of that event.</p>
+</div>
+<p>Understanding Bayes' Theorem will help you to avoid this fallacy.</p>
 <h2 id="reading">Reading</h2>
+<p>You may have done a bit of this reading in your work on Data Exploration 04, but if not:</p>
 <ul>
-<li>Read Appendix B (pages 541 - 550) of <em>Machine Learning and Predictive Data Analytics</em></li>
-<li>Watch these two videos about Probability Distributions:</li>
+<li>Read Section 6.1 - 6.2.2  (pages 247 - 261) of <em>Machine Learning and Predictive Data Analytics</em></li>
+<li>Watch this video about the False Positive Paradox:</li>
 </ul>
-<iframe width="480" height="270" src="https://www.youtube.com/embed/CfZa1daLjwo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/1csFTDXXULY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="480" height="270" src="https://www.youtube.com/embed/b9a27XN_6tg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<div class="admonition note">
-<p class="admonition-title">Probability Distribution Reference</p>
-<p>I recommend keeping <a href="https://www.youtube.com/playlist?list=PLaFfQroTgZnzbfK-Rie19FdV6diehETQy">this playlist bookmarked</a> and whenever you read something that refers to a probability distribution that you're unfamiliar with, refer back to the corresponding video.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://www.nejm.org/doi/pdf/10.1056/NEJM197811022991808">Casscells W, Schoenberger A, Graboys TB. Interpretation by physicians of clinical laboratory results. N Engl J Med. 1978;299(18):999-1001. doi:10.1056/NEJM197811022991808</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4521525/">Whiting PF, Davenport C, Jameson C, et al. How well do health professionals interpret diagnostic information? A systematic review. BMJ Open</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://www.uio.no/studier/emner/jus/jus/JUS4121/v12/undervisningsmateriale/Evidence%20RLE2%20kopi%204%20avd.pdf">Two tests of the base rate neglect among law students</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
 </div>
 	</article>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
