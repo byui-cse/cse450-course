@@ -90,9 +90,7 @@ After the readiness assessments, the instructor will introduce the module's `Min
 Students will spend any remaining time on Day 2 evaluating this case study, and making decisions about the questions posed.
 
 #### Day 3 (Monday)
-During the first half of the class, teams will continue working on the questions posed in the `Minor Case Study`. 
-
-During the second half of the class, each team will have five to seven minutes to present their conclusions and defend their choices.
+During the first part of the class, teams will be asked to answer questions about the case study they've been given in an interactive format.
 
 We'll then introduce the module's `Major Case Study`.
 

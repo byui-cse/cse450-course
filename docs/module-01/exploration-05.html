@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exploration 05: Covid-19</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css">
+    <meta charset="utf-8">
+
+</head>
+<body class="">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#assignment">Assignment</a></li>
+<li><a href="#teachers-solution">Teacher's Solution</a></li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
+            <h2>Exploration 05: Covid-19</h2>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<p><img alt="White House" src="https://byui-cse.github.io/cse450-course/shared/img/covid.jpg" />
+<em><a href="https://unsplash.com/photos/k0KRNtqcjfw">Image by CDC on Unsplash</a></em></p>
+<h2 id="overview">Overview</h2>
+<p>In this data exploration, you will:</p>
+<ul>
+<li>Explore Naive Bayesian Classification</li>
+<li>Learn to handle missing data</li>
+<li>Learn to encode textual data for machine learning</li>
+<li>Be introduced to SciKit Learn</li>
+</ul>
+<p>Throughout this exploration, when you're asked to use a new function or library, we'll usually provide a link to that function's documentation, or a tutorial related to it.</p>
+<h2 id="introduction">Introduction</h2>
+<p>As with our previous data explorations, this assignment uses <a href="http://colab.research.google.com">Google Colab</a>. For more information on using Google Colab, including how to submit assignments with it, please see the information in <a href="./exploration-01.html">Data Exploration 01</a> </p>
+<h2 id="assignment">Assignment</h2>
+<p>The data analyst firm you work for has been contracted by a local Health Authority to conduct a risk assessment of Covid-19.</p>
+<p>Your research supervisor has asked you to use the latest CDC case data to preform a Bayesian analysis to calculate the probability of death from Covid-19 among certain demographics.</p>
+<p>Click on the <code>Open In Colab</code> button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, upload the notebook to a Github Gist, then paste the URL to the gist into the assignment submission form on Canvas. </p>
+<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_05.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<h2 id="teachers-solution">Teacher's Solution</h2>
+<p>Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can <a href="https://github.com/byui-cse/cse450-course/blob/master/notebooks/Exploration_05_Solved.ipynb">view the teacher's solution here</a>.</p>
+	</article>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>

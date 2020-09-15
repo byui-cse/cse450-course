@@ -34,7 +34,7 @@ Understanding Bayes' Theorem will help you to avoid this fallacy.
 
 ## Reading
 
-You may have done a bit of this reading in your work on Data Exploration 04, but if not:
+You may have done a bit of this reading in your work on Data Exploration 04, but please complete the following:
 
 * Read Section 6.1 - 6.2.2  (pages 247 - 261) of *Machine Learning and Predictive Data Analytics*
 * Watch this video about the False Positive Paradox:
