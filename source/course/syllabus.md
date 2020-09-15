@@ -160,39 +160,38 @@ Note that the following are *not* considered extreme emergencies:
 * Suffering from any illness other than one that a doctor's note states has immobilized you in such a way that you are unable to communicate with your teammates via video or chat.
 * Being quarantined or otherwise physically stranded in a location that has any possibility for a sufficiently desperate person to acquire Internet access.
 
+## Student Support
 
-## Academic Honesty
-You are expected to follow [the university's policies for academic honesty](http://www.byui.edu/student-honor-office/ces-honor-code/academic-honesty).
-
-You may work with your classmates but all submitted work for projects and assignments must be original. Share ideas; do not share code! Assistance from a classmate should be on par with the help you would expect from a lab assistant.
-
-If you work closely with another student, helping teach and learn from each other, make sure you each still write your own code, but in this case, your solutions may end up being very similar. This is completely fine, but please make sure to put a comment in your code stating that you wrote your own program, but worked closely with that person, and that is why it is similar.
-
-You are encouraged to use the Internet as a resource, but recognize that you should not copy and paste someone else’s work as your own. Cite all sources and follow copyright laws. When in doubt, give credit and be upfront.
-
-Do not look for or share solutions on "note sharing" Internet sites.
-
-The penalty for copying or plagiarism of assignments might be one or more of the following: -100% on an assignment, being asked to withdraw from the class, a failing grade in the class, or disciplinary action by the University.
+Support is available in many ways including via other class members and discussion in Slack. In addition, help is available through [the university's academic support center](http://www.byui.edu/academic-support-centers).
 
 ## Dress and Grooming
+
 You are expected to follow the university's [Dress and Grooming Standards](http://www.byui.edu/student-honor-office/ces-honor-code/dress-and-grooming)
 
 This includes any [current university requirements and/or guidelines](https://www.byui.edu/covid-19-updates) related to wearing masks and/or social distancing.
 
-## Grievance Policy
-Review the [Academic Student Grievance Policy](http://www.byui.edu/catalog/#/policy/SJ8pMAmZr?bc=true&bcCurrent=Student%20Grievance&bcGroup=Academic%20Grievance%20Policy&bcItemType=policies).
 
-## Student Support
-Support is available in many ways including via other class members and discussion in Slack. In addition, help is available through [the university's academic support center](http://www.byui.edu/academic-support-centers).
+## Preventing Sexual Misconduct
 
-## Sexual Harassment
-BYU-Idaho is committed to promoting and maintaining a safe and respectful environment for the campus community. Sexual misconduct is against the law, contrary to the teachings of The Church of Jesus Christ of Latter-day Saints and the Honor Code and inconsistent with the life and teachings of Jesus Christ, which we hope are embodied on our campus. The university prohibits sexual misconduct perpetrated by or against university students, university employees, participants in university programs, or visitors to its campus, whether the behavior occurs on or off campus.
+BYU-Idaho prohibits sex discrimination by its employees and students in all of its education programs or activities. This includes all forms of sexual harassment, such as sexual assault, dating violence, domestic violence, stalking, conditioning a grade or job on participation in sexual conduct, and other forms of unwelcome sexual conduct.
 
-[Click here for more information.](http://www.byui.edu/titleix)
+As an instructor, one of my responsibilities is to help create a safe learning environment for my students and for the campus as a whole. University policy requires deans and department chairs, and encourages all faculty, to report every incident of sexual harassment that comes to their attention. If you encounter or experience sexual harassment, please contact the Title IX Coordinator at [titleix@byui.edu](mailto:titleix@byui.edu) or 208-496-9209. Additional information about sex discrimination, sexual harassment, and available resources can be found at [www.byui.edu/titleix](www.byui.edu/titleix)
 
-## Students with Disabilities
+## Disability Services
 
-Brigham Young University-Idaho is committed to providing a working and learning atmosphere that accommodates qualified persons with disabilities. If you have a disability and require accommodations, please contact the Disability Services Office (208) 496-9210. Reasonable academic accommodations are reviewed for all students who have qualified documented disabilities. Services are coordinated with the students and instructor by the Disability Services Office.
+BYU-Idaho does not discriminate against persons with disabilities in providing its educational and administrative services and programs and follows applicable federal and state law. This policy extends to the University’s electronic and information technologies (EIT).
+
+Students with qualifying disabilities should contact the Disability Services Office at disabilityservices@byui.edu or 208-496-9210. Additional information about Disability Services resources can be found at [http://www.byui.edu/disabilities](http://www.byui.edu/disabilities).
+
+## Academic Honesty
+
+> “When you are honest in every way, you are able to enjoy peace of mind and maintain self-respect. You build strength of character, which allows you to be of service to God and others. You are trustworthy in the eyes of God and those around you. If you are dishonest in your words or actions, you hurt yourself and often hurt others as well. If you lie, steal, cheat, or neglect to give the full amount of work for your pay, you lose your self-respect. You lose the guidance of the Holy Ghost” (“Honesty,” True to the Faith (2004), 84)
+
+Academic Honesty means students do their own work. This also means their instructors will evaluate that work. Students should not be dishonest—this includes all types of work in their courses. The complete Academic Honesty Policy can be found at [http://www.byui.edu/student-honor-office/ces-honor-code/academic-honesty](http://www.byui.edu/student-honor-office/ces-honor-code/academic-honesty).
+
+## Academic Grievances
+
+Students are encouraged to contact their instructors regarding course-related concerns. If concerns cannot be resolved in this way, students may contact the [BYU-Idaho Support Center](http://www.byui.edu/contact-us). to formally register a concern or grievance. The [Student Grievance Policy](https://content.byui.edu/integ/gen/d42e66fd-6e72-448f-a4c2-4d88a4ed26d2/0/Final%20Student%20Grievance%20Policy%20-%20catalog%20version.docx). can be found here.
 
 ## Changes to Schedule and Assignments
 
