@@ -28,7 +28,7 @@ This test has been repeated many times amongst medical professionals [^2], law s
 The flaw in reasoning that leads to this mistake is known as the "Base Rate Fallacy", and sometimes (as in your text) as the "False Positive Paradox". 
 
 !!!def "Base Rate Fallacy"
-	A fallacy committed when people attempt to calculate the likelihood of an event in a specific situation, without taking into account the prevelance, or overall likelihood, of that event.
+	A fallacy committed when people attempt to calculate the likelihood of an event in a specific situation, without taking into account the prevalence, or overall likelihood, of that event.
 
 Understanding Bayes' Theorem will help you to avoid this fallacy.
 
