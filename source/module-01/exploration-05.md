@@ -26,7 +26,7 @@ The data analyst firm you work for has been contracted by a local Health Authori
 
 Your research supervisor has asked you to use the latest CDC case data to preform a Bayesian analysis to calculate the probability of death from Covid-19 among certain demographics.
 
-Click on the `Open In Colab` button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, upload the notebook to a Github Gist, then paste the URL to the gist into the assignment submission form on Canvas. 
+Click on the `Open In Colab` button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, don't forget to take the corresponding quiz in Canvas. 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_05.ipynb)
 
