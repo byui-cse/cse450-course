@@ -72,6 +72,7 @@ def parse_markdown(markdown_file_path):
 	output_string = output_string.replace("{{CONTENT}}", html_content)
 	output_string = output_string.replace("{{TOC}}", md.toc)
 	output_string = output_string.replace("{{URLROOT}}", config["url_root"])
+	output_string = output_string.replace("{{CSSVERSION}}", "v{0}".format(config['css_version']))
 
 	if 'title' in md.Meta:
 		output_string = output_string.replace("{{TITLE}}", md.Meta["title"][0])
@@ -123,6 +124,9 @@ def parseConfig(config_file_path):
 
 	# Get URL root
 	config['url_root'] = config_parser.get("URLs", "root")
+
+	# Get versioning info
+	config['css_version'] = config_parser.get("Versions", "css")
 
 
 if __name__ == "__main__":
