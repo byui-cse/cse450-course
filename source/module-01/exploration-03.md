@@ -60,7 +60,7 @@ Column Information:
 * Cabin: The passenger's cabin id.
 * Embarked: Where the passenger embarked from (C = Cherbourg, S = Southampton, Q = Queenstown)
 
-Click on the `Open In Colab` button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, upload the notebook to a Github Gist, then paste the URL to the gist into the assignment submission form on Canvas. 
+Click on the `Open In Colab` button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, don't forget to take the corresponding quiz in Canvas. 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_03.ipynb)
 

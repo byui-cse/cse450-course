@@ -38,7 +38,7 @@ To find more information on a particular piece of legislation, try googling for 
 
 Which brings up [this New York Times article](https://www.nytimes.com/1984/05/15/us/issue-and-debate-mx-missile-faces-another-test-in-congress.html) as the first result. Though, the most relevant result may not always be the first one listed.
 
-Click on the `Open In Colab` button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, upload the notebook to a Github Gist, then paste the URL to the gist into the assignment submission form on Canvas. 
+Click on the `Open In Colab` button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, don't forget to take the corresponding quiz in Canvas. 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_04.ipynb)
 
