@@ -363,6 +363,7 @@ article pre code .hljs-comment {
   padding: 20px;
   z-index: 5000;
   border-radius: 5px;
+  min-width: 300px;
 }
 
 #show-contents {
