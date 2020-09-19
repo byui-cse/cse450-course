@@ -18,3 +18,4 @@ log=commit_log.txt
  
 ## append commit to log file
 printf "Commit ${repo} $(timestamp)" >> $log
+printf "\n" >> $log
