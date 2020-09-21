@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 01 Assessment</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css?v1.1">
+    <meta charset="utf-8">
+
+</head>
+<body class="">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#submission">Submission</a></li>
+<li><a href="#bonus-question">Bonus Question</a></li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
+            <h2>Module 01 Assessment</h2>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<h2 id="introduction">Introduction</h2>
+<p>This assignment will test how well you're able to perform various data science-related tasks using Python, pandas, and seaborn, as well as how well you can interpret statistical and probabilistic results.</p>
+<p>The assessment consists of three problem sets. Each problem set asks you to work with a dataset you've seen before in order to answer a series of questions. </p>
+<p>To ensure you receive full credit for a question, make sure you demonstrate the appropriate pandas, seaborn, or other commands as requested in the provided code blocks. </p>
+<p>You may find that some questions require multiple steps to fully answer. Others require some mental arithmetic in addition to pandas commands. Use your best judgment.</p>
+<h2 id="submission">Submission</h2>
+<p>After completing the questions in the Colab notebook linked below (or while doing so), open the Module 01 Assessment Quiz in Canvas and enter your answers to the questions there.</p>
+<p>The final question will ask you for the GitHub Gist URL of your colab notebook. Save your Colab notebook as a GitHub Gist (You'll need to create a GitHub account for this), by selecting <code>Save a copy as a GitHub Gist</code> from the <code>File</code> menu.</p>
+<p>See this video for details:</p>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/PJzijKS7sOo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>After creating the GitHub Gist, paste its URL as the answer to the final quiz question. </p>
+<h2 id="bonus-question">Bonus Question</h2>
+<p>The quiz also contains a single bonus question. If you choose to work on it, you can submit your answer in the Module 01 Assessment Bonus Quiz.</p>
+<p>Click on the <code>Open In Colab</code> button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, don't forget to take the corresponding quiz in Canvas. </p>
+<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/module01-assessment.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+	</article>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>
