@@ -26,7 +26,7 @@ Students who elect to continue with the course will then be assigned to permanen
 
 ## Module 01 Assignemnts
 
-For your convenience, all six preparation readings and data exploration assignments are listed below, but please remember that the assignments listed in your Canvas session by your instructor are the final word on what is actually due on a given day:
+For your convenience, all five preparation readings and data exploration assignments are listed below, but please remember that the assignments listed in your Canvas session by your instructor are the final word on what is actually due on a given day:
 
 #### Day 01
 * [Preparation Reading 01](./preparation-01.html)
