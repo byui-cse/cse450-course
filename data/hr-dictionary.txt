@@ -1,0 +1,58 @@
+# Data Dictionary for the HR dataset
+
+Missing values in the data are denoted as "?"
+
+
+Employee_Name: Employee’s full name
+
+EmpID: Employee ID is unique to each employee
+
+PayRate: The person’s pay rate. Hourly rates are given for production technicians, annual salaries for everyone else.
+
+Position: The name/title of the position the person has
+
+State: The state that the person lives in
+
+Zip: The zip code for the employee
+
+DOB: Date of Birth for the employee
+
+Sex: M or F
+
+MaritalDesc: The marital status of the person (divorced, single, widowed, separated, etc)
+
+Dependents: The number of dependents the person is claiming on their health benefits package
+
+CitizenDesc: Label for whether the person is a Citizen or Eligible NonCitizen
+
+HispanicLatino: Yes or No field for whether the employee is Hispanic/Latino
+
+RaceDesc: Description/text of the race the person identifies with
+
+DateofHire: Date the person was hired
+
+DateofTermination: Date the person was terminated
+
+TermReason: A text reason / description for why the person was terminated
+
+EmploymentStatus: A description/category of the person’s employment status
+
+Department: Name of the department that the person works in
+
+ManagerName: The name of the person’s immediate manager
+
+RecruitmentSource: The name of the recruitment source where the employee was recruited from
+
+PerformanceScore: Performance Score text/category (Fully Meets, Partially Meets, PIP (Performance Improvement Plan), Exceeds)
+
+EngagementSurvey: Results from the last engagement survey, managed by our external partner
+
+EmpSatisfaction: A basic satisfaction score between 1 and 5, as reported on an old employee satisfaction survey
+
+EmpSatisfaction2: A basic satisfaction score between 0 and 100, as reported on a recent employee satisfaction survey
+
+SpecialProjectsCount: The number of special projects that the employee worked on during the last 6 months
+
+LastPerformanceReview_Date: The most recent date of the person’s last performance review
+
+DaysLateLast30: The number of times that the employee was late to work during the last 30 days
