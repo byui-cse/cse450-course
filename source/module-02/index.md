@@ -8,7 +8,7 @@ title: Module 02 — Workplace Makeover
 ## Overview
 
 !!!time "Estimated Reading Time"
-	Plan on around 60 to 90 minutes for this preparation reading, which consists only of a mix of online and textbook reading.
+	Plan on around 60 to 90 minutes for this preparation reading, which consists of a mix of online and textbook reading.
 
 The objective of this module is to provide a real-world scenario in which you can practice the following data science / machine learning skills:
 
