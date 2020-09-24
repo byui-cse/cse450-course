@@ -36,4 +36,5 @@ The CEO is particularly interested in the following areas:
 ## Reading
 
 * Read sections 3.1, 3.2, 3.3, 3.4, and 3.6 of your text. (You've already read section 3.5, but feel free to review it.)
+
 * Read [this introduction to K-Means Clustering](https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1)
