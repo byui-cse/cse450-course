@@ -223,6 +223,40 @@ article pre code .hljs-comment {
   color: var(--code-comment-color);
 }
 
+/* Dialogue Styling */
+article .dialogue {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 1fr;
+  background-color: var(--quote-background-color);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+article .dialogue h5 {
+  display: inline-block;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin: 0 0 0 15px;
+}
+
+article .dialogue img {
+  margin: 0;
+  border-radius: 5px;
+}
+
+article .dialogue blockquote {
+  margin: 20px 0 0px 15px;
+  padding: 5px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
 /* Special Header Styling */
 
 .delivery.classroom { color: var(--delivery-classroom-color); }
