@@ -6,7 +6,7 @@ title: Module 02 — Workplace Makeover, Minor Case Study
 You're about to go into a strategy meeting with the CEO, Vice President of Human Resources, and Vice President of Finance. They want to make sure you have the data required to answer the questions they're most interested in.
 
 ### Dataset
-Spend fifteen minutes with your team evaluating [the data]({{URLROOT}}/data/hr.csv). Be sure to look at data types, ranges, and meanings of each feature from the [data dictionary]({{URLROOT}}/data/hr-dictionary.txt).
+Spend fifteen minutes with your team evaluating [the data]({{URLROOT}}/data/hr.csv). Be sure to look at data types, ranges, and meanings of each feature from the [data dictionary](./hr-dictionary.txt).
 
 You can use the following Google Colab notebook to assist you as you prepare to answer the questions below:
 

@@ -45,7 +45,7 @@ RecruitmentSource: The name of the recruitment source where the employee was rec
 
 PerformanceScore: Performance Score text/category (Fully Meets, Partially Meets, PIP (Performance Improvement Plan), Exceeds)
 
-EngagementSurvey: Results from the last engagement survey, managed by our external partner
+EngagementSurvey: Results from an employee engagement survey, managed by our external partner, with scores ranging between 1 and 10.
 
 EmpSatisfaction: A basic satisfaction score between 1 and 5, as reported on an old employee satisfaction survey given a few years ago.
 
