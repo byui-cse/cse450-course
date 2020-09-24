@@ -47,12 +47,14 @@ PerformanceScore: Performance Score text/category (Fully Meets, Partially Meets,
 
 EngagementSurvey: Results from the last engagement survey, managed by our external partner
 
-EmpSatisfaction: A basic satisfaction score between 1 and 5, as reported on an old employee satisfaction survey
+EmpSatisfaction: A basic satisfaction score between 1 and 5, as reported on an old employee satisfaction survey given a few years ago.
 
-EmpSatisfaction2: A basic satisfaction score between 0 and 100, as reported on a recent employee satisfaction survey
+EmpSatisfaction2: A basic satisfaction score between 0 and 100, as reported on an employee satisfaction survey given last month.
 
 SpecialProjectsCount: The number of special projects that the employee worked on during the last 6 months
 
 LastPerformanceReview_Date: The most recent date of the person’s last performance review
 
-DaysLateLast30: The number of times that the employee was late to work during the last 30 days
+DaysLateLast30: The number of times that the employee was late to work during the last 30 days (or the last 30 days of their employment if they are no longer active)
+
+AbsencesLast30: The number of times that the employee was absent from work during the last 30 days (or the last 30 days of their employment if they are no longer active)
