@@ -76,8 +76,26 @@ Based on your initial analysis of the data, your team feels:
 3. We could use the data we have, but we'll have to normalize some of the features, and/or encode some of them differently.
 4. Answering this question would be a violation of ethics and/or privacy laws.
 
+### Data Analysis
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/johnny.jpg">
+	<h5>Johnny, the data science intern asks:</h5>
+	<blockquote><p>I've heard that clustering is a big thing these days.</p><p>Do you think we could help answer one of these questions using clustering?</p></blockquote>
+</div>
+
+Based on your initial analysis of the data, your team feels:
+
+1. Question 1 would benefit the most from clustering.
+2. Question 2 would benefit the most from clustering.
+3. Question 3 would benefit the most from clustering.
+4. Question 4 would benefit the most from clustering.
+
+
 [^1]: [CEO photo by Oz Seyrek on Unsplash ](https://unsplash.com/photos/-Ir03_pgpMU)
 
 [^2]: [VP of HR photo by Christina @ wocintechchat.com](https://unsplash.com/photos/SJvDxw0azqw)
 
 [^3]: [VP of Finance photo by steffen Wienberg on Unsplash](https://unsplash.com/photos/ml-pxK0Ovmw)
+
+[^4]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)
