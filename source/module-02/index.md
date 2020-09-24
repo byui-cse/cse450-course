@@ -26,12 +26,13 @@ Recently, a rival company (Green Audio Inc) announced that they were launching a
 
 After a heated shareholders meeting, the board of directors has tasked the CEO with making sure Red Mic LLC isn’t left behind.
 
-The shareholders are particularly interested in the following areas:
+!!!note "Stakeholder Focus Areas"
+	The shareholders are particularly interested in the following areas:
 
-1.	Making sure Red Mic LLC has a diverse workforce.
-2.	Ensuring that employees with similar positions and experience are receiving equitable pay, regardless of race, gender, or marital status.
-3.	Striving to reduce employee turnover by actively measuring employee satisfaction and engagement, as well as engaging employees in special projects.
-4.	Analyzing what work-life balance issues might exist in the workforce that could be negatively impacting employee performance and longevity.
+	1.	Making sure Red Mic LLC has a diverse workforce.
+	2.	Ensuring that employees with similar positions and experience are receiving equitable pay, regardless of race, gender, or marital status.
+	3.	Striving to reduce employee turnover by actively measuring employee satisfaction and engagement, as well as engaging employees in special projects.
+	4.	Analyzing what work-life balance issues might exist in the workforce that could be negatively impacting employee performance and longevity.
 
 ## Reading
 
