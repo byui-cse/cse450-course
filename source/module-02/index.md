@@ -26,7 +26,7 @@ Recently, a rival company (Green Audio Inc) announced that they were launching a
 
 After a heated shareholders meeting, the board of directors has tasked the CEO with making sure Red Mic LLC isn’t left behind.
 
-The CEO is particularly interested in the following areas:
+The shareholders are particularly interested in the following areas:
 
 1.	Making sure Red Mic LLC has a diverse workforce.
 2.	Ensuring that employees with similar positions and experience are receiving equitable pay, regardless of race, gender, or marital status.
