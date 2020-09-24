@@ -33,7 +33,7 @@ Based on your initial analysis of the data, your team feels:
 ### Work-Life Balance
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/william.jpg">
-	<h5>William, the VP of Fiannce asks:</h5>
+	<h5>William, the VP of Finance asks:</h5>
 	<blockquote><p>My biggest concern is the rising costs from employee sick leave and tardiness. I've noticed a lot of this seems to center around employees with children, especially single mothers.</p><p>Do we have a way to tell from our data if there is some correlation between being an older employee with a family and absenteeism? If so, I'd like to use that information to adjust how HR screens new hires.</p></blockquote>
 </div>
 
@@ -76,10 +76,8 @@ Based on your initial analysis of the data, your team feels:
 3. We could use the data we have, but we'll have to normalize some of the features, and/or encode some of them differently.
 4. Answering this question would be a violation of ethics and/or privacy laws.
 
+[^1]: [CEO photo by Oz Seyrek on Unsplash ](https://unsplash.com/photos/-Ir03_pgpMU)
 
-#### Photo credits
-Photos used in this case study came from the following sources:
+[^2]: [VP of HR photo by Christina @ wocintechchat.com](https://unsplash.com/photos/SJvDxw0azqw)
 
-* [CEO photo by Oz Seyrek on Unsplash ](https://unsplash.com/photos/-Ir03_pgpMU)
-* [VP of HR photo by Christina @ wocintechchat.com](https://unsplash.com/photos/SJvDxw0azqw)
-* [VP of Finance photo by steffen Wienberg on Unsplash](https://unsplash.com/photos/ml-pxK0Ovmw)
+[^3]: [VP of Finance photo by steffen Wienberg on Unsplash](https://unsplash.com/photos/ml-pxK0Ovmw)
