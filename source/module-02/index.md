@@ -37,15 +37,3 @@ The CEO is particularly interested in the following areas:
 
 * Read sections 3.1, 3.2, 3.3, 3.4, and 3.6 of your text. (You've already read section 3.5, but feel free to review it.)
 * Read [this introduction to K-Means Clustering](https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1)
-
-## Case Study Assignments
-
-This case study contains two assignments:
-
-### Minor Case Study Assigment
-
-You will complete the [minor case study assignment](./minor.html) during class with your team. 
-
-### Major Case Study Assignment
-
-You'll spend the following week in class working on the [major case study assignment](./major.html) with your team. You may need to do additional work outside of class to complete the assignment. 
