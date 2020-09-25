@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 02 — Workplace Makeover, Major Case Study Assignment</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css?v1.2">
+    <meta charset="utf-8">
+
+</head>
+<body class="">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#tips">Tips</a></li>
+<li><a href="#submission">Submission</a></li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
+            <h2>Module 02 — Workplace Makeover, Major Case Study Assignment</h2>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<h2 id="overview">Overview</h2>
+<p>After a few more meetings with the executive team, the head of the data science division has assigned your team to answer the following issues:</p>
+<ol>
+<li>
+<p>Is there a pay gap based on gender and/or race for similar positions and experience levels?</p>
+</li>
+<li>
+<p>If we put employees into groups based on months of service and the results of the latest satisfaction survey, can we identify what the members of each group have in common? </p>
+<p>In the case of terminated employees, their months of service would be the time between their start date and their termination date. For active employees, it would be the time between their start date and today.</p>
+</li>
+<li>
+<p>Are we doing a good job on diversity? What's the current makeup of our workforce, and what recruiting efforts are helping us the most in this area?</p>
+</li>
+<li>
+<p>The company spent a lot of money on hiring an outside partner to our Employee Engagement survey (<code>EngagementSurvey</code>). William, the VP of Finance thinks that the Employee Engagement survey was worthwhile, but the partner company is owned by his cousin. </p>
+<p>Cecil, the VP of HR, conducted her own survey as part of an internal HR initiative (<code>EmpSatisfaction2</code>), and thinks this was not only cheaper, but better. The CEO wants to know what you think.</p>
+</li>
+</ol>
+<h2 id="tips">Tips</h2>
+<div class="admonition note">
+<p class="admonition-title">Salary Scale</p>
+<p>Remember that the <code>PayRate</code> column is using two different scales. Hourly employees (production technicians) have their hourly rates listed. Salaried employees (everyone else) have their annual salaries listed. </p>
+<p>If you're doing any kind of comparison of pay rates, you'll need to convert annual salaries to hourly rates, remembering that salaried employees work 40 hours a week, 52 weeks a year.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Feature Scaling</p>
+<p>If you're going to be comparing different numeric features, be sure they are using the same scale. You may find it useful to use min-max scaling to handle this problem. You could do this calculation manually, or use <a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html">Sci-Kit Learn's MinMaxScaler</a></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Binning</p>
+<p>Just as you did with the Titanic dataset when you reduced the number of titles, you may find it useful to "bin" categorical features into discrete groups in order to address some of the questions above. There are multiple ways to do this, but previously we used the <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.map.html"><code>map()</code> function</a>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Dealing with Dates</p>
+<p>In order to do calculations on dates, you will first need to convert the feature from a string to a DateTime object. The <a href="https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/09_timeseries.html"><code>to_datetime()</code> function</a> can help with this.</p>
+<p>Once the feature is a datetime, you can <a href="https://medium.com/@bramtunggala/a-simple-way-to-finding-the-difference-between-two-dates-in-pandas-179d2714b6c">calculate the number of months between two dates</a>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">K-Means Clustering</p>
+<p>Remember, K-Means doesn't work on categorical data. According to the question above, you'll be clustering based on months of service and the results of the most recent Employee Satisfaction survey (<code>EmpSatisfaction2</code>).</p>
+<p>The head of the data science reminds you that you'll need to tackle this part in two steps. First, find the optimal number of clusters using the elbow method. Then, cluster the data into that many clusters and try to figure out what the members of each cluster have in common with one another.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Visualizations</p>
+<p>Aside from the visualizations you'll make for the other questions, you will probably want to visualize your clusters in two different ways:</p>
+<ol>
+<li>A scatter plot visualization where each point is colored according to its cluster label.</li>
+<li>One or more scatter plots where each point is colored according to some feature you think is important to the clustering.</li>
+</ol>
+<p>Alternatively, you could do a single chart where the color is based on cluster label, and the size of the point is based on the feature you think is important to the clustering.</p>
+</div>
+<h2 id="submission">Submission</h2>
+<p>This case study has two submissions:</p>
+<ol>
+<li>
+<p>Your team will work together to create a brief executive summary of your results, showing visualizations and key statistics. You'll use <a href="">this template</a> for this.</p>
+<p>Your team will have 5 - 7 minutes to present your results to the class. You may use your executive summary for this, or you may prefer to pull out key points and put them in a separate slide show.</p>
+</li>
+<li>
+<p>Following the presentation, each member of your team will also complete and submit a Case Study reflection using <a href="">this template</a>.</p>
+</li>
+</ol>
+	</article>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>
