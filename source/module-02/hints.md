@@ -24,13 +24,13 @@ One way to accomplish this is with `apply()` plus a function or lambda, as shown
 #### MinMax Scaling a column
 If we need to do some kind of distance-based algorithm with these columns, it would help to transform them to the same scale first.
 
-Min-max scaling will make the values span the range 0.0 - 1.0, as showin in the following colab notebook:
+Min-max scaling will make the values span the range 0.0 - 1.0, as shown in the following colab notebook:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/module02_hint02.ipynb)
 
 
 #### Dealing with dates
-Sometimes we need to calculate the span between two dates using different units. Or, we might need to to do more complex calcuations on a date using boolean logic. The following colab notebook shows some examples of that:
+Sometimes we need to calculate the span between two dates using different units. Or, we might need to to do more complex calculations on a date using boolean logic. The following colab notebook shows some examples of that:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/module02_hint03.ipynb)
 

@@ -55,8 +55,8 @@ If you need more hints, you might want to [look at this page](hints.html).
 
 This case study has two submissions:
 
-1. Your team will work together to create a brief executive summary of your results, showing visualizations and key statistics. You'll use [this template]() for this.
+1. Your team will work together to create a brief executive summary of your results, showing visualizations and key statistics. You'll use [this template](./summary.docx) for this.
 
 	Your team will have 5 - 7 minutes to present your results to the class. You may use your executive summary for this, or you may prefer to pull out key points and put them in a separate slide show.
 
-2. Following the presentation, each member of your team will also complete and submit a Case Study reflection using [this template]().
+2. Following the presentation, each member of your team will also complete and submit a Case Study reflection using [this template]({{URLROOT}}/course/reflection.docx).

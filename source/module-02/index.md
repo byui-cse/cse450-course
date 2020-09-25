@@ -4,7 +4,7 @@ body-class: index-page
 ---
 
 ![Clustering]({{URLROOT}}/shared/img/clustering.jpg)
-*[Photo by Pietro Jeng on Unsplash](https://unsplash.com/photos/n6B49lTx7NM)*
+*[Photo by Edgar Chaparro on Unsplash](https://unsplash.com/photos/r6mBXuHnxBk)*
 
 ## Overview
 
