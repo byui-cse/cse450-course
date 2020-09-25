@@ -49,6 +49,8 @@ After a few more meetings with the executive team, the head of the data science 
 
 	Alternatively, you could do a single chart where the color is based on cluster label, and the size of the point is based on the feature you think is important to the clustering.
 
+If you need more hints, you might want to [look at this page](hints.html).
+
 ## Submission
 
 This case study has two submissions:
