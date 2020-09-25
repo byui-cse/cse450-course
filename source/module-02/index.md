@@ -1,14 +1,15 @@
 ---
-title: Module 02 — Workplace Makeover
+title: Module 02 — Data Preprocessing and Clustering
+body-class: index-page
 ---
 
-![Cereal]({{URLROOT}}/shared/img/meeting.jpg)
-*[Photo by Campaign Creators on Unsplash](https://unsplash.com/photos/gMsnXqILjp4)*
+![Clustering]({{URLROOT}}/shared/img/clustering.jpg)
+*[Photo by Pietro Jeng on Unsplash](https://unsplash.com/photos/n6B49lTx7NM)*
 
 ## Overview
 
 !!!time "Estimated Reading Time"
-	Plan on around 60 to 90 minutes for this preparation reading, which consists of a mix of online and textbook reading.
+	Plan on around 90 - 120 minutes for this preparation reading, which consists of a mix of online and textbook reading.
 
 The objective of this module is to provide a real-world scenario in which you can practice the following data science / machine learning skills:
 
@@ -18,24 +19,16 @@ The objective of this module is to provide a real-world scenario in which you ca
 * Ethics
 * Unsupervised Learning and K-Means Clustering
 
-## Introduction
+## Preparation Reading
 
-You’re working as a data analyst for Red Mic LLC, a company that specializes in manufacturing professional grade microphones for musicians and newscasters.
-
-Recently, a rival company (Green Audio Inc) announced that they were launching a set of initiatives to take their organization into the twenty-first century.
-
-After a heated shareholders meeting, the board of directors has tasked the CEO with making sure Red Mic LLC isn’t left behind.
-
-!!!note "Stakeholder Focus Areas"
-	The shareholders are particularly interested in the following areas:
-
-	1.	Making sure Red Mic LLC has a diverse workforce.
-	2.	Ensuring that employees with similar positions and experience are receiving equitable pay, regardless of race, gender, or marital status.
-	3.	Striving to reduce employee turnover by actively measuring employee satisfaction and engagement, as well as engaging employees in special projects.
-	4.	Analyzing what work-life balance issues might exist in the workforce that could be negatively impacting employee performance and longevity.
-
-## Reading
+Complete the following preparation reading:
 
 * Read sections 3.1, 3.2, 3.3, 3.4, and 3.6 of your text. (You've already read section 3.5, but feel free to review it.)
 
-* Read [this introduction to K-Means Clustering](https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1)
+* Watch the following introduction to Cluster Analysis:
+
+[!embed](https://www.youtube.com/watch?v=QXOkPvFM6NU)
+
+* Read this article: [Top three mistakes with K-Means Clustering during data analysis](https://zerowithdot.com/mistakes-with-k-means-clustering/)
+
+* Read this article: [K-means clustering is not a free lunch](http://varianceexplained.org/r/kmeans-free-lunch/)
