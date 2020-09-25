@@ -29,6 +29,10 @@ Complete the following preparation reading:
 
 [!embed](https://www.youtube.com/watch?v=QXOkPvFM6NU)
 
+* Read about [the Sci-Kit Learn implementation of K-Means clustering](https://scikit-learn.org/stable/modules/clustering.html#k-means).
+
+* Review [the Sci-Kit Learn API docs for K-Means clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html#sklearn.cluster.KMeans)
+
 * Read this article: [Top three mistakes with K-Means Clustering during data analysis](https://zerowithdot.com/mistakes-with-k-means-clustering/)
 
 * Read this article: [K-means clustering is not a free lunch](http://varianceexplained.org/r/kmeans-free-lunch/)
