@@ -19,11 +19,16 @@
     <meta charset="utf-8">
 
 </head>
-<body class="">
+<body class="index-page">
      <div id="modal-screen">
         <div id="contents-wrapper">
             <div class="toc">
-<ul></ul>
+<ul>
+<li><a href="#using-a-function-to-transform-a-feature">Using a Function to Transform a Feature</a></li>
+<li><a href="#minmax-scaling-a-feature">MinMax Scaling a Feature</a></li>
+<li><a href="#dealing-with-dates">Dealing with Dates</a></li>
+<li><a href="#clustering-and-visualizing-clustering">Clustering and Visualizing Clustering</a></li>
+</ul>
 </div>
 
             <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
@@ -44,18 +49,18 @@
 <p>As we proceed throughout the semester, you'll get fewer hints and be expected to look more stuff up on your own.</p>
 <p>If you haven't tried independent research yet, you might want to try that for a few hours, then come back here.</p>
 </div>
-<h4>Using a function to transform a feature:</h4>
+<h2 id="using-a-function-to-transform-a-feature">Using a Function to Transform a Feature</h2>
 <p>Sometimes you want to do a complex transformation where you create a new feature based on the data in one or more existing features, or where you need to use boolean logic in your transformation. </p>
 <p>One way to accomplish this is with <code>apply()</code> plus a function or lambda, as shown in the following colab notebook:</p>
 <p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/module02_hint01.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
-<h4>MinMax Scaling a feature</h4>
+<h2 id="minmax-scaling-a-feature">MinMax Scaling a Feature</h2>
 <p>If we need to do some kind of distance-based algorithm with these features, it would help to transform them to the same scale first.</p>
 <p>Min-max scaling will make the values span the range 0.0 - 1.0, as shown in the following colab notebook:</p>
 <p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/module02_hint02.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
-<h4>Dealing with dates</h4>
+<h2 id="dealing-with-dates">Dealing with Dates</h2>
 <p>Sometimes we need to calculate the span between two dates using different units. Or, we might need to to do more complex calculations on a date using boolean logic. The following colab notebook shows some examples of that:</p>
 <p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/module02_hint03.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
-<h4>Clustering and Visualizing Clustering</h4>
+<h2 id="clustering-and-visualizing-clustering">Clustering and Visualizing Clustering</h2>
 <p>If you're struggling to use the elbow method to determine the right value for the "k" in k-means, or not clear on how the different ways to visualize clusters, this colab notebook should help:</p>
 <p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/module02_hint04.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
 	</article>
