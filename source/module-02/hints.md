@@ -12,17 +12,17 @@ title: Module 02 — More Hints
 
 
 
-#### Using a function to transform a column:
+#### Using a function to transform a feature:
 
-Sometimes you want to do a complex transformation where you create a new column based on the data in one or more existing columns, or where you need to use boolean logic in your transformation. 
+Sometimes you want to do a complex transformation where you create a new feature based on the data in one or more existing features, or where you need to use boolean logic in your transformation. 
 
 One way to accomplish this is with `apply()` plus a function or lambda, as shown in the following colab notebook:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/module02_hint01.ipynb)
 
 
-#### MinMax Scaling a column
-If we need to do some kind of distance-based algorithm with these columns, it would help to transform them to the same scale first.
+#### MinMax Scaling a feature
+If we need to do some kind of distance-based algorithm with these features, it would help to transform them to the same scale first.
 
 Min-max scaling will make the values span the range 0.0 - 1.0, as shown in the following colab notebook:
 

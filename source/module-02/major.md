@@ -4,7 +4,7 @@ title: Module 02 — Workplace Makeover, Major Case Study Assignment
 
 ## Overview
 
-After a few more meetings with the executive team, the head of the data science division has assigned your team to answer the following issues:
+After a few more meetings with the executive team, the head of the data science division has assigned your team to address the following issues:
 
 1. Is there a pay gap based on gender and/or race for similar positions and experience levels?
 
