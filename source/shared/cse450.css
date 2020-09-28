@@ -227,7 +227,7 @@ article pre code .hljs-comment {
 article .dialogue {
   display: grid;
   grid-template-columns: 200px 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: auto 1fr;
   background-color: var(--quote-background-color);
   padding: 20px;
   border-radius: 5px;
@@ -246,13 +246,15 @@ article .dialogue h5 {
 article .dialogue img {
   margin: 0;
   border-radius: 5px;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 article .dialogue blockquote {
-  margin: 20px 0 0px 15px;
+  margin: 5px 0 0px 15px;
   padding: 5px;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
   grid-column-start: 2;
   grid-column-end: 3;
 }

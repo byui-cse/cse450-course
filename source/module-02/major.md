@@ -4,21 +4,45 @@ title: Module 02 — Workplace Makeover, Major Case Study Assignment
 
 ## Overview
 
-After a few more meetings with the executive team, the head of the data science division has assigned your team to address the following issues:
+After a few more meetings with the executive team, the head of the data science division has assigned your team to address the following issues asked by the stakeholders:
 
-1. Is there a pay gap based on gender and/or race for similar positions and experience levels?
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/cecil.jpg">
+	<h5>Cecil, the VP of Human Resources asks:</h5>
+	<blockquote><p>There are two main things we need to know. First, is there a pay gap based on gender and/or race for similar positions and experience levels?</p></blockquote>
+</div>
 
-2. If we put employees into groups based on months of service and the results of the latest satisfaction survey, can we identify what the members of each group have in common? 
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/william.jpg">
+	<h5>William, the VP of Finance asks:</h5>
+	<blockquote><p>We spent a lot of money hiring the excellent Employee Evaluators Inc. to conduct an employee engagement survey. I know it's a great company, because it's run by my brother, Harold. 
+		<p>Cecil seems to think that her own homegrown survey is better. I admit hers was cheaper..., but sometimes you get what you pay for. For some reason, Devon thinks you can tell us which survey is a better indicator employee longevity.</p>
+		<p>I guess we'll see.</p></blockquote>
+</div>
 
-	In the case of terminated employees, their months of service would be the time between their start date and their termination date. For active employees, it would be the time between their start date and today.
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/cecil.jpg">
+	<h5>Cecil, the VP of Human Resources adds:</h5>
+	<blockquote><p>Yes, thank you William.</p><p>So what we're looking for specifically is, if we put employees into groups based on their months of service, do we see any correlation between how long they've been here and the results of the latest satisfaction survey I did (or the engagement study done by William's brother)?</p><p>Can we identify what the members of each group have in common?</p></blockquote>
+</div>
 
-3. Are we doing a good job on diversity? What's the current makeup of our workforce, and what recruiting efforts are helping us the most in this area?
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/devon.jpg">
+	<h5>Devon, the CEO asks:</h5>
+	<blockquote><p>These are all great questions, thanks team!</p><p>One last thing. The most important question to the board right now is diversity. Are we doing a good job on diversity overall? If not, which of our recruiting sources is having the biggest benefit? Where should we be focusing future recruitment efforts?</p>
+	<p>If you could send us <a href='./summary.docx'>your write up on this by Saturday night</a>, that would be great.</blockquote>
+</div>
 
-4. The company spent a lot of money on hiring an outside partner to our Employee Engagement survey (`EngagementSurvey`). William, the VP of Finance thinks that the Employee Engagement survey was worthwhile, but the partner company is owned by his cousin. 
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/johnny.jpg">
+	<h5>Johnny, the data science intern, whispers to you after the meeting:</h5>
+	<blockquote><p>Just to clarify something Cecil said, in the case of terminated employees, their months of service would be the time between their start date and their termination date. For active employees, it would be the time between their start date and today.</p><p>Also, I put together a list of tips and ideas that might help us out:</p></blockquote>
+</div>
 
-	Cecil, the VP of HR, conducted her own survey as part of an internal HR initiative (`EmpSatisfaction2`), and thinks this was not only cheaper, but better. The CEO wants to know what you think.
+## Tips from Johnny
 
-## Tips
+!!!note "Data Dictionary"
+	Our database analyst put together this [data dictionary](./hr-dictionary.txt) to help explain the values and sources of different columns in the [hr dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/hr.csv), so be sure to review that.
 
 !!!note "Salary Scale"
 	Remember that the `PayRate` column is using two different scales. Hourly employees (production technicians) have their hourly rates listed. Salaried employees (everyone else) have their annual salaries listed. 
@@ -49,14 +73,17 @@ After a few more meetings with the executive team, the head of the data science 
 
 	Alternatively, you could do a single chart where the color is based on cluster label, and the size of the point is based on the feature you think is important to the clustering.
 
-If you need more hints, you might want to [look at this page](hints.html).
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/johnny.jpg">
+	<h5>Johnny, the Data Science Intern, drops by your house around midnight:</h5>
+	<blockquote><p>Okay, just one last thing, if you need any more help at all, I put together <a href='./hints.html'>this collection of Google Colab notebooks</a> that might be useful.</p></blockquote>
+</div>
 
-## Submission
 
-This case study has two submissions:
+[^1]: [CEO photo by Oz Seyrek on Unsplash ](https://unsplash.com/photos/-Ir03_pgpMU)
 
-1. Your team will work together to create a brief executive summary of your results, showing visualizations and key statistics. You'll use [this template](./summary.docx) for this.
+[^2]: [VP of HR photo by Christina @ wocintechchat.com](https://unsplash.com/photos/SJvDxw0azqw)
 
-	Your team will have 5 - 7 minutes to present your results to the class. You may use your executive summary for this, or you may prefer to pull out key points and put them in a separate slide show.
+[^3]: [VP of Finance photo by steffen Wienberg on Unsplash](https://unsplash.com/photos/ml-pxK0Ovmw)
 
-2. Following the presentation, each member of your team will also complete and submit a Case Study reflection using [this template]({{URLROOT}}/course/reflection.docx).
+[^4]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)

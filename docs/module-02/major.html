@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
     <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
-	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css?v1.2">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css?v1.3">
     <meta charset="utf-8">
 
 </head>
@@ -25,8 +25,7 @@
             <div class="toc">
 <ul>
 <li><a href="#overview">Overview</a></li>
-<li><a href="#tips">Tips</a></li>
-<li><a href="#submission">Submission</a></li>
+<li><a href="#tips-from-johnny">Tips from Johnny</a></li>
 </ul>
 </div>
 
@@ -43,24 +42,45 @@
     </header>
 	<article>
 		<h2 id="overview">Overview</h2>
-<p>After a few more meetings with the executive team, the head of the data science division has assigned your team to address the following issues:</p>
-<ol>
-<li>
-<p>Is there a pay gap based on gender and/or race for similar positions and experience levels?</p>
-</li>
-<li>
-<p>If we put employees into groups based on months of service and the results of the latest satisfaction survey, can we identify what the members of each group have in common? </p>
-<p>In the case of terminated employees, their months of service would be the time between their start date and their termination date. For active employees, it would be the time between their start date and today.</p>
-</li>
-<li>
-<p>Are we doing a good job on diversity? What's the current makeup of our workforce, and what recruiting efforts are helping us the most in this area?</p>
-</li>
-<li>
-<p>The company spent a lot of money on hiring an outside partner to our Employee Engagement survey (<code>EngagementSurvey</code>). William, the VP of Finance thinks that the Employee Engagement survey was worthwhile, but the partner company is owned by his cousin. </p>
-<p>Cecil, the VP of HR, conducted her own survey as part of an internal HR initiative (<code>EmpSatisfaction2</code>), and thinks this was not only cheaper, but better. The CEO wants to know what you think.</p>
-</li>
-</ol>
-<h2 id="tips">Tips</h2>
+<p>After a few more meetings with the executive team, the head of the data science division has assigned your team to address the following issues asked by the stakeholders:</p>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/cecil.jpg">
+    <h5>Cecil, the VP of Human Resources asks:</h5>
+    <blockquote><p>There are two main things we need to know. First, is there a pay gap based on gender and/or race for similar positions and experience levels?</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/william.jpg">
+    <h5>William, the VP of Finance asks:</h5>
+    <blockquote><p>We spent a lot of money hiring the excellent Employee Evaluators Inc. to conduct an employee engagement survey. I know it's a great company, because it's run by my brother, Harold. 
+        <p>Cecil seems to think that her own homegrown survey is better. I admit hers was cheaper..., but sometimes you get what you pay for. For some reason, Devon thinks you can tell us which survey is a better indicator employee longevity.</p>
+        <p>I guess we'll see.</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/cecil.jpg">
+    <h5>Cecil, the VP of Human Resources adds:</h5>
+    <blockquote><p>Yes, thank you William.</p><p>So what we're looking for specifically is, if we put employees into groups based on their months of service, do we see any correlation between how long they've been here and the results of the latest satisfaction survey I did (or the engagement study done by William's brother)?</p><p>Can we identify what the members of each group have in common?</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/devon.jpg">
+    <h5>Devon, the CEO asks:</h5>
+    <blockquote><p>These are all great questions, thanks team!</p><p>One last thing. The most important question to the board right now is diversity. Are we doing a good job on diversity overall? If not, which of our recruiting sources is having the biggest benefit? Where should we be focusing future recruitment efforts?</p>
+    <p>If you could send us <a href='./summary.docx'>your write up on this by Saturday night</a>, that would be great.</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
+    <h5>Johnny, the data science intern, whispers to you after the meeting:</h5>
+    <blockquote><p>Just to clarify something Cecil said, in the case of terminated employees, their months of service would be the time between their start date and their termination date. For active employees, it would be the time between their start date and today.</p><p>Also, I put together a list of tips and ideas that might help us out:</p></blockquote>
+</div>
+
+<h2 id="tips-from-johnny">Tips from Johnny</h2>
+<div class="admonition note">
+<p class="admonition-title">Data Dictionary</p>
+<p>Our database analyst put together this <a href="./hr-dictionary.txt">data dictionary</a> to help explain the values and sources of different columns in the <a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/hr.csv">hr dataset</a>, so be sure to review that.</p>
+</div>
 <div class="admonition note">
 <p class="admonition-title">Salary Scale</p>
 <p>Remember that the <code>PayRate</code> column is using two different scales. Hourly employees (production technicians) have their hourly rates listed. Salaried employees (everyone else) have their annual salaries listed. </p>
@@ -93,18 +113,29 @@
 </ol>
 <p>Alternatively, you could do a single chart where the color is based on cluster label, and the size of the point is based on the feature you think is important to the clustering.</p>
 </div>
-<p>If you need more hints, you might want to <a href="hints.html">look at this page</a>.</p>
-<h2 id="submission">Submission</h2>
-<p>This case study has two submissions:</p>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
+    <h5>Johnny, the Data Science Intern, drops by your house around midnight:</h5>
+    <blockquote><p>Okay, just one last thing, if you need any more help at all, I put together <a href='./hints.html'>this collection of Google Colab notebooks</a> that might be useful.</p></blockquote>
+</div>
+
+<div class="footnote">
+<hr />
 <ol>
-<li>
-<p>Your team will work together to create a brief executive summary of your results, showing visualizations and key statistics. You'll use <a href="./summary.docx">this template</a> for this.</p>
-<p>Your team will have 5 - 7 minutes to present your results to the class. You may use your executive summary for this, or you may prefer to pull out key points and put them in a separate slide show.</p>
+<li id="fn:1">
+<p><a href="https://unsplash.com/photos/-Ir03_pgpMU">CEO photo by Oz Seyrek on Unsplash </a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
-<li>
-<p>Following the presentation, each member of your team will also complete and submit a Case Study reflection using <a href="https://byui-cse.github.io/cse450-course/course/reflection.docx">this template</a>.</p>
+<li id="fn:2">
+<p><a href="https://unsplash.com/photos/SJvDxw0azqw">VP of HR photo by Christina @ wocintechchat.com</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://unsplash.com/photos/ml-pxK0Ovmw">VP of Finance photo by steffen Wienberg on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw">Data Science Intern photo by Fábio Lucas on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 </ol>
+</div>
 	</article>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>

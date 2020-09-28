@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Module 02 — Workplace Makeover, Minor Case Study</title>
+	<title>Module 02 — Case Study Introduction</title>
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -24,14 +24,9 @@
         <div id="contents-wrapper">
             <div class="toc">
 <ul>
-<li><a href="#questions">Questions</a><ul>
-<li><a href="#employee-satisfaction">Employee Satisfaction</a></li>
-<li><a href="#work-life-balance">Work-Life Balance</a></li>
-<li><a href="#company-diversity">Company Diversity</a></li>
-<li><a href="#equitable-pay">Equitable Pay</a></li>
-<li><a href="#data-analysis">Data Analysis</a></li>
-</ul>
-</li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#stakeholders">Stakeholders</a></li>
+<li><a href="#dataset">Dataset</a></li>
 </ul>
 </div>
 
@@ -42,85 +37,62 @@
         <span class="icon-byui-logo"></span>
         <div id="titles">
             <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
-            <h2>Module 02 — Workplace Makeover, Minor Case Study</h2>
+            <h2>Module 02 — Case Study Introduction</h2>
         </div>
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
 		<p><img alt="Meeting" src="https://byui-cse.github.io/cse450-course/shared/img/meeting.jpg" />
 <em><a href="https://unsplash.com/photos/gMsnXqILjp4">Photo by Campaign Creators on Unsplash</a></em></p>
-<h2 id="questions">Questions</h2>
-<p>You're about to go into a strategy meeting with the CEO, Vice President of Human Resources, and Vice President of Finance. They want to make sure you have the data required to answer the questions they're most interested in.</p>
-<p>Be prepared to answer the following questions:</p>
-<h3 id="employee-satisfaction">Employee Satisfaction</h3>
+<h2 id="introduction">Introduction</h2>
+<p>You’re working as a data analyst for Red Mic LLC, a company that specializes in manufacturing professional grade microphones for musicians and newscasters.</p>
+<p>Recently, a rival company (Green Audio Inc) announced that they were launching a set of initiatives to take their organization into the twenty-first century.</p>
+<p>After a heated shareholders meeting, the board of directors has tasked the CEO with making sure Red Mic LLC isn’t left behind.</p>
+<h2 id="stakeholders">Stakeholders</h2>
+<p>These are the individuals your team will be helping during the case study.</p>
 <div class="dialogue">
     <img src="https://byui-cse.github.io/cse450-course/shared/img/cecil.jpg">
-    <h5>Cecil, the VP of Human Resources asks:</h5>
-    <blockquote><p>My biggest concern right now is whether or not employees are satisfied with the culture here and what they're being asked to do.</p><p>Given the data we have, what do we need to do to get an accurate measurement of how employee satisfaction has changed over time?</p></blockquote>
+    <h5>Cecil, the VP of Human Resources</h5>
+    <blockquote><p>Hello, I'm Cecil the Vice President of Human Resources. If you have any questions about benefits or workplace culture, please let me know. I look forward to working with you.</p>
+    <p>Cecil came to Red Mic three years ago and has revolutionized employee on-boarding and retention. She's excited to see what data science can bring to the table.</blockquote>
 </div>
 
-<p>Based on your initial analysis of the data, your team feels:</p>
-<ol>
-<li>We have the necessary data in the correct form to answer this question.</li>
-<li>The data we have cannot answer that question, we need to collect more data.</li>
-<li>We could use the data we have, but we'll have to normalize some of the features, and/or encode some of them differently.</li>
-<li>Answering this question would be a violation of ethics and/or privacy laws.</li>
-</ol>
-<h3 id="work-life-balance">Work-Life Balance</h3>
-<p><div class="dialogue">
+<div class="dialogue">
     <img src="https://byui-cse.github.io/cse450-course/shared/img/william.jpg">
-    <h5>William, the VP of Finance asks:</h5>
-    <blockquote><p>My biggest concern is the rising costs from employee sick leave and tardiness. I've noticed a lot of this seems to center around employees with children, especially single mothers.</p><p>Do we have a way to tell from our data if there is some correlation between being an older employee with a family and absenteeism? If so, I'd like to use that information to adjust how HR screens new hires.</p></blockquote>
-</div></p>
-<p>Based on your initial analysis of the data, your team feels:</p>
-<ol>
-<li>We have the necessary data in the correct form to answer this question.</li>
-<li>The data we have cannot answer that question, we need to collect more data.</li>
-<li>We could use the data we have, but we'll have to normalize some of the features, and/or encode some of them differently.</li>
-<li>Answering this question would be a violation of ethics and/or privacy laws.</li>
-</ol>
-<h3 id="company-diversity">Company Diversity</h3>
-<p><div class="dialogue">
-    <img src="https://byui-cse.github.io/cse450-course/shared/img/devon.jpg">
-    <h5>Devon, the CEO asks:</h5>
-    <blockquote><p>I'm concerned that our workforce has the proper balance of diversity. The board would like us to make sure we're using effective methods of recruiting women and minorities.</p> 
-    <p>Do we have a way to tell from our data whether or not our current methods are working, and if not, can we track what the most effective methods have been to date?</p></blockquote>
-</div></p>
-<p>Based on your initial analysis of the data, your team feels:</p>
-<ol>
-<li>We have the necessary data in the correct form to answer this question.</li>
-<li>The data we have cannot answer that question, we need to collect more data.</li>
-<li>We could use the data we have, but we'll have to normalize some of the features, and/or encode some of them differently.</li>
-<li>Answering this question would be a violation of ethics and/or privacy laws.</li>
-</ol>
-<h3 id="equitable-pay">Equitable Pay</h3>
-<div class="dialogue">
-    <img src="https://byui-cse.github.io/cse450-course/shared/img/cecil.jpg">
-    <h5>Cecil, the VP of Human Resources adds:</h5>
-    <blockquote><p>Recruiting women and minorities is a great start, but we need to make sure we're retaining them.</p><p>One key to that is to make sure our salaries are fair and equitable across race and gender boundaries. Can our data tell us if we're doing a good job there?</p></blockquote>
+    <h5>William, the VP of Finance</h5>
+    <blockquote><p>Charmed.</p>
+    <p>William has always been skeptical of data science. He likes his data kept in Excel spreadsheets where he can keep an eye on it.</p></blockquote>
 </div>
 
-<p>Based on your initial analysis of the data, your team feels:</p>
-<ol>
-<li>We have the necessary data in the correct form to answer this question.</li>
-<li>The data we have cannot answer that question, we need to collect more data.</li>
-<li>We could use the data we have, but we'll have to normalize some of the features, and/or encode some of them differently.</li>
-<li>Answering this question would be a violation of ethics and/or privacy laws.</li>
-</ol>
-<h3 id="data-analysis">Data Analysis</h3>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/devon.jpg">
+    <h5>Devon, the CEO</h5>
+    <blockquote><p>It's good to finally have you on the team. I can't wait to see what you can do for Red Mic</p>
+        <p>Devon graduated from Stanford five years ago, launched a VC-backed startup that was later acquired by Red Mic, and was named the CEO by the new board of directors.</p></blockquote>
+</div>
+
 <div class="dialogue">
     <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
-    <h5>Johnny, the data science intern asks:</h5>
-    <blockquote><p>I've heard that clustering is a big thing these days.</p><p>Do you think we could help answer one of these questions using clustering?</p></blockquote>
+    <h5>Johnny, the data science intern</h5>
+    <blockquote><p>Welcome to Red Mic! I'm so glad you're here, now I'm officially not the newest person on the team! What's your favorite Python library?</p>
+        <p>Johnny is very, very excited about all things data science.</blockquote>
 </div>
 
-<p>Based on your initial analysis of the data, your team feels:</p>
+<div class="admonition note">
+<p class="admonition-title">Stakeholder Focus Areas</p>
+<p>The shareholders are particularly interested in the following areas:</p>
 <ol>
-<li>Question 1 would benefit the most from clustering.</li>
-<li>Question 2 would benefit the most from clustering.</li>
-<li>Question 3 would benefit the most from clustering.</li>
-<li>Question 4 would benefit the most from clustering.</li>
+<li>Making sure Red Mic LLC has a diverse workforce.</li>
+<li>Ensuring that employees with similar positions and experience are receiving equitable pay, regardless of race, gender, or marital status.</li>
+<li>Striving to reduce employee turnover by actively measuring employee satisfaction and engagement, as well as engaging employees in special projects.</li>
+<li>Analyzing what work-life balance issues might exist in the workforce that could be negatively impacting employee performance and longevity.</li>
 </ol>
+</div>
+<p>You're about to go into a strategy meeting with the CEO, Vice President of Human Resources, and Vice President of Finance. They want to make sure you have the data required to answer the questions they're most interested in.</p>
+<h2 id="dataset">Dataset</h2>
+<p>Spend some time with your team evaluating <a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/hr.csv">the data</a>. Be sure to look at data types, ranges, and meanings of each feature from the <a href="./hr-dictionary.txt">data dictionary</a>.</p>
+<p>You can use the following Google Colab notebook to assist you:</p>
+<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_02.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
 <div class="footnote">
 <hr />
 <ol>
