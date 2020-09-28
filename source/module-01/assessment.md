@@ -3,11 +3,11 @@ title: Module 01 Assessment
 ---
 
 ## Introduction
-This assignment will test how well you're able to perform various data science-related tasks using Python, pandas, and seaborn, as well as how well you can interpret statistical and probabilistic results.
+This assignment will test how well you're able to perform various data science-related tasks using Python, pandas, and altair, as well as how well you can interpret statistical and probabilistic results.
 
 The assessment consists of three problem sets. Each problem set asks you to work with a dataset you've seen before in order to answer a series of questions. 
 
-To ensure you receive full credit for a question, make sure you demonstrate the appropriate pandas, seaborn, or other commands as requested in the provided code blocks. 
+To ensure you receive full credit for a question, make sure you demonstrate the appropriate pandas, altair, or other commands as requested in the provided code blocks. 
 
 You may find that some questions require multiple steps to fully answer. Others require some mental arithmetic in addition to pandas commands. Use your best judgment.
 
