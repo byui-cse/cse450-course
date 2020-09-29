@@ -16,7 +16,7 @@ After a few more meetings with the executive team, the head of the data science 
 	<img src="{{URLROOT}}/shared/img/william.jpg">
 	<h5>William, the VP of Finance asks:</h5>
 	<blockquote><p>We spent a lot of money hiring the excellent Employee Evaluators Inc. to conduct an employee engagement survey. I know it's a great company, because it's run by my brother, Harold. 
-		<p>Cecil seems to think that her own homegrown survey is better. I admit hers was cheaper..., but sometimes you get what you pay for. For some reason, Devon thinks you can tell us which survey is a better indicator employee longevity.</p>
+		<p>Cecil seems to think that her own homegrown survey is better. I admit hers was cheaper..., but sometimes you get what you pay for. For some reason, Devon thinks you can tell us which survey is a better indicator of employee longevity.</p>
 		<p>I guess we'll see.</p></blockquote>
 </div>
 
