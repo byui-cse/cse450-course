@@ -9,7 +9,8 @@ After a few more meetings with the executive team, the head of the data science 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/cecil.jpg">
 	<h5>Cecil, the VP of Human Resources asks:</h5>
-	<blockquote><p>There are two main things we need to know. First, is there a pay gap based on gender and/or race for similar positions and experience levels?</p></blockquote>
+	<blockquote><p>There are two main things we need to know. First, is there a pay gap based on gender or race for similar positions and experience levels?</p>
+	<p>Second, how are we doing on employee retention? We've had some uh—less than stellar methods of trying to measure that in the past.</p></blockquote>
 </div>
 
 <div class="dialogue">
