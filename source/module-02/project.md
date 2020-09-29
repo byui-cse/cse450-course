@@ -57,14 +57,14 @@ After a few more meetings with the executive team, the head of the data science 
 	Just as you did with the Titanic dataset when you reduced the number of titles, you may find it useful to "bin" categorical features into discrete groups in order to address some of the questions above. There are multiple ways to do this, but previously we used the [`map()` function](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.map.html).
 
 !!!note "Dealing with Dates" 
-	In order to do calculations on dates, you will first need to convert the feature from a string to a DateTime object. The [`to_datetime()` function](https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/09_timeseries.html) can help with this.
+	In order to do calculations on dates, you'll first need to convert the feature from a string to a DateTime object. The [`to_datetime()` function](https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/09_timeseries.html) can help with this.
 
-	Once the feature is a datetime, you can [calculate the number of months between two dates](https://medium.com/@bramtunggala/a-simple-way-to-finding-the-difference-between-two-dates-in-pandas-179d2714b6c).
+	Once the feature is a DateTime, you can [calculate the number of months between two dates](https://medium.com/@bramtunggala/a-simple-way-to-finding-the-difference-between-two-dates-in-pandas-179d2714b6c).
 
 !!!note "K-Means Clustering"
-	Remember, K-Means doesn't work on categorical data. According to the question above, you'll be clustering based on months of service and the results of the most recent Employee Satisfaction survey (`EmpSatisfaction2`).
+	Remember, K-Means doesn't work on categorical data. According to what I got from the discussion, you'll be clustering based on months of service and the results of the old employee engagmeent survey and Cecil's most recent employee satisfaction survey.
 
-	The head of the data science reminds you that you'll need to tackle this part in two steps. First, find the optimal number of clusters using the elbow method. Then, cluster the data into that many clusters and try to figure out what the members of each cluster have in common with one another.
+	I'm sure you know this, but you'll need to tackle this part in two steps. First, find the optimal number of clusters using the elbow method. Then, cluster the data into that many clusters and try to figure out what the members of each cluster have in common with one another.
 
 !!!note "Visualizations"
 	Aside from the visualizations you'll make for the other questions, you will probably want to visualize your clusters in two different ways:
@@ -72,12 +72,12 @@ After a few more meetings with the executive team, the head of the data science 
 	1. A scatter plot visualization where each point is colored according to its cluster label.
 	2. One or more scatter plots where each point is colored according to some feature you think is important to the clustering.
 
-	Alternatively, you could do a single chart where the color is based on cluster label, and the size of the point is based on the feature you think is important to the clustering.
+	Alternatively if the important feature is categorical, you could do a single chart where the color is based on cluster label, and the size of the point is based on the feature you think is important to the clustering.
 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">
 	<h5>Johnny, the Data Science Intern, drops by your house around midnight:</h5>
-	<blockquote><p>Okay, just one last thing, if you need any more help at all, I put together <a href='./hints.html'>this collection of Google Colab notebooks</a> that might be useful.</p><p>Also, I fed your cat. Hope you don't mind.</p></blockquote>
+	<blockquote><p>Okay, just one last thing, if you need any more help at all, I put together <a href='./hints.html'>this collection of Google Colab notebooks</a> that might be useful.</p><p>Also, your cat looked hungry, so I fed him. Hope you don't mind.</p></blockquote>
 </div>
 
 
