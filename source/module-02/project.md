@@ -77,7 +77,7 @@ After a few more meetings with the executive team, the head of the data science 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">
 	<h5>Johnny, the Data Science Intern, drops by your house around midnight:</h5>
-	<blockquote><p>Okay, just one last thing, if you need any more help at all, I put together <a href='./hints.html'>this collection of Google Colab notebooks</a> that might be useful.</p></blockquote>
+	<blockquote><p>Okay, just one last thing, if you need any more help at all, I put together <a href='./hints.html'>this collection of Google Colab notebooks</a> that might be useful.</p><p>Also, I fed your cat. Hope you don't mind.</p></blockquote>
 </div>
 
 
