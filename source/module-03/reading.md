@@ -24,4 +24,4 @@ Complete the following preparation reading:
 * Read these sections from Chapter 4 of your text: 4.1, 4.2, 4.3
 * Read these sections from Chapter 8 of your text: 8.1, 8.2, 8.3, 8.4.2.1, 8.4.2.2, 8.4.3, 8.4.3.1
 * Read through [this cool interactive demo](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) of decision trees.
-* Then follow up with [this demo](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/) of the bias-variance tradeoff in decision trees.
+* Then follow up with [this demo](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/) of the bias-variance trade-off in decision trees.
