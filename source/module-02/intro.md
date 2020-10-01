@@ -27,7 +27,7 @@ These are the individuals your team will be helping during the case study.
 	<img src="{{URLROOT}}/shared/img/william.jpg">
 	<h5>William, the VP of Finance</h5>
 	<blockquote><p>Charmed.</p>
-	<p>I'll admit, I'm a bit skeptical of this so-called "data science". I likes my data kept in Excel spreadsheets where I can keep an eye on it.</p></blockquote>
+	<p>I'll admit, I'm a bit skeptical of this so-called "data science". I like my data kept in Excel spreadsheets where I can keep an eye on it.</p></blockquote>
 </div>
 
 <div class="dialogue">
