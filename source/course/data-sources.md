@@ -47,3 +47,12 @@ Dr. Carla Patalano, “Human Resources Data Set.” Kaggle, doi: 10.34740/KAGGLE
 * Original Source: [Kaggle](https://www.kaggle.com/rhuebner/human-resources-data-set)
 * License: [Creative Commons By-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 * [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/hr.csv)
+
+### Banking Data
+
+Dataset based on [Moro S, Cortez P, Rita P. A data-driven approach to predict the success of bank telemarketing. Decision Support Systems. 2014;62:22-31. doi:10.1016/j.dss.2014.03.001](https://www.sciencedirect.com/science/article/abs/pii/S016792361400061X). Further augmented [here](https://www.kaggle.com/volodymyrgavrysh/bank-marketing-campaigns-dataset)
+
+* Original Source: [Kaggle](https://www.kaggle.com/volodymyrgavrysh/bank-marketing-campaigns-dataset)
+* License: [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv)
+
