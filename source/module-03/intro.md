@@ -42,7 +42,7 @@ These are the individuals your team will be helping during the case study:
 !!!note "Stakeholder Focus Areas"
 	The shareholders are particularly interested in the following areas:
 
-	1.	Finding interesting customer segments based on their previous marketing campain.
+	1.	Finding interesting customer segments based on their previous marketing campaign.
 	2.  Finding a way to identify the types of customers most likely to respond favorably to future marketing campaigns.
 	3.  Proving to a skeptical Senhor Ferreira that a targeted campaign based on data science will significantly outperform a campaign made up of randomly selected customers.
 
