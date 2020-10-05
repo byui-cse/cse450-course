@@ -24,7 +24,7 @@ At the end of module one, students will take an assessment quiz. The main purpos
 Students who elect to continue with the course will then be assigned to permanent groups for the remainder of the semester.
 
 
-## Module 01 Assignemnts
+## Module 01 Assignments
 
 For your convenience, all five preparation readings and data exploration assignments are listed below, but please remember that the assignments listed in your Canvas session by your instructor are the final word on what is actually due on a given day:
 

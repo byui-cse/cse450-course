@@ -20,7 +20,7 @@ These are the individuals your team will be helping during the case study.
 	<img src="{{URLROOT}}/shared/img/cecil.jpg">
 	<h5>Cecil, the VP of Human Resources</h5>
 	<blockquote><p>Hello, I'm Cecil the Vice President of Human Resources. If you have any questions about benefits or workplace culture, please let me know. I look forward to working with you.</p>
-	<p>I came to Red Mic three years ago and have spent most of my time since workong on employee on-boarding and retention. I'm excited to see what data science can bring to the table.</blockquote>
+	<p>I came to Red Mic three years ago and have spent most of my time since working on employee on-boarding and retention. I'm excited to see what data science can bring to the table.</blockquote>
 </div>
 
 <div class="dialogue">
