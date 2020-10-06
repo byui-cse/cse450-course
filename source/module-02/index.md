@@ -22,6 +22,11 @@ For your convenience, here are links to the module 02 readings and assignments:
 * [In-class Case Study Discussion](./discussion.html)
 * [Case Study Project](./project.html)
 
+#### Data
+
+* [HR Dataset]({{URLROOT}}/data/hr.csv)
+* [HR Data Dictionary](./hr-dictionary/.txt)
+
 #### Templates
 
 * [Team Executive Summary Template](./summary.docx)
