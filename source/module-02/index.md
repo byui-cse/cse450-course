@@ -24,7 +24,7 @@ For your convenience, here are links to the module 02 readings and assignments:
 
 #### Data
 
-* [HR Dataset]({{URLROOT}}/data/hr.csv)
+* [HR Dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/hr.csv)
 * [HR Data Dictionary](./hr-dictionary/.txt)
 
 #### Templates
