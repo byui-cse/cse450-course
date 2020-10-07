@@ -64,7 +64,7 @@ You should absolutely still do the reading above. One technique would be to read
 #### Decision Trees
 
 * [Here's a cool interactive demo](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) of decision trees.
-* [This follow-up demo](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/) shows the bias-variance trade-off in decision trees models.
+* [This follow-up demo](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/) shows the bias-variance trade-off in decision tree models.
 
 
 #### Shannon's Entropy Model 
