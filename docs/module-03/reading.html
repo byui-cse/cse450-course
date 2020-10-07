@@ -26,6 +26,7 @@
 <ul>
 <li><a href="#overview">Overview</a></li>
 <li><a href="#preparation-reading">Preparation Reading</a></li>
+<li><a href="#extra-help">Extra Help</a></li>
 </ul>
 </div>
 
@@ -46,7 +47,8 @@
 <h2 id="overview">Overview</h2>
 <div class="admonition time">
 <p class="admonition-title">Estimated Reading Time</p>
-<p>Plan on around 90 - 120 minutes for this preparation reading, which consists of textbook reading, plus an online demo.</p>
+<p>Plan on around 90 - 120 minutes for this preparation reading, which consists of textbook reading. </p>
+<p>There are also some optional online materials you may want to review.</p>
 </div>
 <p>The objective of this module is to provide a real-world scenario in which you can practice the following data science / machine learning skills:</p>
 <ul>
@@ -55,12 +57,74 @@
 <li>Evaluating how well a model makes categorical predictions</li>
 </ul>
 <h2 id="preparation-reading">Preparation Reading</h2>
+<div class="admonition note">
+<p class="admonition-title">Reading the Text</p>
+<p>As you read the chapters in the textbook, you may find it useful to start with the chapter summary at the end of the chapter. </p>
+<p>This summary provides an overview of the key concepts presented in the chapter, and shows how each is connected together.</p>
+</div>
+<div class="admonition def">
+<p class="admonition-title">Sensitivity and Specificity</p>
+<p>In section 8.4.2.1 about confusion matrix-based performance measures, you'll see the terms "True Positive Rate" and "True Negative Rate" (among others). </p>
+<p>It is common to refer to "True Positive Rate" as <em>Sensitivity</em>.</p>
+<p>It is also common to refer to "True Negative Rate" as <em>Specificity</em>.</p>
+<p>The text mentions this in a footnote on page 414, but they are such common terms, we want to make sure you don't miss this definition.</p>
+</div>
 <p>Complete the following preparation reading:</p>
 <ul>
-<li>Read these sections from Chapter 4 of your text: 4.1, 4.2, 4.3</li>
-<li>Read these sections from Chapter 8 of your text: 8.1, 8.2, 8.3, 8.4.2.1, 8.4.2.2, 8.4.3, 8.4.3.1</li>
-<li>Read through <a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">this cool interactive demo</a> of decision trees.</li>
-<li>Then follow up with <a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-2/">this demo</a> of the bias-variance trade-off in decision trees.</li>
+<li>
+<p>Read pages 117 - 144 of your text (Chapter 4 until section 4.4), which describes Decision Trees and the ID3 algorithm.</p>
+</li>
+<li>
+<p>Read Pages 397 - 413 of your text which describes ways to verify how well a machine learning model works. (Chapter 8 until section 8.4.2)</p>
+</li>
+<li>Read the following sections from chapter 8 which each describe a specific model performance measure:<ul>
+<li>8.4.2.1 - Confusion Matrix-based Performance Measures</li>
+<li>8.4.2.2 - Precision, Recall, and $F_1$ Measure.</li>
+<li>8.4.3 - Prediction SCores</li>
+<li>8.4.3.1 - Receiver Operating Characteristic Curves (ROC Curves)</li>
+</ul>
+</li>
+</ul>
+<h2 id="extra-help">Extra Help</h2>
+<p>Below you'll find some optional videos and other resources that help supplement the reading. </p>
+<p>You should absolutely still do the reading above. One technique would be to read the text, paying particular attention to new concepts (usually written in bold), then research those concepts using videos or other articles until you're confident you understand them. Afterwards, circle back to the text to pick up extra details you might have missed the first time.</p>
+<div class="admonition note">
+<p class="admonition-title">Learning Complex Technical Information</p>
+<p>Reading technical information can be difficult and is an acquired skill that you absolutely should develop if you're planning to work in data science. New research papers and algorithms are released constantly in this field that require you to parse through information and formulas. </p>
+<p>This helps you to not only understand how the algorithm works, but which types of problems the algorithm would and would not not be suited for.</p>
+<p>However, sometimes it's nice to have a different perspective. Some people learn better visually, through videos, interactively, or by example. </p>
+<p>In some cases, a superficial understanding of an algorithm and its parameters may be good enough for what you need to do. But you'll always benefit from a deeper understanding of how the tools and algorithms you're using actually work, and the reasons they behave better in some situations than others.</p>
+</div>
+<h4>Decision Trees</h4>
+<ul>
+<li><a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">Here's a cool interactive demo</a> of decision trees.</li>
+<li><a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-2/">This follow-up demo</a> shows the bias-variance trade-off in decision trees models.</li>
+</ul>
+<h4>Shannon's Entropy Model</h4>
+<p><img alt="Entropy Formula" src="https://byui-cse.github.io/cse450-course/shared/img/entropy_formula.png" />
+<em><a href="https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800">Image from The Intuition behind Shannon’s Entropy</a></em></p>
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=2s3aJfRr9gE">This video</a> has a nice visual way of explaining the relationship between entropy, questions, and information.</p>
+</li>
+<li>
+<p><a href="https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800">The Intuition behind Shannon’s Entropy</a> has a nice discussion of the reason behind the log transform part of the entropy formula (equation 4.1 in the text).</p>
+</li>
+<li>
+<p><a href="https://towardsdatascience.com/why-take-the-log-of-a-continuous-target-variable-1ca0069ee935">Why take the log of a continuous target variable</a> has another nice explanation of why we often care about the log transform of a feature, something that's going to come up quite often.</p>
+</li>
+</ul>
+<h4>Model Evaluation</h4>
+<ul>
+<li>
+<p><a href="https://towardsdatascience.com/train-validation-and-test-sets-72cb40cba9e7">About Train, Validation and Test Sets in Machine Learning</a> is an article that explains why we split the dataset up to evaluate our machine learning models.</p>
+</li>
+<li>
+<p><a href="https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9">Accuracy, Precision, Recall or F1?</a> explains a bit about each of these performance metrics, and when it is best to use each one.</p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=4jRBRDbJemM">ROC and AUC, Clearly Explained!</a> is a video visually describing how to build and use an ROC curve. (Don't let the corny intro music dissuade you, it's a pretty good video)</p>
+</li>
 </ul>
 	</article>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
