@@ -1,5 +1,5 @@
 ---
-title: Module 02 — Workplace Makeover, Major Case Study Assignment
+title: Module 02 — Workplace Makeover, Project
 ---
 
 ## Overview
@@ -31,7 +31,7 @@ After a few more meetings with the executive team, the head of the data science 
 	<img src="{{URLROOT}}/shared/img/devon.jpg">
 	<h5>Devon, the CEO asks:</h5>
 	<blockquote><p>These are all great questions, thanks team!</p><p>One last thing. The most important question to the board right now is diversity. Are we doing a good job on diversity overall? If not, which of our recruiting sources is having the biggest benefit? Where should we be focusing future recruitment efforts?</p>
-	<p>If you could send us <a href='./summary.docx'>your write up on this by Saturday night</a>, that would be great.</blockquote>
+	<p>If you could send us <a href='./summary.docx'>your write up on this by Saturday night</a>, that would be great.</p></blockquote>
 </div>
 
 <div class="dialogue">
@@ -62,7 +62,7 @@ After a few more meetings with the executive team, the head of the data science 
 	Once the feature is a DateTime, you can [calculate the number of months between two dates](https://medium.com/@bramtunggala/a-simple-way-to-finding-the-difference-between-two-dates-in-pandas-179d2714b6c).
 
 !!!note "K-Means Clustering"
-	Remember, K-Means doesn't work on categorical data. According to what I got from the discussion, you'll be clustering based on months of service and the results of the old employee engagmeent survey and Cecil's most recent employee satisfaction survey.
+	Remember, K-Means doesn't work on categorical data. According to what I got from the discussion, you'll be clustering based on months of service and the results of the old employee engagement survey and Cecil's most recent employee satisfaction survey.
 
 	I'm sure you know this, but you'll need to tackle this part in two steps. First, find the optimal number of clusters using the elbow method. Then, cluster the data into that many clusters and try to figure out what the members of each cluster have in common with one another.
 

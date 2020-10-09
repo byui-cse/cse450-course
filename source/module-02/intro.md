@@ -1,5 +1,5 @@
 ---
-title: Module 02 — Case Study Introduction
+title: Module 02 — Workplace Makeover, Case Study Introduction
 ---
 
 ![Meeting]({{URLROOT}}/shared/img/meeting.jpg)

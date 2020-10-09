@@ -1,5 +1,5 @@
 ---
-title: Module 03 — Case Study Introduction
+title: Module 03 — Targeted Marketing, Case Study Introduction
 ---
 
 ![Meeting]({{URLROOT}}/shared/img/portugal.jpg)
