@@ -56,3 +56,14 @@ Dataset based on [Moro S, Cortez P, Rita P. A data-driven approach to predict th
 * License: [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 * [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv)
 
+### Spotify Data
+
+Spotify song information.
+
+* Original Source: [Kaggle](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks)
+* License: [Community Data License Agreement - Sharing, 1.0](https://cdla.io/sharing-1-0/)
+* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data.csv)
+* [Direct Download (by Artist)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_artist.csv)
+* [Direct Download (by Artist with genres)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_artist_w_genres.csv)
+* [Direct Download (by Genre)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_genres.csv)
+* [Direct Download (by Year)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_year.csv)

@@ -5,7 +5,7 @@ body-class: index-page
 
 ## Module 03 - Overview
 
-This week you'll learn about unsupervised learning, clustering, and data preprocessing.
+This week you'll learn about supervised learning, decision trees, and model evaluation.
 
 !!! warning "Subject to Change"
 	
