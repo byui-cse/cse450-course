@@ -30,11 +30,23 @@ After a few more meetings, your team has been assigned to address the following 
 	<blockquote><p>Maybe?</p></blockquote>
 </div>
 
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/tom.jpg">
+	<h5>Tom Jones, Head of marketing and brand development</h5>
+	<blockquote><p>Either way, please have a summary of your research ready by Saturday.</p></blockquote>
+</div>
+
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">
 	<h5>Johnny, the data science intern</h5>
 	<blockquote><p>Hey, I put together some tips for us to use, just like old times!</p></blockquote>
 </div>
+
+!!!warning "Executive Summary"
+	By now you know what level of quality we expect from you in terms of analysis summaries. From this point on, you will not be provided with an executive summary template.
+
+	While you now have some leeway in the styling of this report, please ensure that what you turn in has the same level of quality and professionalism as previous templates.
 
 ## Tips from Johnny
 

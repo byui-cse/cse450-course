@@ -6,7 +6,7 @@ title: Module 04 — Hit Songs, Case Study Introduction
 *[Photo by Austin Neill on Unsplash](https://unsplash.com/photos/hgO1wFPXl3I)*
 
 ## Introduction
-You've been hired by a major record label to help them build a model that can predict whether or not a song will be a hit.
+You've been hired by a major record label, MMC Entertainment, to help them build a model that can predict whether or not a song will be a hit.
 
 ## Stakeholders
 
