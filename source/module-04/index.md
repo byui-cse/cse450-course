@@ -30,6 +30,8 @@ For your convenience, here are links to the module 04 readings and assignments:
 * [Spotify Data (by Genre)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_genres.csv)
 * [Spotify Data (by Year)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_year.csv)
 
+#### Data Dictionary & Colab Notebook
+
 * [Spotify Data Dictionary](./spotify-dictionary.txt)
 * [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_04.ipynb)
 

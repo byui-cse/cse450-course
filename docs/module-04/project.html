@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 04 — Hit Song, Project</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css?v1.3">
+    <meta charset="utf-8">
+
+</head>
+<body class="">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#tips-from-johnny">Tips from Johnny</a></li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
+            <h2>Module 04 — Hit Song, Project</h2>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<h2 id="overview">Overview</h2>
+<p>After a few more meetings, your team has been assigned to address the following issues asked by the stakeholders:</p>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/tom.jpg">
+    <h5>Tom Jones, Head of marketing and brand development</h5>
+    <blockquote><p>After our discussion yesterday, I went back to corporate, and they want it all.</p><p>They want to know if a song is going to be popular, they want to know why it's popular, and they want to know if we can quantify how tastes have changed over the decades.</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/ezra.jpg">
+    <h5>Ezra, Lead Singer of the Wasps</h5>
+    <blockquote><p>I want to know one more thing, sort of the opposite of Tom's questions. Obviously, everyone wants to top the charts, but I know a lot of guys that are living large just based on royalty from midlister songs — songs that aren't super popular, but that also aren't horrible.</p><p>So if popularity has a big timing component to it, can you also build a model or something that says "whatever you do, don't make a song long this, regardless of when it comes out?</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/tom.jpg">
+    <h5>Tom Jones, Head of marketing and brand development</h5>
+    <blockquote><p>In other words, I want a model that predicts hits.</p><p>Ezra wants to know if there's a way to predict flops.</p><p>Wouldn't that be the same model, but in reverse?</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/ezra.jpg">
+    <h5>Ezra, Lead Singer of the Wasps</h5>
+    <blockquote><p>Maybe?</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
+    <h5>Johnny, the data science intern</h5>
+    <blockquote><p>Hey, I put together some tips for us to use, just like old times!</p></blockquote>
+</div>
+
+<h2 id="tips-from-johnny">Tips from Johnny</h2>
+<div class="admonition note">
+<p class="admonition-title">Data Dictionary</p>
+<p>Our database analyst put together this <a href="./spotify-dictionary.txt">data dictionary</a> to help explain the values and sources of different columns in the datasets.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Different Views of the Data</p>
+<p>There are several different views of the historic song data. One that gives just the raw data for each track. Another grouped by year, where all the hit songs for that year are aggregated based on the mean or mode values for each attribute, another by artist, another by genre, etc...</p>
+<p>Some of those may be more useful than others in your analysis. You might also want to generate your own summaries of the data using something other than mean and mode.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">k-Nearest Neighbors</p>
+<p>You can find documentation on how to use kNN with sci-kit learn on these pages:</p>
+<ul>
+<li><a href="https://scikit-learn.org/stable/modules/neighbors.html">User Guide Entry for Nearest Neighbors</a></li>
+<li><a href="https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html">API Docs for Nearest Neighbors Classifier</a></li>
+<li><a href="https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html">API Docs for Nearest Neighbors Regressor</a></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Hyper Parameters</p>
+<p>When you build a model, you specify some settings for how the model should work. Which algorithm to use, the value of different constraints, etc... In machine learning, these values are collectively called "Hyper Parameters".</p>
+<p>These settings will have a large effect on how well your model performs. You could test different combinations manually, or you could use an automated method such as <a href="https://scikit-learn.org/stable/modules/grid_search.html">Grid Search</a>.</p>
+</div>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
+    <h5>Johnny, the Data Science Intern, catches you after work:</h5>
+    <blockquote><p>Hey, I know you're probably busy, but in case you need it, I put together <a href='./hints.html'>this collection of Google Colab notebooks</a> that might be useful for this project.</p></blockquote>
+</div>
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://unsplash.com/photos/3Uf-aRahKcc">Lead Singer photo by Brian Lundquist on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://unsplash.com/photos/pAtA8xe_iVM">Head of Marketing photo by LinkedIn Sales Navigator on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw">Data Science Intern photo by Fábio Lucas on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+	</article>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>

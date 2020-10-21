@@ -1,0 +1,18 @@
+These datasets contain information from the Spotify API.
+
+The features provided are mostly values from the Audio Features endpoint (such as valence, danceability, etc...), but there are also a couple of features (such as popularity) that come from the Track Features endpoint.
+
+Note that "genre" in the datasets that contain that feature, is tied to an artist, rather than a particular song. 
+
+Aggregated datasets (by artist, year, and genre) contain the mean value of the continuous features, and the mode of categorical features.
+
+Descriptions of each feature and the values they contain can be found in the Spotify API documentation:
+
+Audio Features
+https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
+
+Track Features
+https://developer.spotify.com/documentation/web-api/reference/tracks/get-track/
+
+Artist Features
+https://developer.spotify.com/documentation/web-api/reference/artists/get-artist/

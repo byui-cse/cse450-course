@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Module 04: Overview</title>
+	<title>Module 04 — Hit Songs, Case Study Introduction</title>
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -19,13 +19,17 @@
     <meta charset="utf-8">
 
 </head>
-<body class="index-page">
+<body class="">
      <div id="modal-screen">
         <div id="contents-wrapper">
             <div class="toc">
 <ul>
-<li><a href="#module-04-overview">Module 04 - Overview</a></li>
-<li><a href="#module-04-assignments">Module 04 Assignments</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#stakeholders">Stakeholders</a></li>
+<li><a href="#data">Data</a><ul>
+<li><a href="#datasets">Datasets</a></li>
+</ul>
+</li>
 </ul>
 </div>
 
@@ -36,27 +40,48 @@
         <span class="icon-byui-logo"></span>
         <div id="titles">
             <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
-            <h2>Module 04: Overview</h2>
+            <h2>Module 04 — Hit Songs, Case Study Introduction</h2>
         </div>
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<h2 id="module-04-overview">Module 04 - Overview</h2>
-<p>This week you'll learn about k-Nearest Neighbors, distance metrics, and model evaluation.</p>
-<div class="admonition warning">
-<p class="admonition-title">Subject to Change</p>
-<p>Keep in mind that your instructor may deviate somewhat from the following guide, and they have final say on assignment requirements, delivery methods, and due dates. So be sure to pay attention to both in-class and Canvas announcements.</p>
+		<p><img alt="Meeting" src="https://byui-cse.github.io/cse450-course/shared/img/song.jpg" />
+<em><a href="https://unsplash.com/photos/hgO1wFPXl3I">Photo by Austin Neill on Unsplash</a></em></p>
+<h2 id="introduction">Introduction</h2>
+<p>You've been hired by a major record label to help them build a model that can predict whether or not a song will be a hit.</p>
+<h2 id="stakeholders">Stakeholders</h2>
+<p>These are the individuals your team will be helping during the case study:</p>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/ezra.jpg">
+    <h5>Ezra, Lead Singer of the Wasps</h5>
+    <blockquote><p>I don't need some computer telling me how to make my art.</p><p>But, it could be interesting to incorporate some synthetic components into one of my songs...just as an experiment.</p></blockquote>
 </div>
-<h2 id="module-04-assignments">Module 04 Assignments</h2>
-<p>For your convenience, here are links to the module 04 readings and assignments:</p>
-<h4>Readings</h4>
-<ul>
-<li><a href="./reading.html">Preparation Reading</a></li>
-<li><a href="./intro.html">Case Study Intro</a></li>
-<li><a href="./discussion.html">In-class Case Study Discussion</a></li>
-<li><a href="./project.html">Case Study Project</a></li>
-</ul>
-<h4>Data</h4>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/tom.jpg">
+    <h5>Tom Jones, Head of marketing and brand development</h5>
+    <blockquote><p>While we all celebrate the art behind your music Ezra, our research over the years tells us that there are several factors that go into predicting whether or not a song will be a hit.</p><p>Some of that comes down to timing, but we think there may be other aspects that we can quantify.</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
+    <h5>Johnny, Data Science Intern</h5>
+    <blockquote><p>Hey! You're here too! I just started working here last week.</p>
+        <p>The record company has a ton of information on old songs, including how popular they were. I suggest we start there.</p></blockquote>
+</div>
+
+<div class="admonition note">
+<p class="admonition-title">Stakeholder Focus Areas</p>
+<p>The stakeholders are particularly interested in the following areas:</p>
+<ol>
+<li>Building a model that can predict how popular a song is.</li>
+<li>Understanding how tastes have changed over time, and if there are cycles in those tastes.</li>
+</ol>
+</div>
+<p>You've been invited to a strategy meeting tomorrow. They're planning to discuss the marketing campaign and would like your input on a few key points.</p>
+<h2 id="data">Data</h2>
+<p>Spend some time with your team evaluating the data. Be sure to look at data types, ranges, and meanings of each feature from the <a href="./bank-dictionary.txt">data dictionary</a>.</p>
+<h3 id="datasets">Datasets</h3>
 <ul>
 <li><a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data.csv">Spotify Data</a></li>
 <li><a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_artist.csv">Spotify Data (by Artist)</a></li>
@@ -64,16 +89,22 @@
 <li><a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_genres.csv">Spotify Data (by Genre)</a></li>
 <li><a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_year.csv">Spotify Data (by Year)</a></li>
 </ul>
-<h4>Data Dictionary &amp; Colab Notebook</h4>
-<ul>
-<li><a href="./spotify-dictionary.txt">Spotify Data Dictionary</a></li>
-<li><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_04.ipynb">Google Colab Notebook</a></li>
-</ul>
-<h4>Templates</h4>
-<ul>
-<li><a href="./summary.docx">Team Executive Summary Template</a></li>
-<li><a href="https://byui-cse.github.io/cse450-course/course/reflection.docx">Individual Reflection Template</a></li>
-</ul>
+<p>You can use the following Google Colab notebook to assist you:</p>
+<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_04.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://unsplash.com/photos/3Uf-aRahKcc">Lead Singer photo by Brian Lundquist on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://unsplash.com/photos/pAtA8xe_iVM">Head of Marketing photo by LinkedIn Sales Navigator on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw">Data Science Intern photo by Fábio Lucas on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 	</article>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
