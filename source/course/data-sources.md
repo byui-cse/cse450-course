@@ -67,3 +67,11 @@ Spotify song information.
 * [Direct Download (by Artist with genres)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_artist_w_genres.csv)
 * [Direct Download (by Genre)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_genres.csv)
 * [Direct Download (by Year)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_year.csv)
+
+### Iris Data
+
+Iris Flower Dataset
+
+* Original Source: [UCI](https://archive.ics.uci.edu/ml/datasets/iris)
+* License: [Citation Requested](https://archive.ics.uci.edu/ml/citation_policy.html)
+* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/iris.csv)
