@@ -40,7 +40,7 @@ These are the individuals your team will be helping during the case study:
 You've been invited to a strategy meeting tomorrow. They're planning to discuss the marketing campaign and would like your input on a few key points.
 
 ## Data
-Spend some time with your team evaluating the data. Be sure to look at data types, ranges, and meanings of each feature from the [data dictionary](./bank-dictionary.txt).
+Spend some time with your team evaluating the data. Be sure to look at data types, ranges, and meanings of each feature from the [data dictionary](./spotify-dictionary.txt).
 
 ### Datasets
 * [Spotify Data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data.csv)
