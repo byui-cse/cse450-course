@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 05 — Neural Networks, Activation Functions</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css?v1.3">
+    <meta charset="utf-8">
+
+</head>
+<body class="">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#activation-functions">Activation Functions</a><ul>
+<li><a href="#functions-convert-inputs-to-outputs">Functions Convert Inputs to Outputs</a></li>
+<li><a href="#activation-functions-in-neural-networks">Activation Functions in Neural Networks</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
+            <h2>Module 05 — Neural Networks, Activation Functions</h2>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<h2 id="activation-functions">Activation Functions</h2>
+<p>The videos mention the <em>Sigmoid</em> activation function. There are lots of different activation functions used in neural networks, and it's an area of active research. </p>
+<p>There are three key things to know about activation functions in the context of neural networks:</p>
+<h3 id="functions-convert-inputs-to-outputs">Functions Convert Inputs to Outputs</h3>
+<p>Like all mathematical functions, activation functions take an input and convert it to an output.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<div class="admonition note">
+<p class="admonition-title">Function Syntax</p>
+<p>You might be used to seeing functions written like this: $y = mx + b$, which we might read as:</p>
+<p><em>Y is equal to m times x plus b.</em></p>
+<p>But, often functions are written using this syntax: $f(x) = mx + b$, which results in the same answer, but is read as:</p>
+<p><em>The output of the function is m times the input, plus b.</em></p>
+<p>Activation functions (and most higher math in machine learning) use the second syntax.</p>
+</div>
+<p>Here's a really simple activation function:</p>
+<p>$$f(x) = x$$</p>
+<p>This function just says, whatever $x$ is (the input), $f(x)$ (the output) will be the same thing.</p>
+<p>Many activation functions are <a href="https://www.mathsisfun.com/sets functions-piecewise.html">piecewise functions</a>. </p>
+<p>For example:</p>
+<p>$$f(x) = \begin{cases} 
+                        0, &amp;\text{if } x \leq 0 \\
+                        x, &amp;\text{if } x \gt 0 
+                    \end{cases} $$</p>
+<p>This function says that if $x$ (the input) is less than or equal to 0, $f(x)$ (the output) will be 0. If $x$ is greater than 0, then the output will just be $x$.</p>
+<h3 id="activation-functions-in-neural-networks">Activation Functions in Neural Networks</h3>
+<p>Activation functions are used to determine what the output of a <a href="https://developers.google.com/machine-learning/glossary#perceptron">perceptron</a> should be.</p>
+<p>Different activation functions have different behaviors and side-effects. Some types are better suited to certain problems than others. </p>
+<p>The videos you watched mention the <a href="https://developers.google.com/machine-learning/glossary#sigmoid_function">Sigmoid activation function</a>, which was popular in neural networks for many years.</p>
+<p>Currently, the <a href="https://developers.google.com/machine-learning/glossary#ReLU">Rectified Linear Unit (ReLU) activation function</a> is the most commonly used.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+<p>As with most things in machine learning, the general strategy for choosing the best activation function is to try different variations and measure the results.<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Mathematicians like to say that functions "map a domain to a range". See <a href="https://www.mathsisfun.com/sets/domain-range-codomain.html">this article</a> for details.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://missinglink.ai/guides/neural-network-concepts/7-types-neural-network-activation-functions-right/">This article</a> has a good overview of some of the most common activation functions and their pros and cons. However, most of the pros and cons people associate with activation functions are math-centric, which may not be easily translatable to "is this a good function to use for my data?"&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Activation functions are an active area of research, and people are always exploring new functions to use in neural networks. <a href="https://en.wikipedia.org/wiki/Activation_function#Comparison_of_activation_functions">This Wikipedia article</a> has a good overview of some recent and popular activation functions.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+	</article>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>

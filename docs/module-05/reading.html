@@ -26,10 +26,8 @@
 <ul>
 <li><a href="#overview">Overview</a></li>
 <li><a href="#preparation-reading">Preparation Reading</a><ul>
-<li><a href="#neural-networks-intro">Neural Networks Intro</a></li>
-<li><a href="#activation-functions">Activation Functions</a></li>
-<li><a href="#hyperparameters">Hyperparameters</a></li>
-<li><a href="#keras">Keras</a></li>
+<li><a href="#theory">Theory</a></li>
+<li><a href="#practical">Practical</a></li>
 <li><a href="#additional-reading">Additional Reading</a></li>
 </ul>
 </li>
@@ -51,11 +49,16 @@
 		<p><img alt="Clustering" src="https://byui-cse.github.io/cse450-course/shared/img/network.jpg" />
 <em><a href="https://unsplash.com/photos/Zq6HerrBPEs">Photo by Akshay Nanavati on Unsplash</a></em></p>
 <h2 id="overview">Overview</h2>
+<p>The objective of this module is to provide a real-world scenario in which you can practice using Neural Networks.</p>
 <div class="admonition time">
 <p class="admonition-title">Estimated Reading Time</p>
-<p>Plan on around 120 - 240 minutes for this preparation reading, which consists of online reading and videos. </p>
+<p>Plan on around 120 - 240 minutes for this preparation reading, which consists of online reading and videos.</p>
 </div>
-<p>The objective of this module is to provide a real-world scenario in which you can practice using Neural Networks.</p>
+<div class="admonition note">
+<p class="admonition-title">Theory vs Practice</p>
+<p>There is a lot of content to read this week. For the sake of the preparation quiz and Friday's discussion, you should go through everything in the <em>Theory</em> section below.</p>
+<p>The items in the <em>Practical</em> section are things you'll want to go through before you start in on the actual case study work on Monday.</p>
+</div>
 <h2 id="preparation-reading">Preparation Reading</h2>
 <div class="admonition def">
 <p class="admonition-title">Lots of Vocabulary</p>
@@ -63,92 +66,36 @@
 <p><a href="https://developers.google.com/machine-learning/glossary">This resource from Google</a> provides
 a nice reference.</p>
 </div>
-<p>This module's reading has the following components:</p>
-<ul>
-<li>An introduction to neural networks</li>
-<li>An overview of activation functions</li>
-<li>A discussion of hyperparameters</li>
-<li>A set of tutorials for the Keras framework you'll be using to create neural networks</li>
-<li>Some optional extended reading for going further</li>
-</ul>
-<h3 id="neural-networks-intro">Neural Networks Intro</h3>
-<p>Watch the first three videos on <a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi">this playlist</a>, which introduce neural networks, gradient descent, and backpropagation. The fourth video is optional:</p>
+<h3 id="theory">Theory</h3>
+<p>Please go through this content before the reading quiz and class discussion on Friday:</p>
+<p>This video from MIT does a great job of introducing all of the high level concepts of how neural networks work, and how they can be used to solve machine learning problems.</p>
+<div class="admonition warning">
+<p class="admonition-title">Higher Math Warning</p>
+<p>If you are a bit math-a-phobic, this video does get into higher level calculus and linear algebra in a few areas. </p>
+<p>If you find yourself getting lost in the math details of this video, you may find it useful to first watch the three videos in the <em>Additional Help</em> section below, which introduce neural networks at a higher level.</p>
+<p>Once you're comfortable with the ideas in those videos, then come back and watch the MIT video again.</p>
+</div>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/njKP3FqW3Sk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h4>Additional Help</h4>
+<p>If you're finding the MIT video hard to follow, you might want to watch these three optional videos first, then go back and watch the MIT video:</p>
 <iframe width="480" height="270" src="https://www.youtube.com/embed/aircAruvnKk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="480" height="270" src="https://www.youtube.com/embed/IHZwWFHWa-w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="480" height="270" src="https://www.youtube.com/embed/Ilg3gGewQ5U?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<h3 id="activation-functions">Activation Functions</h3>
-<p>The videos mention the <em>Sigmoid</em> activation function. There are lots of different activation functions used in neural networks, and it's an area of active research. </p>
-<p>There are three key things to know about activation functions in the context of neural networks:</p>
-<h4>Functions Convert Inputs to Outputs</h4>
-<p>Like all mathematical functions, activation functions take an input and convert it to an output.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
-<div class="admonition note">
-<p class="admonition-title">Function Syntax</p>
-<p>You might be used to seeing functions written like this: $y = mx + b$, which we might read as:</p>
-<p><em>Y is equal to m times x plus b.</em></p>
-<p>But, often functions are written using this syntax: $f(x) = mx + b$, which results in the same answer, but is read as:</p>
-<p><em>The output of the function is m times the input, plus b.</em></p>
-<p>Activation functions (and most higher math in machine learning) use the second syntax.</p>
-</div>
-<p>Here's a really simple activation function:</p>
-<p>$$f(x) = x$$</p>
-<p>This function just says, whatever $x$ is (the input), $f(x)$ (the output) will be the same thing.</p>
-<p>Many activation functions are <a href="https://www.mathsisfun.com/sets functions-piecewise.html">piecewise functions</a>. </p>
-<p>For example:</p>
-<p>$$f(x) = \begin{cases} 
-                        0, &amp;\text{if } x \leq 0 \\
-                        x, &amp;\text{if } x \gt 0 
-                    \end{cases} $$</p>
-<p>This function says that if $x$ (the input) is less than or equal to 0, $f(x)$ (the output) will be 0. If $x$ is greater than 0, then the output will just be $x$.</p>
-<h4>Activation Functions in Neural Networks</h4>
-<p>Activation functions are used to determine what the output of a <a href="https://developers.google.com/machine-learning/glossary#perceptron">perceptron</a> should be.</p>
-<p>Different activation functions have different behaviors and side-effects. Some types are better suited to certain problems than others. </p>
-<p>The videos you watched mention the <a href="https://developers.google.com/machine-learning/glossary#sigmoid_function">Sigmoid activation function</a>, which was popular in neural networks for many years.</p>
-<p>Currently, the <a href="https://developers.google.com/machine-learning/glossary#ReLU">Rectified Linear Unit (ReLU) activation function</a> is the most commonly used.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
-<p>As with most things in machine learning, the general strategy for choosing the best activation function is to try different variations and measure the results.<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></p>
-<h3 id="hyperparameters">Hyperparameters</h3>
-<p>In the context of neural networks, hyperparameters are the settings you adjust that control the structure of the network, as well as how it learns.</p>
-<p><a href="https://missinglink.ai/guides/neural-network-concepts/hyperparameters-optimization-methods-and-real-world-model-management/">This article</a> gives a good overview of the different hyperparameters in a neural network, what they control, and strategies for finding optimum values.</p>
-<h3 id="keras">Keras</h3>
-<p>We'll be using Keras for creating neural networks. Keras is a library like SciKit-Learn, but designed specifically for neural networks. </p>
-<p>Note that Keras used to be a standalone library, but is now part of Google's TensorFlow library.</p>
-<p>On the <a href="https://www.tensorflow.org/tutorials">TensorFlow Tutorials Page</a>, in the left sidebar, you'll see a section called "Beginner". Under that section you'll see a "ML Basics with Keras" section and a "Load and preprocess data" section.</p>
-<p>You'll want to review the following examples in ML Basics:</p>
+<h3 id="practical">Practical</h3>
+<p>Please go through this content before class on Monday:</p>
 <ul>
-<li><a href="https://www.tensorflow.org/tutorials/keras/classification">Image Classification with Keras</a></li>
-<li><a href="https://www.tensorflow.org/tutorials/keras/regression">Regression with Keras</a></li>
-<li><a href="https://www.tensorflow.org/tutorials/keras/overfit_and_underfit">Overfit and Underfit</a></li>
-<li><a href="https://www.tensorflow.org/tutorials/keras/save_and_load">Save and Load</a></li>
-<li><a href="https://www.tensorflow.org/tutorials/keras/keras_tuner">Tune Hyperparameters with the Keras tuner</a></li>
+<li>Read <a href="./activation-functions.html">this article on Activation Functions</a></li>
+<li>Read <a href="https://missinglink.ai/guides/neural-network-concepts/hyperparameters-optimization-methods-and-real-world-model-management/">this article on Hyperparameters</a></li>
+<li>Read <a href="./keras.html">this collection of tutorials on the Keras library</a></li>
 </ul>
-<p>And at least the following under "Load and preprocess data":</p>
-<ul>
-<li><a href="https://www.tensorflow.org/tutorials/load_data/pandas_dataframe">pandas.DataFrame</a></li>
-<li><a href="https://www.tensorflow.org/tutorials/load_data/csv">CSV</a></li>
-<li><a href="https://www.tensorflow.org/tutorials/load_data/images">Images</a></li>
-</ul>
-<p>You might also want to keep this <a href="https://keras.io/api/">Keras API reference page</a> handy.</p>
 <h3 id="additional-reading">Additional Reading</h3>
-<p>As mentioned, there is a lot of information on neural networks. It's an extremely popular area of research right now. Here are some good resources for going further:</p>
+<p>There is a lot of information on neural networks. It's an extremely popular area of research right now. Here are some good resources for going further:</p>
 <ul>
 <li><a href="https://www.jeremyjordan.me/nn-learning-rate/">Setting the learning rate of your neural network</a></li>
 <li><a href="https://distill.pub/2017/momentum/">Why Momentum Really Works</a></li>
 <li><a href="http://neuralnetworksanddeeplearning.com">The Neural Networks and Deep Learning online eBook</a></li>
 <li><a href="http://introtodeeplearning.com">MIT's Intro to Deep Learning Course</a></li>
 </ul>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:1">
-<p>Mathematicians like to say that functions "map a domain to a range". See <a href="https://www.mathsisfun.com/sets/domain-range-codomain.html">this article</a> for details.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p><a href="https://missinglink.ai/guides/neural-network-concepts/7-types-neural-network-activation-functions-right/">This article</a> has a good overview of some of the most common activation functions and their pros and cons. However, most of the pros and cons people associate with activation functions are math-centric, which may not be easily translatable to "is this a good function to use for my data?"&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-<li id="fn:3">
-<p>Activation functions are an active area of research, and people are always exploring new functions to use in neural networks. <a href="https://en.wikipedia.org/wiki/Activation_function#Comparison_of_activation_functions">This Wikipedia article</a> has a good overview of some recent and popular activation functions.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>
 	</article>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>

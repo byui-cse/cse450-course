@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 05 — Neural Networks, Keras</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css?v1.3">
+    <meta charset="utf-8">
+
+</head>
+<body class="">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#keras">Keras</a><ul>
+<li><a href="#tutorials-to-review">Tutorials to Review</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
+            <h2>Module 05 — Neural Networks, Keras</h2>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<h2 id="keras">Keras</h2>
+<p>We'll be using Keras for creating neural networks. Keras is a library like SciKit-Learn, but designed specifically for neural networks. </p>
+<p>Note that Keras used to be a standalone library, but is now part of Google's TensorFlow library.</p>
+<p>On the <a href="https://www.tensorflow.org/tutorials">TensorFlow Tutorials Page</a>, in the left sidebar, you'll see a section called "Beginner". Under that section you'll see a "ML Basics with Keras" section and a "Load and preprocess data" section.</p>
+<h3 id="tutorials-to-review">Tutorials to Review</h3>
+<p>You'll want to review the following examples in ML Basics:</p>
+<ul>
+<li><a href="https://www.tensorflow.org/tutorials/keras/classification">Image Classification with Keras</a></li>
+<li><a href="https://www.tensorflow.org/tutorials/keras/regression">Regression with Keras</a></li>
+<li><a href="https://www.tensorflow.org/tutorials/keras/overfit_and_underfit">Overfit and Underfit</a></li>
+<li><a href="https://www.tensorflow.org/tutorials/keras/save_and_load">Save and Load</a></li>
+<li><a href="https://www.tensorflow.org/tutorials/keras/keras_tuner">Tune Hyperparameters with the Keras tuner</a></li>
+</ul>
+<p>And at least the following under "Load and preprocess data":</p>
+<ul>
+<li><a href="https://www.tensorflow.org/tutorials/load_data/pandas_dataframe">pandas.DataFrame</a></li>
+<li><a href="https://www.tensorflow.org/tutorials/load_data/csv">CSV</a></li>
+<li><a href="https://www.tensorflow.org/tutorials/load_data/images">Images</a></li>
+</ul>
+<p>You might also want to keep this <a href="https://keras.io/api/">Keras API reference page</a> handy.</p>
+	</article>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>
