@@ -63,9 +63,9 @@ Please go through this content before class on Monday:
 
 
 
-### Additional Reading
+### Going Further
 
-There is a lot of information on neural networks. It's an extremely popular area of research right now. Here are some good resources for going further:
+There is a lot of information on neural networks. It's an extremely popular area of research right now. Here are some good resources if you want to going further:
 
 * [Setting the learning rate of your neural network](https://www.jeremyjordan.me/nn-learning-rate/)
 * [Why Momentum Really Works](https://distill.pub/2017/momentum/)
