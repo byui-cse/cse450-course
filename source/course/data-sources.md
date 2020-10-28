@@ -75,3 +75,22 @@ Iris Flower Dataset
 * Original Source: [UCI](https://archive.ics.uci.edu/ml/datasets/iris)
 * License: [Citation Requested](https://archive.ics.uci.edu/ml/citation_policy.html)
 * [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/iris.csv)
+
+### Biking Data
+
+Fanaee-T, Hadi, and Gama, Joao, 'Event labeling combining ensemble detectors and background knowledge', Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, [Web Link]. 
+
+Laboratory of Artificial Intelligence and Decision Support (LIAAD), University of Porto 
+INESC Porto, Campus da FEUP 
+Rua Dr. Roberto Frias, 378 
+4200 - 465 Porto, Portugal 
+
+Original Source: http://capitalbikeshare.com/system-data 
+Weather Information: http://www.freemeteo.com 
+Holiday Schedule: http://dchr.dc.gov/page/holiday-schedule
+
+* Original Source: [UCI](https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset)
+* License: [Citation Requested](https://archive.ics.uci.edu/ml/citation_policy.html)
+* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bikes.csv)
+
+
