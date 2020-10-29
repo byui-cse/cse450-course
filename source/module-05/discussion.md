@@ -1,5 +1,5 @@
 ---
-title: Module 04 — Bike Rentals, Case Study Discussion
+title: Module 05 — Bike Rentals, Case Study Discussion
 body-class: index-page
 ---
 
