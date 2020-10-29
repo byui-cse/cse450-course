@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 04 — Bike Rentals, Case Study Discussion</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css?v1.3">
+    <meta charset="utf-8">
+
+</head>
+<body class="index-page">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#questions">Questions</a></li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
+            <h2>Module 04 — Bike Rentals, Case Study Discussion</h2>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<h2 id="questions">Questions</h2>
+<p>You're at a strategy meeting with the stakeholders. They want to make sure you have the data required to answer the questions they're most interested in.</p>
+<p>Be prepared to answer the following questions:</p>
+<h4>Network Layers</h4>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/zhao.jpg">
+    <h5>Zhao, CEO of WelcomeBike</h5>
+    <blockquote><p>My brother-in-law works for a big AI company in Hong Kong. We've chatted a bit about neural networks, and I was wondering how many layers you think the network should have.</p></blockquote>
+</div>
+
+<p>Based on your initial analysis of the data, your team feels:</p>
+<ol>
+<li>A single input layer and single output layer should do it.</li>
+<li>An input layer, a hidden layer, and an output layer would be best.</li>
+<li>An input layer, two hidden layers, and an output layer would be best.</li>
+<li>An input layer, three hidden layers, and an output layer would be best.</li>
+</ol>
+<h4>Feature Engineering</h4>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
+    <h5>Johnny, Data Science Intern</h5>
+    <blockquote><p>Looking at the features we have, how do you think we should handle the temperature features?</p></blockquote>
+</div>
+
+<p>Based on your initial analysis of the data, your team feels:</p>
+<ol>
+<li>They should be fine the way they are.</li>
+<li>They should be standardized using min-max scaling.</li>
+<li>They should be normalized using a z-score transformation.</li>
+<li>They should be binned, then one-hot encoded.</li>
+</ol>
+<h4>Learning Rate</h4>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/zhao.jpg">
+    <h5>Zhao, CEO of WelcomeBike</h5>
+    <blockquote><p>My brother-in-law told me that I should be careful with how I handle learning rate in my network.</p><p>What approach do you think you're going to take to find the optimal learning rate?</p></blockquote>
+</div>
+
+<p>Based on your initial analysis of the data, your team feels:</p>
+<ol>
+<li>Choosing different learning rates manually based on model performance would be best.</li>
+<li>Performing a grid search on learning rate would be best. </li>
+<li>Using an adaptive learning rate would be best.</li>
+<li>Using a scheduled learning rate would be best.</li>
+</ol>
+<h4>Loss Function</h4>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
+    <h5>Johnny, Data Science Intern</h5>
+    <blockquote><p>How will we know if our model has strong predictive power?</p><p>What are you planning to use for the loss function?</p></blockquote>
+</div>
+
+<p>Based on your initial analysis of the data, your team feels:</p>
+<ol>
+<li>We'll use root mean squared error (RMSE).</li>
+<li>We'll use mean squared error (MSE).</li>
+<li>We'll use mean absolute error (MAE).</li>
+<li>We'll use Huber loss.</li>
+</ol>
+<h4>Predictive Risk Model</h4>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/william.jpg">
+    <h5>William, Investment Banker</h5>
+    <blockquote><p>Can we use AI and the GPS tracker in the bikes to keep track of where the customers are going?</p><p>This way, we can charge them a premium if they're biking through sections of the city that our models predict are more likely to result in bike theft.</p></blockquote>
+</div>
+
+<p>Based on your initial analysis of the data, your team feels:</p>
+<ol>
+<li>Yes, we'd need to build a neural network that approaches that as a classification problem.</li>
+<li>Yes, we'd need to build a neural network that approaches that as a regression problem.</li>
+<li>Yes, but not with a neural network.</li>
+<li>Answering this question would be a violation of ethics and/or privacy laws.</li>
+</ol>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://unsplash.com/photos/g4DgCF90EM4">CEO photo by Sung Wang on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://unsplash.com/photos/ml-pxK0Ovmw">Investment Banker photo by steffen Wienberg on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw">Data Science Intern photo by Fábio Lucas on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+	</article>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>

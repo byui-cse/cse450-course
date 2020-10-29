@@ -23,12 +23,10 @@ For your convenience, here are links to the module 05 readings and assignments:
 * [Case Study Project](./project.html)
 
 #### Data
-
-
-#### Data Dictionary & Colab Notebook
-
+* [Bike Data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bikes.csv)
+* [Data Dictionary](./bikes-dictionary.txt)
+* [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_05.ipynb)
 
 #### Templates
 
-* [Team Executive Summary Template](./summary.docx)
 * [Individual Reflection Template]({{URLROOT}}/course/reflection.docx)

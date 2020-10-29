@@ -124,6 +124,7 @@ article blockquote p:first-child:before {
   -moz-osx-font-smoothing:grayscale;
   content:'\f10d';
   color: var(--secondary-text-color);
+  font-weight: 900;
 }
 
 article blockquote p {
@@ -261,6 +262,11 @@ article .dialogue blockquote {
   grid-row-end: 3;
   grid-column-start: 2;
   grid-column-end: 3;
+}
+
+article .dialogue blockquote em{
+  color: var(--text-color);
+  font-style: italic;
 }
 
 /* Special Header Styling */

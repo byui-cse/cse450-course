@@ -37,5 +37,4 @@ For your convenience, here are links to the module 04 readings and assignments:
 
 #### Templates
 
-* [Team Executive Summary Template](./summary.docx)
 * [Individual Reflection Template]({{URLROOT}}/course/reflection.docx)
