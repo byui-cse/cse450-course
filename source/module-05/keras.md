@@ -6,7 +6,12 @@ title: Module 05 — Neural Networks, Keras
 
 We'll be using Keras for creating neural networks. Keras is a library like SciKit-Learn, but designed specifically for neural networks. 
 
-Note that Keras used to be a standalone library, but is now part of Google's TensorFlow library.
+!!!warning "keras vs tf.keras"
+	Keras used to be a standalone library, but as of September 2019, it is part of Google's TensorFlow library.
+
+	Keep that in mind if you're looking at any tutorial that was written prior to that date. Most of the API and functions will be the same, but your import statements will likely be different. 
+
+	For more information, [see this article on the change](https://www.pyimagesearch.com/2019/10/21/keras-vs-tf-keras-whats-the-difference-in-tensorflow-2-0/).
 
 On the [TensorFlow Tutorials Page](https://www.tensorflow.org/tutorials), in the left sidebar, you'll see a section called "Beginner". Under that section you'll see a "ML Basics with Keras" section and a "Load and preprocess data" section.
 

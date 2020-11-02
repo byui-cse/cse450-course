@@ -29,11 +29,25 @@ After a few more meetings, your team has been assigned to address the following 
 	Use this [data dictionary](./bikes-dictionary.txt) to help explain the values and sources of different columns in the dataset.
 	
 !!!note "Keras vs Sci-Kit Learn"
-	Just because you're using keras and tensor flow to build the actual neural network, that doesn't mean you can't take advantage of some of the preprocessing and analysis modules in sci-kit learn. These two libraries are often used together.
+	Just because you're using keras and tensor flow to build the actual neural network, that doesn't mean you can't take advantage of some of the preprocessing and analysis modules in sci-kit learn. 
+
+	Keras also provides [two wrappers](https://www.tensorflow.org/api_docs/python/tf/keras/wrappers/scikit_learn) that allow you to use sklearn pipeline style code with keras neural networks.
 
 	For more information, see:
+	
 	* [How to insert Keras model into scikit-learn pipeline?](https://stackoverflow.com/questions/42415076/how-to-insert-keras-model-into-scikit-learn-pipeline)
-  * [How to Grid Search Hyperparameters for Deep Learning Models in Python With Keras](https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/)
+
+	* [How to Grid Search Hyperparameters for Deep Learning Models in Python With Keras](https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/)
+
+
+!!!warning "keras vs tf.keras"
+	As [mentioned in the reading](./keras.html), Keras used to be a standalone library, but as of September 2019, it is part of Google's TensorFlow library.
+
+	Keep that in mind if you're looking at any tutorial that was written prior to that date. Most of the API and functions will be the same, but your import statements will likely be different. 
+
+	For more information, [see this article on the change](https://www.pyimagesearch.com/2019/10/21/keras-vs-tf-keras-whats-the-difference-in-tensorflow-2-0/).
+
+
 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">

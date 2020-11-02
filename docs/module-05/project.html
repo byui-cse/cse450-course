@@ -67,13 +67,24 @@
 </div>
 <div class="admonition note">
 <p class="admonition-title">Keras vs Sci-Kit Learn</p>
-<p>Just because you're using keras and tensor flow to build the actual neural network, that doesn't mean you can't take advantage of some of the preprocessing and analysis modules in sci-kit learn. These two libraries are often used together.</p>
-<p>For more information, see:
-* <a href="https://stackoverflow.com/questions/42415076/how-to-insert-keras-model-into-scikit-learn-pipeline">How to insert Keras model into scikit-learn pipeline?</a></p>
-</div>
+<p>Just because you're using keras and tensor flow to build the actual neural network, that doesn't mean you can't take advantage of some of the preprocessing and analysis modules in sci-kit learn. </p>
+<p>Keras also provides <a href="https://www.tensorflow.org/api_docs/python/tf/keras/wrappers/scikit_learn">two wrappers</a> that allow you to use sklearn pipeline style code with keras neural networks.</p>
+<p>For more information, see:</p>
 <ul>
-<li><a href="https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/">How to Grid Search Hyperparameters for Deep Learning Models in Python With Keras</a></li>
+<li>
+<p><a href="https://stackoverflow.com/questions/42415076/how-to-insert-keras-model-into-scikit-learn-pipeline">How to insert Keras model into scikit-learn pipeline?</a></p>
+</li>
+<li>
+<p><a href="https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/">How to Grid Search Hyperparameters for Deep Learning Models in Python With Keras</a></p>
+</li>
 </ul>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">keras vs tf.keras</p>
+<p>As <a href="./keras.html">mentioned in the reading</a>, Keras used to be a standalone library, but as of September 2019, it is part of Google's TensorFlow library.</p>
+<p>Keep that in mind if you're looking at any tutorial that was written prior to that date. Most of the API and functions will be the same, but your import statements will likely be different. </p>
+<p>For more information, <a href="https://www.pyimagesearch.com/2019/10/21/keras-vs-tf-keras-whats-the-difference-in-tensorflow-2-0/">see this article on the change</a>.</p>
+</div>
 <div class="dialogue">
     <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
     <h5>Johnny, the Data Science Intern, catches you after work:</h5>
