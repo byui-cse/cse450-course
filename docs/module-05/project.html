@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 05 — Bike Rentals, Project</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css?v1.3">
+    <meta charset="utf-8">
+
+</head>
+<body class="">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#more-tips-from-johnny">More Tips from Johnny</a></li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
+            <h2>Module 05 — Bike Rentals, Project</h2>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<h2 id="overview">Overview</h2>
+<p>After a few more meetings, your team has been assigned to address the following issues asked by the stakeholders:</p>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/zhao.jpg">
+    <h5>Zhao, CEO of WelcomeBike</h5>
+    <blockquote><p>So, there's not a lot to discuss at this point. We need a neural network that can predict the number of bikes we can expect to rent on a given day. I'll leave it up to you to decide which factors matter there.</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
+    <h5>Johnny, the data science intern</h5>
+    <blockquote><p>Given how many variables there are in building neural networks, and how long it takes to train and test them, we probably need everyone on the team working on building and testing neural networks.</p><p>I'd suggest that you coordinate how to tackle that in a smart way.</blockquote>
+</div>
+
+<div class="admonition warning">
+<p class="admonition-title">Executive Summary</p>
+<p>By now you know what level of quality we expect from you in terms of analysis summaries. From this point on, you will not be provided with an executive summary template.</p>
+<p>While you now have some leeway in the styling of this report, please ensure that what you turn in has the same level of quality and professionalism as previous templates.</p>
+</div>
+<h2 id="more-tips-from-johnny">More Tips from Johnny</h2>
+<div class="admonition note">
+<p class="admonition-title">Data Dictionary</p>
+<p>Use this <a href="./bikes-dictionary.txt">data dictionary</a> to help explain the values and sources of different columns in the dataset.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Keras vs Sci-Kit Learn</p>
+<p>Just because you're using keras and tensor flow to build the actual neural network, that doesn't mean you can't take advantage of some of the preprocessing and analysis modules in sci-kit learn. These two libraries are often used together.</p>
+<p>For more information, see:
+* <a href="https://stackoverflow.com/questions/42415076/how-to-insert-keras-model-into-scikit-learn-pipeline">How to insert Keras model into scikit-learn pipeline?</a></p>
+</div>
+<ul>
+<li><a href="https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/">How to Grid Search Hyperparameters for Deep Learning Models in Python With Keras</a></li>
+</ul>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
+    <h5>Johnny, the Data Science Intern, catches you after work:</h5>
+    <blockquote><p>Hey, I know you're probably busy, but in case you need it, I put together <a href='./hints.html'>this collection of Google Colab notebooks</a> that might be useful for this project.</p></blockquote>
+</div>
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://unsplash.com/photos/3Uf-aRahKcc">Lead Singer photo by Brian Lundquist on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://unsplash.com/photos/pAtA8xe_iVM">Head of Marketing photo by LinkedIn Sales Navigator on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw">Data Science Intern photo by Fábio Lucas on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+	</article>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>
