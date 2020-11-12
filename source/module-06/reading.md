@@ -25,9 +25,9 @@ Please go through the following Keras tutorials:
 
 ### Network Architecture
 
-After you look at this tutorials, you might be wondering how to decide what network architecture is best? How do you decide how many convolutional layers to use? How do you pick a filter size? How do you determine how many filters and dense layers to use.
+After you look at this tutorials, you might be wondering how to decide what network architecture is best? How do you decide how many convolutional layers to use? How do you pick a filter size? How do you determine how many filters and dense layers to use?
 
-The most common approach is to experiment. Adjust parameters one at a time and see how it affects your outcome. 
+The most common approach is to experiment — adjust parameters one at a time and see how those adjustments affect your outcome. 
 
 Another approach is to start with one of the many [well known CNN network architecture designs](https://www.jeremyjordan.me/convnet-architectures/) and adjust those as needed for your particular problem.
 

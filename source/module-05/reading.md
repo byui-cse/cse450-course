@@ -31,19 +31,10 @@ Please go through this content before the reading quiz and class discussion on F
 
 This video from MIT does a great job of introducing all of the high level concepts of how neural networks work, and how they can be used to solve machine learning problems.
 
-!!!warning "Higher Math Warning"
-	If you are a bit math-a-phobic, this video does get into higher level calculus and linear algebra in a few areas. 
-
-	If you find yourself getting lost in the math details of this video, you may find it useful to first watch the three videos in the *Additional Help* section below, which introduce neural networks at a higher level.
-
-	Once you're comfortable with the ideas in those videos, then come back and watch the MIT video again.
-
 
 [!embed](https://www.youtube.com/watch?v=njKP3FqW3Sk)
 
-#### Additional Help
-
-If you're finding the MIT video hard to follow, you might want to watch these three optional videos first, then go back and watch the MIT video:
+The following three videos give another perspective about neural networks and go into a bit more detail on gradient descent and back propagation:
 
 [!embed](https://www.youtube.com/watch?v=aircAruvnKk)
 
@@ -69,6 +60,7 @@ There is a lot of information on neural networks. It's an extremely popular area
 
 * [Setting the learning rate of your neural network](https://www.jeremyjordan.me/nn-learning-rate/)
 * [Why Momentum Really Works](https://distill.pub/2017/momentum/)
+* [Stochastic vs Batch Gradient Descent](https://medium.com/@divakar_239/stochastic-vs-batch-gradient-descent-8820568eada1)
 * [The Neural Networks and Deep Learning online eBook](http://neuralnetworksanddeeplearning.com)
 * [MIT's Intro to Deep Learning Course](http://introtodeeplearning.com)
 
