@@ -1,8 +1,9 @@
 ---
 title: Module 05 — Neural Networks, Keras
+body-class: index-page
 ---
 
-## Keras
+## Neural Networks with Keras
 
 We'll be using Keras for creating neural networks. Keras is a library like SciKit-Learn, but designed specifically for neural networks. 
 

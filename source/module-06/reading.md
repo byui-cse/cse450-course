@@ -25,13 +25,22 @@ Please go through this content before the reading quiz and class discussion on F
 
 #### Convolutional Neural Networks
 
-This video from MIT does a great job of introducing all of the high level concepts of how convolutional neural networks work, and how they can be used to solve machine learning problems.
+First, read the following article that introduces how Convolutional Nerual Networks work. But, ignore the code examples, because the article uses an older version of TensorFlow:
+
+* [Deep Learning and Convolutional Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721)
+
+Next, watch this video from MIT, which dives a little deeper into the concepts of how convolutional neural networks work, and how they can be used to solve machine learning problems.
 
 [!embed](https://www.youtube.com/watch?v=iaSUYvmCekI)
 
+#### Data Augmentation
+
+Next, read through this article on [data augmentation](https://nanonets.com/blog/data-augmentation-how-to-use-deep-learning-when-you-have-limited-data-part-2/). Don't worry too much about the code, just make sure you understand the main ideas.
+
+
 #### Network Architecture
 
-After you look at this tutorials, you might be wondering how to decide what network architecture is best? How do you decide how many convolutional layers to use? How do you pick a filter size? How do you determine how many filters and dense layers to use?
+At this point, you might be wondering how to decide what network architecture is best? How do you decide how many convolutional layers to use? How do you pick a filter size? How do you determine how many filters and dense layers to use?
 
 The most common approach is to experiment — adjust parameters one at a time and see how those adjustments affect your outcome. 
 
@@ -45,6 +54,8 @@ CNN architecture is a [very active](https://www.aismartz.com/blog/cnn-architectu
 Please go through this content before class on Monday:
 
 * Read [this collection of tutorials on the Keras library](./keras-cnn.html)
+
+
 
 
 

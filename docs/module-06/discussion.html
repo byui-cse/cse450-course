@@ -47,7 +47,7 @@
 <div class="dialogue">
     <img src="https://byui-cse.github.io/cse450-course/shared/img/karl.jpg">
     <h5>Karl, Head of AI</h5>
-    <blockquote><p>Obviously you'll be using a convolutional neural network to build your model, but will you be using a traditional architecture as a starting point, or do you think it'll be better to design your own?</p></blockquote>
+    <blockquote><p>Obviously you'll be using a convolutional neural network to build your model, but will you be using an existing architecture as a starting point, or do you think it'll be better to design your own?</p></blockquote>
 </div>
 
 <p>Based on your initial analysis of the data, your team feels:</p>
@@ -55,7 +55,7 @@
 <li>VGG-16 would be a good architecture to use on this data.</li>
 <li>ResNet would be a good architecture to use on this data.</li>
 <li>Inception would be a good architecture to use on this data.</li>
-<li>We'll need to build a custom architecture for best results.</li>
+<li>For best results, we should design a custom architecture.</li>
 </ol>
 <h4>Preprocessing</h4>
 <div class="dialogue">
@@ -67,9 +67,9 @@
 <p>Based on your initial analysis of the data, your team feels:</p>
 <ol>
 <li>The RGB pixel values should be fine with that scale, since they're all the same.</li>
-<li>We should use a Rescaling layer to rescale the pixel values down to the range of 0 to 1.</li>
-<li>We should use a Rescaling layer to rescale the pixel values down to the range of -1 to 1.</li>
-<li>We should convert the image to gray scale by taking the average value of the three channels, giving us a single gray scale channel to work with.</li>
+<li>We should use rescale the pixel values down to the range of 0 to 1.</li>
+<li>We should use rescale the pixel values down to the range of -1 to 1.</li>
+<li>We should convert the image to grayscale, giving us a single color channel to work with.</li>
 </ol>
 <h4>Data Augmentation</h4>
 <div class="dialogue">
@@ -95,16 +95,16 @@
 <ol>
 <li>Accuracy is still the best metric here.</li>
 <li>The $F_1$ score is the best option for this problem.</li>
-<li>We should probably use logarithmic loss, to be safe.</li>
+<li>We should probably use logarithmic loss, just to be safe.</li>
 </ol>
 <div class="footnote">
 <hr />
 <ol>
 <li id="fn:1">
-<p><a href="https://unsplash.com/photos/g4DgCF90EM4">CEO photo by Sung Wang on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p><a href="https://unsplash.com/photos/b3AYk8HKCl0">CEO photo by Amy Hirschi on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p><a href="https://unsplash.com/photos/ml-pxK0Ovmw">Investment Banker photo by steffen Wienberg on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p><a href="https://unsplash.com/photos/ABuzWPku1Ug">Head of AI photo by Ameer Basheer on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
 <p><a href="https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw">Data Science Intern photo by Fábio Lucas on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>

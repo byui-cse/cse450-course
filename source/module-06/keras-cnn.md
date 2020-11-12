@@ -1,10 +1,13 @@
 ---
 title: Module 06 — Convolutional Neural Networks, Keras
+body-class: index-page
 ---
 
-## Keras
+## Convolutional Neural Networks with Keras
 
-We'll be using Keras for creating convolutional neural networks. Much of what you learned in Module 05 will be applicable to this module. However, there are some additional APIs and concepts you'll need to review.
+We'll be using Keras for creating convolutional neural networks. Much of what you learned in Module 05 will be applicable to this module. 
+
+However, there are some additional APIs and concepts you'll need to review.
 
 ### Tutorials to Review
 

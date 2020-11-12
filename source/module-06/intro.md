@@ -35,6 +35,7 @@ These are the individuals your team will be helping during the case study:
 	The stakeholders are particularly interested in the following areas:
 
 	1.	Building a neural network that can correctly classify German road signs.
+	2.  Making sure the network is robust enough to handle road signs in situations it hasn't encountered before.
 
 You've been invited to a strategy meeting tomorrow. 
 
@@ -50,4 +51,4 @@ You've been invited to a strategy meeting tomorrow.
 
 [^2]: [Head of AI photo by Ameer Basheer on Unsplash](https://unsplash.com/photos/ABuzWPku1Ug)
 
-[^2]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)
+[^3]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)
