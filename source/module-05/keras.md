@@ -29,6 +29,5 @@ And at least the following under "Load and preprocess data":
 
 * [pandas.DataFrame](https://www.tensorflow.org/tutorials/load_data/pandas_dataframe)
 * [CSV](https://www.tensorflow.org/tutorials/load_data/csv)
-* [Images](https://www.tensorflow.org/tutorials/load_data/images)
 
 You might also want to keep this [Keras API reference page](https://keras.io/api/) handy, as well as [this collection of Keras guides](https://www.tensorflow.org/guide/keras/sequential_model).

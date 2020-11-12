@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Module 06 — Convolutional Neural Networks</title>
+	<title>Module 06 — Convolutional Neural Networks, Keras</title>
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -24,10 +24,8 @@
         <div id="contents-wrapper">
             <div class="toc">
 <ul>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#preparation-reading">Preparation Reading</a><ul>
-<li><a href="#theory">Theory</a></li>
-<li><a href="#practical">Practical</a></li>
+<li><a href="#keras">Keras</a><ul>
+<li><a href="#tutorials-to-review">Tutorials to Review</a></li>
 </ul>
 </li>
 </ul>
@@ -40,40 +38,23 @@
         <span class="icon-byui-logo"></span>
         <div id="titles">
             <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
-            <h2>Module 06 — Convolutional Neural Networks</h2>
+            <h2>Module 06 — Convolutional Neural Networks, Keras</h2>
         </div>
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<p><img alt="Eyeball" src="https://byui-cse.github.io/cse450-course/shared/img/eye.jpg" />
-<em><a href="https://unsplash.com/photos/UbJMy92p8wk">Photo by Amanda Dalbjörn on Unsplash</a></em></p>
-<h2 id="overview">Overview</h2>
-<p>The objective of this module is to provide a real-world scenario in which you can practice using Convolutional Neural Networks.</p>
-<div class="admonition time">
-<p class="admonition-title">Estimated Reading Time</p>
-<p>Plan on around 120 - 240 minutes for this preparation reading, which consists of online reading and videos.</p>
-</div>
-<h2 id="preparation-reading">Preparation Reading</h2>
-<div class="admonition note">
-<p class="admonition-title">Theory vs Practice</p>
-<p>There is a lot of content to read this week. For the sake of the preparation quiz and Friday's discussion, you should go through everything in the <em>Theory</em> section below.</p>
-<p>The items in the <em>Practical</em> section are things you'll want to go through before you start in on the actual case study work on Monday.</p>
-</div>
-<h3 id="theory">Theory</h3>
-<p>Please go through this content before the reading quiz and class discussion on Friday:</p>
-<h4>Convolutional Neural Networks</h4>
-<p>This video from MIT does a great job of introducing all of the high level concepts of how convolutional neural networks work, and how they can be used to solve machine learning problems.</p>
-<iframe width="480" height="270" src="https://www.youtube.com/embed/iaSUYvmCekI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<h4>Network Architecture</h4>
-<p>After you look at this tutorials, you might be wondering how to decide what network architecture is best? How do you decide how many convolutional layers to use? How do you pick a filter size? How do you determine how many filters and dense layers to use?</p>
-<p>The most common approach is to experiment — adjust parameters one at a time and see how those adjustments affect your outcome. </p>
-<p>Another approach is to start with one of the many <a href="https://www.jeremyjordan.me/convnet-architectures/">well known CNN network architecture designs</a> and adjust those as needed for your particular problem.</p>
-<p>CNN architecture is a <a href="https://www.aismartz.com/blog/cnn-architectures/">very active</a> field of development. As with most things in machine learning, there is no "one size fits all" answer.</p>
-<h3 id="practical">Practical</h3>
-<p>Please go through this content before class on Monday:</p>
+		<h2 id="keras">Keras</h2>
+<p>We'll be using Keras for creating convolutional neural networks. Much of what you learned in Module 05 will be applicable to this module. However, there are some additional APIs and concepts you'll need to review.</p>
+<h3 id="tutorials-to-review">Tutorials to Review</h3>
+<p>Please go through the following Keras tutorials:</p>
 <ul>
-<li>Read <a href="./keras-cnn.html">this collection of tutorials on the Keras library</a></li>
+<li><a href="https://www.tensorflow.org/tutorials/load_data/images">Loading Image Data</a></li>
+<li><a href="https://www.tensorflow.org/tutorials/images/cnn">Convolutional Neural Networks</a></li>
+<li><a href="https://www.tensorflow.org/tutorials/images/classification">Image Classification</a></li>
+<li><a href="https://www.tensorflow.org/tutorials/images/data_augmentation">Data Augmentation</a></li>
+<li><a href="https://www.tensorflow.org/guide/keras/transfer_learning#an_end-to-end_example_fine-tuning_an_image_classification_model_on_a_cats_vs_dogs">Fine Tuning an Image Classification Model of Cats vs Dogs</a></li>
 </ul>
+<p>You might also want to keep this <a href="https://keras.io/api/">Keras API reference page</a> handy, as well as <a href="https://www.tensorflow.org/guide/keras/sequential_model">this collection of Keras guides</a>.</p>
 	</article>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
