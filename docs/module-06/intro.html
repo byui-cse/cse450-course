@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 06 — Self Driving Cars, Case Study Introduction</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css?v1.3">
+    <meta charset="utf-8">
+
+</head>
+<body class="">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#stakeholders">Stakeholders</a></li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
+            <h2>Module 06 — Self Driving Cars, Case Study Introduction</h2>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<p><img alt="Meeting" src="https://byui-cse.github.io/cse450-course/shared/img/car.jpg" />
+<em><a href="https://unsplash.com/photos/3ZUsNJhi_Ik">Photo by Campbell Boulanger on Unsplash</a></em></p>
+<h2 id="introduction">Introduction</h2>
+<p>You've been hired by GehirnWagen, a German tech startup, to assist with their self-driving car initiative.</p>
+<h2 id="stakeholders">Stakeholders</h2>
+<p>These are the individuals your team will be helping during the case study:</p>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/emma.jpg">
+    <h5>Emma, CEO of GehirnWagen</h5>
+    <blockquote><p>Our company has several different projects going on right now, but the one I'm most excited about is our new, self-driving car initiative.</p><p>My cousin Johnny tells me that you can probably help us out.</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/karl.jpg">
+    <h5>Karl, Head of AI</h5>
+    <blockquote><p>Nice to meet you.</p><p>We've got most of the pieces in place to launch the initiative, but we're having a little trouble with our road sign recognition system.</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
+    <h5>Johnny, Data Science Intern</h5>
+    <blockquote><p>Hope you don't mind me giving out your contact info. When my cousin Emma told me about her self-driving car program, I just had a feeling you'd be able to help out.</p>
+    </blockquote>
+</div>
+
+<div class="admonition note">
+<p class="admonition-title">Stakeholder Focus Areas</p>
+<p>The stakeholders are particularly interested in the following areas:</p>
+<ol>
+<li>Building a neural network that can correctly classify German road signs.</li>
+</ol>
+</div>
+<p>You've been invited to a strategy meeting tomorrow. </p>
+<h4>Data</h4>
+<ul>
+<li><a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns.zip">Roadsigns Data</a></li>
+<li><a href="./signs-dictionary.txt">Data Dictionary</a></li>
+</ul>
+<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_06.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://unsplash.com/photos/b3AYk8HKCl0">CEO photo by Amy Hirschi on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw">Data Science Intern photo by Fábio Lucas on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+	</article>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>

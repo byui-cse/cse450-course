@@ -1,0 +1,28 @@
+# Training Images
+
+Note, due to github size constraints, the training data is split into two zip files, training1.zip and training2.zip
+
+In the training directories, there is one subdirectory for each of the 43 classes (0000 - 00043).
+Each subdirectory contains the corresponding training images for that class.
+
+The images are jpeg images (RGB color). Files are numbered in two parts:
+
+   XXXXX_YYYYY.ppm
+
+The first part, XXXXX, represents the track number. All images of one class 
+with identical track numbers originate from one single physical traffic sign.
+
+The second part, YYYYY, is a running number within the track. The temporal order
+of the images is preserved.
+
+
+# Test Images
+
+The images are jpeg images (RGB color). Files are numbered in ascending order:
+
+   00000.ppm to 12629.ppm
+
+Images are in random order, ie. there is no track structure or class information
+as in the training set.
+
+The class labels for the test images are stored in a file called test_classes.csv
