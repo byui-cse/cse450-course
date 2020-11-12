@@ -94,3 +94,10 @@ Holiday Schedule: http://dchr.dc.gov/page/holiday-schedule
 * [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bikes.csv)
 
 
+### German Traffic Signs
+
+J. Stallkamp, M. Schlipsing, J. Salmen, and C. Igel. The German Traffic Sign Recognition Benchmark: A multi-class classification competition. In Proceedings of the IEEE International Joint Conference on Neural Networks, pages 1453–1460. 2011. 
+
+* Original Source [INI](http://benchmark.ini.rub.de/index.php?section=gtsrb&subsection=news)
+* License: [Citation Requested](http://benchmark.ini.rub.de/index.php?section=gtsrb&subsection=dataset#Citation)
+* [Direct Download]()

@@ -52,7 +52,7 @@ After a few more meetings, your team has been assigned to address the following 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">
 	<h5>Johnny, the Data Science Intern, catches you after work:</h5>
-	<blockquote><p>Hey, I know you're probably busy, but in case you need it, I put together <a href='./hints.html'>this collection of Google Colab notebooks</a> that might be useful for this project.</p></blockquote>
+	<blockquote><p>Hey, I know you're probably busy, I was going to put together some hints and sample code for you like I usually do, but everything you should need is in those <a href="./keras.html">keras tutorials</a>, so be sure to read over those.</p></blockquote>
 </div>
 
 
