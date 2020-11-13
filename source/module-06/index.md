@@ -3,7 +3,7 @@ title: Module 06: Overview
 body-class: index-page
 ---
 
-## Module 05 - Overview
+## Module 06 - Overview
 
 This week you'll learn about Convolutional Neural Networks.
 
