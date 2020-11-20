@@ -11,25 +11,6 @@ In this reading, we'll discuss the definition of terms like "artificial intellig
 
 ## Introduction
 
-In the 1980′s, Hans Moravec made the following observation, which came to be known as Moravec’s Paradox:
-
-> ...as the number of demonstrations has mounted, it has become clear that it is comparatively easy to make computers exhibit adult-level performance in solving problems on intelligence tests or playing checkers, and difficult or impossible to give them the skills of a one-year-old when it comes to perception and mobility. [^1]
-
-So, while AI and machine learning algorithms can accomplish many tasks much better than humans can, any toddler can outperform even the most machine learning algorithm in picking out photos of their parents or pet cat. As this XKCD Cartoon illustrates: [^2]
-
-![XKCD Cartoon](https://imgs.xkcd.com/comics/tasks.png)
-*[XKCD 1425: Tasks](https://xkcd.com/1425/)*
-
-Even though Moravec wrote about this over thirty years ago, the same sentiment persists in AI research today. In a 2016 interview, Dr. Sean Holden, an AI researcher at Cambridge University, discussed the differences between human intelligence and artificial intelligence:
-
-> Most AI researchers don’t try to solve the whole problem because it’s too hard. They take some specific problem and do it better. That’s not to say that the way humans think isn’t useful to AI, but working out how brains do things is hard. And there’s a difference in scale. Brains are doing things that are in some senses quite different from what AI researchers are currently attacking – I’d be ecstatic, for example, if I could build a robot that could put on a duvet cover. [^3]
-
-Dr. Fumiya Iida, from the Machine Intelligence Lab at Cambridge, adds:
-
-> We have hundreds of thousands of muscles in our body, so how can the brain control this? A computer can’t. Every fraction of a second you have to co-ordinate hundreds of muscles just to grab a cup, for example. [^4]
-
-## Artificial Intelligence vs Machine Learning vs Data Science
-
 There are many different ways the terms *Artificial Intelligence*, *Machine Learning*, and *Data Science* are used in the media.
 
 Scan through a couple of the following articles and look at the definitions provided for these terms. Consider where they agree and disagree. How might the backgrounds and experiences of the authors affect their perceptions?
@@ -54,13 +35,13 @@ There is often a wide gap between how the media, government, and business sector
 For this course, we’ll define these terms as follows:
 
 !!! def "Artificial Intelligence"
-	The study of man-made “agents” that perceive their environment and take actions that maximize their chances of success at some goal. [^5]
+	The study of man-made “agents” that perceive their environment and take actions that maximize their chances of success at some goal. [^1]
 
 !!! def "Machine Learning"
-	A subfield within Artificial Intelligence that gives “computers the ability to learn without being explicitly programmed.” [^6]
+	A subfield within Artificial Intelligence that gives “computers the ability to learn without being explicitly programmed.” [^2]
 
 !!! def "Data Science"
-	The study and use of the techniques, statistics, algorithms, and tools need to extract knowledge and insights from data. [^7]
+	The study and use of the techniques, statistics, algorithms, and tools need to extract knowledge and insights from data. [^3]
 
 ## The Three Main Areas of Machine Learning
 
@@ -119,7 +100,7 @@ Cluster analysis and dimensional reduction are examples of unsupervised learning
 Reinforcement learning is what most people think of when they think of artificial intelligence. 
 
 !!! def "Reinforcement Learning"
-	Reinforcement learning is an iterative process where an algorithm seeks to maximize some value based on rewards received for being right. [^8]
+	Reinforcement learning is an iterative process where an algorithm seeks to maximize some value based on rewards received for being right. [^4]
 
 Reinforcement learning is used in robotics development to train robots to respond to varying environmental factors in order to achieve a goal. 
 
@@ -145,18 +126,17 @@ Examples of classification problems include facial recognition software, systems
 
 	Depending on how the final model is going to be used, one approach might make more sense than another. As you'll soon realize is the case for many aspects of machine learning, the right approach will depend on many factors.
 
-[^1]: [Mind Children, by Hans Moravec (Harvard University Press, 1988)](http://www.hup.harvard.edu/catalog.php?isbn=9780674576186&content=reviews)
+### Python Data Science Libraries
 
-[^2]: [XKCD 1425: Tasks](https://xkcd.com/1425/)
+Read through the following tutorials on Pandas and Altair:
 
-[^3]: [Cambridge Alumni Magazine, Issue 79, pg 19](https://www.alumni.cam.ac.uk/magazine/cam-79)
+* [Pandas Getting Started Guide](https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html)
+* [Basic Statistical Visualization with Altair](https://altair-viz.github.io/getting_started/starting.html)
 
-[^4]: [Cambridge Alumni Magazine, Issue 79, pg 19](https://www.alumni.cam.ac.uk/magazine/cam-79)
+[^1]: [Artificial Intelligence: A Modern Approach by Russell and Norvig (Prentice Hall, 2009)](http://aima.cs.berkeley.edu/)
 
-[^5]: [Artificial Intelligence: A Modern Approach by Russell and Norvig (Prentice Hall, 2009)](http://aima.cs.berkeley.edu/)
+[^2]: [Some Studies in Machine Learning Using the Game of Checkers, by Arthur L. Samuel (IBM Journal, Vol 3, No 3, 1959)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.368.2254&rep=rep1&type=pdf)
 
-[^6]: [Some Studies in Machine Learning Using the Game of Checkers, by Arthur L. Samuel (IBM Journal, Vol 3, No 3, 1959)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.368.2254&rep=rep1&type=pdf)
+[^3]: [Wikipedia article on Data Science](https://en.wikipedia.org/wiki/Data_science)
 
-[^7]: [Wikipedia article on Data Science](https://en.wikipedia.org/wiki/Data_science)
-
-[^8]: [Reinforcement Learning](https://www.sciencedirect.com/topics/neuroscience/reinforcement-learning)
+[^4]: [Reinforcement Learning](https://www.sciencedirect.com/topics/neuroscience/reinforcement-learning)
