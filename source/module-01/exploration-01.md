@@ -11,15 +11,15 @@ In this data exploration, you will:
 
 * Learn how to use Google Colab.
 * Learn how to load, explore, and filter data with the Pandas library.
-* Perform some basic data visualization with the Seaborn graphing library.
+* Look at different options for data visualization.
 
 Throughout this exploration, when you're asked to use a new function or library, we'll usually provide a link to that function's documentation, or a tutorial related to it.
 
 ## Introduction
 
-Throughout the course, we'll be using [Google Colab](http://colab.research.google.com) for most of our data exploration and modeling. 
+We'll be using [Google Colab](http://colab.research.google.com) for most of our data exploration and modeling .
 
-This assignment will teach you how Google Colab works and give you some practice using it. You'll also get some practice using the Python language, as well as some of the most popular libraries used by professional data scientists.
+This assignment will teach you how Google Colab works and give you some practice using it. You'll also get some practice using the Python language, as well as the pandas library.
 
 !!!note "Learning Python and Friends"
 
@@ -35,25 +35,23 @@ This assignment will teach you how Google Colab works and give you some practice
 
 ## Introduction to Google Colab
 
-Google Colab is a cloud-based data science development environment. It includes support for the most widely used libraries and tools in data science, as well as providing access to optimized hardware for data analysis.
+Google Colab is a cloud-based data science development environment. It includes support for the most widely used libraries and tools in data science, and provides access to optimized hardware for data analysis.
 
 Google Colab uses "Jupyter Notebooks" for data exploration and analysis. If you've never heard of those before, Jupyter Notebooks are interactive documents that contain a mix of text and python code "cells".
 
 !!!note "Local Development vs Google Colab"
 
-	While it's possible to use Jupyter notebooks locally, Google Colab provides a lot of great datasets, and access to cloud-based instances that have all the standard data science libraries pre-installed and configured for use.
+	While it's possible to use Jupyter notebooks locally, Google Colab removes all of the painful setup and configuration required to make this work, by providing free access to cloud-based compute instances that have all the standard data science libraries pre-installed and configured for use.
 
 	You *can* opt to do your development locally, but keep in mind that if you run into problems with your local configuration, you'll be largely on your own to sort that out.
 
-The following video will walk you through how to complete this first assignment, demonstrating how to use Google Colab, some things to watch out for when using it, and how to submit your assignments.
+The following video will walk you through how Google Colab works, some things to watch out for when using it, and how to submit your assignments.
 
 [!embed](https://www.youtube.com/watch?v=PJzijKS7sOo)
 
 ## Assignment
 
-A consumer watchdog group wants to see if Netflix has more movies for adults or children. 
-
-Using a dataset containing metadata for all of the movies Netflix had available on their platform in 2019, use the [MPAA movie rating system](https://en.wikipedia.org/wiki/Motion_Picture_Association_film_rating_system#MPAA_film_ratings) to determine if they are correct.
+In this data exploration, you'll use the pandas library to answer some questions about Netflix movies and shows.
 
 Click on the `Open In Colab` button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, don't forget to take the corresponding quiz in Canvas.
 
