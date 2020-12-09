@@ -25,9 +25,11 @@
             <div class="toc">
 <ul>
 <li><a href="#overview">Overview</a><ul>
-<li><a href="#an-example-of-supervised-learning">An Example of Supervised Learning</a></li>
+<li><a href="#reinforcement-learning">Reinforcement Learning</a></li>
+<li><a href="#unsupervised-learning">Unsupervised Learning</a></li>
 </ul>
 </li>
+<li><a href="#an-example-of-supervised-learning">An Example of Supervised Learning</a></li>
 <li><a href="#supervised-machine-learning-tasks">Supervised Machine Learning Tasks</a></li>
 <li><a href="#numeric-vs-categorical-features">Numeric vs Categorical Features</a></li>
 <li><a href="#the-pandas-library">The Pandas Library</a></li>
@@ -53,8 +55,25 @@
 <p class="admonition-title">Estimated Reading Time</p>
 <p>Plan on around 90 - 120 minutes for this preparation reading.</p>
 </div>
-<p>Broadly speaking, there are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. In this course, we'll focus on supervised learning.</p>
-<h3 id="an-example-of-supervised-learning">An Example of Supervised Learning</h3>
+<p>Broadly speaking, there are three main types of machine learning: reinforcement learning, unsupervised learning, and supervised learning.</p>
+<p>In this course, we'll focus on supervised learning, but we'll present a quick overview of the other two branches:</p>
+<h3 id="reinforcement-learning">Reinforcement Learning</h3>
+<p>Reinforcement learning is what most people think of when they think of artificial intelligence. </p>
+<p>Reinforcement learning is used in robotics development to train robots to respond to varying environmental factors in order to achieve a goal. </p>
+<div class="admonition def">
+<p class="admonition-title">Reinforcement Learning</p>
+<p>Reinforcement learning is an iterative process where an algorithm seeks to maximize some value based on rewards received for being right.</p>
+</div>
+<h3 id="unsupervised-learning">Unsupervised Learning</h3>
+<p>A grocery store chain might wish to decide which customers to target for a particular sales promotion. Historic shopping data can be analyzed using a technique known as <em>cluster analysis</em> to determine which groups of customers would be most likely to respond to a particular ad campaign.</p>
+<p>A geneticist tracking how a plant cell responds to drought conditions might take measurements of tens of thousands of proteins every few seconds. With that many features to analyze, it can be difficult to find any kind of useful pattern. </p>
+<p>A technique known as <em>dimensional reduction</em> can aggregate the features into groups based on their response patterns, reducing the number of features that need to be analyzed.</p>
+<p>Cluster analysis and dimensional reduction are examples of unsupervised learning.</p>
+<div class="admonition def">
+<p class="admonition-title">Unsupervised Learning</p>
+<p>Unsupervised learning algorithms generate models that allow us to identify patterns in data, make inferences about those patterns, and predict where future data might fall within those patterns. </p>
+</div>
+<h2 id="an-example-of-supervised-learning">An Example of Supervised Learning</h2>
 <p>Credit card companies use supervised learning to develop models that can predict if a transaction looks fraudulent. </p>
 <p>They start with a large set of transactions that they've already analyzed for fraud. This is called the <em>training data</em>. Each transaction in this set is referred to as an <em>instance</em> or <em>sample</em>.</p>
 <p>Each sample will  have a set of interesting attributes, such as the time the transaction occurred, the amount, the location of the purchase, etc... </p>
@@ -68,13 +87,15 @@
 <p>With that background, we can formally define supervised learning as:</p>
 <div class="admonition def">
 <p class="admonition-title">Supervised Learning</p>
-<p>Given:</p>
+<p>Supervised learning algorithms use <em>labeled</em> training data, (data that starts with known values for the target variable) to generate models that relate the features to the target. </p>
+<p>More formally, given:</p>
 <ul>
 <li>An $n$ x $m$ matrix, of $X$, where $n$ is the number of samples, and $m$ is the number of features</li>
 <li>A vector of $n$ target values, $y$ </li>
 </ul>
 <p>A supervised learning algorithm is one that "fits" $X$ to $y$ to create a model capable of predicting the target values of new samples.</p>
 </div>
+<p>The purpose of these models is to accurately predict the response for future observations (prediction) or to help us better understand the relationship between the response and the predictors (inference). </p>
 <h2 id="supervised-machine-learning-tasks">Supervised Machine Learning Tasks</h2>
 <p>Most prediction problems addressed by supervised machine learning can be divided into two groups, regression and classification. These are sometimes referred to as "regression tasks" and "classification tasks".</p>
 <div class="admonition def">

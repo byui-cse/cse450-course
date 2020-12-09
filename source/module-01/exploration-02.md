@@ -11,7 +11,7 @@ In this data exploration, you will:
 
 * Practice more data manipulation and aggregation with the Pandas library.
 * Practice using descriptive statistics on quantitative data.
-* Perform more visualizations with the Altair visualization library.
+* Perform more visualizations.
 
 Throughout this exploration, when you're asked to use a new function or library, we'll usually provide a link to that function's documentation, or a tutorial related to it.
 

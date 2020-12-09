@@ -10,11 +10,34 @@ title: Preparation Reading 01: Introduction
 !!!time "Estimated Reading Time"
 	Plan on around 90 - 120 minutes for this preparation reading.
 
+Broadly speaking, there are three main types of machine learning: reinforcement learning, unsupervised learning, and supervised learning.
 
-Broadly speaking, there are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. In this course, we'll focus on supervised learning.
+In this course, we'll focus on supervised learning, but we'll present a quick overview of the other two branches:
 
-### An Example of Supervised Learning
+### Reinforcement Learning
+Reinforcement learning is what most people think of when they think of artificial intelligence. 
 
+Reinforcement learning is used in robotics development to train robots to respond to varying environmental factors in order to achieve a goal. 
+
+!!! def "Reinforcement Learning"
+	Reinforcement learning is an iterative process where an algorithm seeks to maximize some value based on rewards received for being right.
+
+
+### Unsupervised Learning
+
+A grocery store chain might wish to decide which customers to target for a particular sales promotion. Historic shopping data can be analyzed using a technique known as *cluster analysis* to determine which groups of customers would be most likely to respond to a particular ad campaign.
+
+A geneticist tracking how a plant cell responds to drought conditions might take measurements of tens of thousands of proteins every few seconds. With that many features to analyze, it can be difficult to find any kind of useful pattern. 
+
+A technique known as *dimensional reduction* can aggregate the features into groups based on their response patterns, reducing the number of features that need to be analyzed.
+
+Cluster analysis and dimensional reduction are examples of unsupervised learning.
+
+!!! def "Unsupervised Learning"
+	Unsupervised learning algorithms generate models that allow us to identify patterns in data, make inferences about those patterns, and predict where future data might fall within those patterns. 
+
+
+## An Example of Supervised Learning
 
 Credit card companies use supervised learning to develop models that can predict if a transaction looks fraudulent. 
 
@@ -36,12 +59,17 @@ With that background, we can formally define supervised learning as:
 
 !!! def "Supervised Learning"
 
-	Given:
+	Supervised learning algorithms use *labeled* training data, (data that starts with known values for the target variable) to generate models that relate the features to the target. 
+
+	More formally, given:
 
 	* An $n$ x $m$ matrix, of $X$, where $n$ is the number of samples, and $m$ is the number of features
 	* A vector of $n$ target values, $y$ 
 
 	A supervised learning algorithm is one that "fits" $X$ to $y$ to create a model capable of predicting the target values of new samples.
+
+The purpose of these models is to accurately predict the response for future observations (prediction) or to help us better understand the relationship between the response and the predictors (inference). 
+
 
 ## Supervised Machine Learning Tasks
 
