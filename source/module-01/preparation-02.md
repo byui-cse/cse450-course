@@ -1,5 +1,5 @@
 ---
-title: Preparation Reading 02: Descriptive Statistics
+title: Preparation Reading 02: Features
 ---
 
 ## Overview

@@ -14,10 +14,9 @@ All markdown files are transformed by the build script into HTML. A default temp
 - Automatic smart quote transformation via [smartquotes.js](https://smartquotes.js.org)
 
 ## Building the Site
-The build toolchain is based on Python 3 (tested with 3.8.2). Aside from the standard libraries, the build script has two dependencies:[Python markdown](https://python-markdown.github.io), and [PyEmbed Markdown](https://pyembed.github.io/usage/markdown/). Both may be installed in the standard way:
+The build toolchain is based on Python 3 (tested with 3.8.2). Aside from the standard libraries, the build script has one dependencies:[Python markdown](https://python-markdown.github.io). It can be installed in the standard way:
 
 	pip install markdown
-	pip install pyembed-markdown
 
 While not required, it is recommended that you use a [virtual environment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
 
@@ -186,16 +185,3 @@ In the default template, the table of contents is hidden until the table of cont
 Visible: 
 
 ![Table of contents - visible](readme-img/toc2.png)
-
-### Embeds
-
-The [PyEmbed Markdown](https://pyembed.github.io/usage/markdown/) library is used to add support for embedding content in an `iframe`.
-
-	[!embed](http://www.youtube.com/watch?v=PJzijKS7sOo)
-
-Results in:
-
-	<iframe width="480" height="270" src="https://www.youtube.com/embed/PJzijKS7sOo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Other customization options are described in the [PyEmbed Markdown docs](https://pyembed.github.io/usage/markdown/).
-

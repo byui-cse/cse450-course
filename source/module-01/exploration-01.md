@@ -47,7 +47,7 @@ Google Colab uses "Jupyter Notebooks" for data exploration and analysis. If you'
 
 The following video will walk you through how Google Colab works, some things to watch out for when using it, and how to submit your assignments.
 
-[!embed](https://www.youtube.com/watch?v=PJzijKS7sOo)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PJzijKS7sOo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 
 ## Assignment
 
@@ -59,6 +59,6 @@ Click on the `Open In Colab` button below to open a Google Colab notebook with t
 
 ## Teacher's Solution
 
-Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can [view the teacher's solution here](https://github.com/byui-cse/cse450-course/blob/master/notebooks/Exploration_01_Solved.ipynb).
+Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can [view the teacher's solution here](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_01_Solved.ipynb).
 
 

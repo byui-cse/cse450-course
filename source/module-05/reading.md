@@ -32,15 +32,16 @@ Please go through this content before the reading quiz and class discussion on F
 This video from MIT does a great job of introducing all of the high level concepts of how neural networks work, and how they can be used to solve machine learning problems.
 
 
-[!embed](https://www.youtube.com/watch?v=njKP3FqW3Sk)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/njKP3FqW3Sk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 The following three videos give another perspective about neural networks and go into a bit more detail on gradient descent and back propagation:
 
-[!embed](https://www.youtube.com/watch?v=aircAruvnKk)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aircAruvnKk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[!embed](https://www.youtube.com/watch?v=IHZwWFHWa-w)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IHZwWFHWa-w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[!embed](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ilg3gGewQ5U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Practical

@@ -18,8 +18,7 @@ The final question will ask you for the GitHub Gist URL of your colab notebook. 
 
 See this video for details:
 
-[!embed](https://www.youtube.com/watch?v=PJzijKS7sOo)
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PJzijKS7sOo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 After creating the GitHub Gist, paste its URL as the answer to the final quiz question. 
 

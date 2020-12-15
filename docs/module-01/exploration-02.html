@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Exploration 02: Cereal Marketing</title>
+	<title>Exploration 02: Class Distinctions</title>
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -26,7 +26,10 @@
 <ul>
 <li><a href="#overview">Overview</a></li>
 <li><a href="#introduction">Introduction</a></li>
-<li><a href="#assignment">Assignment</a></li>
+<li><a href="#assignment">Assignment</a><ul>
+<li><a href="#notes-about-the-data">Notes about the data</a></li>
+</ul>
+</li>
 <li><a href="#teachers-solution">Teacher's Solution</a></li>
 </ul>
 </div>
@@ -38,44 +41,45 @@
         <span class="icon-byui-logo"></span>
         <div id="titles">
             <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
-            <h2>Exploration 02: Cereal Marketing</h2>
+            <h2>Exploration 02: Class Distinctions</h2>
         </div>
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<p><img alt="Cereal" src="https://byui-cse.github.io/cse450-course/shared/img/cereal.jpg" />
-<em><a href="https://unsplash.com/photos/QdwrSyJV3_4">Photo by Haley Owens on Unsplash</a></em></p>
+		<p><img alt="Iceberg" src="https://byui-cse.github.io/cse450-course/shared/img/iceberg.jpg" />
+<em><a href="https://unsplash.com/photos/4ReskwNsh68">Photo by Derek Oyen on Unsplash</a></em></p>
 <h2 id="overview">Overview</h2>
-<p>In this data exploration, you will:</p>
+<p>In this data exploration, you will practice the following:</p>
 <ul>
-<li>Practice more data manipulation and aggregation with the Pandas library.</li>
-<li>Practice using descriptive statistics on quantitative data.</li>
-<li>Perform more visualizations.</li>
+<li>Analyzing feature relationships using visualizations.</li>
+<li>Feature engineering </li>
+<li>Feature encoding</li>
 </ul>
 <p>Throughout this exploration, when you're asked to use a new function or library, we'll usually provide a link to that function's documentation, or a tutorial related to it.</p>
 <h2 id="introduction">Introduction</h2>
 <p>As with our previous data explorations, this assignment uses <a href="http://colab.research.google.com">Google Colab</a>. For more information on using Google Colab, including how to submit assignments with it, please see the information in <a href="./exploration-01.html">Data Exploration 01</a> </p>
 <h2 id="assignment">Assignment</h2>
-<p>You're working as a data analyst at a cereal marketing company in New York. </p>
-<p>In a strategy meeting, the marketing director tells you that in 2018, the US weight loss industry was worth over $72 Billion dollars, growing 4% compared to the previous year. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> </p>
-<p>In contrast, sales of cold cereal fell 6% to $8.5 billion during the same time period. <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
-<p>Cereal executives have approached the marketing company asking how they can somehow tap into the weight loss market growth to boost the sales of their cereal brands.</p>
-<p>Your assignment is to analyze a dataset of nutritional information for major US cereals, and calculate some metrics that can be used by the marketing team.</p>
+<p>You're working on an exhibit for a local museum called "The Titanic Disaster". They've asked you to analyze the passenger manifests and see if you can find any interesting information for the exhibit. </p>
+<p>The museum curator is particularly interested in why some people might have been more likely to survive than others.</p>
+<h3 id="notes-about-the-data">Notes about the data</h3>
+<p>Column Information:</p>
+<ul>
+<li>Survived: Did the passenger survive? (0 = no, 1 = yes)</li>
+<li>Pclass: The passenger's ticket class. (1 = 1st, 2 = 2nd, 3 = 3rd)</li>
+<li>Name: The passenger's name</li>
+<li>Sex: The passenger's gender</li>
+<li>Age: The passenger's age in years</li>
+<li>SibSp: Count of the passenger's siblings and spouse also aboard.</li>
+<li>Parch: Count of the passenger's parents and children also aboard.</li>
+<li>Ticket: The passenger's ticket number</li>
+<li>Fare: The amount the passenger paid for their ticket.</li>
+<li>Cabin: The passenger's cabin id.</li>
+<li>Embarked: Where the passenger embarked from (C = Cherbourg, S = Southampton, Q = Queenstown)</li>
+</ul>
 <p>Click on the <code>Open In Colab</code> button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, don't forget to take the corresponding quiz in Canvas. </p>
 <p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_02.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
 <h2 id="teachers-solution">Teacher's Solution</h2>
-<p>Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can <a href="https://github.com/byui-cse/cse450-course/blob/master/notebooks/Exploration_02_Solved.ipynb">view the teacher's solution here</a>.</p>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:1">
-<p><a href="https://www.businesswire.com/news/home/20190225005455/en/72-Billion-Weight-Loss-Diet-Control-Market">Business Wire — Feb 25, 2019</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p><a href="https://www.wsj.com/articles/cereal-makers-try-again-to-jump-start-stale-sales-11566293404">Wall Street Journal — Aug 20, 2019</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div>
+<p>Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can <a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_02_Solved.ipynb">view the teacher's solution here</a>.</p>
 	</article>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>

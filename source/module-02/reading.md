@@ -27,7 +27,7 @@ Complete the following preparation reading:
 
 * Watch the following introduction to Cluster Analysis:
 
-[!embed](https://www.youtube.com/watch?v=QXOkPvFM6NU)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QXOkPvFM6NU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Read about [the Sci-Kit Learn implementation of K-Means clustering](https://scikit-learn.org/stable/modules/clustering.html#k-means).
 

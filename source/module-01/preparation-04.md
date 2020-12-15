@@ -18,9 +18,9 @@ Probability theory is a foundational principle behind most of machine learning. 
 * Read Appendix B (pages 541 - 550) of *Machine Learning and Predictive Data Analytics*
 * Watch these two videos about Probability Distributions:
 
-[!embed](https://www.youtube.com/watch?v=CfZa1daLjwo)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CfZa1daLjwo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[!embed](https://www.youtube.com/watch?v=b9a27XN_6tg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b9a27XN_6tg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 !!!note "Probability Distribution Reference"
 	I recommend keeping [this playlist bookmarked](https://www.youtube.com/playlist?list=PLaFfQroTgZnzbfK-Rie19FdV6diehETQy) and whenever you read something that refers to a probability distribution that you're unfamiliar with, refer back to the corresponding video.
