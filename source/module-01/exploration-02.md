@@ -1,5 +1,5 @@
 ---
-title: Exploration 03: Cereal Marketing
+title: Exploration 02: Cereal Marketing
 ---
 
 ![Cereal]({{URLROOT}}/shared/img/cereal.jpg)
@@ -10,8 +10,8 @@ title: Exploration 03: Cereal Marketing
 In this data exploration, you will practice the following:
 
 * Data exploration and visualization.
-* Advanced feature engineering.
-* Feature Normalization
+* Calculating summary statistics.
+* Feature engineering.
 
 Throughout this exploration, when you're asked to use a new function or library, we'll usually provide a link to that function's documentation, or a tutorial related to it.
 

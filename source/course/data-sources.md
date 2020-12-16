@@ -31,6 +31,14 @@ Information about Titanic Passengers
 * License: [Creative Commons 0 (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 * [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/titanic.csv)
 
+### US Honey Production
+
+This dataset is inspired by Honey Production in the USA, extended to the period 1998-2017. Plus, I joined data from USGS's Pesticide National Synthesis Project, allowing evaluation of the statistical connections between Honey Production and the use of Neonicotinoid (neonic) pesticides.
+
+* Original Source: [Kaggle](https://www.kaggle.com/kevinzmith/honey-with-neonic-pesticide)
+* License: [Creative Commons 0 (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/)
+* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/honey.csv)
+
 ### Congressional Voting Record
 
 Voting information for the 1984 US Congress
