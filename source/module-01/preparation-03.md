@@ -17,8 +17,7 @@ There are some quantitative ways to look at those relationships that we'll learn
 
 ## Reading
 
-* Read section 3.5.1 (pages 77 - 86) of *Machine Learning and Predictive Data Analytics*
-* Browse through Altair's [Sample Gallery](https://altair-viz.github.io/gallery/index.html)
-* Read through Altair's [User Guide](https://altair-viz.github.io/user_guide/data.html) from the `Specifying Data in Altair` section to the `Frequently Asked Question` section. (12 sections total)
+Them read the following sections of Chapter 3 of *Machine Learning and Predictive Data Analytics*:
 
-  You don't need to memorize the Altair user guide, just read through each section enough to understand what's possible and to give yourself an idea of how different aspects of the library work.
+* 3.5 - Advanced Data Exploration
+* 3.6 - Data Preparation

@@ -56,13 +56,16 @@ If we use numbers for our set of options, then we have an _ordinal_ feature.
 
 ## Textbook Reading
 
-!!!note "Optional Statistics Review"
+Read the following sections from Appendix A of *Machine Learning and Predictive Data Analytics*.
 
-	If it's been a while since you've studied statistics, and are feeling a bit rusty, it would probably be a good idea to review these sections from appendix A first:
+* A.1 - Descriptive Statistics for Continuous Features
+* A.2 - Descriptive Statistics for Categorical Features
+* A.3 - Populations and Samples
 
-	* A.1 - Descriptive Statistics for Continuous Features
-	* A.2 - Descriptive Statistics for Categorical Features
-	* A.3 - Populations and Samples
+Them read the following sections of Chapter 3 of *Machine Learning and Predictive Data Analytics*.
 
-* Read Chapter 3 (Data Exploration) in *Machine Learning and Predictive Data Analytics*.
+* 3.1 - The Data Quality Report
+* 3.2 - Getting to Know the Data
+* 3.3 - Identifying Data Quality Issues
+* 3.4 - Handling Data Quality Issues
 

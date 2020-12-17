@@ -1,9 +1,9 @@
 ---
-title: Exploration 04: Congressional Votes
+title: Exploration 04: US Honey Production
 ---
 
-![White House]({{URLROOT}}/shared/img/whitehouse.jpg)
-*[Photo by Louis Velazquez on Unsplash](https://unsplash.com/photos/XWW746i6WoM)*
+![Jar of Honey]({{URLROOT}}/shared/img/honey.jpg)
+*[Photo by Alexander Mils on Unsplash](https://unsplash.com/photos/nesUgwNX3u4)*
 
 ## Overview
 
@@ -19,24 +19,45 @@ As with our previous data explorations, this assignment uses [Google Colab](http
 
 ## Assignment
 
-A [political think tank](https://en.wikipedia.org/wiki/Think_tank) is preparing a public relations campaign on a variety of policy issues. 
+A local farmer's cooperative has expressed concern about the effect the use of Neonic pesticides has on honeybee populations.
 
-In order to understand how they should best allocate their time, they've asked you to calculate some probabilities based on prior Congressional voting history.
+They've asked you to analyze the data and identify any trends that might suggest a link between the increased use of pesticides and a decrease in honeybee health.
 
 
 ### Notes about the data
 
-Each column in the dataset other than `class` records how a congressional representative voted on a particular piece of legislation. These votes are coded as:
+This dataset merges two different datasets. One on honey production, the other by pesticide use.
 
-* Y - Voted yea (in favor of passage)
-* N - Voted nay (against passage)
-* ? - Abstained
+From USDA data:
 
-To find more information on a particular piece of legislation, try googling for `1984 congress <column name>`, such as:
+* `numcol`: Number of honey producing colonies. Honey producing colonies are the maximum number of colonies from which honey was taken during the year. It is possible to take honey from colonies which did not survive the entire year
 
-   1984 congress mx-missile
+* `yieldpercol`: Honey yield per colony. Unit is pounds
 
-Which brings up [this New York Times article](https://www.nytimes.com/1984/05/15/us/issue-and-debate-mx-missile-faces-another-test-in-congress.html) as the first result. Though, the most relevant result may not always be the first one listed.
+* `totalprod`: Total production (numcol x yieldpercol). Unit is pounds
+
+* `stocks`: Refers to stocks held by producers. Unit is pounds
+
+* `priceperlb`: Refers to average price per pound based on expanded sales. Unit is dollars.
+
+* `prodvalue`: Value of production (totalprod x priceperlb). Unit is dollars.
+
+From USGS Data:
+
+* `nCLOTHIANIDIN`: The amount in kg of CLOTHIANIDIN applied
+
+* `nIMIDACLOPRID`: The amount in kg of IMIDACLOPRID applied
+
+* `nTHIAMETHOXAM`: The amount in kg of THIAMETHOXAM applied
+
+* `nACETAMIPRID`: The amount in kg of ACETAMIPRID applied
+
+* `nTHIACLOPRID`: The amount in kg of THIACLOPRID applied
+
+* `nAllNeonic`: The amount in kg of all Neonics applied = (nCLOTHIANIDIN + nIMIDACLOPRID + nTHIAMETHOXAM + nACETAMIPRID + nTHIACLOPRID)
+
+
+### Colab Link
 
 Click on the `Open In Colab` button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, don't forget to take the corresponding quiz in Canvas. 
 

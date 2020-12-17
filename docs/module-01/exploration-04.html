@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Exploration 04: Congressional Votes</title>
+	<title>Exploration 04: US Honey Production</title>
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -28,6 +28,7 @@
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#assignment">Assignment</a><ul>
 <li><a href="#notes-about-the-data">Notes about the data</a></li>
+<li><a href="#colab-link">Colab Link</a></li>
 </ul>
 </li>
 <li><a href="#teachers-solution">Teacher's Solution</a></li>
@@ -41,13 +42,13 @@
         <span class="icon-byui-logo"></span>
         <div id="titles">
             <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
-            <h2>Exploration 04: Congressional Votes</h2>
+            <h2>Exploration 04: US Honey Production</h2>
         </div>
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<p><img alt="White House" src="https://byui-cse.github.io/cse450-course/shared/img/whitehouse.jpg" />
-<em><a href="https://unsplash.com/photos/XWW746i6WoM">Photo by Louis Velazquez on Unsplash</a></em></p>
+		<p><img alt="Jar of Honey" src="https://byui-cse.github.io/cse450-course/shared/img/honey.jpg" />
+<em><a href="https://unsplash.com/photos/nesUgwNX3u4">Photo by Alexander Mils on Unsplash</a></em></p>
 <h2 id="overview">Overview</h2>
 <p>In this data exploration, you will:</p>
 <ul>
@@ -57,18 +58,53 @@
 <h2 id="introduction">Introduction</h2>
 <p>As with our previous data explorations, this assignment uses <a href="http://colab.research.google.com">Google Colab</a>. For more information on using Google Colab, including how to submit assignments with it, please see the information in <a href="./exploration-01.html">Data Exploration 01</a> </p>
 <h2 id="assignment">Assignment</h2>
-<p>A <a href="https://en.wikipedia.org/wiki/Think_tank">political think tank</a> is preparing a public relations campaign on a variety of policy issues. </p>
-<p>In order to understand how they should best allocate their time, they've asked you to calculate some probabilities based on prior Congressional voting history.</p>
+<p>A local farmer's cooperative has expressed concern about the effect the use of Neonic pesticides has on honeybee populations.</p>
+<p>They've asked you to analyze the data and identify any trends that might suggest a link between the increased use of pesticides and a decrease in honeybee health.</p>
 <h3 id="notes-about-the-data">Notes about the data</h3>
-<p>Each column in the dataset other than <code>class</code> records how a congressional representative voted on a particular piece of legislation. These votes are coded as:</p>
+<p>This dataset merges two different datasets. One on honey production, the other by pesticide use.</p>
+<p>From USDA data:</p>
 <ul>
-<li>Y - Voted yea (in favor of passage)</li>
-<li>N - Voted nay (against passage)</li>
-<li>? - Abstained</li>
+<li>
+<p><code>numcol</code>: Number of honey producing colonies. Honey producing colonies are the maximum number of colonies from which honey was taken during the year. It is possible to take honey from colonies which did not survive the entire year</p>
+</li>
+<li>
+<p><code>yieldpercol</code>: Honey yield per colony. Unit is pounds</p>
+</li>
+<li>
+<p><code>totalprod</code>: Total production (numcol x yieldpercol). Unit is pounds</p>
+</li>
+<li>
+<p><code>stocks</code>: Refers to stocks held by producers. Unit is pounds</p>
+</li>
+<li>
+<p><code>priceperlb</code>: Refers to average price per pound based on expanded sales. Unit is dollars.</p>
+</li>
+<li>
+<p><code>prodvalue</code>: Value of production (totalprod x priceperlb). Unit is dollars.</p>
+</li>
 </ul>
-<p>To find more information on a particular piece of legislation, try googling for <code>1984 congress &lt;column name&gt;</code>, such as:</p>
-<p>1984 congress mx-missile</p>
-<p>Which brings up <a href="https://www.nytimes.com/1984/05/15/us/issue-and-debate-mx-missile-faces-another-test-in-congress.html">this New York Times article</a> as the first result. Though, the most relevant result may not always be the first one listed.</p>
+<p>From USGS Data:</p>
+<ul>
+<li>
+<p><code>nCLOTHIANIDIN</code>: The amount in kg of CLOTHIANIDIN applied</p>
+</li>
+<li>
+<p><code>nIMIDACLOPRID</code>: The amount in kg of IMIDACLOPRID applied</p>
+</li>
+<li>
+<p><code>nTHIAMETHOXAM</code>: The amount in kg of THIAMETHOXAM applied</p>
+</li>
+<li>
+<p><code>nACETAMIPRID</code>: The amount in kg of ACETAMIPRID applied</p>
+</li>
+<li>
+<p><code>nTHIACLOPRID</code>: The amount in kg of THIACLOPRID applied</p>
+</li>
+<li>
+<p><code>nAllNeonic</code>: The amount in kg of all Neonics applied = (nCLOTHIANIDIN + nIMIDACLOPRID + nTHIAMETHOXAM + nACETAMIPRID + nTHIACLOPRID)</p>
+</li>
+</ul>
+<h3 id="colab-link">Colab Link</h3>
 <p>Click on the <code>Open In Colab</code> button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, don't forget to take the corresponding quiz in Canvas. </p>
 <p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_04.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
 <h2 id="teachers-solution">Teacher's Solution</h2>
