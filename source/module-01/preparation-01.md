@@ -2,161 +2,142 @@
 title: Preparation Reading 01: Introduction
 ---
 
-## Objectives
-
-In this reading, we'll discuss the definition of terms like "artificial intelligence" and "machine learning". We'll also explore the three main areas of machine learning, and the two most common machine learning tasks.
-
-!!!time "Estimated Reading Time"
-	Plan on around 60 to 90 minutes for this preparation reading, which consists only of online reading.
-
-## Introduction
-
-In the 1980′s, Hans Moravec made the following observation, which came to be known as Moravec’s Paradox:
-
-> ...as the number of demonstrations has mounted, it has become clear that it is comparatively easy to make computers exhibit adult-level performance in solving problems on intelligence tests or playing checkers, and difficult or impossible to give them the skills of a one-year-old when it comes to perception and mobility. [^1]
-
-So, while AI and machine learning algorithms can accomplish many tasks much better than humans can, any toddler can outperform even the most machine learning algorithm in picking out photos of their parents or pet cat. As this XKCD Cartoon illustrates: [^2]
-
-![XKCD Cartoon](https://imgs.xkcd.com/comics/tasks.png)
-*[XKCD 1425: Tasks](https://xkcd.com/1425/)*
-
-Even though Moravec wrote about this over thirty years ago, the same sentiment persists in AI research today. In a 2016 interview, Dr. Sean Holden, an AI researcher at Cambridge University, discussed the differences between human intelligence and artificial intelligence:
-
-> Most AI researchers don’t try to solve the whole problem because it’s too hard. They take some specific problem and do it better. That’s not to say that the way humans think isn’t useful to AI, but working out how brains do things is hard. And there’s a difference in scale. Brains are doing things that are in some senses quite different from what AI researchers are currently attacking – I’d be ecstatic, for example, if I could build a robot that could put on a duvet cover. [^3]
-
-Dr. Fumiya Iida, from the Machine Intelligence Lab at Cambridge, adds:
-
-> We have hundreds of thousands of muscles in our body, so how can the brain control this? A computer can’t. Every fraction of a second you have to co-ordinate hundreds of muscles just to grab a cup, for example. [^4]
-
-## Artificial Intelligence vs Machine Learning vs Data Science
-
-There are many different ways the terms *Artificial Intelligence*, *Machine Learning*, and *Data Science* are used in the media.
-
-Scan through a couple of the following articles and look at the definitions provided for these terms. Consider where they agree and disagree. How might the backgrounds and experiences of the authors affect their perceptions?
-
-(There's no need to take notes or memorize these opinions, we'll come up with our own definitions later.)
-
-- [Michael Copeland writing for NVidia](https://blogs.nvidia.com/blog/2016/07/29/whats-difference-artificial-intelligence-machine-learning-deep-learning-ai/)
-- [Bernard Marr writing for Forbes](https://www.forbes.com/sites/bernardmarr/2016/12/08/what-is-the-difference-between-deep-learning-machine-learning-and-ai/#78654ee526cf)
-- [Vincent Granville writing for Data Science Central](http://www.datasciencecentral.com/profiles/blogs/difference-between-machine-learning-data-science-ai-deep-learning)
-- [Simply Statistics Blog - The key word in “Data Science” is not Data, it is Science](http://simplystatistics.org/2013/12/12/the-key-word-in-data-science-is-not-data-it-is-science/)
-
-Of particular note is this quote from the Granville article:
-
-> Earlier in my career (circa 1990) I worked on image remote sensing technology, among other things to identify patterns (or shapes or features, for instance lakes) in satellite images and to perform image segmentation: at that time my research was labeled as *computational statistics*, but the people doing the exact same thing in the computer science department next door in my home university, called their research *artificial intelligence*. Today, it would be called *data science* or *artificial intelligence*, the sub-domains being *signal processing*, *computer vision* or *IoT*.
-
-Notice how there's a lot of overlap between these commonly used terms. You might just as easily call this type of work "machine learning". 
-
-There is often a wide gap between how the media, government, and business sectors view a particular technology compared to how it’s viewed by the engineers and scientists using that technology.
-
-### Our Definitions
-
-For this course, we’ll define these terms as follows:
-
-!!! def "Artificial Intelligence"
-	The study of man-made “agents” that perceive their environment and take actions that maximize their chances of success at some goal. [^5]
-
-!!! def "Machine Learning"
-	A subfield within Artificial Intelligence that gives “computers the ability to learn without being explicitly programmed.” [^6]
-
-!!! def "Data Science"
-	The study and use of the techniques, statistics, algorithms, and tools need to extract knowledge and insights from data. [^7]
-
-## The Three Main Areas of Machine Learning
-
-The three main areas of machine learning are *supervised learning*, *unsupervised learning*, and *reinforcement learning*. 
-
-The focus of this course will be supervised learning, which is the most common type of machine learning used in industry. We'll have a little exposure to unsupervised learning, but talk only briefly about reinforcement learning.
-
-### Supervised Learning
-
 ![Credit Card Transaction]({{URLROOT}}/shared/img/cc.jpg)
 *[Photo by Blake Wisz on Unsplash](https://unsplash.com/photos/q3o_8MteFM0)*
 
-Many credit card companies use supervised learning to develop models that can predict if a particular transaction looks fraudulent. 
+## Overview
 
-They start with a large set of transactions that they've already analyzed for fraud. This is called the *training data*. Each individual transaction in this set is referred to as a *sample* or *instance* of the data.
+!!!time "Estimated Reading Time"
+	Plan on around 90 - 120 minutes for this preparation reading.
 
-These transactions will each have a set of interesting attributes, such as the time the transaction occurred, the amount, the location of the purchase, whether or not it was an online or in-person transaction, etc... 
+Broadly speaking, there are three main types of machine learning: reinforcement learning, unsupervised learning, and supervised learning.
 
-These attributes are referred to by statisticians as *predictors*. Data scientists usually refer to them as *features*.
+In this course, we'll focus on supervised learning, but we'll present a quick overview of the other two branches:
+
+### Reinforcement Learning
+Reinforcement learning is what most people think of when they think of artificial intelligence. 
+
+Reinforcement learning is used in robotics development to train robots to respond to varying environmental factors in order to achieve a goal. 
+
+!!! def "Reinforcement Learning"
+	Reinforcement learning is an iterative process where an algorithm seeks to maximize some value based on rewards received for being right.
+
+
+### Unsupervised Learning
+
+A grocery store chain might wish to decide which customers to target for a particular sales promotion. Historic shopping data can be analyzed using a technique known as *cluster analysis* to determine which groups of customers would be most likely to respond to a particular ad campaign.
+
+A geneticist tracking how a plant cell responds to drought conditions might take measurements of tens of thousands of proteins every few seconds. With that many features to analyze, it can be difficult to find any kind of useful pattern. 
+
+A technique known as *dimensional reduction* can aggregate the features into groups based on their response patterns, reducing the number of features that need to be analyzed.
+
+Cluster analysis and dimensional reduction are examples of unsupervised learning.
+
+!!! def "Unsupervised Learning"
+	Unsupervised learning algorithms generate models that allow us to identify patterns in data, make inferences about those patterns, and predict where future data might fall within those patterns. 
+
+
+## An Example of Supervised Learning
+
+Credit card companies use supervised learning to develop models that can predict if a transaction looks fraudulent. 
+
+They start with a large set of transactions that they've already analyzed for fraud. This is called the *training data*. Each transaction in this set is referred to as an *instance* or *sample*.
+
+Each sample will  have a set of interesting attributes, such as the time the transaction occurred, the amount, the location of the purchase, etc... 
+
+These attributes are called *predictors*, *independent variables*, or *features*. Data scientists usually refer to them as *features*.
 
 !!! warning "Synonym Madness"
 	
-	As we noted in the reading earlier, the concepts and techniques used in machine learning have been around for a long time, and have been developed and refined through work in many different fields. 
+	The concepts and techniques used in machine learning have been around for a long time, and have been developed and refined through work in many different fields. 
 
 	Because of this, there are many terms like "predictors" and "features" that came from different fields, but which mean the same thing and are sometimes used interchangeably.
 
-Since these are historic transactions, one of the attributes will be whether or not the credit card company determined they were fraudulent. Since this is the attribute we're trying to predict in future transactions, it is referred to as the *response variable* (by statisticians) or as the *target* (by data scientists).
+Since these are historic transactions, one of the attributes will be whether or not the transaction really was fraudulent. Since this is the attribute we're trying to predict in future transactions, it is referred to as the *response variable*, or the *target*.
 
-With that background, we can now define supervised learning this way:
+With that background, we can formally define supervised learning as:
 
 !!! def "Supervised Learning"
 
 	Supervised learning algorithms use *labeled* training data, (data that starts with known values for the target variable) to generate models that relate the features to the target. 
 
-	The purpose of these models is to accurately predict the response for future observations (prediction) or to help us better understand the relationship between the response and the predictors (inference). 
+	More formally, given:
 
-As you'll see throughout this course, the accuracy and usefulness of these models will depend on a number of factors.
+	* An $n$ x $m$ matrix, of $X$, where $n$ is the number of samples, and $m$ is the number of features
+	* A vector of $n$ target values, $y$ 
 
-### Unsupervised Learning
-![Grocery Shopping]({{URLROOT}}/shared/img/grocery.jpg)
-*[Photo by nrd on Unsplash](https://unsplash.com/photos/D6Tu_L3chLE)*
+	A supervised learning algorithm is one that "fits" $X$ to $y$ to create a model capable of predicting the target values of new samples.
 
-A grocery store chain might wish to decide which customers to target for a particular sales promotion. Historic shopping data can be analyzed using a technique known as *cluster analysis* to determine which groups of customers would be most likely to respond to a particular ad campaign.
+The purpose of these models is to accurately predict the response for future observations (prediction) or to help us better understand the relationship between the response and the predictors (inference). 
 
-A geneticist tracking measuring how a plant cell responds to drought conditions might take measurements of tens of thousands of proteins every few seconds. With that many features to analyze, it can be difficult to find any kind of useful pattern. A technique known as *dimensional reduction* can aggregate the features into groups based on their response patterns, reducing the number of features that need to be analyzed.
-
-Cluster analysis and dimensional reduction are examples of unsupervised learning.
-
-!!! def "Unsupervised Learning"
-	Unsupervised learning algorithms generate models that allow us to identify patterns in unlabeled training data, make inferences about those patterns, and predict where future data might fall within those patterns. 
-
-### Reinforcement Learning
-![Robot]({{URLROOT}}/shared/img/robot.jpg)
-*[Photo by Lenin Estrada on Unsplash](https://unsplash.com/photos/OI1ToozsKBw)*
-
-Reinforcement learning is what most people think of when they think of artificial intelligence. 
-
-!!! def "Reinforcement Learning"
-	Reinforcement learning is an iterative process where an algorithm seeks to maximize some value based on rewards received for being right. [^8]
-
-Reinforcement learning is used in robotics development to train robots to respond to varying environmental factors in order to achieve a goal. 
 
 ## Supervised Machine Learning Tasks
 
-Most problems addressed by supervised machine learning can be divided into two groups, regression and classification.
+Most prediction problems addressed by supervised machine learning can be divided into two groups, regression and classification. These are sometimes referred to as "regression tasks" and "classification tasks".
 
 !!! def "Regression"
 
-	The process of generating a model that can be used to predict a numerical value along a continuous range.
+	The process of generating a model that can be used to predict a numeric value.
 
-Examples of regression problems are predicting the likelihood that someone will contract a disease based on epidemiological data, calculating the value of a house based on its features and current market trends, or predicting a student's most likely GPA based on their ACT scores.
+Examples of regression problems include:
+
+* Predicting the likelihood that someone will contract a disease
+* Calculating the value of a house
+* Predicting a student's most likely GPA based on their ACT scores.
+
+If you're trying to predict a number, that is usually a regression task.
 
 !!! def "Classification"
 
 	The process of generating a model that can be used to predict a particular value from a set of discrete choices.
 
-Examples of classification problems include facial recognition software, systems that decide whether a customer should be given a loan, tests to determine if someone has a particular illness, and optical character recognition systems.
+Examples of classification problems include:
+
+* Facial recognition software
+* Fraud detection
+* Disease diagnosis 
+* Text recognition
+
+If you're trying to predict whether something belongs to a certain class ("picture of dog" vs "picture of cat", "has disease" vs "does not have disease", etc...), that is usually a classification task.
 
 !!! warning "Regression vs Classification"
 
 	While there are some algorithms that are designed to be used in regression or classification scenarios, most can be used in either one. In addition, with a few modifications to the problem statement, many classification problems can be restated as regression problems and vice versa.
 
-	Depending on how the final model is going to be used, one approach might make more sense than another. As you'll soon realize is the case for many aspects of machine learning, the right approach will depend on many factors.
+	Depending on how the final model is going to be used, one approach might make more sense than another. As you'll soon realize is the case for many aspects of machine learning, the right approach will depend on many factors. And it's unusual for there to be one "best" way.
 
-[^1]: [Mind Children, by Hans Moravec (Harvard University Press, 1988)](http://www.hup.harvard.edu/catalog.php?isbn=9780674576186&content=reviews)
+## Numeric vs Categorical Features
 
-[^2]: [XKCD 1425: Tasks](https://xkcd.com/1425/)
+When analyzing a feature of our data, one of the first things we need to know is whether or not we are looking at a numeric or categorical feature.
 
-[^3]: [Cambridge Alumni Magazine, Issue 79, pg 19](https://www.alumni.cam.ac.uk/magazine/cam-79)
+!!!def "Numeric Feature"
+	
+	A numeric, or quantitative feature is a property of the data ($x$) that can take on a range of quantitative values between two numeric limits: $ x_{min} \leq x \leq x_{max} $.
 
-[^4]: [Cambridge Alumni Magazine, Issue 79, pg 19](https://www.alumni.cam.ac.uk/magazine/cam-79)
+If we were to measure the height of everyone on campus, we might find that their heights span a range between 100 cm and 200 cm. We would say that `height` is a numeric feature of our data, with a minimum value of 100 cm and a maximum value of 200 cm.
 
-[^5]: [Artificial Intelligence: A Modern Approach by Russell and Norvig (Prentice Hall, 2009)](http://aima.cs.berkeley.edu/)
+Other examples of numeric features for this dataset might include the student's weight, age, GPA, number of credits completed, hours of Netflix watched each week, and bank account balance.
 
-[^6]: [Some Studies in Machine Learning Using the Game of Checkers, by Arthur L. Samuel (IBM Journal, Vol 3, No 3, 1959)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.368.2254&rep=rep1&type=pdf)
+If we asked students which academic class they were in (Freshman, Sophomore, Junior, or Senior), we would be measuring a *categorical feature*.
 
-[^7]: [Wikipedia article on Data Science](https://en.wikipedia.org/wiki/Data_science)
+!!!def "Categorical Feature"
+	
+	A property of the data that can have one or more qualitative values.
 
-[^8]: [Reinforcement Learning](https://www.sciencedirect.com/topics/neuroscience/reinforcement-learning)
+Other examples of categorical measurements for this dataset might include the student's favorite flavor of ice cream, their eye color, their relationship status, and whether or not they've completed an internship.
+
+!!!warning "Features in Disguise"
+
+	Beware of categorical features that *look* like numeric features. For example, if students in our survey live in three different apartment complexes, we might ask "Which apartment complex do you live in, 1, 2, or 3?".
+
+	Even though this is technically a numeric value between two limits, it is really a categorical feature because there's no quantitative difference between the apartment complexes. Later on, we'll see how to make sure our machine learning algorithms know that a feature really is a categorical feature, even when it uses numeric values.
+
+	Even more tricky is the case of features that could go either way. In our first categorical feature example, we could have asked "Which academic year are you currently in, 1, 2, 3, or 4?". 
+
+	There might actually be an important relationship in our data that relies on the fact that senior students have been at school 4 times longer than freshman students. In cases like these, we sometimes have to try treating a feature both ways to see which gives us better results.
+
+## The Pandas Library
+
+The pandas library is a python library used for data analysis and manipulation. It will provide the core functionality for most of what you do in the data exploration and preprocessing stages of most machine learning projects.
+
+You'll want to read through the [Getting Started Tutorials](https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html) and keep them handy for reference as you work on the Data Exploration materials this week.

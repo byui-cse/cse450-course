@@ -31,7 +31,7 @@ First, read the following article that introduces how Convolutional Nerual Netwo
 
 Next, watch this video from MIT, which dives a little deeper into the concepts of how convolutional neural networks work, and how they can be used to solve machine learning problems.
 
-[!embed](https://www.youtube.com/watch?v=iaSUYvmCekI)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iaSUYvmCekI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Data Augmentation
 

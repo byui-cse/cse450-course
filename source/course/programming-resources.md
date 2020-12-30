@@ -79,3 +79,10 @@ My advice for this library is to get an overview of how it works, and especially
 - [Some hands on SciKit-Learn Tutorials](https://scikit-learn.org/stable/tutorial/index.html)
 - [The User Guide](https://scikit-learn.org/stable/user_guide.html#)
 
+### Altair
+
+There are lots of visualization libraries out there, and pandas has [some visualization functions](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html) built into it, but we recommend you become familiar with Altair:
+
+- [Basic Statistical Visualization](https://altair-viz.github.io/getting_started/starting.html)
+- [Example Gallery](https://altair-viz.github.io/gallery/index.html)
+- [Case Study - Exploring Seattle Weather](https://altair-viz.github.io/case_studies/exploring-weather.html)

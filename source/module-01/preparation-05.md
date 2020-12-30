@@ -39,7 +39,7 @@ You may have done a bit of this reading in your work on Data Exploration 04, but
 * Read Section 6.1 - 6.2.2  (pages 247 - 261) of *Machine Learning and Predictive Data Analytics*
 * Watch this video about the False Positive Paradox:
 
-[!embed](https://www.youtube.com/watch?v=1csFTDXXULY)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1csFTDXXULY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [^1]: [Casscells W, Schoenberger A, Graboys TB. Interpretation by physicians of clinical laboratory results. N Engl J Med. 1978;299(18):999-1001. doi:10.1056/NEJM197811022991808](https://www.nejm.org/doi/pdf/10.1056/NEJM197811022991808)
 

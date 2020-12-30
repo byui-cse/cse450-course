@@ -49,10 +49,11 @@
 		<p><img alt="Iceberg" src="https://byui-cse.github.io/cse450-course/shared/img/iceberg.jpg" />
 <em><a href="https://unsplash.com/photos/4ReskwNsh68">Photo by Derek Oyen on Unsplash</a></em></p>
 <h2 id="overview">Overview</h2>
-<p>In this data exploration, you will:</p>
+<p>In this data exploration, you will practice the following:</p>
 <ul>
-<li>Analyze feature relationships using visualizations.</li>
-<li>Perform feature engineering.</li>
+<li>Analyzing feature relationships using visualizations.</li>
+<li>Feature engineering </li>
+<li>Feature encoding</li>
 </ul>
 <p>Throughout this exploration, when you're asked to use a new function or library, we'll usually provide a link to that function's documentation, or a tutorial related to it.</p>
 <h2 id="introduction">Introduction</h2>
@@ -60,23 +61,6 @@
 <h2 id="assignment">Assignment</h2>
 <p>You're working on an exhibit for a local museum called "The Titanic Disaster". They've asked you to analyze the passenger manifests and see if you can find any interesting information for the exhibit. </p>
 <p>The museum curator is particularly interested in why some people might have been more likely to survive than others.</p>
-<div class="admonition note">
-<p class="admonition-title">Seaborn Version</p>
-<p>If you're trying to use a visualization in this assignment that you read about in the Seaborn documentation, but which gives you an error about being unavailable, it might be because that function was added in a more recent version than the one Google Colab uses by default.</p>
-<p>You can see what version of seaborn you have installed in your Colab runtime with this commands:</p>
-<pre class="codehilite"><code>import seaborn as sns
-sns.__version__
-</code></pre>
-
-<p>The <a href="https://seaborn.pydata.org/whatsnew.html">What's New in Each Version Page</a> tells you what has been added with each version, so you can see if what you're trying to use is too recent.</p>
-<p>If you want to upgrade the version of seaborn used by your runtime, which will give you access to the latest features, you can issue a command using the <code>!</code> prefix:</p>
-<pre class="codehilite"><code>!pip install seaborn --upgrade
-</code></pre>
-
-<p>Once this command finishes, the runtime will likely tell you that you need to restart the runtime for that change to take affect. This will also require you to re-run all of your code cells, which can result in reimporting an older version of seaborn again. </p>
-<p>To get around this issue, put the upgrade command in your very first cell, restart the runtime, then run all your cells. </p>
-<p>If you don't need or want to use the latest version of seaborn, you can ignore this information.</p>
-</div>
 <h3 id="notes-about-the-data">Notes about the data</h3>
 <p>Column Information:</p>
 <ul>
@@ -95,7 +79,7 @@ sns.__version__
 <p>Click on the <code>Open In Colab</code> button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, don't forget to take the corresponding quiz in Canvas. </p>
 <p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_03.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
 <h2 id="teachers-solution">Teacher's Solution</h2>
-<p>Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can <a href="https://github.com/byui-cse/cse450-course/blob/master/notebooks/Exploration_03_Solved.ipynb">view the teacher's solution here</a>.</p>
+<p>Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can <a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_03_Solved.ipynb">view the teacher's solution here</a>.</p>
 	</article>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
