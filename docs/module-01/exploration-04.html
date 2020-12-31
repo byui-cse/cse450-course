@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Exploration 04: US Honey Production</title>
+	<title>Exploration 04: Flower Classification</title>
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -42,68 +42,33 @@
         <span class="icon-byui-logo"></span>
         <div id="titles">
             <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
-            <h2>Exploration 04: US Honey Production</h2>
+            <h2>Exploration 04: Flower Classification</h2>
         </div>
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<p><img alt="Jar of Honey" src="https://byui-cse.github.io/cse450-course/shared/img/honey.jpg" />
-<em><a href="https://unsplash.com/photos/nesUgwNX3u4">Photo by Alexander Mils on Unsplash</a></em></p>
+		<p><img alt="Iris Flower" src="https://byui-cse.github.io/cse450-course/shared/img/iris.png" /></p>
 <h2 id="overview">Overview</h2>
 <p>In this data exploration, you will:</p>
 <ul>
-<li>Perform some probability calculations.</li>
+<li>Become familiar with the Scikit Learn machine learning library</li>
+<li>Use the library to build a machine learning model.</li>
+<li>Use that model to make predictions.</li>
 </ul>
 <p>Throughout this exploration, when you're asked to use a new function or library, we'll usually provide a link to that function's documentation, or a tutorial related to it.</p>
 <h2 id="introduction">Introduction</h2>
 <p>As with our previous data explorations, this assignment uses <a href="http://colab.research.google.com">Google Colab</a>. For more information on using Google Colab, including how to submit assignments with it, please see the information in <a href="./exploration-01.html">Data Exploration 01</a> </p>
 <h2 id="assignment">Assignment</h2>
-<p>A local farmer's cooperative has expressed concern about the effect the use of Neonic pesticides has on honeybee populations.</p>
-<p>They've asked you to analyze the data and identify any trends that might suggest a link between the increased use of pesticides and a decrease in honeybee health.</p>
+<p>You're working with a team of botanists to develop a flower classification system. </p>
+<p>Your assignment is to build a k-Nearest Neighbors model to classify flowers based on their petal and sepal sizes.</p>
 <h3 id="notes-about-the-data">Notes about the data</h3>
-<p>This dataset merges two different datasets. One on honey production, the other by pesticide use.</p>
-<p>From USDA data:</p>
-<ul>
-<li>
-<p><code>numcol</code>: Number of honey producing colonies. Honey producing colonies are the maximum number of colonies from which honey was taken during the year. It is possible to take honey from colonies which did not survive the entire year</p>
-</li>
-<li>
-<p><code>yieldpercol</code>: Honey yield per colony. Unit is pounds</p>
-</li>
-<li>
-<p><code>totalprod</code>: Total production (numcol x yieldpercol). Unit is pounds</p>
-</li>
-<li>
-<p><code>stocks</code>: Refers to stocks held by producers. Unit is pounds</p>
-</li>
-<li>
-<p><code>priceperlb</code>: Refers to average price per pound based on expanded sales. Unit is dollars.</p>
-</li>
-<li>
-<p><code>prodvalue</code>: Value of production (totalprod x priceperlb). Unit is dollars.</p>
-</li>
-</ul>
-<p>From USGS Data:</p>
-<ul>
-<li>
-<p><code>nCLOTHIANIDIN</code>: The amount in kg of CLOTHIANIDIN applied</p>
-</li>
-<li>
-<p><code>nIMIDACLOPRID</code>: The amount in kg of IMIDACLOPRID applied</p>
-</li>
-<li>
-<p><code>nTHIAMETHOXAM</code>: The amount in kg of THIAMETHOXAM applied</p>
-</li>
-<li>
-<p><code>nACETAMIPRID</code>: The amount in kg of ACETAMIPRID applied</p>
-</li>
-<li>
-<p><code>nTHIACLOPRID</code>: The amount in kg of THIACLOPRID applied</p>
-</li>
-<li>
-<p><code>nAllNeonic</code>: The amount in kg of all Neonics applied = (nCLOTHIANIDIN + nIMIDACLOPRID + nTHIAMETHOXAM + nACETAMIPRID + nTHIACLOPRID)</p>
-</li>
-</ul>
+<p>The dataset contains sepal and petal measurements for several samples of iris flowers. </p>
+<p><img alt="Iris Flower" src="https://byui-cse.github.io/cse450-course/shared/img/iris.png" /></p>
+<p>Each row in the data is a <em>sample</em>. There are five columns. </p>
+<p>The first four columns contain the feature values for each sample: <code>sepal_length</code>, <code>sepal_width</code>, <code>petal_length</code>, and <code>petal_width</code>.</p>
+<p>The fifth column, <code>species</code>, is our <em>target</em> value. </p>
+<p>Remember, the purpose of supervised learning is to build a model that can predict the target value from the feature values.</p>
+<p><img alt="Iris Dataset" src="https://byui-cse.github.io/cse450-course/shared/img/iris_description.png" /></p>
 <h3 id="colab-link">Colab Link</h3>
 <p>Click on the <code>Open In Colab</code> button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, don't forget to take the corresponding quiz in Canvas. </p>
 <p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_04.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>

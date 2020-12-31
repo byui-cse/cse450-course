@@ -1,15 +1,16 @@
 ---
-title: Exploration 04: US Honey Production
+title: Exploration 04: Flower Classification
 ---
 
-![Jar of Honey]({{URLROOT}}/shared/img/honey.jpg)
-*[Photo by Alexander Mils on Unsplash](https://unsplash.com/photos/nesUgwNX3u4)*
+![Iris Flower]({{URLROOT}}/shared/img/iris.png)
 
 ## Overview
 
 In this data exploration, you will:
 
-* Perform some probability calculations.
+* Become familiar with the Scikit Learn machine learning library
+* Use the library to build a machine learning model.
+* Use that model to make predictions.
 
 Throughout this exploration, when you're asked to use a new function or library, we'll usually provide a link to that function's documentation, or a tutorial related to it.
 
@@ -19,42 +20,25 @@ As with our previous data explorations, this assignment uses [Google Colab](http
 
 ## Assignment
 
-A local farmer's cooperative has expressed concern about the effect the use of Neonic pesticides has on honeybee populations.
+You're working with a team of botanists to develop a flower classification system. 
 
-They've asked you to analyze the data and identify any trends that might suggest a link between the increased use of pesticides and a decrease in honeybee health.
-
+Your assignment is to build a k-Nearest Neighbors model to classify flowers based on their petal and sepal sizes.
 
 ### Notes about the data
 
-This dataset merges two different datasets. One on honey production, the other by pesticide use.
+The dataset contains sepal and petal measurements for several samples of iris flowers. 
 
-From USDA data:
+![Iris Flower]({{URLROOT}}/shared/img/iris.png)
 
-* `numcol`: Number of honey producing colonies. Honey producing colonies are the maximum number of colonies from which honey was taken during the year. It is possible to take honey from colonies which did not survive the entire year
+Each row in the data is a *sample*. There are five columns. 
 
-* `yieldpercol`: Honey yield per colony. Unit is pounds
+The first four columns contain the feature values for each sample: `sepal_length`, `sepal_width`, `petal_length`, and `petal_width`.
 
-* `totalprod`: Total production (numcol x yieldpercol). Unit is pounds
+The fifth column, `species`, is our *target* value. 
 
-* `stocks`: Refers to stocks held by producers. Unit is pounds
+Remember, the purpose of supervised learning is to build a model that can predict the target value from the feature values.
 
-* `priceperlb`: Refers to average price per pound based on expanded sales. Unit is dollars.
-
-* `prodvalue`: Value of production (totalprod x priceperlb). Unit is dollars.
-
-From USGS Data:
-
-* `nCLOTHIANIDIN`: The amount in kg of CLOTHIANIDIN applied
-
-* `nIMIDACLOPRID`: The amount in kg of IMIDACLOPRID applied
-
-* `nTHIAMETHOXAM`: The amount in kg of THIAMETHOXAM applied
-
-* `nACETAMIPRID`: The amount in kg of ACETAMIPRID applied
-
-* `nTHIACLOPRID`: The amount in kg of THIACLOPRID applied
-
-* `nAllNeonic`: The amount in kg of all Neonics applied = (nCLOTHIANIDIN + nIMIDACLOPRID + nTHIAMETHOXAM + nACETAMIPRID + nTHIACLOPRID)
+![Iris Dataset]({{URLROOT}}/shared/img/iris_description.png)
 
 
 ### Colab Link
