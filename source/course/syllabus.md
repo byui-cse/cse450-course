@@ -70,59 +70,13 @@ Its main purpose is to help you decide if you are adequately prepared to continu
 Students who elect to continue with the course will be assigned to permanent teams for the remainder of the semester.
 
 
+### Modules 02 - 06
 
-### Modules 02 - 07
+Modules 02 - 06 use case studies to help students learn to understand and apply a variety of machine learning techniques. 
 
-Modules 02 - 07 use case studies to help students learn to understand and apply a variety of machine learning techniques. Each module will follow this pattern:
+Each module lasts approximately two weeks and follows a case-study format. Each case study is designed to provide students with a real world backdrop to learn and apply machine learning tools.
 
-#### Day 1 (Wednesday)
- We'll introduce the module's topic, and discuss an introductory case study related to it.
-
-#### Day 2 (Friday)
-Students will complete the module reading assignment before coming to class. 
-
-In class, each student will complete a timed, individual readiness assessment (iRAT).
-
-After the individual assessment, teams will work together to complete an identical team readiness assessment (tRAT).
-
-After the readiness assessments, the instructor will introduce the module's `Minor Case Study` assignment. 
-
-Students will spend any remaining time on Day 2 evaluating this case study, and making decisions about the questions posed.
-
-#### Day 3 (Monday)
-During the first part of the class, teams will be asked to answer questions about the case study they've been given in an interactive format.
-
-We'll then introduce the module's `Major Case Study`.
-
-!!!note "Minor Case Study Reflection"
-
-	In order to receive credit for the Minor Case Study, *each* student must submit a personal Minor Case Study Reflection by Tuesday at midnight.
-
-
-#### Days 4 and 5 (Wednesday and Friday)
-Teams will have until *Saturday at midnight* to perform any necessary data preprocessing, analysis, modeling, and visualizations related to the `Major Case Study`.
-
-Each case study will include a formal Executive Summary Report template to guide them through this process.
-
-Students are required to meet in class to help coordinate this work, but are also expected to do significant work outside of class on this assignment.
-
-Students must submit their Executive Summary Report (one per team) by Saturday at midnight.
-
-#### Day 6 (Monday)
-Each team will present and defend their `Major Case Study` report to the rest of the class. 
-
-This presentation will form a major part of the Instructor's evaluation for the `Major Case Study`.
-
-!!!note "Major Case Study Reflection"
-
-	In order to receive credit for a case study, *each* student must submit a personal Major Case Study Reflection by Monday at midnight.
-
-	One of the questions in the reflection will ask you to assess your team's performance on the case study. Another will ask you to assess your personal performance on the case study. 
-
-	Your personal grade for the major case study will be calculated as:
-
-	    75% of Team + 25% of Individual ± Instructor's Evaluation
-
+Students will work in groups to create a report designed to answer the questions posed by the case study. Students will then present their work to the class, and reflect on their own and their teammates performance and contributions.
 
 ## Grading
 
@@ -134,12 +88,10 @@ See your Canvas section for exact grade weights for each assignment, but in gene
  * Data Explorations: 60%
  * Individual Assessment Assignment: 10%
 
- Modules 02 - 07: 15% Each
+ Modules 02 - 06: 18% Each
 
- * Individual Readiness Assessment (iRAT): 17%
- * Team Readiness Assessment (tRAT): 3%
- * Minor Case Study: 30%
- * Major Case Study: 50%
+ * Reading Quizzes: 20%
+ * Case Study Performance: 80%
 
 Final Letter grades are given according to the [standard BYU-Idaho grading scale](https://www.byui.edu/student-records/grades/grading-system).
 
