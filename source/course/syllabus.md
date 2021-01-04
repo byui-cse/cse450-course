@@ -85,8 +85,8 @@ See your Canvas section for exact grade weights for each assignment, but in gene
  Module 01: 10%
 
  * Preparation Reading Quizzes: 30%
- * Data Explorations: 60%
- * Individual Assessment Assignment: 10%
+ * Data Explorations: 30%
+ * Individual Assessment Assignment: 40%
 
  Modules 02 - 06: 18% Each
 
