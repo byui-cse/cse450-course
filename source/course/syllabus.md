@@ -91,7 +91,9 @@ See your Canvas section for exact grade weights for each assignment, but in gene
  Modules 02 - 06: 18% Each
 
  * Reading Quizzes: 20%
- * Case Study Performance: 80%
+ * Case Study Discussions: 20%
+ * Case Study Reports: 40%
+ * Case Study Reflections: 20%
 
 Final Letter grades are given according to the [standard BYU-Idaho grading scale](https://www.byui.edu/student-records/grades/grading-system).
 
