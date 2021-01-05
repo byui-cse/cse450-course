@@ -5,7 +5,7 @@ body-class: index-page
 
 ## Module 02 - Overview
 
-This week you'll learn about unsupervised learning, clustering, and data preprocessing.
+This week you'll learn about supervised learning, decision trees, and more about model evaluation.
 
 !!! warning "Subject to Change"
 	
@@ -13,7 +13,7 @@ This week you'll learn about unsupervised learning, clustering, and data preproc
 
 ## Module 02 Assignments
 
-For your convenience, here are links to the module 02 readings and assignments:
+For your convenience, here are links to the module 03 readings and assignments:
 
 #### Readings
 
@@ -24,9 +24,9 @@ For your convenience, here are links to the module 02 readings and assignments:
 
 #### Data
 
-* [HR Dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/hr.csv)
-* [HR Data Dictionary](./hr-dictionary.txt)
-* [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_02.ipynb)
+* [Bank Dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv)
+* [Bank Data Dictionary](./bank-dictionary.txt)
+* [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_bank.ipynb)
 
 #### Templates
 

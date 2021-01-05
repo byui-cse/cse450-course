@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 02 — Workplace Makeover, Case Study Introduction</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css?v1.3">
+    <meta charset="utf-8">
+
+</head>
+<body class="">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#stakeholders">Stakeholders</a></li>
+<li><a href="#dataset">Dataset</a></li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
+            <h2>Module 02 — Workplace Makeover, Case Study Introduction</h2>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<p><img alt="Meeting" src="https://byui-cse.github.io/cse450-course/shared/img/meeting.jpg" />
+<em><a href="https://unsplash.com/photos/gMsnXqILjp4">Photo by Campaign Creators on Unsplash</a></em></p>
+<h2 id="introduction">Introduction</h2>
+<p>You’re working as a data analyst for Red Mic LLC, a company that specializes in manufacturing professional grade microphones for musicians and newscasters.</p>
+<p>Recently, a rival company (Green Audio Inc) announced that they were launching a set of initiatives to take their organization into the twenty-first century.</p>
+<p>After a heated shareholders meeting, the board of directors has tasked the CEO with making sure Red Mic LLC isn’t left behind.</p>
+<h2 id="stakeholders">Stakeholders</h2>
+<p>These are the individuals your team will be helping during the case study.</p>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/cecil.jpg">
+    <h5>Cecil, the VP of Human Resources</h5>
+    <blockquote><p>Hello, I'm Cecil the Vice President of Human Resources. If you have any questions about benefits or workplace culture, please let me know. I look forward to working with you.</p>
+    <p>I came to Red Mic three years ago and have spent most of my time since working on employee on-boarding and retention. I'm excited to see what data science can bring to the table.</blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/william.jpg">
+    <h5>William, the VP of Finance</h5>
+    <blockquote><p>Charmed.</p>
+    <p>I'll admit, I'm a bit skeptical of this so-called "data science". I like my data kept in Excel spreadsheets where I can keep an eye on it.</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/devon.jpg">
+    <h5>Devon, the CEO</h5>
+    <blockquote><p>It's good to finally have you on the team. I can't wait to see what you can do for Red Mic</p>
+        <p>I graduated from Stanford five years ago, launched a VC-backed startup that was later acquired by Red Mic, and was named the CEO by the new board of directors.</p></blockquote>
+</div>
+
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
+    <h5>Johnny, the data science intern</h5>
+    <blockquote><p>Welcome to Red Mic! I'm so glad you're here, now I'm officially not the newest person on the team! What's your favorite Python library?</p>
+        <p>I <em>really</em> like data science.</blockquote>
+</div>
+
+<div class="admonition note">
+<p class="admonition-title">Stakeholder Focus Areas</p>
+<p>The shareholders are particularly interested in the following areas:</p>
+<ol>
+<li>Making sure Red Mic LLC has a diverse workforce.</li>
+<li>Ensuring that employees with similar positions and experience are receiving equitable pay, regardless of race, gender, or marital status.</li>
+<li>Striving to reduce employee turnover by actively measuring employee satisfaction and engagement, as well as engaging employees in special projects.</li>
+<li>Analyzing what work-life balance issues might exist in the workforce that could be negatively impacting employee performance and longevity.</li>
+</ol>
+</div>
+<p>You're about to go into a strategy meeting with the CEO, Vice President of Human Resources, and Vice President of Finance. They want to make sure you have the data required to answer the questions they're most interested in.</p>
+<h2 id="dataset">Dataset</h2>
+<p>Spend some time with your team evaluating <a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/hr.csv">the data</a>. Be sure to look at data types, ranges, and meanings of each feature from the <a href="./hr-dictionary.txt">data dictionary</a>.</p>
+<p>You can use the following Google Colab notebook to assist you:</p>
+<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_02.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://unsplash.com/photos/-Ir03_pgpMU">CEO photo by Oz Seyrek on Unsplash </a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://unsplash.com/photos/SJvDxw0azqw">VP of HR photo by Christina @ wocintechchat.com</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://unsplash.com/photos/ml-pxK0Ovmw">VP of Finance photo by steffen Wienberg on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw">Data Science Intern photo by Fábio Lucas on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+	</article>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>

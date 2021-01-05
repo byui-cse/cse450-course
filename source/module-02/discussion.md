@@ -1,96 +1,67 @@
 ---
-title: Module 02 — Workplace Makeover, Class Discussion Questions
+title: Module 02 — Targeted Marketing, Case Study Discussion
+body-class: index-page
 ---
 
-![Meeting]({{URLROOT}}/shared/img/meeting.jpg)
-*[Photo by Campaign Creators on Unsplash](https://unsplash.com/photos/gMsnXqILjp4)*
-
 ## Questions
-You're about to go into a strategy meeting with the CEO, Vice President of Human Resources, and Vice President of Finance. They want to make sure you have the data required to answer the questions they're most interested in.
+You're at dinner with the President of the bank, VP of Marketing, and the Senior Data Scientist. They want to make sure you have the data required to answer the questions they're most interested in.
 
 Be prepared to answer the following questions:
 
-### Employee Satisfaction
+### Data Science Methods
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/cecil.jpg">
-	<h5>Cecil, the VP of Human Resources asks:</h5>
-	<blockquote><p>My biggest concern right now is whether or not employees are satisfied with the culture here and what they're being asked to do.</p><p>Given the data we have, what do we need to do to get an accurate measurement of how employee satisfaction has changed over time?</p></blockquote>
+	<img src="{{URLROOT}}/shared/img/miguel.jpg">
+	<h5>Miguel Ferreira, Bank President asks:</h5>
+	<blockquote><p>The core task we're interested in is identifying those customers most likely to subscribe to a term deposit.</p><p>A <em>term deposit</em> is a fixed-term investment that includes the deposit of money into an account at a financial institution. In this case, our financial institution.</p>
+	<p>I don't know a lot about data science, but I've been trying to get up to speed. Do you think a supervised or unsupervised approach would work best for this situation?</p>
+	</blockquote>
 </div>
 
 Based on your initial analysis of the data, your team feels:
 
-1. We have the necessary data in the correct form to answer this question.
-2. The data we have cannot answer that question, we need to collect more data.
-3. We could use the data we have, but we'll have to normalize some of the features, and/or encode some of them differently.
-4. Answering this question would be a violation of ethics and/or privacy laws.
+1. This calls for a supervised learning approach.
+2. This calls for an unsupervised learning approach.
+3. This is more of an analytics question we can best answer through data analysis and visualization.
+4. Actually, reinforcement learning would probably be a better approach here.
 
-### Work-Life Balance
+### Additional Insights
+
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/william.jpg">
-	<h5>William, the VP of Finance asks:</h5>
-	<blockquote><p>My biggest concern is the rising costs from employee sick leave and tardiness. I've noticed a lot of this seems to center around employees with children, especially single mothers.</p><p>Do we have a way to tell from our data if there is some correlation between being an older employee with a family and absenteeism? If so, I'd like to use that information to adjust how HR screens new hires.</p></blockquote>
+	<img src="{{URLROOT}}/shared/img/francisco.jpg">
+	<h5>Francisco, VP of Marketing asks:</h5>
+	<blockquote><p>Aside from the core marketing question Miguel mentioned, I'm wondering if there are other insights we could gain from our data.</p>
+	<p>I can look at the data and tell that some days of the week or some months produce better results than others.</p><p>I'm wondering if it's possible for us to see if those results are true for all customers, or if some types of customers respond better on certain days than others?</p></blockquote>
 </div>
 
 Based on your initial analysis of the data, your team feels:
 
-1. We have the necessary data in the correct form to answer this question.
-2. The data we have cannot answer that question, we need to collect more data.
-3. We could use the data we have, but we'll have to normalize some of the features, and/or encode some of them differently.
-4. Answering this question would be a violation of ethics and/or privacy laws.
+1. This calls for a supervised learning approach.
+2. This calls for an unsupervised learning approach.
+3. This is more of an analytics question we can best answer through data analysis and visualization.
+4. Actually, reinforcement learning would probably be a better approach here.
 
+### Data Privacy Laws
 
-### Company Diversity
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/devon.jpg">
-	<h5>Devon, the CEO asks:</h5>
-	<blockquote><p>I'm concerned that our workforce has the proper balance of diversity. The board would like us to make sure we're using effective methods of recruiting women and minorities.</p> 
-	<p>Do we have a way to tell from our data whether or not our current methods are working, and if not, can we track what the most effective methods have been to date?</p></blockquote>
+	<img src="{{URLROOT}}/shared/img/beatriz.jpg">
+	<h5>Beatriz, Senior Data Scientist asks:</h5>
+	<blockquote><p>Since we're operating in the European Union, we're subject to GDPR compliance requirements.</p>
+	<p>What do you think we might need to do for this project in order to be compliant with GDPR regulations?</p></blockquote>
 </div>
 
 Based on your initial analysis of the data, your team feels:
 
-1. We have the necessary data in the correct form to answer this question.
-2. The data we have cannot answer that question, we need to collect more data.
-3. We could use the data we have, but we'll have to normalize some of the features, and/or encode some of them differently.
-4. Answering this question would be a violation of ethics and/or privacy laws.
+1. This is historic data, so we should be just fine.
+2. This is anonymous data, so we should be just fine.
+3. The GDPR doesn't apply in this situation, since we're just building a model, not selling data.
+4. In order to use this data under GDPR, we'll need to get consent from the customers in the dataset.
 
 
-### Equitable Pay
+[^1]: [Chairman of the Board photo by Portuguese Gravity on Unsplash](https://unsplash.com/photos/oMF2q4tlhDg)
 
-<div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/cecil.jpg">
-	<h5>Cecil, the VP of Human Resources adds:</h5>
-	<blockquote><p>Recruiting women and minorities is a great start, but we need to make sure we're retaining them.</p><p>One key to that is to make sure our salaries are fair and equitable across race and gender boundaries. Can our data tell us if we're doing a good job there?</p></blockquote>
-</div>
+[^2]: [President photo by Roland Samuel on Unsplash](https://unsplash.com/photos/MZ5A24H1JqU)
 
-Based on your initial analysis of the data, your team feels:
+[^3]: [VP of Marketing photo by Mehrad Vosoughi on Unsplash](https://unsplash.com/photos/iUQmEFtfdLw)
 
-1. We have the necessary data in the correct form to answer this question.
-2. The data we have cannot answer that question, we need to collect more data.
-3. We could use the data we have, but we'll have to normalize some of the features, and/or encode some of them differently.
-4. Answering this question would be a violation of ethics and/or privacy laws.
-
-### Data Analysis
-
-<div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/johnny.jpg">
-	<h5>Johnny, the data science intern asks:</h5>
-	<blockquote><p>I've heard that clustering is a big thing these days.</p><p>Do you think we could help answer one of these questions using clustering?</p></blockquote>
-</div>
-
-Based on your initial analysis of the data, your team feels:
-
-1. Question 1 would benefit the most from clustering.
-2. Question 2 would benefit the most from clustering.
-3. Question 3 would benefit the most from clustering.
-4. Question 4 would benefit the most from clustering.
-
-
-[^1]: [CEO photo by Oz Seyrek on Unsplash ](https://unsplash.com/photos/-Ir03_pgpMU)
-
-[^2]: [VP of HR photo by Christina @ wocintechchat.com](https://unsplash.com/photos/SJvDxw0azqw)
-
-[^3]: [VP of Finance photo by steffen Wienberg on Unsplash](https://unsplash.com/photos/ml-pxK0Ovmw)
-
-[^4]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)
+[^4]: [Head of Data Science photo by Mateus Campos Felipe ](https://unsplash.com/photos/WnPJft0DJpk)

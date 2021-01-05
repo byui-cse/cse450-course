@@ -1,70 +1,75 @@
 ---
-title: Module 02 — Workplace Makeover, Case Study Introduction
+title: Module 02 — Targeted Marketing, Case Study Introduction
 ---
 
-![Meeting]({{URLROOT}}/shared/img/meeting.jpg)
-*[Photo by Campaign Creators on Unsplash](https://unsplash.com/photos/gMsnXqILjp4)*
+![Meeting]({{URLROOT}}/shared/img/portugal.jpg)
+*[Photo by Ricardo Resende on Unsplash](https://unsplash.com/photos/swivynstICo)*
 
 ## Introduction
-You’re working as a data analyst for Red Mic LLC, a company that specializes in manufacturing professional grade microphones for musicians and newscasters.
+You've just been hired as a junior data scientist for Banco Federal de Finanças in Aveiro, Portugal. They just finished a major telemarketing campaign and management was not happy with the results. 
 
-Recently, a rival company (Green Audio Inc) announced that they were launching a set of initiatives to take their organization into the twenty-first century.
-
-After a heated shareholders meeting, the board of directors has tasked the CEO with making sure Red Mic LLC isn’t left behind.
+They feel like machine learning could help them create a more targeted campaign. You and your team have been brought in to discuss the situation. 
 
 ## Stakeholders
 
-These are the individuals your team will be helping during the case study.
+These are the individuals your team will be helping during the case study:
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/cecil.jpg">
-	<h5>Cecil, the VP of Human Resources</h5>
-	<blockquote><p>Hello, I'm Cecil the Vice President of Human Resources. If you have any questions about benefits or workplace culture, please let me know. I look forward to working with you.</p>
-	<p>I came to Red Mic three years ago and have spent most of my time since working on employee on-boarding and retention. I'm excited to see what data science can bring to the table.</blockquote>
+	<img src="{{URLROOT}}/shared/img/ferreira.jpg">
+	<h5>Senhor Ferreira, Chairman of the Board</h5>
+	<blockquote><p>Olá, I'm Senhor Ferreira.</p><p>You can call me...Senhor Ferreira.</p><p>I believe in old fashioned banking practices — reaching out to customers with a personal touch.</p><p>My son, Senhor Ferreira II, thinks we might be able to do better with computers. He is a smart boy, but I don't know...</p></blockquote>
 </div>
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/william.jpg">
-	<h5>William, the VP of Finance</h5>
-	<blockquote><p>Charmed.</p>
-	<p>I'll admit, I'm a bit skeptical of this so-called "data science". I like my data kept in Excel spreadsheets where I can keep an eye on it.</p></blockquote>
+	<img src="{{URLROOT}}/shared/img/miguel.jpg">
+	<h5>Miguel Ferreira, Bank President</h5>
+	<blockquote><p>Obrigado, Senhor Ferreira.</p>
+	<p>I'm Miguel, president of the bank. Like my father said, reaching out to customers with a personal touch is important. But, I believe we can learn a lot from what AI has to offer, so I'm excited to have you on the team.</p></blockquote>
 </div>
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/devon.jpg">
-	<h5>Devon, the CEO</h5>
-	<blockquote><p>It's good to finally have you on the team. I can't wait to see what you can do for Red Mic</p>
-		<p>I graduated from Stanford five years ago, launched a VC-backed startup that was later acquired by Red Mic, and was named the CEO by the new board of directors.</p></blockquote>
+	<img src="{{URLROOT}}/shared/img/francisco.jpg">
+	<h5>Francisco, VP of Marketing</h5>
+	<blockquote><p>Olá, I'm Francisco. It's a pleasure to meet you.</p>
+		<p>We're planning some major growth initiatives over the next quarter, and I'm excited to see how AI can help.</p><p>We've put together an entire team for this, and we're excited for you to be a part of it.</p></blockquote>
+</div>
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/beatriz.jpg">
+	<h5>Beatriz, Senior Data Scientist</h5>
+	<blockquote><p>Bem vindo ao time.</p>
+		<p>I'm the head of the new data science division. I'll try to answer any questions you might have about the bank or data science in general.</p></blockquote>
 </div>
 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">
 	<h5>Johnny, the data science intern</h5>
-	<blockquote><p>Welcome to Red Mic! I'm so glad you're here, now I'm officially not the newest person on the team! What's your favorite Python library?</p>
+	<blockquote><p>Welcome! I'm so glad you're here, now I'm officially not the newest person on the team! What's your favorite Python library?</p>
 		<p>I <em>really</em> like data science.</blockquote>
 </div>
 
 !!!note "Stakeholder Focus Areas"
 	The shareholders are particularly interested in the following areas:
 
-	1.	Making sure Red Mic LLC has a diverse workforce.
-	2.	Ensuring that employees with similar positions and experience are receiving equitable pay, regardless of race, gender, or marital status.
-	3.	Striving to reduce employee turnover by actively measuring employee satisfaction and engagement, as well as engaging employees in special projects.
-	4.	Analyzing what work-life balance issues might exist in the workforce that could be negatively impacting employee performance and longevity.
+	1.	Finding interesting customer segments based on their previous marketing campaign.
+	2.  Finding a way to identify the types of customers most likely to respond favorably to future marketing campaigns.
+	3.  Proving to a skeptical Senhor Ferreira that a targeted campaign based on data science will significantly outperform a campaign made up of randomly selected customers.
 
-You're about to go into a strategy meeting with the CEO, Vice President of Human Resources, and Vice President of Finance. They want to make sure you have the data required to answer the questions they're most interested in.
+You've been invited to dinner tomorrow night with the President of the bank, VP of Marketing, and the Senior Data Scientist. They're planning to discuss the marketing campaign and would like your input on a few key points.
 
 ## Dataset
-Spend some time with your team evaluating [the data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/hr.csv). Be sure to look at data types, ranges, and meanings of each feature from the [data dictionary](./hr-dictionary.txt).
+Spend some time with your team evaluating [the data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv). Be sure to look at data types, ranges, and meanings of each feature from the [data dictionary](./bank-dictionary.txt).
 
 You can use the following Google Colab notebook to assist you:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_02.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_bank.ipynb)
 
-[^1]: [CEO photo by Oz Seyrek on Unsplash ](https://unsplash.com/photos/-Ir03_pgpMU)
+[^1]: [Chairman of the Board photo by Portuguese Gravity on Unsplash](https://unsplash.com/photos/oMF2q4tlhDg)
 
-[^2]: [VP of HR photo by Christina @ wocintechchat.com](https://unsplash.com/photos/SJvDxw0azqw)
+[^2]: [President photo by Roland Samuel on Unsplash](https://unsplash.com/photos/MZ5A24H1JqU)
 
-[^3]: [VP of Finance photo by steffen Wienberg on Unsplash](https://unsplash.com/photos/ml-pxK0Ovmw)
+[^3]: [VP of Marketing photo by Mehrad Vosoughi on Unsplash](https://unsplash.com/photos/iUQmEFtfdLw)
 
-[^4]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)
+[^4]: [Head of Data Science photo by Mateus Campos Felipe ](https://unsplash.com/photos/WnPJft0DJpk)
+
+[^5]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)
