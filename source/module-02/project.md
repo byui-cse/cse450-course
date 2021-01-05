@@ -53,24 +53,19 @@ After a few more meetings, Beatriz has assigned your team to address the followi
 	</blockquote>
 </div>
 
+## Tips from Johnny
+
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">
 	<h5>Johnny, the data science intern, whispers to you after the meeting:</h5>
 	<blockquote><p>Hey, I put together a list of tips and ideas that might help us out:</p></blockquote>
 </div>
 
-## Tips from Johnny
-
 !!!note "Data Dictionary"
 	Our database analyst put together this [data dictionary](./bank-dictionary.txt) to help explain the values and sources of different columns in the [bank dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv), so be sure to review that.
 
 !!!note "Target Variable"
 	One oddity here is that our target feature is simply labled `y`, but it's a boolean indicating "y" or "n", did the client subscribe to a term deposit.
-
-!!!note "Social and Economic Context"
-	All of the features listed as "social and economic context attributes" should be treated with care. Since these attributes are associated with the broader national condition rather than specific customer attributes, we'll want to treat these features differently.
-
-	Creating different models for "good times" and "hard times" might be a good start.
 
 !!!note "Feature Scaling"
 	If you're going to be comparing different numeric features, be sure they are using the same scale. You may find it useful to use min-max scaling to handle this problem. You could do this calculation manually, or use [Sci-Kit Learn's MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)

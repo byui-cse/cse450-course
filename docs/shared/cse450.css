@@ -53,11 +53,14 @@ h5 { font-size: 16px; margin: 20px 0 10px 0; text-transform: uppercase; color: v
 /* Header */
 
 header {
-  padding: 20px 40px 0 40px;
+  padding: 20px 40px 10px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--white-color);
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid var(--light-border-color);
 }
 
 header #titles {

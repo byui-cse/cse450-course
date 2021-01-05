@@ -1,5 +1,12 @@
 # Data Dictionary for the Banking dataset
 
+We run campaigns periodically. In each campaign, we select a random set of customers, some of which we have already contacted in a previous campaign.
+
+This dataset contains a random set of customers we'd like to target. Some of them have been contacted previously, others haven't been. You can tell how long its been since they were contacted by looking at the "pdays" field and the number of times we've contacted them before by looking at the "previous" field. The "poutcome" field will tell you whether or not the last contact resulted in a successful outcome.
+
+We also have some information about the general economic conditions of the country at the time we last contacted each customer in the sample.
+
+
 ## bank client data:
 
 age (numeric)
