@@ -36,7 +36,7 @@ After a few more meetings, Beatriz has assigned your team to address the followi
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/miguel.jpg">
 	<h5>Miguel Ferreira, Bank President adds:</h5>
-	<blockquote><p>Good thought Beatriz. Different customer segments tend to react to economic changes differently.</p><p>We'll definitely want to know which model is best to use during different economic situations.</p>
+	<blockquote><p>Good thought Beatriz. Different customer segments tend to react to economic changes differently.</p><p>We'll definitely want to know if it's better to use a particular model during different economic situations.</p>
 	</blockquote>
 </div>
 
@@ -52,6 +52,10 @@ After a few more meetings, Beatriz has assigned your team to address the followi
 	<blockquote><p>Sounds like we have enough to get started. If you could send us <a href='./summary.docx'>your write up on this by Saturday night</a>, that would be great.</p>
 	</blockquote>
 </div>
+
+!!!note "Team Project Expectations"
+	Be sure to read over the [Team Project Expectations](../course/projects.html) guide to know what the expectations are for this and future projects.
+
 
 ## Tips from Johnny
 

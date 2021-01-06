@@ -12,7 +12,7 @@ If you're a student, the content, assignments, and deadlines you'll be responsib
 * [Course Syllabus](./course/syllabus.html)
 * [How to Read Technical Documentation](./course/reading-technical-documentation.html)
 * [Programming Resources](./course/programming-resources.html)
-* Getting Help
+* [Team Project Expectations](./course/projects.html)
 * [Data Reference](./course/data-sources.html)
 
 ## Module Links

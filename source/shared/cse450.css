@@ -168,6 +168,16 @@ article ul li {
   list-style: disc;
 }
 
+article ul li ul li {
+  margin: 0 0 5px 20px;
+  list-style: circle;
+}
+
+article ul li ul li ul li {
+  margin: 0 0 5px 20px;
+  list-style: square;
+}
+
 article ol li {
   margin: 0 0 5px 20px;
   list-style: decimal;
