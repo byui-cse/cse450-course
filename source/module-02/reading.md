@@ -38,7 +38,6 @@ The objective of this module is to provide a real-world scenario in which you ca
 Complete the following preparation reading:
 
 * Read pages 117 - 144 of your text (Chapter 4 until section 4.4), which describes Decision Trees and the ID3 algorithm.
-* Read section 4.4.5 of your text (Model Ensembles)
 
 * Read the following sections from chapter 8 which each describe a specific model performance measure:
 	+ 8.4.2.1 - Confusion Matrix-based Performance Measures
