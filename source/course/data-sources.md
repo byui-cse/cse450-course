@@ -84,6 +84,14 @@ Iris Flower Dataset
 * License: [Citation Requested](https://archive.ics.uci.edu/ml/citation_policy.html)
 * [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/iris.csv)
 
+### Housing Data
+
+House Sales in King County, USA
+
+* Original Source: [Kaggle](https://www.kaggle.com/harlfoxem/housesalesprediction)
+* License: [Creative Commons 0 (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/)
+* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/housing.csv)
+
 ### Biking Data
 
 Fanaee-T, Hadi, and Gama, Joao, 'Event labeling combining ensemble detectors and background knowledge', Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, [Web Link]. 

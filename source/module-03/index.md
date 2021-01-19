@@ -1,9 +1,9 @@
 ---
-title: Module 02: Overview
+title: Module 03: Overview
 body-class: index-page
 ---
 
-## Module 02 - Overview
+## Module 03 - Overview
 
 This week you'll learn about Gradient Boosted Trees and use the XGBoost library to solve regression tasks using gradient boosted trees.
 
