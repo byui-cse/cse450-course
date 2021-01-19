@@ -1,56 +1,28 @@
 ---
-title: Module 02 — Targeted Marketing, Project
+title: Module 02 — Housing Estimates, Project
 ---
 
 ## Overview
 
-After a few more meetings, Beatriz has assigned your team to address the following issues asked by the stakeholders:
-
+After a few more meetings with the executive team, the head of the data science division has assigned your team to address the following issues asked by the stakeholders:
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/miguel.jpg">
-	<h5>Miguel Ferreira, Bank President asks:</h5>
-	<blockquote><p>Like I said the other day, the core task we're interested in is identifying those customers most likely to subscribe to a term deposit.</p><p>This way, we can build a targeted marketing campaign that focuses primarily on those customers.</p>
-	</blockquote>
+	<img src="{{URLROOT}}/shared/img/cecil.jpg">
+	<h5>Cecil, the VP of Customer Relations says:</h5>
+	<blockquote><p>The biggest thing I want to see is quantifiable evidence that the predictions we come up with are reliable.</p></blockquote>
 </div>
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/francisco.jpg">
-	<h5>Francisco, VP of Marketing says:</h5>
-	<blockquote><p>And I'd like you to find any actionable patterns in our results. Should we only call single people on Saturdays? Does it make sense to call students at all?</p><p>Things like that.</p></blockquote>
+	<img src="{{URLROOT}}/shared/img/william.jpg">
+	<h5>William, the VP of Finance asks:</h5>
+	<blockquote><p>I'd like to know which property types are weighing most heavily in the house prices predicted by your model. My excel spreadsheets can tell me that information for our current methodology...can your so-called artificial intelligence do the same?</p></blockquote>
 </div>
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/miguel.jpg">
-	<h5>Miguel Ferreira, Bank President adds:</h5>
-	<blockquote><p>One other thing we should probably address, does contacting people too frequently for these marketing campaigns have an adverse affect on the outcome?</p>
-	</blockquote>
-</div>
-
-<div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/beatriz.jpg">
-	<h5>Beatriz, Senior Data Scientist says:</h5>
-	<blockquote><p>One last thing, there are a bunch of social and economic indicators in the data.</p><p>We should be careful about how we consider these. We may want to see separate models for times when, for example, the consumer confidence index is high compared to when it is low.</p></blockquote>
-</div>
-
-<div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/miguel.jpg">
-	<h5>Miguel Ferreira, Bank President adds:</h5>
-	<blockquote><p>Good thought Beatriz. Different customer segments tend to react to economic changes differently.</p><p>We'll definitely want to know if it's better to use a particular model during different economic situations.</p>
-	</blockquote>
-</div>
-
-<div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/beatriz.jpg">
-	<h5>Beatriz, Senior Data Scientist says:</h5>
-	<blockquote><p>One last thing, since we're planning on deploying these models, we'll want to make sure that once you have the models trained and tested, that you <a href="https://scikit-learn.org/stable/modules/model_persistence.html">persist those trained models to a file</a> so we can load them into our production systems.</p></blockquote>
-</div>
-
-<div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/miguel.jpg">
-	<h5>Miguel Ferreira, Bank President adds:</h5>
-	<blockquote><p>Sounds like we have enough to get started. If you could send us <a href='./summary.docx'>your write up on this by Saturday night</a>, that would be great.</p>
-	</blockquote>
+	<img src="{{URLROOT}}/shared/img/devon.jpg">
+	<h5>Devon, the CEO adds:</h5>
+	<blockquote><p>Yes...thank you William. These are all great questions.</p><p>One other question the board was wondering about, is if there are additional factors about these areas that might be affecting prices, which we aren't taking into account.</p><p>That may be a little above and beyond what you're team is planning, since it would require finding more data from an external source and correlating it with the data we already have, but if you have the time, I know they'd appreciate it.</p>
+	<p>If you could send us <a href='./summary.docx'>your team's write up on this by Saturday night</a>, that would be great.</p></blockquote>
 </div>
 
 !!!note "Team Project Expectations"
@@ -66,44 +38,25 @@ After a few more meetings, Beatriz has assigned your team to address the followi
 </div>
 
 !!!note "Data Dictionary"
-	Our database analyst put together this [data dictionary](./bank-dictionary.txt) to help explain the values and sources of different columns in the [bank dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv), so be sure to review that.
-
-!!!note "Target Variable"
-	One oddity here is that our target feature is simply labled `y`, but it's a boolean indicating "y" or "n", did the client subscribe to a term deposit.
+	Our database analyst put together this [data dictionary](./housing-dictionary.txt) to help explain the values and sources of different columns in the [housing dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/housing.csv), so be sure to review that.
 
 !!!note "Feature Scaling"
 	If you're going to be comparing different numeric features, be sure they are using the same scale. You may find it useful to use min-max scaling to handle this problem. You could do this calculation manually, or use [Sci-Kit Learn's MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
 
 !!!note "Binning"
-	Just as you did with the Titanic dataset when you reduced the number of titles, you may find it useful to "bin" categorical features into discrete groups in order to address some of the questions above. There are multiple ways to do this, but previously we used the [`map()` function](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.map.html).
+	Just as you did with the Titanic dataset when you reduced the number of titles, you may find it useful to "bin" certain features into discrete groups in order to address some of the questions above. There are multiple ways to do this, but previously we used the [`map()` function](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.map.html).
 
-!!!note "Decision Trees"
-	You can find documentation on how to use decision trees with sci-kit learn on these pages:
+!!!note "Adding External Data"
+	If you do decide to add additional data from another source, such as data you find related to a particular zip code, you might find [this Pandas tutorial on combining tables](https://pandas.pydata.org/docs/getting_started/intro_tutorials/08_combine_dataframes.html) to be useful.
 
-	* [User Guide Entry for Decision Trees](https://scikit-learn.org/stable/modules/tree.html)
-	* [API Reference for DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
-	* [Tips for Practical Use, from the User Guide](https://scikit-learn.org/stable/modules/tree.html#tips-on-practical-use)
+!!!note "XGBoost"
+	You can find documentation on how to use xgboost to be useful, particularly the sections on the sklearn wrapper:
 
-!!!note "Model Persistence"
-	When you train a model, a large amount of information is stored in memory. That model can then be used to make predictions for new instances at a later time.
-
-	You'll want to save these trained models using python's `pickle` module, [as shown here](https://scikit-learn.org/stable/modules/model_persistence.html).
-
-	However, rather than using pickle's default protocol version, you should use [protocol version 5](https://docs.python.org/3/library/pickle.html#data-stream-format), which was introduced in Python 3.8  and is optimized for dealing with structures that contain numpy arrays and pandas data frames.
-
-!!!note "Model Ensembles, Bagging, and Boosting" 
-	Often, we can get better results by using a set of models, each using a slightly different set of training data, or other parameters. These are called "Model Ensembles" and it's very common to use an ensemble of decision trees (often called a "Random Forest") rather than a single tree.
-
-	Two popular techniques used in the creation of ensembles are "boosting" and "bagging". You can read more about these topics on pages 163 - 167 of your textbook.
-
-	For details on how to use these techniques with Sci-Kit Learn, see [this page](https://scikit-learn.org/stable/modules/ensemble.html).
-
-!!!note "Avoiding overfitting through pruning" 
-	It is _very_ easy to overfit a decision tree. The text discusses strategies to avoid this problem in section 4.4.4 (pages 158 - 163).
-
-	In SciKit-Learn, you can use [parameters such as max_depth and min_samples_leaf](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) to control tree complexity and overfitting.
-
-	Alternatively, you can use something more elaborate, such as [cost complexity pruning](https://scikit-learn.org/stable/auto_examples/tree/plot_cost_complexity_pruning.html#sphx-glr-auto-examples-tree-plot-cost-complexity-pruning-py).
+	* [User Guide for XGBoost](https://xgboost.readthedocs.io/en/latest/)
+	* [API Reference for the SKLearn Wrapper](https://xgboost.readthedocs.io/en/latest/python/python_api.html?highlight=sklearn#module-xgboost.sklearn)
+	* [An XGBoost tutorial that uses the sklearn wrapper](https://machinelearningmastery.com/develop-first-xgboost-model-python-scikit-learn/)
+	* [A more in-depth tutorial on xgboost](https://www.kaggle.com/stuarthallows/using-xgboost-with-scikit-learn)
+	* [An XGBoost tutorial that does not use the sklearn wrapper](https://towardsdatascience.com/a-beginners-guide-to-xgboost-87f5d4c30ed7)
 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">
@@ -119,5 +72,3 @@ After a few more meetings, Beatriz has assigned your team to address the followi
 [^3]: [VP of Finance photo by steffen Wienberg on Unsplash](https://unsplash.com/photos/ml-pxK0Ovmw)
 
 [^4]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)
-
-[^5]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)
