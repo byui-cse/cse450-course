@@ -1,67 +1,83 @@
 ---
-title: Module 02 — Targeted Marketing, Case Study Discussion
-body-class: index-page
+title: Module 03 — Housing Estimates, Class Discussion Questions
 ---
 
+![Meeting]({{URLROOT}}/shared/img/meeting.jpg)
+*[Photo by Campaign Creators on Unsplash](https://unsplash.com/photos/gMsnXqILjp4)*
+
 ## Questions
-You're at dinner with the President of the bank, VP of Marketing, and the Senior Data Scientist. They want to make sure you have the data required to answer the questions they're most interested in.
+You're about to go into a strategy meeting with the CEO, Vice President of Human Resources, and Vice President of Finance. They want to make sure you have the data required to answer the questions they're most interested in.
 
 Be prepared to answer the following questions:
 
-### Data Science Methods
+### Problem Type
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/miguel.jpg">
-	<h5>Miguel Ferreira, Bank President asks:</h5>
-	<blockquote><p>The core task we're interested in is identifying those customers most likely to subscribe to a term deposit.</p><p>A <em>term deposit</em> is a fixed-term investment that includes the deposit of money into an account at a financial institution. In this case, our financial institution.</p>
-	<p>I don't know a lot about data science, but I've been trying to get up to speed. Do you think a supervised or unsupervised approach would work best for this situation?</p>
-	</blockquote>
+	<img src="{{URLROOT}}/shared/img/devon.jpg">
+	<h5>Devon, the CEO says:</h5>
+	<blockquote><p>I just sat through four hours of machine learning training with the board of directors this past week, so I'm curious to get your take on this.</p> 
+	<p>Looking at the data and our business model, what kind of machine learning problem do you think we're looking at here?</p></blockquote>
 </div>
 
 Based on your initial analysis of the data, your team feels:
 
-1. This calls for a supervised learning approach.
-2. This calls for an unsupervised learning approach.
-3. This is more of an analytics question we can best answer through data analysis and visualization.
-4. Actually, reinforcement learning would probably be a better approach here.
+1. This is a supervised regression problem
+2. This is a supervised classification problem
+3. This is an unsupervised learning problem
+4. This is a semi-supervised learning problem
 
-### Additional Insights
+### Model Confidence
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/francisco.jpg">
-	<h5>Francisco, VP of Marketing asks:</h5>
-	<blockquote><p>Aside from the core marketing question Miguel mentioned, I'm wondering if there are other insights we could gain from our data.</p>
-	<p>I can look at the data and tell that some days of the week or some months produce better results than others.</p><p>I'm wondering if it's possible for us to see if those results are true for all customers, or if some types of customers respond better on certain days than others?</p></blockquote>
+	<img src="{{URLROOT}}/shared/img/cecil.jpg">
+	<h5>Cecil, the VP of Customer Relations asks:</h5>
+	<blockquote><p>My biggest concern right now is making sure that whatever method we to come up with to predict housing prices, we can also attach some kind of empirical confidence metric.</p></blockquote>
+</div>
+
+Based on your initial analysis of the data, your team feels you can best show confidence in your model by using:
+
+1. The sum of squares error (SSE).
+2. The mean squared error (MSE).
+3. The root mean squared error (RMSE).
+4. The $R^2$ value.
+
+### Insurance Question
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/william.jpg">
+	<h5>William, the VP of Finance asks:</h5>
+	<blockquote><p>Our insurance division is particularly interested in making sure our investment portfolio avoids certain — uh — less savory property types.</p><p>Is there a way we can easily identify properties in low income areas and have the model lower those estimates to protect our investors' interests?</p></blockquote>
 </div>
 
 Based on your initial analysis of the data, your team feels:
 
-1. This calls for a supervised learning approach.
-2. This calls for an unsupervised learning approach.
-3. This is more of an analytics question we can best answer through data analysis and visualization.
-4. Actually, reinforcement learning would probably be a better approach here.
+1. We have the necessary data in the correct form to answer this question.
+2. The data we have cannot answer that question, we need to collect more data.
+3. We could use the data we have, but we'll have to normalize some of the features, and/or encode some of them differently.
+4. Answering this question would be a violation of ethics and/or privacy laws.
 
-### Data Privacy Laws
+
+### Data Analysis
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/beatriz.jpg">
-	<h5>Beatriz, Senior Data Scientist asks:</h5>
-	<blockquote><p>Since we're operating in the European Union, we're subject to GDPR compliance requirements.</p>
-	<p>What do you think we might need to do for this project in order to be compliant with GDPR regulations?</p></blockquote>
+	<img src="{{URLROOT}}/shared/img/johnny.jpg">
+	<h5>Johnny, the data science intern asks:</h5>
+	<blockquote><p>The head of data science says we should use gradient boosted trees for this analysis.</p><p>I've noticed that a lot of the features use pretty different ranges.</p>
+	<p>For example, how should we handle square footage?</p></blockquote>
 </div>
 
 Based on your initial analysis of the data, your team feels:
 
-1. This is historic data, so we should be just fine.
-2. This is anonymous data, so we should be just fine.
-3. The GDPR doesn't apply in this situation, since we're just building a model, not selling data.
-4. In order to use this data under GDPR, we'll need to get consent from the customers in the dataset.
+1. We should normalize square footage values using range normalization (aka min-max scaling).
+2. We should standardize square footage values using z-score normalization.
+3. We should use binning to group square footage values into discrete categories.
+4. We should be fine sticking with the raw values.
 
 
-[^1]: [Chairman of the Board photo by Portuguese Gravity on Unsplash](https://unsplash.com/photos/oMF2q4tlhDg)
+[^1]: [CEO photo by Oz Seyrek on Unsplash ](https://unsplash.com/photos/-Ir03_pgpMU)
 
-[^2]: [President photo by Roland Samuel on Unsplash](https://unsplash.com/photos/MZ5A24H1JqU)
+[^2]: [VP of Customer Support photo by Christina @ wocintechchat.com](https://unsplash.com/photos/SJvDxw0azqw)
 
-[^3]: [VP of Marketing photo by Mehrad Vosoughi on Unsplash](https://unsplash.com/photos/iUQmEFtfdLw)
+[^3]: [VP of Finance photo by steffen Wienberg on Unsplash](https://unsplash.com/photos/ml-pxK0Ovmw)
 
-[^4]: [Head of Data Science photo by Mateus Campos Felipe ](https://unsplash.com/photos/WnPJft0DJpk)
+[^4]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)

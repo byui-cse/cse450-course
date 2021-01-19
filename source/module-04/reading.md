@@ -28,4 +28,3 @@ Complete the following preparation reading:
 
 * Read pages 179 - 195 of your text (Chapter 5 until section 5.4.2)
 * Read pages 204 - 212 of your text (sections 5.4.3 and 5.4.4)
-* Read pages 442 - 447 of your text (section 8.4.5)

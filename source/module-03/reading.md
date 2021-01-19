@@ -22,6 +22,7 @@ The objective of this module is to provide a real-world scenario in which you ca
 
 First, read this section from your textbook:
 
+* Read Section 8.4.5 of your text (Performance Measures: Continuous Targets)
 * Read section 4.4.5 of your text (Model Ensembles)
 
 ### Gradient Boosted Trees

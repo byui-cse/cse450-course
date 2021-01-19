@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Module 02 — Targeted Marketing, Case Study Discussion</title>
+	<title>Module 03 — Housing Estimates, Class Discussion Questions</title>
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -19,15 +19,16 @@
     <meta charset="utf-8">
 
 </head>
-<body class="index-page">
+<body class="">
      <div id="modal-screen">
         <div id="contents-wrapper">
             <div class="toc">
 <ul>
 <li><a href="#questions">Questions</a><ul>
-<li><a href="#data-science-methods">Data Science Methods</a></li>
-<li><a href="#additional-insights">Additional Insights</a></li>
-<li><a href="#data-privacy-laws">Data Privacy Laws</a></li>
+<li><a href="#problem-type">Problem Type</a></li>
+<li><a href="#model-confidence">Model Confidence</a></li>
+<li><a href="#insurance-question">Insurance Question</a></li>
+<li><a href="#data-analysis">Data Analysis</a></li>
 </ul>
 </li>
 </ul>
@@ -40,74 +41,88 @@
         <span class="icon-byui-logo"></span>
         <div id="titles">
             <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
-            <h2>Module 02 — Targeted Marketing, Case Study Discussion</h2>
+            <h2>Module 03 — Housing Estimates, Class Discussion Questions</h2>
         </div>
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<h2 id="questions">Questions</h2>
-<p>You're at dinner with the President of the bank, VP of Marketing, and the Senior Data Scientist. They want to make sure you have the data required to answer the questions they're most interested in.</p>
+		<p><img alt="Meeting" src="https://byui-cse.github.io/cse450-course/shared/img/meeting.jpg" />
+<em><a href="https://unsplash.com/photos/gMsnXqILjp4">Photo by Campaign Creators on Unsplash</a></em></p>
+<h2 id="questions">Questions</h2>
+<p>You're about to go into a strategy meeting with the CEO, Vice President of Human Resources, and Vice President of Finance. They want to make sure you have the data required to answer the questions they're most interested in.</p>
 <p>Be prepared to answer the following questions:</p>
-<h3 id="data-science-methods">Data Science Methods</h3>
+<h3 id="problem-type">Problem Type</h3>
 <div class="dialogue">
-    <img src="https://byui-cse.github.io/cse450-course/shared/img/miguel.jpg">
-    <h5>Miguel Ferreira, Bank President asks:</h5>
-    <blockquote><p>The core task we're interested in is identifying those customers most likely to subscribe to a term deposit.</p><p>A <em>term deposit</em> is a fixed-term investment that includes the deposit of money into an account at a financial institution. In this case, our financial institution.</p>
-    <p>I don't know a lot about data science, but I've been trying to get up to speed. Do you think a supervised or unsupervised approach would work best for this situation?</p>
-    </blockquote>
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/devon.jpg">
+    <h5>Devon, the CEO says:</h5>
+    <blockquote><p>I just sat through four hours of machine learning training with the board of directors this past week, so I'm curious to get your take on this.</p> 
+    <p>Looking at the data and our business model, what kind of machine learning problem do you think we're looking at here?</p></blockquote>
 </div>
 
 <p>Based on your initial analysis of the data, your team feels:</p>
 <ol>
-<li>This calls for a supervised learning approach.</li>
-<li>This calls for an unsupervised learning approach.</li>
-<li>This is more of an analytics question we can best answer through data analysis and visualization.</li>
-<li>Actually, reinforcement learning would probably be a better approach here.</li>
+<li>This is a supervised regression problem</li>
+<li>This is a supervised classification problem</li>
+<li>This is an unsupervised learning problem</li>
+<li>This is a semi-supervised learning problem</li>
 </ol>
-<h3 id="additional-insights">Additional Insights</h3>
+<h3 id="model-confidence">Model Confidence</h3>
 <div class="dialogue">
-    <img src="https://byui-cse.github.io/cse450-course/shared/img/francisco.jpg">
-    <h5>Francisco, VP of Marketing asks:</h5>
-    <blockquote><p>Aside from the core marketing question Miguel mentioned, I'm wondering if there are other insights we could gain from our data.</p>
-    <p>I can look at the data and tell that some days of the week or some months produce better results than others.</p><p>I'm wondering if it's possible for us to see if those results are true for all customers, or if some types of customers respond better on certain days than others?</p></blockquote>
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/cecil.jpg">
+    <h5>Cecil, the VP of Customer Relations asks:</h5>
+    <blockquote><p>My biggest concern right now is making sure that whatever method we to come up with to predict housing prices, we can also attach some kind of empirical confidence metric.</p></blockquote>
 </div>
 
-<p>Based on your initial analysis of the data, your team feels:</p>
+<p>Based on your initial analysis of the data, your team feels you can best show confidence in your model by using:</p>
 <ol>
-<li>This calls for a supervised learning approach.</li>
-<li>This calls for an unsupervised learning approach.</li>
-<li>This is more of an analytics question we can best answer through data analysis and visualization.</li>
-<li>Actually, reinforcement learning would probably be a better approach here.</li>
+<li>The sum of squares error (SSE).</li>
+<li>The mean squared error (MSE).</li>
+<li>The root mean squared error (RMSE).</li>
+<li>The $R^2$ value.</li>
 </ol>
-<h3 id="data-privacy-laws">Data Privacy Laws</h3>
+<h3 id="insurance-question">Insurance Question</h3>
 <div class="dialogue">
-    <img src="https://byui-cse.github.io/cse450-course/shared/img/beatriz.jpg">
-    <h5>Beatriz, Senior Data Scientist asks:</h5>
-    <blockquote><p>Since we're operating in the European Union, we're subject to GDPR compliance requirements.</p>
-    <p>What do you think we might need to do for this project in order to be compliant with GDPR regulations?</p></blockquote>
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/william.jpg">
+    <h5>William, the VP of Finance asks:</h5>
+    <blockquote><p>Our insurance division is particularly interested in making sure our investment portfolio avoids certain — uh — less savory property types.</p><p>Is there a way we can easily identify properties in low income areas and have the model lower those estimates to protect our investors' interests?</p></blockquote>
 </div>
 
 <p>Based on your initial analysis of the data, your team feels:</p>
 <ol>
-<li>This is historic data, so we should be just fine.</li>
-<li>This is anonymous data, so we should be just fine.</li>
-<li>The GDPR doesn't apply in this situation, since we're just building a model, not selling data.</li>
-<li>In order to use this data under GDPR, we'll need to get consent from the customers in the dataset.</li>
+<li>We have the necessary data in the correct form to answer this question.</li>
+<li>The data we have cannot answer that question, we need to collect more data.</li>
+<li>We could use the data we have, but we'll have to normalize some of the features, and/or encode some of them differently.</li>
+<li>Answering this question would be a violation of ethics and/or privacy laws.</li>
+</ol>
+<h3 id="data-analysis">Data Analysis</h3>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
+    <h5>Johnny, the data science intern asks:</h5>
+    <blockquote><p>The head of data science says we should use gradient boosted trees for this analysis.</p><p>I've noticed that a lot of the features use pretty different ranges.</p>
+    <p>For example, how should we handle square footage?</p></blockquote>
+</div>
+
+<p>Based on your initial analysis of the data, your team feels:</p>
+<ol>
+<li>We should normalize square footage values using range normalization (aka min-max scaling).</li>
+<li>We should standardize square footage values using z-score normalization.</li>
+<li>We should use binning to group square footage values into discrete categories.</li>
+<li>We should be fine sticking with the raw values.</li>
 </ol>
 <div class="footnote">
 <hr />
 <ol>
 <li id="fn:1">
-<p><a href="https://unsplash.com/photos/oMF2q4tlhDg">Chairman of the Board photo by Portuguese Gravity on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p><a href="https://unsplash.com/photos/-Ir03_pgpMU">CEO photo by Oz Seyrek on Unsplash </a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p><a href="https://unsplash.com/photos/MZ5A24H1JqU">President photo by Roland Samuel on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p><a href="https://unsplash.com/photos/SJvDxw0azqw">VP of Customer Support photo by Christina @ wocintechchat.com</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
-<p><a href="https://unsplash.com/photos/iUQmEFtfdLw">VP of Marketing photo by Mehrad Vosoughi on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+<p><a href="https://unsplash.com/photos/ml-pxK0Ovmw">VP of Finance photo by steffen Wienberg on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 <li id="fn:4">
-<p><a href="https://unsplash.com/photos/WnPJft0DJpk">Head of Data Science photo by Mateus Campos Felipe </a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+<p><a href="https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw">Data Science Intern photo by Fábio Lucas on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
