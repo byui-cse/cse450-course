@@ -24,9 +24,9 @@ For your convenience, here are links to the module 03 readings and assignments:
 
 #### Data
 
-* [Bank Dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv)
-* [Bank Data Dictionary](./bank-dictionary.txt)
-* [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_bank.ipynb)
+* [Housing Dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/housing.csv)
+* [Housing Data Dictionary](./housing-dictionary.txt)
+* [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_housing.ipynb)
 
 #### Templates
 
