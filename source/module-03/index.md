@@ -11,7 +11,7 @@ This week you'll learn about Gradient Boosted Trees and use the XGBoost library 
 	
 	Keep in mind that your instructor may deviate somewhat from the following guide, and they have final say on assignment requirements, delivery methods, and due dates. So be sure to pay attention to both in-class and Canvas announcements.
 
-## Module 02 Assignments
+## Module 03 Assignments
 
 For your convenience, here are links to the module 03 readings and assignments:
 
