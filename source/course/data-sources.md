@@ -92,6 +92,14 @@ House Sales in King County, USA
 * License: [Creative Commons 0 (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/)
 * [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/housing.csv)
 
+### Auto MPG Data
+
+Quinlan,R. (1993). Combining Instance-Based and Model-Based Learning. In Proceedings on the Tenth International Conference of Machine Learning, 236-243, University of Massachusetts, Amherst. Morgan Kaufmann. 
+
+* Original Source: [UCI](https://archive.ics.uci.edu/ml/datasets/auto+mpg)
+* License: [Citation Requested](https://archive.ics.uci.edu/ml/citation_policy.html)
+* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/mpg.csv)
+
 ### Biking Data
 
 Fanaee-T, Hadi, and Gama, Joao, 'Event labeling combining ensemble detectors and background knowledge', Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, [Web Link]. 
