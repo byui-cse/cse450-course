@@ -39,10 +39,10 @@ Sometimes we need to calculate the span between two dates using different units.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_dates.ipynb)
 
 
-## Dealing with Dates
-Sometimes we need to calculate the span between two dates using different units. Or, we might need to to do more complex calculations on a date using boolean logic. The following colab notebook shows some examples of that:
+## Using XGBoost
+If you've read through the official documentation and tutorials about XGBoost on the [project page](./project.html) and still aren't sure how to use it, this colab notebook might help:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_dates.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_xgboost.ipynb)
 
 
 
