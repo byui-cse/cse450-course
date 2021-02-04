@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Module 04 — Hit Songs, Case Study Discussion</title>
+	<title>Module 04 — Bike Rentals, Case Study Discussion</title>
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -24,13 +24,7 @@
         <div id="contents-wrapper">
             <div class="toc">
 <ul>
-<li><a href="#questions">Questions</a><ul>
-<li><a href="#data-science-methods">Data Science Methods</a></li>
-<li><a href="#additional-insights">Additional Insights</a></li>
-<li><a href="#timing">Timing</a></li>
-<li><a href="#model-evaluation">Model Evaluation</a></li>
-</ul>
-</li>
+<li><a href="#questions">Questions</a></li>
 </ul>
 </div>
 
@@ -41,7 +35,7 @@
         <span class="icon-byui-logo"></span>
         <div id="titles">
             <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
-            <h2>Module 04 — Hit Songs, Case Study Discussion</h2>
+            <h2>Module 04 — Bike Rentals, Case Study Discussion</h2>
         </div>
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
@@ -49,68 +43,84 @@
 		<h2 id="questions">Questions</h2>
 <p>You're at a strategy meeting with the stakeholders. They want to make sure you have the data required to answer the questions they're most interested in.</p>
 <p>Be prepared to answer the following questions:</p>
-<h3 id="data-science-methods">Data Science Methods</h3>
+<h4>Network Layers</h4>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/zhao.jpg">
+    <h5>Zhao, CEO of WelcomeBike</h5>
+    <blockquote><p>My brother-in-law works for a big AI company in Hong Kong. We've chatted a bit about neural networks, and I was wondering how many layers you think the network should have.</p></blockquote>
+</div>
+
+<p>Based on your initial analysis of the data, your team feels:</p>
+<ol>
+<li>A single input layer and single output layer should do it.</li>
+<li>An input layer, a hidden layer, and an output layer would be best.</li>
+<li>An input layer, two hidden layers, and an output layer would be best.</li>
+<li>An input layer, three hidden layers, and an output layer would be best.</li>
+</ol>
+<h4>Feature Engineering</h4>
 <div class="dialogue">
     <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
     <h5>Johnny, Data Science Intern</h5>
-    <blockquote><p>I guess the first thing we need to decide is if this is a classification problem or a regression problem.</p></blockquote>
+    <blockquote><p>Looking at the features we have, how do you think we should handle the temperature features?</p></blockquote>
 </div>
 
 <p>Based on your initial analysis of the data, your team feels:</p>
 <ol>
-<li>This is a classification problem.</li>
-<li>This is a regression problem.</li>
+<li>They should be fine the way they are.</li>
+<li>They should be standardized using min-max scaling.</li>
+<li>They should be normalized using a z-score transformation.</li>
+<li>They should be binned, then one-hot encoded.</li>
 </ol>
-<h3 id="additional-insights">Additional Insights</h3>
+<h4>Learning Rate</h4>
 <div class="dialogue">
-    <img src="https://byui-cse.github.io/cse450-course/shared/img/tom.jpg">
-    <h5>Tom Jones, Head of marketing and brand development</h5>
-    <blockquote><p>I don't want to know just whether or not a particular song is going to be a hit or not, I want to know what goes into making it a hit. What are the most important factors and which factors don't matter at all.</p><p>Is there an algorithm that can tell me that?</p></blockquote>
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/zhao.jpg">
+    <h5>Zhao, CEO of WelcomeBike</h5>
+    <blockquote><p>My brother-in-law told me that I should be careful with how I handle learning rate in my network.</p><p>What approach do you think you're going to take to find the optimal learning rate?</p></blockquote>
 </div>
 
 <p>Based on your initial analysis of the data, your team feels:</p>
 <ol>
-<li>Yes, k Nearest Neighbors can answer that question.</li>
-<li>Yes, decision trees would do a good job here.</li>
-<li>Yes, clustering is the way to answer that question.</li>
-<li>No, all we can give you is a predictive model, not tell you why how it works.</li>
+<li>Choosing different learning rates manually based on model performance would be best.</li>
+<li>Performing a grid search on learning rate would be best. </li>
+<li>Using an adaptive learning rate would be best.</li>
+<li>Using a scheduled learning rate would be best.</li>
 </ol>
-<h3 id="timing">Timing</h3>
-<div class="dialogue">
-    <img src="https://byui-cse.github.io/cse450-course/shared/img/ezra.jpg">
-    <h5>Ezra, Lead Singer of the Wasps</h5>
-    <blockquote><p>But if we're like, using a bunch of old data, won't your model just predict what would have been a popular song twenty years ago?</p><p>How can we make sure that what the model predicts for today would actually be popular today?</p></blockquote>
-</div>
-
-<p>Based on your initial analysis of the data, your team feels that the best way to handle this is:</p>
-<ol>
-<li>To stratify the training and test data by decade to figure this out using some kind of model ensemble.</li>
-<li>To look for features that persist across the decades and appear to be timeless.</li>
-<li>To filter the dataset to include only the songs that were popular in the last ten years or so.</li>
-<li>There's no way to guarantee this.</li>
-</ol>
-<h3 id="model-evaluation">Model Evaluation</h3>
+<h4>Loss Function</h4>
 <div class="dialogue">
     <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
     <h5>Johnny, Data Science Intern</h5>
-    <blockquote><p>How will we know if our model has strong predictive power?</p><p>Which evaluation metric will we use?</p></blockquote>
+    <blockquote><p>How will we know if our model has strong predictive power?</p><p>What are you planning to use for the loss function?</p></blockquote>
 </div>
 
 <p>Based on your initial analysis of the data, your team feels:</p>
 <ol>
-<li>We'll use the accuracy of test set predictions.</li>
-<li>We'll use the $F_1$ score.</li>
-<li>We'll use the root mean squared error (RMSE).</li>
-<li>We'll use the $R^2$ value.</li>
+<li>We'll use root mean squared error (RMSE).</li>
+<li>We'll use mean squared error (MSE).</li>
+<li>We'll use mean absolute error (MAE).</li>
+<li>We'll use Huber loss.</li>
+</ol>
+<h4>Predictive Risk Model</h4>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/william.jpg">
+    <h5>William, Investment Banker</h5>
+    <blockquote><p>Can we use AI and the GPS tracker in the bikes to keep track of where the customers are going?</p><p>This way, we can charge them a premium if they're biking through sections of the city that our models predict are more likely to result in bike theft.</p></blockquote>
+</div>
+
+<p>Based on your initial analysis of the data, your team feels:</p>
+<ol>
+<li>Yes, we'd need to build a neural network that approaches that as a classification problem.</li>
+<li>Yes, we'd need to build a neural network that approaches that as a regression problem.</li>
+<li>Yes, but not with a neural network.</li>
+<li>Answering this question would be a violation of ethics and/or privacy laws.</li>
 </ol>
 <div class="footnote">
 <hr />
 <ol>
 <li id="fn:1">
-<p><a href="https://unsplash.com/photos/3Uf-aRahKcc">Lead Singer photo by Brian Lundquist on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p><a href="https://unsplash.com/photos/g4DgCF90EM4">CEO photo by Sung Wang on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p><a href="https://unsplash.com/photos/pAtA8xe_iVM">Head of Marketing photo by LinkedIn Sales Navigator on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p><a href="https://unsplash.com/photos/ml-pxK0Ovmw">Investment Banker photo by steffen Wienberg on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
 <p><a href="https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw">Data Science Intern photo by Fábio Lucas on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>

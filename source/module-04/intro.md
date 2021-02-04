@@ -1,60 +1,59 @@
 ---
-title: Module 04 — Hit Songs, Case Study Introduction
+title: Module 04 — Bike Rentals, Case Study Introduction
 ---
 
-![Meeting]({{URLROOT}}/shared/img/song.jpg)
-*[Photo by Austin Neill on Unsplash](https://unsplash.com/photos/hgO1wFPXl3I)*
+![Meeting]({{URLROOT}}/shared/img/bikes.jpg)
+*[Photo by Markus Winkler on Unsplash](https://unsplash.com/photos/QjRk3rj2O1c)*
 
 ## Introduction
-You've been hired by a major record label, MMC Entertainment, to help them build a model that can predict whether or not a song will be a hit.
+WelcomeBike Bike Rentals is a Beijing-based bike rental company that has recently expanded to include a handful of US locations. You've been asked to build a neural network that will predict the number of bike rentals for a given day for their Washington DC branch. [^1]
 
 ## Stakeholders
 
 These are the individuals your team will be helping during the case study:
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/ezra.jpg">
-	<h5>Ezra, Lead Singer of the Wasps</h5>
-	<blockquote><p>I don't need some computer telling me how to make my art.</p><p>But, it could be interesting to incorporate some synthetic components into one of my songs...just as an experiment.</p></blockquote>
+	<img src="{{URLROOT}}/shared/img/zhao.jpg">
+	<h5>Zhao, CEO of WelcomeBike</h5>
+	<blockquote><p>Our new DC branch is taking off. I'm excited to see how machine learning can help us to avoid the mistakes of our competitors and prove to our investors that we have a winning business model.</p></blockquote>
 </div>
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/tom.jpg">
-	<h5>Tom Jones, Head of marketing and brand development</h5>
-	<blockquote><p>While we all celebrate the art behind your music Ezra, our research over the years tells us that there are several factors that go into predicting whether or not a song will be a hit.</p><p>Some of that comes down to timing, but we think there may be other aspects that we can quantify.</p></blockquote>
+	<img src="{{URLROOT}}/shared/img/william.jpg">
+	<h5>William, Investment Banker</h5>
+	<blockquote><p>Oh...it's <em>you</em> again.</p><p>Nearly every Chinese bike rental business anyone has invested in has gone bankrupt.</p><p>Mr. Zhao seems to think that AI can make all the difference, and our bank's investment board is curious to find out if he's right.</p><p>I'm here by their request to witness his failure—I mean, to see how it goes.</p></blockquote>
 </div>
 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">
 	<h5>Johnny, Data Science Intern</h5>
-	<blockquote><p>Hey! You're here too! I just started working here last week.</p>
-		<p>The record company has a ton of information on old songs, including how popular they were. I suggest we start there.</p></blockquote>
+	<blockquote><p>Hey, small world!</p><p>I'm visiting my grandma Peggy in Langley, Virginia and thought I'd stop by the capital and see how you're doing.</p>
+	</blockquote>
 </div>
 
 !!!note "Stakeholder Focus Areas"
 	The stakeholders are particularly interested in the following areas:
 
-	1.	Building a model that can predict how popular a song is.
-	2.  Understanding how tastes have changed over time, and if there are cycles in those tastes.
+	1.	Building a neural network that can predict the number of bicycle rentals for a given day.
+	2.  Understanding how weather, holidays, and other factors affect revenue.
 
-You've been invited to a strategy meeting tomorrow. They're planning to discuss the marketing campaign and would like your input on a few key points.
+You've been invited to a strategy meeting tomorrow. 
 
-## Data
-Spend some time with your team evaluating the data. Be sure to look at data types, ranges, and meanings of each feature from the [data dictionary](./spotify-dictionary.txt).
+#### Data
+* [Bike Data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bikes.csv)
+* [Data Dictionary](./bikes-dictionary.txt)
 
-### Datasets
-* [Spotify Data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data.csv)
-* [Spotify Data (by Artist)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_artist.csv)
-* [Spotify Data (by Artist with genres)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_artist_w_genres.csv)
-* [Spotify Data (by Genre)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_genres.csv)
-* [Spotify Data (by Year)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_year.csv)
+#### Reading
+* Don't forget to go back and review the ["Practical" section of the reading assignment](./reading.html#practical) to understand how to build neural networks.
 
 You can use the following Google Colab notebook to assist you:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_04.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_05.ipynb)
 
-[^1]: [Lead Singer photo by Brian Lundquist on Unsplash](https://unsplash.com/photos/3Uf-aRahKcc)
+[^1]: For a fascinating look at the bike rental industry in China, see [this article in Foreign Policy](https://foreignpolicy.com/2018/12/31/a-billion-bicyclists-can-be-wrong-china-business-bikeshare/) and [this article in The Atlantic](https://www.theatlantic.com/photo/2018/03/bike-share-oversupply-in-china-huge-piles-of-abandoned-and-broken-bicycles/556268/)
 
-[^2]: [Head of Marketing photo by LinkedIn Sales Navigator on Unsplash](https://unsplash.com/photos/pAtA8xe_iVM)
+[^2]: [CEO photo by Sung Wang on Unsplash](https://unsplash.com/photos/g4DgCF90EM4)
 
-[^3]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)
+[^3]: [Investment Banker photo by steffen Wienberg on Unsplash](https://unsplash.com/photos/ml-pxK0Ovmw)
+
+[^4]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)

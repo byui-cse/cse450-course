@@ -5,7 +5,7 @@ body-class: index-page
 
 ## Module 04 - Overview
 
-This week you'll learn about k-Nearest Neighbors, distance metrics, and model evaluation.
+This week you'll learn about basic Neural Networks.
 
 !!! warning "Subject to Change"
 	
@@ -23,17 +23,9 @@ For your convenience, here are links to the module 04 readings and assignments:
 * [Case Study Project](./project.html)
 
 #### Data
-
-* [Spotify Data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data.csv)
-* [Spotify Data (by Artist)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_artist.csv)
-* [Spotify Data (by Artist with genres)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_artist_w_genres.csv)
-* [Spotify Data (by Genre)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_genres.csv)
-* [Spotify Data (by Year)](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_year.csv)
-
-#### Data Dictionary & Colab Notebook
-
-* [Spotify Data Dictionary](./spotify-dictionary.txt)
-* [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_04.ipynb)
+* [Bike Data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bikes.csv)
+* [Data Dictionary](./bikes-dictionary.txt)
+* [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_05.ipynb)
 
 #### Templates
 

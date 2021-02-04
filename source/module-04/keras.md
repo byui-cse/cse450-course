@@ -1,5 +1,5 @@
 ---
-title: Module 05 — Neural Networks, Keras
+title: Module 04 — Neural Networks, Keras
 body-class: index-page
 ---
 

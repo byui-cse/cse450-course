@@ -1,5 +1,5 @@
 ---
-title: Module 05 — Neural Networks, Activation Functions
+title: Module 04 — Neural Networks, Activation Functions
 ---
 
 ## Activation Functions

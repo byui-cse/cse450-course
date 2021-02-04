@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Module 05 — Bike Rentals, Case Study Discussion</title>
+	<title>Module 04 — Hit Songs, Case Study Introduction</title>
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -19,12 +19,17 @@
     <meta charset="utf-8">
 
 </head>
-<body class="index-page">
+<body class="">
      <div id="modal-screen">
         <div id="contents-wrapper">
             <div class="toc">
 <ul>
-<li><a href="#questions">Questions</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#stakeholders">Stakeholders</a></li>
+<li><a href="#data">Data</a><ul>
+<li><a href="#datasets">Datasets</a></li>
+</ul>
+</li>
 </ul>
 </div>
 
@@ -35,92 +40,65 @@
         <span class="icon-byui-logo"></span>
         <div id="titles">
             <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
-            <h2>Module 05 — Bike Rentals, Case Study Discussion</h2>
+            <h2>Module 04 — Hit Songs, Case Study Introduction</h2>
         </div>
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<h2 id="questions">Questions</h2>
-<p>You're at a strategy meeting with the stakeholders. They want to make sure you have the data required to answer the questions they're most interested in.</p>
-<p>Be prepared to answer the following questions:</p>
-<h4>Network Layers</h4>
+		<p><img alt="Meeting" src="https://byui-cse.github.io/cse450-course/shared/img/song.jpg" />
+<em><a href="https://unsplash.com/photos/hgO1wFPXl3I">Photo by Austin Neill on Unsplash</a></em></p>
+<h2 id="introduction">Introduction</h2>
+<p>You've been hired by a major record label, MMC Entertainment, to help them build a model that can predict whether or not a song will be a hit.</p>
+<h2 id="stakeholders">Stakeholders</h2>
+<p>These are the individuals your team will be helping during the case study:</p>
 <div class="dialogue">
-    <img src="https://byui-cse.github.io/cse450-course/shared/img/zhao.jpg">
-    <h5>Zhao, CEO of WelcomeBike</h5>
-    <blockquote><p>My brother-in-law works for a big AI company in Hong Kong. We've chatted a bit about neural networks, and I was wondering how many layers you think the network should have.</p></blockquote>
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/ezra.jpg">
+    <h5>Ezra, Lead Singer of the Wasps</h5>
+    <blockquote><p>I don't need some computer telling me how to make my art.</p><p>But, it could be interesting to incorporate some synthetic components into one of my songs...just as an experiment.</p></blockquote>
 </div>
 
-<p>Based on your initial analysis of the data, your team feels:</p>
-<ol>
-<li>A single input layer and single output layer should do it.</li>
-<li>An input layer, a hidden layer, and an output layer would be best.</li>
-<li>An input layer, two hidden layers, and an output layer would be best.</li>
-<li>An input layer, three hidden layers, and an output layer would be best.</li>
-</ol>
-<h4>Feature Engineering</h4>
 <div class="dialogue">
-    <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
-    <h5>Johnny, Data Science Intern</h5>
-    <blockquote><p>Looking at the features we have, how do you think we should handle the temperature features?</p></blockquote>
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/tom.jpg">
+    <h5>Tom Jones, Head of marketing and brand development</h5>
+    <blockquote><p>While we all celebrate the art behind your music Ezra, our research over the years tells us that there are several factors that go into predicting whether or not a song will be a hit.</p><p>Some of that comes down to timing, but we think there may be other aspects that we can quantify.</p></blockquote>
 </div>
 
-<p>Based on your initial analysis of the data, your team feels:</p>
-<ol>
-<li>They should be fine the way they are.</li>
-<li>They should be standardized using min-max scaling.</li>
-<li>They should be normalized using a z-score transformation.</li>
-<li>They should be binned, then one-hot encoded.</li>
-</ol>
-<h4>Learning Rate</h4>
-<div class="dialogue">
-    <img src="https://byui-cse.github.io/cse450-course/shared/img/zhao.jpg">
-    <h5>Zhao, CEO of WelcomeBike</h5>
-    <blockquote><p>My brother-in-law told me that I should be careful with how I handle learning rate in my network.</p><p>What approach do you think you're going to take to find the optimal learning rate?</p></blockquote>
-</div>
-
-<p>Based on your initial analysis of the data, your team feels:</p>
-<ol>
-<li>Choosing different learning rates manually based on model performance would be best.</li>
-<li>Performing a grid search on learning rate would be best. </li>
-<li>Using an adaptive learning rate would be best.</li>
-<li>Using a scheduled learning rate would be best.</li>
-</ol>
-<h4>Loss Function</h4>
 <div class="dialogue">
     <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
     <h5>Johnny, Data Science Intern</h5>
-    <blockquote><p>How will we know if our model has strong predictive power?</p><p>What are you planning to use for the loss function?</p></blockquote>
+    <blockquote><p>Hey! You're here too! I just started working here last week.</p>
+        <p>The record company has a ton of information on old songs, including how popular they were. I suggest we start there.</p></blockquote>
 </div>
 
-<p>Based on your initial analysis of the data, your team feels:</p>
+<div class="admonition note">
+<p class="admonition-title">Stakeholder Focus Areas</p>
+<p>The stakeholders are particularly interested in the following areas:</p>
 <ol>
-<li>We'll use root mean squared error (RMSE).</li>
-<li>We'll use mean squared error (MSE).</li>
-<li>We'll use mean absolute error (MAE).</li>
-<li>We'll use Huber loss.</li>
+<li>Building a model that can predict how popular a song is.</li>
+<li>Understanding how tastes have changed over time, and if there are cycles in those tastes.</li>
 </ol>
-<h4>Predictive Risk Model</h4>
-<div class="dialogue">
-    <img src="https://byui-cse.github.io/cse450-course/shared/img/william.jpg">
-    <h5>William, Investment Banker</h5>
-    <blockquote><p>Can we use AI and the GPS tracker in the bikes to keep track of where the customers are going?</p><p>This way, we can charge them a premium if they're biking through sections of the city that our models predict are more likely to result in bike theft.</p></blockquote>
 </div>
-
-<p>Based on your initial analysis of the data, your team feels:</p>
-<ol>
-<li>Yes, we'd need to build a neural network that approaches that as a classification problem.</li>
-<li>Yes, we'd need to build a neural network that approaches that as a regression problem.</li>
-<li>Yes, but not with a neural network.</li>
-<li>Answering this question would be a violation of ethics and/or privacy laws.</li>
-</ol>
+<p>You've been invited to a strategy meeting tomorrow. They're planning to discuss the marketing campaign and would like your input on a few key points.</p>
+<h2 id="data">Data</h2>
+<p>Spend some time with your team evaluating the data. Be sure to look at data types, ranges, and meanings of each feature from the <a href="./spotify-dictionary.txt">data dictionary</a>.</p>
+<h3 id="datasets">Datasets</h3>
+<ul>
+<li><a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data.csv">Spotify Data</a></li>
+<li><a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_artist.csv">Spotify Data (by Artist)</a></li>
+<li><a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_artist_w_genres.csv">Spotify Data (by Artist with genres)</a></li>
+<li><a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_genres.csv">Spotify Data (by Genre)</a></li>
+<li><a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/spotify/data_by_year.csv">Spotify Data (by Year)</a></li>
+</ul>
+<p>You can use the following Google Colab notebook to assist you:</p>
+<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_04.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
 <div class="footnote">
 <hr />
 <ol>
 <li id="fn:1">
-<p><a href="https://unsplash.com/photos/g4DgCF90EM4">CEO photo by Sung Wang on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p><a href="https://unsplash.com/photos/3Uf-aRahKcc">Lead Singer photo by Brian Lundquist on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p><a href="https://unsplash.com/photos/ml-pxK0Ovmw">Investment Banker photo by steffen Wienberg on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p><a href="https://unsplash.com/photos/pAtA8xe_iVM">Head of Marketing photo by LinkedIn Sales Navigator on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
 <p><a href="https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw">Data Science Intern photo by Fábio Lucas on Unsplash</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>

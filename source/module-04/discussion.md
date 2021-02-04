@@ -1,5 +1,5 @@
 ---
-title: Module 04 — Hit Songs, Case Study Discussion
+title: Module 04 — Bike Rentals, Case Study Discussion
 body-class: index-page
 ---
 
@@ -8,67 +8,84 @@ You're at a strategy meeting with the stakeholders. They want to make sure you h
 
 Be prepared to answer the following questions:
 
-### Data Science Methods
+#### Network Layers
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/zhao.jpg">
+	<h5>Zhao, CEO of WelcomeBike</h5>
+	<blockquote><p>My brother-in-law works for a big AI company in Hong Kong. We've chatted a bit about neural networks, and I was wondering how many layers you think the network should have.</p></blockquote>
+</div>
+
+Based on your initial analysis of the data, your team feels:
+
+1. A single input layer and single output layer should do it.
+2. An input layer, a hidden layer, and an output layer would be best.
+3. An input layer, two hidden layers, and an output layer would be best.
+4. An input layer, three hidden layers, and an output layer would be best.
+
+#### Feature Engineering
 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">
 	<h5>Johnny, Data Science Intern</h5>
-	<blockquote><p>I guess the first thing we need to decide is if this is a classification problem or a regression problem.</p></blockquote>
+	<blockquote><p>Looking at the features we have, how do you think we should handle the temperature features?</p></blockquote>
 </div>
 
 Based on your initial analysis of the data, your team feels:
 
-1. This is a classification problem.
-2. This is a regression problem.
+1. They should be fine the way they are.
+2. They should be standardized using min-max scaling.
+3. They should be normalized using a z-score transformation.
+4. They should be binned, then one-hot encoded.
 
-### Additional Insights
+#### Learning Rate
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/tom.jpg">
-	<h5>Tom Jones, Head of marketing and brand development</h5>
-	<blockquote><p>I don't want to know just whether or not a particular song is going to be a hit or not, I want to know what goes into making it a hit. What are the most important factors and which factors don't matter at all.</p><p>Is there an algorithm that can tell me that?</p></blockquote>
+	<img src="{{URLROOT}}/shared/img/zhao.jpg">
+	<h5>Zhao, CEO of WelcomeBike</h5>
+	<blockquote><p>My brother-in-law told me that I should be careful with how I handle learning rate in my network.</p><p>What approach do you think you're going to take to find the optimal learning rate?</p></blockquote>
 </div>
 
 Based on your initial analysis of the data, your team feels:
 
-1. Yes, k Nearest Neighbors can answer that question.
-2. Yes, decision trees would do a good job here.
-3. Yes, clustering is the way to answer that question.
-4. No, all we can give you is a predictive model, not tell you why how it works.
+1. Choosing different learning rates manually based on model performance would be best.
+2. Performing a grid search on learning rate would be best. 
+3. Using an adaptive learning rate would be best.
+4. Using a scheduled learning rate would be best.
 
-### Timing
-
-<div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/ezra.jpg">
-	<h5>Ezra, Lead Singer of the Wasps</h5>
-	<blockquote><p>But if we're like, using a bunch of old data, won't your model just predict what would have been a popular song twenty years ago?</p><p>How can we make sure that what the model predicts for today would actually be popular today?</p></blockquote>
-</div>
-
-Based on your initial analysis of the data, your team feels that the best way to handle this is:
-
-1. To stratify the training and test data by decade to figure this out using some kind of model ensemble.
-2. To look for features that persist across the decades and appear to be timeless.
-3. To filter the dataset to include only the songs that were popular in the last ten years or so.
-4. There's no way to guarantee this.
-
-### Model Evaluation
+#### Loss Function
 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">
 	<h5>Johnny, Data Science Intern</h5>
-	<blockquote><p>How will we know if our model has strong predictive power?</p><p>Which evaluation metric will we use?</p></blockquote>
+	<blockquote><p>How will we know if our model has strong predictive power?</p><p>What are you planning to use for the loss function?</p></blockquote>
 </div>
 
 Based on your initial analysis of the data, your team feels:
 
-1. We'll use the accuracy of test set predictions.
-2. We'll use the $F_1$ score.
-3. We'll use the root mean squared error (RMSE).
-4. We'll use the $R^2$ value.
+1. We'll use root mean squared error (RMSE).
+2. We'll use mean squared error (MSE).
+3. We'll use mean absolute error (MAE).
+4. We'll use Huber loss.
+
+#### Predictive Risk Model
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/william.jpg">
+	<h5>William, Investment Banker</h5>
+	<blockquote><p>Can we use AI and the GPS tracker in the bikes to keep track of where the customers are going?</p><p>This way, we can charge them a premium if they're biking through sections of the city that our models predict are more likely to result in bike theft.</p></blockquote>
+</div>
+
+Based on your initial analysis of the data, your team feels:
+
+1. Yes, we'd need to build a neural network that approaches that as a classification problem.
+2. Yes, we'd need to build a neural network that approaches that as a regression problem.
+3. Yes, but not with a neural network.
+4. Answering this question would be a violation of ethics and/or privacy laws.
 
 
-[^1]: [Lead Singer photo by Brian Lundquist on Unsplash](https://unsplash.com/photos/3Uf-aRahKcc)
+[^1]: [CEO photo by Sung Wang on Unsplash](https://unsplash.com/photos/g4DgCF90EM4)
 
-[^2]: [Head of Marketing photo by LinkedIn Sales Navigator on Unsplash](https://unsplash.com/photos/pAtA8xe_iVM)
+[^2]: [Investment Banker photo by steffen Wienberg on Unsplash](https://unsplash.com/photos/ml-pxK0Ovmw)
 
 [^3]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)
