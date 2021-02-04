@@ -50,7 +50,7 @@ After a few more meetings, your team has been assigned to address the following 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">
 	<h5>Johnny, the Data Science Intern, catches you after work:</h5>
-	<blockquote><p>Hey, I know you're probably busy, I was going to put together some hints and sample code for you like I usually do, but the best example code I can provide is what you see in those<a href="./keras.html">keras tutorials from the reading assignment</a>. So, be sure to read over those.</p></blockquote>
+	<blockquote><p>Hey, I know you're probably busy, I was going to put together some hints and sample code for you like I usually do, but the best example code I can provide is what you see in those <a href="./keras.html">keras tutorials from the reading assignment</a>. So, be sure to read over those.</p></blockquote>
 </div>
 
 
