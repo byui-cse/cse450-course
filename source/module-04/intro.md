@@ -48,7 +48,7 @@ You've been invited to a strategy meeting tomorrow.
 
 You can use the following Google Colab notebook to assist you:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_05.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_bikes.ipynb)
 
 [^1]: For a fascinating look at the bike rental industry in China, see [this article in Foreign Policy](https://foreignpolicy.com/2018/12/31/a-billion-bicyclists-can-be-wrong-china-business-bikeshare/) and [this article in The Atlantic](https://www.theatlantic.com/photo/2018/03/bike-share-oversupply-in-china-huge-piles-of-abandoned-and-broken-bicycles/556268/)
 
