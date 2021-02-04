@@ -1,5 +1,6 @@
 ---
 title: Module 04 — Neural Networks
+body-class: index-page
 ---
 
 ![Clustering]({{URLROOT}}/shared/img/network.jpg)
