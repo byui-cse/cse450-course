@@ -31,7 +31,7 @@ Based on your initial analysis of the data, your team feels:
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/cecil.jpg">
 	<h5>Cecil, the VP of Customer Relations asks:</h5>
-	<blockquote><p>My biggest concern right now is making sure that whatever method we to come up with to predict housing prices, we can also attach some kind of empirical confidence metric.</p></blockquote>
+	<blockquote><p>My biggest concern right now is making sure that whatever method we come up with to predict housing prices, we can also attach some kind of empirical confidence metric.</p></blockquote>
 </div>
 
 Based on your initial analysis of the data, your team feels you can best show confidence in your model by using:
