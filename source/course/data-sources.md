@@ -117,6 +117,13 @@ Holiday Schedule: http://dchr.dc.gov/page/holiday-schedule
 * License: [Citation Requested](https://archive.ics.uci.edu/ml/citation_policy.html)
 * [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bikes.csv)
 
+### Pride and Prejudice by Jane Austen
+
+Project Gutenberg https://www.gutenberg.org
+
+* Original Source [Project Gutenberg](https://www.gutenberg.org/ebooks/1342)
+* License: [Public Domain](https://www.gutenberg.org/policy/permission.html)
+* [Direct Download](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/PrideAndPrejudice.txt)
 
 ### German Traffic Signs
 
