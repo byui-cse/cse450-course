@@ -1,5 +1,5 @@
 ---
-title: Module 02 — Housing Estimates, Project
+title: Module 03 — Housing Estimates, Project
 ---
 
 ## Overview

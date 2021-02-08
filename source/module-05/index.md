@@ -1,19 +1,19 @@
 ---
-title: Module 06: Overview
+title: Module 05: Overview
 body-class: index-page
 ---
 
-## Module 06 - Overview
+## Module 05 - Overview
 
-This week you'll learn about Convolutional Neural Networks.
+This week you'll learn about Recurrent Neural Networks.
 
 !!! warning "Subject to Change"
 	
 	Keep in mind that your instructor may deviate somewhat from the following guide, and they have final say on assignment requirements, delivery methods, and due dates. So be sure to pay attention to both in-class and Canvas announcements.
 
-## Module 06 Assignments
+## Module 05 Assignments
 
-For your convenience, here are links to the module 06 readings and assignments:
+For your convenience, here are links to the module 05 readings and assignments:
 
 #### Readings
 
