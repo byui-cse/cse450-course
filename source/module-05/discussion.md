@@ -1,5 +1,5 @@
 ---
-title: Module 06 — Self Driving Cars, Case Study Discussion
+title: Module 05 — Self Driving Cars, Case Study Discussion
 body-class: index-page
 ---
 

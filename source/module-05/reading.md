@@ -1,5 +1,5 @@
 ---
-title: Module 06 — Convolutional Neural Networks
+title: Module 05 — Convolutional Neural Networks
 ---
 
 ![Eyeball]({{URLROOT}}/shared/img/eye.jpg)

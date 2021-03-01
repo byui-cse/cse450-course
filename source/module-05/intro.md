@@ -1,5 +1,5 @@
 ---
-title: Module 06 — Self Driving Cars, Case Study Introduction
+title: Module 05 — Self Driving Cars, Case Study Introduction
 ---
 
 ![Meeting]({{URLROOT}}/shared/img/car.jpg)
@@ -45,7 +45,7 @@ You've been invited to a strategy meeting tomorrow.
 * [Roadsigns Test data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns/test.zip)
 * [Data Dictionary](./signs-dictionary.txt)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_06.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_signs.ipynb)
 
 [^1]: [CEO photo by Amy Hirschi on Unsplash](https://unsplash.com/photos/b3AYk8HKCl0)
 

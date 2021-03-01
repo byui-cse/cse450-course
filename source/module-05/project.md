@@ -1,5 +1,5 @@
 ---
-title: Module 06 — Self Driving Cars, Project
+title: Module 05 — Self Driving Cars, Project
 ---
 
 ## Overview
@@ -38,7 +38,7 @@ After a few more meetings, your team has been assigned to address the following 
 	Use this [data dictionary](./signs-dictionary.txt) to help explain how the data set is structured.
 
 !!!note "Starter Code"
-	Loading image data can be tricky, but this [Colab notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_06.ipynb) should be helpful. 
+	Loading image data can be tricky, but this [Colab notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_signs.ipynb) should be helpful. 
 
 	There may be better ways to handle the data than what that notebook is doing, but it will at least get you started.
 	
