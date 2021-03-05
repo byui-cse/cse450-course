@@ -1,13 +1,13 @@
 ---
-title: Module 06 — Convolutional Neural Networks
+title: Module 06 — Recurrent Neural Networks
 ---
 
-![Eyeball]({{URLROOT}}/shared/img/eye.jpg)
-*[Photo by Amanda Dalbjörn on Unsplash](https://unsplash.com/photos/UbJMy92p8wk)*
+![Sequence]({{URLROOT}}/shared/img/sequence.jpg)
+*[Photo by Jeffrey Brandjes on Unsplash](https://unsplash.com/photos/7cLqEYJws8E)*
 
 ## Overview
 
-The objective of this module is to provide a real-world scenario in which you can practice using Convolutional Neural Networks.
+The objective of this module is to provide a real-world scenario in which you can practice using Recurrent Neural Networks.
 
 !!!time "Estimated Reading Time"
 	Plan on around 120 - 240 minutes for this preparation reading, which consists of online reading and videos.
@@ -23,37 +23,23 @@ The objective of this module is to provide a real-world scenario in which you ca
 
 Please go through this content before the reading quiz and class discussion on Friday:
 
-#### Convolutional Neural Networks
+#### Recurrent Neural Networks
 
-First, read the following article that introduces how Convolutional Nerual Networks work. But, ignore the code examples, because the article uses an older version of TensorFlow:
+First, read the following article that introduces how Recurrent Neural Networks work. But, ignore the code examples, because the article uses an older version of TensorFlow:
 
-* [Deep Learning and Convolutional Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721)
+* [Recurrent Neural Networks and Super Mario](https://medium.com/@ageitgey/machine-learning-is-fun-part-2-a26a10b68df3)
 
-Next, watch this video from MIT, which dives a little deeper into the concepts of how convolutional neural networks work, and how they can be used to solve machine learning problems.
+Next, watch this video from MIT, which dives a little deeper into the concepts of how recurrent neural networks work, and how they can be used to solve machine learning problems.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iaSUYvmCekI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-#### Data Augmentation
-
-Next, read through this article on [data augmentation](https://nanonets.com/blog/data-augmentation-how-to-use-deep-learning-when-you-have-limited-data-part-2/). Don't worry too much about the code, just make sure you understand the main ideas.
-
-
-#### Network Architecture
-
-At this point, you might be wondering how to decide what network architecture is best? How do you decide how many convolutional layers to use? How do you pick a filter size? How do you determine how many filters and dense layers to use?
-
-The most common approach is to experiment — adjust parameters one at a time and see how those adjustments affect your outcome. 
-
-Another approach is to start with one of the many [well known CNN network architecture designs](https://www.jeremyjordan.me/convnet-architectures/) and adjust those as needed for your particular problem.
-
-CNN architecture is a [very active](https://www.aismartz.com/blog/cnn-architectures/) field of development. As with most things in machine learning, there is no "one size fits all" answer.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SEnXr6v2ifU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Practical
+Before class on Monday, read [through the Colab notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_publishing.ipynb) that contains the starter code for this module and make sure you have a pretty decent understanding of all of the steps involved. 
 
-Please go through this content before class on Monday:
+You don't have to fully understand every line of code, but you should read the comments and most of the linked articles carefully enough to be able to discuss it with your team. 
 
-* Read [this collection of tutorials on the Keras library](./keras-cnn.html)
+There's a lot of new TensorFlow code being used in the starter code. You may find it useful to look up what those functions do in the TensorFlow documentation.
 
 
 

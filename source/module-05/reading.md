@@ -25,7 +25,7 @@ Please go through this content before the reading quiz and class discussion on F
 
 #### Convolutional Neural Networks
 
-First, read the following article that introduces how Convolutional Nerual Networks work. But, ignore the code examples, because the article uses an older version of TensorFlow:
+First, read the following article that introduces how Convolutional Neural Networks work. But, ignore the code examples, because the article uses an older version of TensorFlow:
 
 * [Deep Learning and Convolutional Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721)
 

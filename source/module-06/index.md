@@ -1,9 +1,9 @@
 ---
-title: Module 05: Overview
+title: Module 06: Overview
 body-class: index-page
 ---
 
-## Module 05 - Overview
+## Module 06 - Overview
 
 This week you'll learn about Recurrent Neural Networks.
 
@@ -23,11 +23,8 @@ For your convenience, here are links to the module 05 readings and assignments:
 * [Case Study Project](./project.html)
 
 #### Data
-* [Roadsigns Training Data Part 1](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns/training1.zip)
-* [Roadsigns Training Data Part 2](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns/training2.zip)
-* [Roadsigns Test data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns/test.zip)
-* [Data Dictionary](./signs-dictionary.txt)
-* [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_06.ipynb)
+* [Jane Austen Text](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/austen/austen.txt)
+* [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_publishing.ipynb)
 
 #### Templates
 

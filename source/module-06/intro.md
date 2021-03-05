@@ -1,54 +1,50 @@
 ---
-title: Module 06 — Self Driving Cars, Case Study Introduction
+title: Module 06 — Content Creation, Case Study Introduction
 ---
 
-![Meeting]({{URLROOT}}/shared/img/car.jpg)
-*[Photo by Campbell Boulanger on Unsplash](https://unsplash.com/photos/3ZUsNJhi_Ik)*
+![Printing Machine]({{URLROOT}}/shared/img/printing.jpg)
+*[Photo by Bank Phrom on Unsplash](https://unsplash.com/photos/Tzm3Oyu_6sk)*
 
 ## Introduction
-You've been hired by GehirnWagen, a German tech startup, to assist with their self-driving car initiative.
+You've been hired by HackPressIO, a new content creation startup, to assist with their content creation.
 
 ## Stakeholders
 
 These are the individuals your team will be helping during the case study:
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/emma.jpg">
-	<h5>Emma, CEO of GehirnWagen</h5>
-	<blockquote><p>Our company has several different projects going on right now, but the one I'm most excited about is our new, self-driving car initiative.</p><p>My cousin Johnny tells me that you can probably help us out.</p></blockquote>
+	<img src="{{URLROOT}}/shared/img/thomas.jpg">
+	<h5>Thomas, COO of HackPressIO</h5>
+	<blockquote><p>We've recently acquired the rights to the estates of several deceased authors. We're experimenting with a concept where we train AI models from their published works, and use those models to generate new works with their style and voice.</p><p>We had hired a team to work on this project, but there were some technical issues they couldn't overcome. My little brother Johnny suggested we bring you on board to try and save the project.</p></blockquote>
 </div>
 
 <div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/karl.jpg">
-	<h5>Karl, Head of AI</h5>
-	<blockquote><p>Nice to meet you.</p><p>We've got most of the pieces in place to launch the initiative, but we're having a little trouble with our road sign recognition system.</p></blockquote>
+	<img src="{{URLROOT}}/shared/img/monika.jpg">
+	<h5>Monika, Senior Developer</h5>
+	<blockquote><p>We have a lot of the scaffolding for the project in place, but the models need a lot of refinement. I'll give you full access to the code implemented by the previous team, and I'll be happy to answer any questions you might have about it.</p></blockquote>
 </div>
 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">
 	<h5>Johnny, Data Science Intern</h5>
-	<blockquote><p>Hope you don't mind me giving out your contact info. When my cousin Emma told me about her self-driving car program, I just had a feeling you'd be able to help out.</p>
+	<blockquote><p>Hey!</p><p>Isn't Thomas great? He's always been an inspiration to me, and one of the reasons I got into machine learning in the first place. It would mean a lot to me if you can help him out.</p>
 	</blockquote>
 </div>
 
 !!!note "Stakeholder Focus Areas"
-	The stakeholders are particularly interested in the following areas:
+	The stakeholders are particularly interested in:
 
-	1.	Building a neural network that can correctly classify German road signs.
-	2.  Making sure the network is robust enough to handle road signs in situations it hasn't encountered before.
+	1.	Building a recurrent neural network pipeline that can take an arbitrary collection of written works by an author, and generate new text with that author's style and voice.
 
 You've been invited to a strategy meeting tomorrow. 
 
 #### Data
-* [Roadsigns Training Data Part 1](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns/training1.zip)
-* [Roadsigns Training Data Part 2](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns/training2.zip)
-* [Roadsigns Test data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns/test.zip)
-* [Data Dictionary](./signs-dictionary.txt)
+* [Jane Austen Text](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/austen/austen.txt)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Module_06.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_publishing.ipynb)
 
-[^1]: [CEO photo by Amy Hirschi on Unsplash](https://unsplash.com/photos/b3AYk8HKCl0)
+[^1]: [COO photo by Jonas Kakaroto on Unsplash](https://unsplash.com/photos/mjRwhvqEC0U)
 
-[^2]: [Head of AI photo by Ameer Basheer on Unsplash](https://unsplash.com/photos/ABuzWPku1Ug)
+[^2]: [Senior Developer photo by Mimi Thian on Unsplash](https://unsplash.com/photos/8kdA2IJsjcU)
 
 [^3]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)
