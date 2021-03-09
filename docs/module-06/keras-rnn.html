@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Module 06 — Convolutional Neural Networks, Keras</title>
+	<title>Module 06 — Recurrent Neural Networks, Keras</title>
     <style>
         @font-face {
             font-family: 'icomoon';
@@ -24,8 +24,8 @@
         <div id="contents-wrapper">
             <div class="toc">
 <ul>
-<li><a href="#convolutional-neural-networks-with-keras">Convolutional Neural Networks with Keras</a><ul>
-<li><a href="#tutorials-to-review">Tutorials to Review</a></li>
+<li><a href="#recurrent-neural-networks-with-keras">Recurrent Neural Networks with Keras</a><ul>
+<li><a href="#above-and-beyond-advanced-rnn-tutorials">Above and Beyond / Advanced RNN Tutorials</a></li>
 </ul>
 </li>
 </ul>
@@ -38,24 +38,30 @@
         <span class="icon-byui-logo"></span>
         <div id="titles">
             <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
-            <h2>Module 06 — Convolutional Neural Networks, Keras</h2>
+            <h2>Module 06 — Recurrent Neural Networks, Keras</h2>
         </div>
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<h2 id="convolutional-neural-networks-with-keras">Convolutional Neural Networks with Keras</h2>
-<p>We'll be using Keras for creating convolutional neural networks. Much of what you learned in Module 05 will be applicable to this module. </p>
-<p>However, there are some additional APIs and concepts you'll need to review.</p>
-<h3 id="tutorials-to-review">Tutorials to Review</h3>
-<p>Please go through the following Keras tutorials:</p>
+		<h2 id="recurrent-neural-networks-with-keras">Recurrent Neural Networks with Keras</h2>
+<p>We'll be using Keras for creating recurrent neural networks. Much of what you learned in Module's 04 and 05 will be applicable to this module. </p>
+<p>Before class on Monday, read <a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_publishing.ipynb">through the Colab notebook</a> that contains the starter code for this module and make sure you have a pretty decent understanding of all of the steps involved. </p>
+<p>You don't have to fully understand every line of code, but you should read the comments and most of the linked articles carefully enough to be able to discuss it with your team. </p>
+<p>There's a lot of new TensorFlow code being used in the starter code. You may find it useful to look up what those functions do in the TensorFlow documentation.</p>
+<p>The starter code is based on an updated and simplified version of <a href="https://www.tensorflow.org/tutorials/text/text_generation">this TensorFlow tutorial</a>, which is also worth reviewing.</p>
+<h3 id="above-and-beyond-advanced-rnn-tutorials">Above and Beyond / Advanced RNN Tutorials</h3>
+<p>If you feel like you fully understand the starter code and have your RNN in a place where you're getting good results, you might be interested in some of these more advanced RNN techniques.</p>
 <ul>
-<li><a href="https://www.tensorflow.org/tutorials/load_data/images">Loading Image Data</a></li>
-<li><a href="https://www.tensorflow.org/tutorials/images/cnn">Convolutional Neural Networks</a></li>
-<li><a href="https://www.tensorflow.org/tutorials/images/classification">Image Classification</a></li>
-<li><a href="https://www.tensorflow.org/tutorials/images/data_augmentation">Data Augmentation</a></li>
-<li><a href="https://www.tensorflow.org/guide/keras/transfer_learning#an_end-to-end_example_fine-tuning_an_image_classification_model_on_a_cats_vs_dogs">Fine Tuning an Image Classification Model of Cats vs Dogs</a></li>
+<li>
+<p>You could modify the model to use <a href="https://www.tensorflow.org/tutorials/text/text_generation#advanced_customized_training">Curriculum Learning</a>.</p>
+</li>
+<li>
+<p>The current model uses a character-based model rather than a word-based model. You could try to implement <a href="https://www.tensorflow.org/tutorials/text/word_embeddings">Word Embedding</a> using <a href="https://www.tensorflow.org/tutorials/text/word2vec">Word2Vec</a>.</p>
+</li>
+<li>
+<p>You could also attempt to incorporate <a href="https://www.tensorflow.org/tutorials/text/nmt_with_attention">a weighted attention mechanism</a> to cause the model to pay more attention to certain parts of the text. More details <a href="https://github.com/tensorflow/nmt#background-on-the-attention-mechanism">can be found here</a>.</p>
+</li>
 </ul>
-<p>You might also want to keep this <a href="https://keras.io/api/">Keras API reference page</a> handy, as well as <a href="https://www.tensorflow.org/guide/keras/sequential_model">this collection of Keras guides</a>.</p>
 	</article>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
 	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>

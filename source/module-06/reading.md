@@ -35,11 +35,10 @@ Next, watch this video from MIT, which dives a little deeper into the concepts o
 
 
 ### Practical
-Before class on Monday, read [through the Colab notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_publishing.ipynb) that contains the starter code for this module and make sure you have a pretty decent understanding of all of the steps involved. 
+Please go through this content before class on Monday:
 
-You don't have to fully understand every line of code, but you should read the comments and most of the linked articles carefully enough to be able to discuss it with your team. 
+* Read [this page about RNNs](./keras-rnn.html)
 
-There's a lot of new TensorFlow code being used in the starter code. You may find it useful to look up what those functions do in the TensorFlow documentation.
 
 
 
