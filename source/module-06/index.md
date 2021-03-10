@@ -11,9 +11,9 @@ This week you'll learn about Recurrent Neural Networks.
 	
 	Keep in mind that your instructor may deviate somewhat from the following guide, and they have final say on assignment requirements, delivery methods, and due dates. So be sure to pay attention to both in-class and Canvas announcements.
 
-## Module 05 Assignments
+## Module 06 Assignments
 
-For your convenience, here are links to the module 05 readings and assignments:
+For your convenience, here are links to the module 06 readings and assignments:
 
 #### Readings
 
