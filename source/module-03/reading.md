@@ -43,5 +43,11 @@ It's not essential that you master the mathematics, though you should try your b
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jxuNLH5dXCs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+#### Optional Video ####
+
+The following video completes the series. It's very good and does an excellent job walking through the derivation of the math used in the classification example, but it is deeper than what is required for this course.
+
+You might consider watching it with the intent to understand the approach at a high level rather than worrying about the details of every expression.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/StWY5QWMXCw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
