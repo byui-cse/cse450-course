@@ -25,6 +25,17 @@ After a few more meetings with the executive team, the head of the data science 
 	<p>If you could send us <a href='./summary.docx'>your team's write up on this by Saturday night</a>, that would be great.</p></blockquote>
 </div>
 
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/cecil.jpg">
+	<h5>Cecil, the VP of Customer Relations says:</h5>
+	<blockquote><p>Oh, one more thing. We actually just received a batch of new home data. Could you run your model on it to make some predictions for us? We are anxious to see your model in action.</p>
+	<p>You can access the data here: <a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/housing_holdout_test.csv">https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/housing_holdout_test.csv</a></p>
+	<p>Then, please include with your write up a csv file that has a single column, with the header: "price" and a prediction (one per row) for each of the homes in this file.</p>
+	
+	</blockquote>
+</div>
+
+
 !!!note "Team Project Expectations"
 	Be sure to read over the [Team Project Expectations](../course/projects.html) guide to know what the expectations are for this and future projects.
 
