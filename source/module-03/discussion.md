@@ -2,6 +2,11 @@
 title: Module 03 — Housing Estimates, Class Discussion Questions
 ---
 
+<style type="text/css">
+    article ol { list-style-type: upper-alpha; }
+    article ol li { list-style-type: upper-alpha; }
+</style>
+
 ![Meeting]({{URLROOT}}/shared/img/meeting.jpg)
 *[Photo by Campaign Creators on Unsplash](https://unsplash.com/photos/gMsnXqILjp4)*
 
