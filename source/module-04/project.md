@@ -18,6 +18,17 @@ After a few more meetings, your team has been assigned to address the following 
 	<blockquote><p>Given how many variables there are in building neural networks, and how long it takes to train and test them, we probably need everyone on the team working on building and testing neural networks.</p><p>I'd suggest that you coordinate how to tackle that in a smart way.</blockquote>
 </div>
 
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/zhao.jpg">
+	<h5>Zhao, CEO of WelcomeBike</h5>
+	<blockquote><p>Oh one more thing, while you've been working with data up through November for your analysis, we just received December's as well, and I'd like to see how your model does with it.</p>
+	<p>Could you give me the total number of bikes you'd expect for each day in this dataset? I'm not concerned with whether they are registered or casual at this point, just the total number for each hour of each day found here: <a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bikes_december.csv" download>bikes_december.csv</a>.</p>
+	<p>Please make sure to include a .csv with these predictions along with your executive summary.</p>
+	</blockquote>
+</div>
+
+
 ## More Tips from Johnny
 
 !!!warning "keras vs tf.keras"
