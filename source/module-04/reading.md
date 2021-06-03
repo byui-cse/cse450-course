@@ -46,7 +46,6 @@ The following three videos give another perspective about neural networks and go
 ### Reading Part 2 - Practical
 
 * Read [this article on Activation Functions](./activation-functions.html)
-* Read [this article on Hyperparameters](https://missinglink.ai/guides/neural-network-concepts/hyperparameters-optimization-methods-and-real-world-model-management/)
 * Read [this collection of tutorials on the Keras library](./keras.html)
 
 
