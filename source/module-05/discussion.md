@@ -2,6 +2,11 @@
 title: Module 05 — Self Driving Cars, Case Study Discussion
 body-class: index-page
 ---
+<style type="text/css">
+    article ol { list-style-type: upper-alpha; }
+    article ol li { list-style-type: upper-alpha; }
+</style>
+
 
 ## Questions
 You're at a strategy meeting with the stakeholders. They want to make sure you have the data required to answer the questions they're most interested in.
