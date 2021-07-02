@@ -40,7 +40,12 @@
         <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
     </header>
 	<article>
-		<h2 id="questions">Questions</h2>
+		<style type="text/css">
+    article ol { list-style-type: upper-alpha; }
+    article ol li { list-style-type: upper-alpha; }
+</style>
+
+<h2 id="questions">Questions</h2>
 <p>You're at a strategy meeting with the stakeholders. They want to make sure you have the data required to answer the questions they're most interested in.</p>
 <p>Be prepared to answer the following questions:</p>
 <h4 id="network-architecture">Network Architecture</h4>
@@ -56,6 +61,41 @@
 <li>One or more GRU layers would be best.</li>
 <li>A combination of LSTM and GRU would work best.</li>
 <li>They should work equally well for this type of problem.</li>
+</ol>
+<h4 id="improving-performance">Improving performance</h4>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/monika.jpg">
+    <h5>Monika, Senior Developer</h5>
+    <blockquote><p>Often when we are generating text we see something like this:</p>
+
+    <p>"we counter. He stutn co des. His stanted out one ofler that concossions and was to gearang reay Jotrets and with fre colt otf paitt thin wall. Which das stimn"</p>
+
+    <p>What would you recommend to improve our results?</p>
+
+    </blockquote>
+</div>
+
+<p>Based on your initial analysis of the data, your team feels:</p>
+<ol>
+<li>You should train for more iterations.</li>
+<li>You should include more layers.</li>
+<li>You should try a different kind of cell (for example, consider switching to/from an LSTM, GRU, etc.).</li>
+<li>Your model has reached its peak performance.</li>
+</ol>
+<h4 id="potential-options">Potential Options</h4>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/thomas.jpg">
+    <h5>Thomas, COO of HackPressIO</h5>
+    <blockquote><p>We're really trying to impress our investors with your work here.</p>
+    <p>Which of the following do you think would give us the most promise for both a quality model, but also something that could get people excited?</p></blockquote>
+</div>
+
+<p>Based on your initial analysis of the data, your team feels:</p>
+<ol>
+<li>The works of Charles Dickens.</li>
+<li>The works of several Project Gutenberg authors mixed together for more data.</li>
+<li>A dataset of New York Times articles.</li>
+<li>A dataset of Wikipedia articles.</li>
 </ol>
 <h4 id="learning-strategy">Learning Strategy</h4>
 <div class="dialogue">

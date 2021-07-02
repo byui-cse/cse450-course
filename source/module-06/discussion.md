@@ -2,6 +2,10 @@
 title: Module 06 — Content Creation, Case Study Discussion
 body-class: index-page
 ---
+<style type="text/css">
+    article ol { list-style-type: upper-alpha; }
+    article ol li { list-style-type: upper-alpha; }
+</style>
 
 ## Questions
 You're at a strategy meeting with the stakeholders. They want to make sure you have the data required to answer the questions they're most interested in.
@@ -22,6 +26,44 @@ Based on your initial analysis of the data, your team feels:
 2. One or more GRU layers would be best.
 3. A combination of LSTM and GRU would work best.
 4. They should work equally well for this type of problem.
+
+#### Improving performance
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/monika.jpg">
+	<h5>Monika, Senior Developer</h5>
+	<blockquote><p>Often when we are generating text we see something like this:</p>
+	
+	<p>"we counter. He stutn co des. His stanted out one ofler that concossions and was to gearang reay Jotrets and with fre colt otf paitt thin wall. Which das stimn"</p>
+
+	<p>What would you recommend to improve our results?</p>
+
+	</blockquote>
+</div>
+
+Based on your initial analysis of the data, your team feels:
+
+1. You should train for more iterations.
+2. You should include more layers.
+3. You should try a different kind of cell (for example, consider switching to/from an LSTM, GRU, etc.).
+4. Your model has reached its peak performance.
+
+#### Potential Options
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/thomas.jpg">
+	<h5>Thomas, COO of HackPressIO</h5>
+	<blockquote><p>We're really trying to impress our investors with your work here.</p>
+	<p>Which of the following do you think would give us the most promise for both a quality model, but also something that could get people excited?</p></blockquote>
+</div>
+
+Based on your initial analysis of the data, your team feels:
+
+1. The works of Charles Dickens.
+2. The works of several Project Gutenberg authors mixed together for more data.
+3. A dataset of New York Times articles.
+4. A dataset of Wikipedia articles.
+
 
 #### Learning Strategy
 
