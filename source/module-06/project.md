@@ -1,5 +1,5 @@
 ---
-title: Module 06 — Self Driving Cars, Project
+title: Module 06 — Content Creation, Project
 ---
 
 ## Overview
@@ -21,13 +21,25 @@ After a few more meetings, your team has been assigned to address the following 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/thomas.jpg">
 	<h5>Thomas, COO of HackPressIO</h5>
-	<blockquote><p>I think that in order for me to feel good about whatever pipeline is being developed, I'd want to see works in the style of more than one author, at least two or three.</p></blockquote>
+	<blockquote><p>I think that in order for me to feel good about whatever pipeline is being developed, I'd want to see works in the style of something other than Jane Austen. In fact, I'd really like to see the style of more than one author, preferably at least two or three.</p>
+</blockquote>
 </div>
 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">
 	<h5>Johnny, the data science intern</h5>
-	<blockquote><p>Which means a separate network trained on each author's works...</p><p>It might be a good idea to define a network architecture used for all authors, and then save the trained model for each author, so you can load a given author's profile into the network whenever you wanted...but we'll leave the specifics up to you.</blockquote>
+	<blockquote>
+		<p>Which means a separate network trained on each author's works...</p>
+		<p>It might be a good idea to define a network architecture used for all authors, and then save the trained model for each author, so you can load a given author's profile into the network whenever you wanted...but we'll leave the specifics up to you.</blockquote>
+</div>
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/thomas.jpg">
+	<h5>Thomas, COO of HackPressIO</h5>
+	<blockquote><p>Finally, you don't need to use this for all of your styles, but once you have one up and running, could you start a story with the following prompt:</p>
+	<p>"The world seemed like such a peaceful place until the magic tree was discovered in London."</p>
+	<p>I'd like to see how it compares to some others that were generated from the same prompt. You can submit that one as a separate document alongside your traditional executive summary that outlines your approach and your results in the various styles.</p>
+	</blockquote>
 </div>
 
 ## More Tips from Johnny
