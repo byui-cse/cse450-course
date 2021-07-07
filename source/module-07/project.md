@@ -1,5 +1,5 @@
 ---
-title: Module 06 — Course Conclusion, Project
+title: Module 07: Course Conclusion, Project
 ---
 
 ## Overview
