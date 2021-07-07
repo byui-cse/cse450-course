@@ -20,7 +20,7 @@ For this project you need to demonstrate your skills in the following areas:
 5. Ethical implications
 
 ## Submission
-Please submit a document (.docx or .pdf) with the above requirements as headings. Then, after the heading briefly describe your work in that area.
+Please submit a document (.docx or .pdf) with the above requirements as headings. Then, after each heading, briefly describe your work in that area.
 
 At the end, make sure to include:
 
@@ -34,6 +34,6 @@ The standard categories are:
 3. Some attempt was made, but was slightly deficient in approach or understanding.
 4. Some attempt was made, but was significantly deficient in approach or understanding.
 5. Some attempt was made, but was extremely deficient in approach or understanding.
-6.  No attempt was made.
+6. No attempt was made.
 
-Your entire submission should be less than two pages.
+Your entire submission should be less than two pages (not including a title page).
