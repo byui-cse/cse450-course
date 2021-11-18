@@ -25,6 +25,7 @@ For your convenience, here are links to the module 04 readings and assignments:
 #### Data
 * [Bike Data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bikes.csv)
 * [Data Dictionary](./bikes-dictionary.txt)
+* [Bike Holdout Dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bikes_december.csv)
 * [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_bikes.ipynb)
 
 #### Templates

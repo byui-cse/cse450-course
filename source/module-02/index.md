@@ -26,6 +26,8 @@ For your convenience, here are links to the module 03 readings and assignments:
 
 * [Bank Dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank.csv)
 * [Bank Data Dictionary](./bank-dictionary.txt)
+* [Bank Holdout Dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank_holdout_test.csv)
+* [Sample CSV predictions](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank_csv_answers_sample.csv)
 * [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_bank.ipynb)
 
 #### Templates
