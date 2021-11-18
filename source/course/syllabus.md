@@ -22,7 +22,7 @@ The goal of this course is to help you:
 
 ## Course Structure
 
-This course is divided into seven *modules*. Each module will last approximately two weeks (six class periods). Modules begin on Wednesdays.
+This course is divided into seven *modules*. Each module will last approximately two weeks (six class periods). 
 
 !!! warning "Subject to Change"
 	
@@ -52,7 +52,7 @@ At the start of class, the instructor will briefly review the material and answe
 
 #### Data Explorations
 
-After reviewing the reading, you will work in temporary groups during class to complete hands-on, Data Exploration assignments. Online students will use Zoom breakout rooms.
+After reviewing the reading, you will work in temporary groups during class to complete hands-on, Data Exploration assignments. Online students will use Microsoft Teams meetings.
 
 !!!note "Data Exploration Evaluations"
 
@@ -76,7 +76,13 @@ Modules 02 - 06 use case studies to help students learn to understand and apply 
 
 Each module lasts approximately two weeks and follows a case-study format. Each case study is designed to provide students with a real world backdrop to learn and apply machine learning tools.
 
-Students will work in groups to create a report designed to answer the questions posed by the case study. Students will then present their work to the class, and reflect on their own and their teammates performance and contributions.
+Students will work in teams to create a report designed to answer the questions posed by the case study. Students will then present their work to the class, and reflect on their own and their teammates performance and contributions.
+
+### Modules 07
+
+Module 07 provides an opportunity for students to apply machine learning techniques to a personally selected project.
+
+Students will have a week to work individually on a dataset of their choice. Students will demonstrate their ability to work with a dataset from start to finish, using the skills aquired in the course. Students will select a dataset, pre-process the data, generate visuals, apply machine learning techniques, evaluate findings, and write an executive summary as a final project.
 
 ## Grading
 
@@ -88,12 +94,12 @@ See your Canvas section for exact grade weights for each assignment, but in gene
  * Data Explorations: 30%
  * Individual Assessment Assignment: 40%
 
- Modules 02 - 06: 18% Each
+ Modules 02 - 07: 15% Each
 
- * Reading Quizzes: 20%
- * Case Study Discussions: 20%
- * Case Study Reports: 40%
- * Case Study Reflections: 20%
+ * Case Study Preparation (Reading & Quizzes): 15%
+ * Case Study Reports: 45%
+ * Case Study Personal Contribution: 20%
+ * Case Study Holdout Performance 10%
 
 Final Letter grades are given according to the [standard BYU-Idaho grading scale](https://www.byui.edu/student-records/grades/grading-system).
 
