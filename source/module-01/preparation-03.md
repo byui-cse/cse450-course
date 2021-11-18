@@ -15,6 +15,14 @@ Looking at descriptive statistics can be a great way to understand a particular 
 
 There are some quantitative ways to look at those relationships that we'll learn about later in the semester, but often looking at feature relationships visually can help you decide what direction to take on the rest of the analysis.
 
+### Exploration vs Presentation
+
+When creating visualizations to present the findings from your analysis, it is important to recognize the difference between data exploration and data presentation.
+
+Read the following articles:
+* [6 Differences Between Data Exploration and Data Presentation](https://www.juiceanalytics.com/writing/5-differences-between-data-exploration-and-data-presentation)
+* [Data Exploration Vs Data Presentation - Learn More about the 5 Key Differences](https://www.datapine.com/blog/data-exploration-vs-data-presentation/)
+
 ## Reading
 
 Read the following sections of Chapter 3 of *Machine Learning and Predictive Data Analytics*:
