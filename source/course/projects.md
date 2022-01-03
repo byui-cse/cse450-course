@@ -42,7 +42,7 @@ The project manager is responsible for fulfilling the following responsibilities
 
 ## The Executive Summary
 
-The executive summary should be no more than *3* pages long, not including the title page, nor the page containing links to your github notebooks. It should address each of the stakeholder's concerns.
+The executive summary should be no more than *3* pages long, not including the title page, nor the page containing links to your github notebooks. It should address each of the stakeholder's concerns including your team's answers to the discussion questions.
 
 It might include bullet points, text, and visualizations. It should use proper grammar and spelling, and be written in business prose. The target audience is the executive team of the case study, not the data science team.
 

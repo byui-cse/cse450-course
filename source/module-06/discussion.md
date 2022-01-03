@@ -20,13 +20,6 @@ Be prepared to answer the following questions:
 	<blockquote><p>Do you think we should be using LSTM layers or GRU layers in this network?</p></blockquote>
 </div>
 
-Based on your initial analysis of the data, your team feels:
-
-1. One or more LSTM layers would be best.
-2. One or more GRU layers would be best.
-3. A combination of LSTM and GRU would work best.
-4. They should work equally well for this type of problem.
-
 #### Improving performance
 
 <div class="dialogue">
@@ -57,14 +50,6 @@ Based on your initial analysis of the data, your team feels:
 	<p>Which of the following do you think would give us the most promise for both a quality model, but also something that could get people excited?</p></blockquote>
 </div>
 
-Based on your initial analysis of the data, your team feels:
-
-1. The works of Charles Dickens.
-2. The works of several Project Gutenberg authors mixed together for more data.
-3. A dataset of New York Times articles.
-4. A dataset of Wikipedia articles.
-
-
 #### Learning Strategy
 
 <div class="dialogue">
@@ -72,13 +57,6 @@ Based on your initial analysis of the data, your team feels:
 	<h5>Johnny, Data Science Intern</h5>
 	<blockquote><p>I'm wondering what your views are on using a teacher forcing strategy compared to a curriculum learning strategy?</p></blockquote>
 </div>
-
-Based on your initial analysis of the data, your team feels:
-
-1. Teacher Forcing would be our best bet in this situation.
-2. We would recommend Curriculum Learning here.
-3. Either one should work just as well.
-4. We're going to implement a custom strategy.
 
 #### Model Evaluation
 
@@ -88,11 +66,18 @@ Based on your initial analysis of the data, your team feels:
 	<blockquote><p>Our previous team used logits in the output layer and then used Sparse Categorical Cross Entropy as the loss function. Are you planning to use that approach as well?</p></blockquote>
 </div>
 
-Based on your initial analysis of the data, your team feels:
+#### Additional Text
 
-1. Yes, Sparse Categorical Cross Entropy with logits is the best approach here.
-2. It would be better to use SoftMax without logits.
-3. We're thinking that we should use regular Categorical Cross Entropy and encode the data differently.
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/thomas.jpg">
+	<h5>Thomas, COO of HackPressIO</h5>
+	<blockquote><p>We’ve been making good progress with our target author, but we feel we could improve our model's performance by supplementing with additional text, to help it learn basic language constructs better.</p><p> Which of the following would you recommend?</p></blockquote>
+</div>
+
+1. We should not use any additional text, because it will change the style of the generated text.
+2. We should only use works that are out of copyright and now in the public domain, such as Jane Austen, or other older works.
+3. We could use all of Wikipedia, or other creative commons works.
+4. We could use all of the Internet, since we will not be copying any of the text verbatim.
 
 [^1]: [COO photo by Jonas Kakaroto on Unsplash](https://unsplash.com/photos/mjRwhvqEC0U)
 

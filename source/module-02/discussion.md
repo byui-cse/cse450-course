@@ -18,12 +18,22 @@ Be prepared to answer the following questions:
 	</blockquote>
 </div>
 
+### Train Test Split
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/beatriz.jpg">
+	<h5>Beatriz, Senior Data Scientist asks:</h5>
+	<blockquote><p>Miguel, that is a great question.</p>
+	<p>While we are asking detailed questions, the dataset has approximately 41,000 records. How much of that data will you use to train your model?</p></blockquote>
+</div>
+
 Based on your initial analysis of the data, your team feels:
 
-1. This calls for a supervised learning approach.
-2. This calls for an unsupervised learning approach.
-3. This is more of an analytics question we can best answer through data analysis and visualization.
-4. Actually, reinforcement learning would probably be a better approach here.
+1. A simple 80/20 split will provide us with enough to accurately train and test our model.
+2. A 50/50 split so that we have the same amount of training data as testing.
+3. We will pull out 1,000 records for our test dataset and use the other 40,000 for training. This gives our model more to train on and will produce better results.
+4. We will use all 41,000 for training and use cross-validation to evaluate the model.
+
 
 ### Additional Insights
 
@@ -33,13 +43,6 @@ Based on your initial analysis of the data, your team feels:
 	<blockquote><p>Aside from the core marketing question Miguel mentioned, I'm wondering if there are other insights we could gain from our data.</p>
 	<p>I can look at the data and tell that some days of the week or some months produce better results than others.</p><p>I'm wondering if it's possible for us to see if those results are true for all customers, or if some types of customers respond better on certain days than others?</p></blockquote>
 </div>
-
-Based on your initial analysis of the data, your team feels:
-
-1. This calls for a supervised learning approach.
-2. This calls for an unsupervised learning approach.
-3. This is more of an analytics question we can best answer through data analysis and visualization.
-4. Actually, reinforcement learning would probably be a better approach here.
 
 ### Data Privacy Laws
 

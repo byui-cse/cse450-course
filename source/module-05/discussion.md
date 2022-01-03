@@ -13,7 +13,7 @@ You're at a strategy meeting with the stakeholders. They want to make sure you h
 
 Be prepared to answer the following questions:
 
-#### Network Architecture
+#### Transfer learning for from scratch
 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/karl.jpg">
@@ -36,13 +36,6 @@ Based on your initial analysis of the data, your team feels:
 	<blockquote><p>The training and test images have three color channels, (Red, Green, and Blue), with pixel values for each channel ranging from 0 to 255.</p><p>Do you think we need to do any preprocessing before using the data to train the model?</p></blockquote>
 </div>
 
-Based on your initial analysis of the data, your team feels:
-
-1. The RGB pixel values should be fine with that scale, since they're all the same.
-2. We should use rescale the pixel values down to the range of 0 to 1.
-3. We should use rescale the pixel values down to the range of -1 to 1.
-4. We should convert the image to grayscale, giving us a single color channel to work with.
-
 #### Data Augmentation
 
 <div class="dialogue">
@@ -50,12 +43,6 @@ Based on your initial analysis of the data, your team feels:
 	<h5>Emma, CEO of GehirnWagen</h5>
 	<blockquote><p>I'm concerned that the model will only be able to recognize signs that look exactly like the ones we have images for.</p><p>I understand from Johnny that <a href="https://www.tensorflow.org/guide/keras/preprocessing_layers#preprocessing_data_before_the_model_or_inside_the_model">data augmentation</a> can help with this problem. What strategy would you suggest?</p></blockquote>
 </div>
-
-Based on your initial analysis of the data, your team feels:
-
-1. Data augmentation is not necessary due to the number of different training images.
-2. We should use a data augmentation strategy on the data prior to loading it into the model.
-3. We should use a data augmentation strategy that is based on model preprocessing layers.
 
 #### Model Evaluation
 
@@ -65,11 +52,21 @@ Based on your initial analysis of the data, your team feels:
 	<blockquote><p>This seems like one of those cases where straight accuracy might not be the best metric for model evaluation, but what do you think?</p></blockquote>
 </div>
 
+#### Confidence
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/karl.jpg">
+	<h5>Karl, Head of AI</h5>
+	<blockquote><p>We'd like you to actually ride in the car for a test drive, based on automation built on your sign recognition model. What performance would you require before you’d ride in the car?</p></blockquote>
+</div>
+
 Based on your initial analysis of the data, your team feels:
 
-1. Accuracy is still the best metric here.
-2. The $F_1$ score is the best option for this problem.
-3. We should probably use logarithmic loss, just to be safe.
+1. Only an F1 score of 1.00 on all signs would be appropriate.
+2. A recall score of 1.00 for all stop signs.
+3. An accuracy of 95% would be good enough.
+4. An accuracy of 85% or above for all warning/information signs, and 98% or above for all other prohibition and traffic signs.
+
 
 
 [^1]: [CEO photo by Amy Hirschi on Unsplash](https://unsplash.com/photos/b3AYk8HKCl0)

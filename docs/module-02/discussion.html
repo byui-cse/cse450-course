@@ -26,6 +26,7 @@
 <ul>
 <li><a href="#questions">Questions</a><ul>
 <li><a href="#data-science-methods">Data Science Methods</a></li>
+<li><a href="#train-test-split">Train Test Split</a></li>
 <li><a href="#additional-insights">Additional Insights</a></li>
 <li><a href="#data-privacy-laws">Data Privacy Laws</a></li>
 </ul>
@@ -57,12 +58,20 @@
     </blockquote>
 </div>
 
+<h3 id="train-test-split">Train Test Split</h3>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/beatriz.jpg">
+    <h5>Beatriz, Senior Data Scientist asks:</h5>
+    <blockquote><p>Miguel, that is a great question.</p>
+    <p>While we are asking detailed questions, the dataset has approximately 41,000 records. How much of that data will you use to train your model?</p></blockquote>
+</div>
+
 <p>Based on your initial analysis of the data, your team feels:</p>
 <ol>
-<li>This calls for a supervised learning approach.</li>
-<li>This calls for an unsupervised learning approach.</li>
-<li>This is more of an analytics question we can best answer through data analysis and visualization.</li>
-<li>Actually, reinforcement learning would probably be a better approach here.</li>
+<li>A simple 80/20 split will provide us with enough to accurately train and test our model.</li>
+<li>A 50/50 split so that we have the same amount of training data as testing.</li>
+<li>We will pull out 1,000 records for our test dataset and use the other 40,000 for training. This gives our model more to train on and will produce better results.</li>
+<li>We will use all 41,000 for training and use cross-validation to evaluate the model.</li>
 </ol>
 <h3 id="additional-insights">Additional Insights</h3>
 <div class="dialogue">
@@ -72,13 +81,6 @@
     <p>I can look at the data and tell that some days of the week or some months produce better results than others.</p><p>I'm wondering if it's possible for us to see if those results are true for all customers, or if some types of customers respond better on certain days than others?</p></blockquote>
 </div>
 
-<p>Based on your initial analysis of the data, your team feels:</p>
-<ol>
-<li>This calls for a supervised learning approach.</li>
-<li>This calls for an unsupervised learning approach.</li>
-<li>This is more of an analytics question we can best answer through data analysis and visualization.</li>
-<li>Actually, reinforcement learning would probably be a better approach here.</li>
-</ol>
 <h3 id="data-privacy-laws">Data Privacy Laws</h3>
 <div class="dialogue">
     <img src="https://byui-cse.github.io/cse450-course/shared/img/beatriz.jpg">

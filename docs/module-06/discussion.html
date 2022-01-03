@@ -55,13 +55,6 @@
     <blockquote><p>Do you think we should be using LSTM layers or GRU layers in this network?</p></blockquote>
 </div>
 
-<p>Based on your initial analysis of the data, your team feels:</p>
-<ol>
-<li>One or more LSTM layers would be best.</li>
-<li>One or more GRU layers would be best.</li>
-<li>A combination of LSTM and GRU would work best.</li>
-<li>They should work equally well for this type of problem.</li>
-</ol>
 <h4 id="improving-performance">Improving performance</h4>
 <div class="dialogue">
     <img src="https://byui-cse.github.io/cse450-course/shared/img/monika.jpg">
@@ -90,13 +83,6 @@
     <p>Which of the following do you think would give us the most promise for both a quality model, but also something that could get people excited?</p></blockquote>
 </div>
 
-<p>Based on your initial analysis of the data, your team feels:</p>
-<ol>
-<li>The works of Charles Dickens.</li>
-<li>The works of several Project Gutenberg authors mixed together for more data.</li>
-<li>A dataset of New York Times articles.</li>
-<li>A dataset of Wikipedia articles.</li>
-</ol>
 <h4 id="learning-strategy">Learning Strategy</h4>
 <div class="dialogue">
     <img src="https://byui-cse.github.io/cse450-course/shared/img/johnny.jpg">
@@ -104,13 +90,6 @@
     <blockquote><p>I'm wondering what your views are on using a teacher forcing strategy compared to a curriculum learning strategy?</p></blockquote>
 </div>
 
-<p>Based on your initial analysis of the data, your team feels:</p>
-<ol>
-<li>Teacher Forcing would be our best bet in this situation.</li>
-<li>We would recommend Curriculum Learning here.</li>
-<li>Either one should work just as well.</li>
-<li>We're going to implement a custom strategy.</li>
-</ol>
 <h4 id="model-evaluation">Model Evaluation</h4>
 <div class="dialogue">
     <img src="https://byui-cse.github.io/cse450-course/shared/img/monika.jpg">
@@ -118,11 +97,18 @@
     <blockquote><p>Our previous team used logits in the output layer and then used Sparse Categorical Cross Entropy as the loss function. Are you planning to use that approach as well?</p></blockquote>
 </div>
 
-<p>Based on your initial analysis of the data, your team feels:</p>
+<h4 id="additional-text">Additional Text</h4>
+<div class="dialogue">
+    <img src="https://byui-cse.github.io/cse450-course/shared/img/thomas.jpg">
+    <h5>Thomas, COO of HackPressIO</h5>
+    <blockquote><p>We’ve been making good progress with our target author, but we feel we could improve our model's performance by supplementing with additional text, to help it learn basic language constructs better.</p><p> Which of the following would you recommend?</p></blockquote>
+</div>
+
 <ol>
-<li>Yes, Sparse Categorical Cross Entropy with logits is the best approach here.</li>
-<li>It would be better to use SoftMax without logits.</li>
-<li>We're thinking that we should use regular Categorical Cross Entropy and encode the data differently.</li>
+<li>We should not use any additional text, because it will change the style of the generated text.</li>
+<li>We should only use works that are out of copyright and now in the public domain, such as Jane Austen, or other older works.</li>
+<li>We could use all of Wikipedia, or other creative commons works.</li>
+<li>We could use all of the Internet, since we will not be copying any of the text verbatim.</li>
 </ol>
 <div class="footnote">
 <hr />

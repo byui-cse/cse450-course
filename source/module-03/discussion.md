@@ -24,13 +24,6 @@ Be prepared to answer the following questions:
 	<p>Looking at the data and our business model, what kind of machine learning problem do you think we're looking at here?</p></blockquote>
 </div>
 
-Based on your initial analysis of the data, your team feels:
-
-1. This is a supervised regression problem
-2. This is a supervised classification problem
-3. This is an unsupervised learning problem
-4. This is a semi-supervised learning problem
-
 ### Model Confidence
 
 <div class="dialogue">
@@ -51,15 +44,18 @@ Based on your initial analysis of the data, your team feels you can best show co
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/william.jpg">
 	<h5>William, the VP of Finance asks:</h5>
-	<blockquote><p>Our insurance division is particularly interested in making sure our investment portfolio avoids certain — uh — less savory property types.</p><p>Is there a way we can easily identify properties in low income areas and have the model lower those estimates to protect our investors' interests?</p></blockquote>
+	<blockquote><p>Our insurance customers are particularly interested in making sure that homes in… unsavory neighborhoods, aren't estimated high.</p>
+<p>Is there a way we can easily identify properties in low income areas and have the model lower those estimates to protect our insurance customers' interests?
+</p></blockquote>
 </div>
 
 Based on your initial analysis of the data, your team feels:
 
-1. We have the necessary data in the correct form to answer this question.
-2. The data we have cannot answer that question, we need to collect more data.
-3. We could use the data we have, but we'll have to normalize some of the features, and/or encode some of them differently.
-4. Answering this question would be a violation of ethics and/or privacy laws.
+1. We can lower the predicted price for specific neighborhoods before training the model.
+2. We can add average income or other demographic information for the area as features.
+3. For specific zip codes we could add a step to our pipeline that reduces the predicted price by a specific percentage prior to outputting the final price result to ensure the properties aren’t being overvalued.
+4. Taking this kind of action would be a violation of federal laws and/or ethics.
+
 
 
 ### Data Analysis
@@ -70,13 +66,6 @@ Based on your initial analysis of the data, your team feels:
 	<blockquote><p>The head of data science says we should use gradient boosted trees for this analysis.</p><p>I've noticed that a lot of the features use pretty different ranges.</p>
 	<p>For example, how should we handle square footage?</p></blockquote>
 </div>
-
-Based on your initial analysis of the data, your team feels:
-
-1. We should normalize square footage values using range normalization (aka min-max scaling).
-2. We should standardize square footage values using z-score normalization.
-3. We should use binning to group square footage values into discrete categories.
-4. We should be fine sticking with the raw values.
 
 
 [^1]: [CEO photo by Oz Seyrek on Unsplash ](https://unsplash.com/photos/-Ir03_pgpMU)
