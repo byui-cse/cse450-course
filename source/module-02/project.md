@@ -58,7 +58,7 @@ After a few more meetings, Beatriz has assigned your team to address the followi
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/miguel.jpg">
 	<h5>Miguel Ferreira, Bank President adds:</h5>
-	<blockquote><p>Sounds like we have enough to get started. If you could send us <a href='./summary.docx'>your write up on this</a>, that would be great.</p>
+	<blockquote><p>Sounds like we have enough to get started. If you could send us <a href='https://byui-cse.github.io/cse450-course/course/executive-summary.docx'>your write up on this</a>, that would be great.</p>
 	</blockquote>
 </div>
 

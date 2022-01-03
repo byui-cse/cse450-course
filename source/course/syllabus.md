@@ -88,18 +88,12 @@ Students will have a week to work individually on a dataset of their choice. Stu
 
 See your Canvas section for exact grade weights for each assignment, but in general, assignments are weighted similar to the following:
 
- Module 01: 10%
-
- * Preparation Reading Quizzes: 30%
- * Data Explorations: 30%
- * Individual Assessment Assignment: 40%
-
- Modules 02 - 07: 15% Each
-
- * Case Study Preparation (Reading & Quizzes): 15%
- * Case Study Reports: 45%
- * Case Study Personal Contribution: 20%
- * Case Study Holdout Performance 10%
+ * Module 01 - Machine Learning Introduction: 10%
+ * Module 02-06 - Case Study Preparation: 10%
+ * Module 02-06 - Case Study Executive Summaries: 40%
+ * Module 02-06 - Case Study Personal Contribution: 20%
+ * Module 02-05 - Case Study Holdout Predictions: 10%
+ * Module 07 - Individual Case Study: 10%
 
 Final Letter grades are given according to the [standard BYU-Idaho grading scale](https://www.byui.edu/student-records/grades/grading-system).
 
