@@ -76,6 +76,10 @@
 <p>Use this <a href="./bikes-dictionary.txt">data dictionary</a> to help explain the values and sources of different columns in the dataset.</p>
 </div>
 <div class="admonition note">
+<p class="admonition-title">Feature Scaling</p>
+<p>If you're going to be comparing different numeric features, be sure they are using the same scale. You may find it useful to use min-max scaling to handle this problem. You could do this calculation manually, or use <a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html">Sci-Kit Learn's MinMaxScaler</a></p>
+</div>
+<div class="admonition note">
 <p class="admonition-title">Keras &amp; Sci-Kit Learn</p>
 <p>Just because you're using keras and tensor flow to build the actual neural network, that doesn't mean you can't take advantage of some of the preprocessing and analysis modules in sci-kit learn. </p>
 <p>Keras also provides <a href="https://www.tensorflow.org/api_docs/python/tf/keras/wrappers/scikit_learn">two wrappers</a> that allow you to use sklearn pipeline style code with keras neural networks.</p>

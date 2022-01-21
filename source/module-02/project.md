@@ -80,9 +80,6 @@ After a few more meetings, Beatriz has assigned your team to address the followi
 !!!note "Target Variable"
 	One oddity here is that our target feature is simply labled `y`, but it's a boolean indicating "y" or "n", did the client subscribe to a term deposit.
 
-!!!note "Feature Scaling"
-	If you're going to be comparing different numeric features, be sure they are using the same scale. You may find it useful to use min-max scaling to handle this problem. You could do this calculation manually, or use [Sci-Kit Learn's MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
-
 !!!note "Binning"
 	Just as you did with the Titanic dataset when you reduced the number of titles, you may find it useful to "bin" categorical features into discrete groups in order to address some of the questions above. There are multiple ways to do this, but previously we used the [`map()` function](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.map.html).
 

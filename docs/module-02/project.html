@@ -118,10 +118,6 @@
 <p>One oddity here is that our target feature is simply labled <code>y</code>, but it's a boolean indicating "y" or "n", did the client subscribe to a term deposit.</p>
 </div>
 <div class="admonition note">
-<p class="admonition-title">Feature Scaling</p>
-<p>If you're going to be comparing different numeric features, be sure they are using the same scale. You may find it useful to use min-max scaling to handle this problem. You could do this calculation manually, or use <a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html">Sci-Kit Learn's MinMaxScaler</a></p>
-</div>
-<div class="admonition note">
 <p class="admonition-title">Binning</p>
 <p>Just as you did with the Titanic dataset when you reduced the number of titles, you may find it useful to "bin" categorical features into discrete groups in order to address some of the questions above. There are multiple ways to do this, but previously we used the <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.map.html"><code>map()</code> function</a>.</p>
 </div>

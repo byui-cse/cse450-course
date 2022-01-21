@@ -18,11 +18,11 @@ In this reading you'll learn about the k-Nearest Neighbors algorithm, as well as
 
 Complete the following preparation reading:
 
-* Read pages 179 - 195 of your text (Chapter 5 until section 5.4.2), which introduces Similarity-based learning and the nearest neighbors family of algorithms.
+* Read Chapter 5 until section 5.4.2 in the textbook, which introduces Similarity-based learning and the nearest neighbors family of algorithms.
 
-* Read pages 204 - 212 of your text (sections 5.4.3 and 5.4.4), which discusses some things to consider when using a nearest neighbor algorithm.
+* Read sections 5.4.3 and 5.4.4 in the textbook, which discusses some things to consider when using a nearest neighbor algorithm.
 
-* Read Pages 397 - 413 of your text, which describes ways to verify how well a machine learning model works. (Chapter 8 until section 8.4.2)
+* Read Chapter 8 until section 8.4.2 of your textbook, which describes ways to verify how well a machine learning model works.
 
 
 ## Extra Help

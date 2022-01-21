@@ -40,7 +40,10 @@ After a few more meetings, your team has been assigned to address the following 
 
 !!!note "Data Dictionary"
 	Use this [data dictionary](./bikes-dictionary.txt) to help explain the values and sources of different columns in the dataset.
-	
+
+!!!note "Feature Scaling"
+	If you're going to be comparing different numeric features, be sure they are using the same scale. You may find it useful to use min-max scaling to handle this problem. You could do this calculation manually, or use [Sci-Kit Learn's MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
+
 !!!note "Keras & Sci-Kit Learn"
 	Just because you're using keras and tensor flow to build the actual neural network, that doesn't mean you can't take advantage of some of the preprocessing and analysis modules in sci-kit learn. 
 

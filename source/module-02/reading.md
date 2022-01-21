@@ -33,11 +33,11 @@ The objective of this module is to provide a real-world scenario in which you ca
 
 	It is also more common to refer to "True Negative Rate" as *Specificity*.
 
-	The text mentions this in a footnote on page 414, but they are such common terms, we want to make sure you don't miss this definition.
+	The text mentions this in a footnote, but they are such common terms, we want to make sure you don't miss this definition.
 
 Complete the following preparation reading:
 
-* Read pages 117 - 144 of your text (Chapter 4 until section 4.4), which describes Decision Trees and the ID3 algorithm.
+* Read Chapter 4 until section 4.4 in the textbook, which describes Decision Trees and the ID3 algorithm.
 
 * Read the following sections from chapter 8 which each describe a specific model performance measure:
 	+ 8.4.2.1 - Confusion Matrix-based Performance Measures
