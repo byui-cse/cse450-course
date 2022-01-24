@@ -51,9 +51,6 @@ After a few more meetings with the executive team, the head of the data science 
 !!!note "Data Dictionary"
 	Our database analyst put together this [data dictionary](./housing-dictionary.txt) to help explain the values and sources of different columns in the [housing dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/housing.csv), so be sure to review that.
 
-!!!note "Feature Scaling"
-	If you're going to be comparing different numeric features, be sure they are using the same scale. You may find it useful to use min-max scaling to handle this problem. You could do this calculation manually, or use [Sci-Kit Learn's MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
-
 !!!note "Binning"
 	Just as you did with the Titanic dataset when you reduced the number of titles, you may find it useful to "bin" certain features into discrete groups in order to address some of the questions above. There are multiple ways to do this, but previously we used the [`map()` function](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.map.html).
 
