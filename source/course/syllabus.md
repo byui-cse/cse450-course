@@ -7,7 +7,13 @@ body-class: index-page
 
 Welcome to CSE 450 - Machine Learning and Data Mining.
 
-The goal of this course is to help you: 
+# Course Objectives
+* Apply machine learning algorithms to poorly structured data to discover meaningful patterns.
+* Explain the approaches and appropriate applications of a broad set of machine learning algorithms.
+* Articulate, in professional terms, the concepts, vocabulary, limitations, and framework of machine learning.
+* Explain the preparation required for various machine learning career paths.
+
+The goal of these objectives is to help you: 
 
 * Be excited about machine learning and data mining.
 * Have the ability to tackle a real dataset and do something interesting with it.
