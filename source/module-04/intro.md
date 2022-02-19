@@ -6,7 +6,7 @@ title: Module 04 — Bike Rentals, Case Study Introduction
 *[Photo by Markus Winkler on Unsplash](https://unsplash.com/photos/QjRk3rj2O1c)*
 
 ## Introduction
-WelcomeBike Bike Rentals is a Beijing-based bike rental company that has recently expanded to include a handful of US locations. You've been asked to build a neural network that will predict the number of bike rentals for a given day for their Washington DC branch. [^1]
+WelcomeBike Bike Rentals is a Beijing-based bike rental company that has recently expanded to include a handful of US locations. You've been asked to build a neural network that will predict the number of bike rentals for a given day and hour for their Washington DC branch. [^1]
 
 ## Stakeholders
 
