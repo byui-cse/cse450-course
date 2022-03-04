@@ -25,4 +25,6 @@ The images are jpeg images (RGB color). Files are numbered in ascending order:
 Images are in random order, ie. there is no track structure or class information
 as in the training set.
 
-The class labels for the test images are stored in a file called test_classes.csv
+The class labels for the first 201 images are stored in a file called test_classes_partial.csv
+
+Please use this file to "sanity check" your model prior to submitting the full holdout dataset.
