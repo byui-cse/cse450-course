@@ -47,7 +47,7 @@ Based on your initial analysis of the data, your team feels:
 	<img src="{{URLROOT}}/shared/img/thomas.jpg">
 	<h5>Thomas, COO of HackPressIO</h5>
 	<blockquote><p>We're really trying to impress our investors with your work here.</p>
-	<p>Which of the following do you think would give us the most promise for both a quality model, but also something that could get people excited?</p></blockquote>
+	<p>What would give us the most promise for both a quality model, but also something that could get people excited?</p></blockquote>
 </div>
 
 #### Learning Strategy
