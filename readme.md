@@ -27,6 +27,8 @@ Once the dependencies are install, the build process can be run from the reposit
 If your system doesn't have make installed, you can also manualy run the build script:
 
 	python3 ./build-toolchain/build-site.py -s ./settings.cfg
+	python ./build-toolchain/build-site.py -s ./settings.cfg
+
 
 The `settings.cfg` file contains site-specific settings for the build process. By default, the script will look in the current directory for `settings.cfg`, but you can also specify its path using the `-s` flag.
 
