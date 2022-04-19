@@ -29,16 +29,16 @@ The goal of these objectives is to help you:
 
 ## Course Structure
 
-This course is divided into seven *modules*. Each module will last approximately two weeks (six class periods). 
+This course is divided into seven *modules*. Each module will last approximately two weeks (six class periods for campus students). Most of these modules, modules one through six, will be completed as teams.
 
 !!! warning "Subject to Change"
 	
-	Keep in mind that your instructor may deviate somewhat from the following guide, and they have final say on assignment requirements, delivery methods, and due dates. So be sure to pay attention to both in-class and Canvas announcements.
+	Keep in mind that your instructor may deviate somewhat from the following guide, and they have final say on assignment requirements, delivery methods, and due dates. So be sure to pay attention to both in-class, MS Teams, and Canvas announcements.
 
 !!!note "Time Expectations" 
 	University guidelines suggest that students spend an average of three hours per week per credit hour.
 
-	While there will be some time provided in class for team assignments, as this is a three credit course, the expectation is that students will spend an average of six hours per week on assignments outside of class, including the time spent on preparation readings.
+	While there will be some time provided in class for team assignments for campus students, as this is a three credit course, the expectation is that students will spend an average of six hours per week on assignments outside of class, including the time spent on preparation readings.
 
 
 Each module is worth a percentage of your final grade:
@@ -49,17 +49,17 @@ Module 01 is designed to quickly bring you up to speed on the foundational knowl
 
 #### Preparation Reading Quizzes
 
-Before each class session of Module 01, you will complete a Preparation Reading, followed by an associated quiz.
+For each data exploration in Module 01, you will complete a Preparation Reading, followed by an associated quiz.
 
 You may take each quiz as many times as you like until its due date. You must score at least 90% on a quiz to receive credit for it. 
 
 If you take a quiz multiple times, the highest passing score you receive will be your final score for that quiz.
 
-At the start of class, the instructor will briefly review the material and answer questions from the reading, but will assume that you have already completed the reading.
+At the start of class for campus students, the instructor will briefly review the material and answer questions from the reading, but will assume that you have already completed the reading. Online students may send questions to the instructor or other classmates after completing the reading.
 
 #### Data Explorations
 
-After reviewing the reading, you will work in temporary groups during class to complete hands-on, Data Exploration assignments. Online students will use Microsoft Teams meetings.
+After reviewing the reading, you will work in temporary groups during class for campus students to complete hands-on, Data Exploration assignments. Online students will use Microsoft Teams meetings.
 
 !!!note "Data Exploration Evaluations"
 
@@ -83,7 +83,7 @@ Modules 02 - 06 use case studies to help students learn to understand and apply 
 
 Each module lasts approximately two weeks and follows a case-study format. Each case study is designed to provide students with a real world backdrop to learn and apply machine learning tools.
 
-Students will work in teams to create a report designed to answer the questions posed by the case study. Students will then present their work to the class, and reflect on their own and their teammates performance and contributions.
+Students will work in teams to create a report designed to answer the questions posed by the case study. Students will then present their work to the class. Online students will post videos and campus students will present in class. Students will then have an opportunity to reflect on their own and their teammates performance and contributions. 
 
 ### Modules 07
 
@@ -108,7 +108,7 @@ Final Letter grades are given according to the [standard BYU-Idaho grading scale
 
 Because of the team-based, interactive nature of this course, no late credit is given. 
 
-In the event of an *extreme emergency* that prevents you from communicating with your team in *any possible way known to mankind*, your instructor will work with you to come up with a way for you to make up the content of a given module.
+In the event of an *extreme emergency* that prevents you from communicating with your team, your instructor will work with you to come up with a way for you to make up the content of a given module.
 
 Note that the following are *not* considered extreme emergencies:
 
@@ -116,8 +116,8 @@ Note that the following are *not* considered extreme emergencies:
 * Having to work
 * Oversleeping
 * A broken or malfunctioning computer, Internet connection, or other technical issue.
-* Suffering from any illness other than one that a doctor's note states has immobilized you in such a way that you are unable to communicate with your teammates via video or chat.
-* Being quarantined or otherwise physically stranded in a location that has any possibility for a sufficiently desperate person to acquire Internet access.
+* Suffering from any illness that keeps you home but still allows you to reach out via Teams, Zoom, or Slack
+* Being quarantined
 
 ## Student Support
 
