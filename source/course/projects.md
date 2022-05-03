@@ -29,6 +29,8 @@ Each team member (including the Project Manager) is responsible for fulfilling t
 
 The project manager is responsible for fulfilling the following responsibilities:
 
++ Scheduling a meeting
+
 + Calling the status meeting to order and recording attendance.
 
 + For each member of the team (including themselves), they:
