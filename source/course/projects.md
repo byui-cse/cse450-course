@@ -29,7 +29,7 @@ Each team member (including the Project Manager) is responsible for fulfilling t
 
 The project manager is responsible for fulfilling the following responsibilities:
 
-+ Scheduling the status meeting
++ Scheduling the status meetings for the module
 
 + Calling the status meeting to order and recording attendance.
 
