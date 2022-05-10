@@ -45,6 +45,14 @@ Complete the following preparation reading:
 	+ 8.4.3 - Prediction Scores
 	+ 8.4.3.1 - Receiver Operating Characteristic Curves (ROC Curves)
 
+!!!note "Decision Trees"
+	You can find documentation on how to use decision trees with sci-kit learn on these pages:
+
+	* [User Guide Entry for Decision Trees](https://scikit-learn.org/stable/modules/tree.html)
+	* [API Reference for DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+	* [Tips for Practical Use, from the User Guide](https://scikit-learn.org/stable/modules/tree.html#tips-on-practical-use)
+
+
 ## Extra Help
 
 Below you'll find some optional videos and other resources that help supplement the reading. 
@@ -80,3 +88,11 @@ You should absolutely still do the reading above. One technique would be to read
 #### Model Evaluation
 
 * [ROC and AUC, Clearly Explained!](https://www.youtube.com/watch?v=4jRBRDbJemM) is a video visually describing how to build and use an ROC curve. (Don't let the corny intro music dissuade you, it's a pretty good video)
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/johnny.jpg">
+	<h5>Johnny, the Data Science Intern, drops by your hotel room around midnight:</h5>
+	<blockquote><p>Okay, just one last thing, if you need any more help at all, I put together <a href='./hints.html'>this collection of Google Colab notebooks</a> that might be useful.</p></blockquote>
+</div>
+
+[^1]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)
