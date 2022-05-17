@@ -51,3 +51,19 @@ You might consider watching it with the intent to understand the approach at a h
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/StWY5QWMXCw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+!!!note "XGBoost"
+	You can find documentation on how to use xgboost to be useful, particularly the sections on the sklearn wrapper:
+
+	* [User Guide for XGBoost](https://xgboost.readthedocs.io/en/latest/)
+	* [API Reference for the SKLearn Wrapper](https://xgboost.readthedocs.io/en/latest/python/python_api.html?highlight=sklearn#module-xgboost.sklearn)
+	* [An XGBoost tutorial that uses the sklearn wrapper](https://machinelearningmastery.com/develop-first-xgboost-model-python-scikit-learn/)
+	* [A more in-depth tutorial on xgboost](https://www.kaggle.com/stuarthallows/using-xgboost-with-scikit-learn)
+	* [An XGBoost tutorial that does not use the sklearn wrapper](https://towardsdatascience.com/a-beginners-guide-to-xgboost-87f5d4c30ed7)
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/johnny.jpg">
+	<h5>Johnny, the Data Science Intern, drops by your hotel room around midnight:</h5>
+	<blockquote><p>Okay, just one last thing, if you need any more help at all, I put together <a href='./hints.html'>this collection of Google Colab notebooks</a> that might be useful.</p></blockquote>
+</div>
+
+[^1]: [Data Science Intern photo by Fábio Lucas on Unsplash](https://unsplash.com/photos/iczrMDNuvzkml-pxK0Ovmw)
