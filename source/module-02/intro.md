@@ -65,7 +65,7 @@ You can use the following Google Colab notebook to assist you:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_bank.ipynb)
 
-!!!note Wondering Where to Start?
+!!!note "Wondering Where to Start?"
 	Here is an [article](https://towardsdatascience.com/9-steps-for-solving-data-science-problems-dc3c238cb58c) on some basic steps to approach any machine learning/data science problem
 
 [^1]: [Chairman of the Board photo by Portuguese Gravity on Unsplash](https://unsplash.com/photos/oMF2q4tlhDg)
