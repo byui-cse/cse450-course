@@ -69,9 +69,11 @@
 <p>Most of the modules contain a "holdout dataset" which is used by the instructor to see how well your model performs. This dataset has the same fields as the training set except we have removed the value you will be predicting. Your model will not have seen this information before, and the results will indicate how well the model has "learned" during training. </p>
 <p>Once your team is confident your model has been adequately trained, load the data from the holdout dataset and make predictions on it. You are required to make predictions for ALL rows in the holdout dataset. </p>
 <p><em>Don't Forget:</em></p>
-<p>Perform the same transformations on the dataset. (MinMaxScaling, add/remove features, etc.)</p>
-<p>Do NOT remove any rows from the holdout dataset</p>
-<p>Do NOT sort or shuffle the holdout dataset</p>
+<ul>
+<li>Perform the same transformations on the dataset. (MinMaxScaling, add/remove features, etc.)</li>
+<li>Do NOT remove any rows from the holdout dataset</li>
+<li>Do NOT sort or shuffle the holdout dataset</li>
+</ul>
 </div>
 <h4 id="templates">Templates</h4>
 <ul>

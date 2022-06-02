@@ -37,11 +37,9 @@ For your convenience, here are links to the module 03 readings and assignments:
 
 	*Don't Forget:*
 		
-	Perform the same transformations on the dataset. (MinMaxScaling, add/remove features, etc.)
-
-	Do NOT remove any rows from the holdout dataset
-
-	Do NOT sort or shuffle the holdout dataset
+	*	Perform the same transformations on the dataset. (MinMaxScaling, add/remove features, etc.)
+	*	Do NOT remove any rows from the holdout dataset
+	*	Do NOT sort or shuffle the holdout dataset
 
 #### Templates
 
