@@ -33,3 +33,7 @@ For your convenience, here are links to the module 03 readings and assignments:
 
 * [Team Executive Summary Template]({{URLROOT}}/course/executive-summary.docx)
 * [Individual Reflection Template]({{URLROOT}}/course/reflection.docx)
+
+#### Hints and Helps
+
+* [Hints](./hints.html)
