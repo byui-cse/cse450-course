@@ -13,7 +13,7 @@ This week you'll learn about supervised learning, decision trees, and more about
 
 ## Module 02 Assignments
 
-For your convenience, here are links to the module 03 readings and assignments:
+For your convenience, here are links to the module 02 readings and assignments:
 
 #### Readings
 
