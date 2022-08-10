@@ -25,7 +25,7 @@ For your convenience, here are links to the module 03 readings and assignments:
 #### Data
 
 * [Housing Dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/housing.csv)
-* [Housing Data Dictionary](./housing-dictionary.txt)\
+* [Housing Data Dictionary](./housing-dictionary.txt)
 * [Housing Holdout Dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/housing_holdout_test.csv)
 * [Housing Holdout MINI Dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/housing_holdout_test_mini.csv)
 * [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_housing.ipynb)
