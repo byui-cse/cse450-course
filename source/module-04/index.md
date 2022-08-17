@@ -38,7 +38,7 @@ For your convenience, here are links to the module 04 readings and assignments:
 
 	Once your team is confident your model has been adequately trained, load the data from the mini holdout dataset and make predictions on it. Save the predictions as a CSV.
 
-	[Open and run this colab](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/module04_housing_grading_mini.ipynb) (follow the instructions at the top of the notebook)
+	[Open and run this colab](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/module04_biking_grading_mini.ipynb) (follow the instructions at the top of the notebook)
 
 	*Don't Forget:*
 		
