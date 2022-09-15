@@ -30,6 +30,11 @@ For your convenience, here are links to the module 03 readings and assignments:
 * [Housing Holdout MINI Dataset](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/housing_holdout_test_mini.csv)
 * [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_housing.ipynb)
 
+## Using XGBoost
+If you've read through the official documentation and tutorials about XGBoost on the [project page](./project.html) and still aren't sure how to use it, this colab notebook might help:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_xgboost.ipynb)
+
 !!! def "Holdout Mini Dataset"
 	This module has a mini holdout dataset. You can test your model against this mini holdout dataset as many times as you'd like. It is here to
 
