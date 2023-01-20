@@ -22,7 +22,7 @@ Complete the following preparation reading:
 
 * Read sections 5.4.3 and 5.4.4 in the textbook, which discusses some things to consider when using a nearest neighbor algorithm.
 
-* Read Chapter 8 until section 8.4.2 of your textbook, which describes ways to verify how well a machine learning model works.
+* Read Chapter 8 until the beginning of section 8.4.3 of your textbook, which describes ways to verify how well a machine learning model works.
 
 
 ## Extra Help
