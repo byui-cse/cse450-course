@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module ICE: In-Class Exercise</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css?v1.3">
+    <meta charset="utf-8">
+
+</head>
+<body class="index-page">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#module-ice-raisins">Module ICE - Raisins</a></li>
+<li><a href="#task">Task</a></li>
+<li><a href="#data">Data</a></li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning &amp; Data Mining</h1>
+            <h2>Module ICE: In-Class Exercise</h2>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<h2 id="module-ice-raisins">Module ICE - Raisins</h2>
+<p>This activity will be completed individually. This will give you a chance to use the skills you've gained throughout the semester. You have the class period to complete this challenge.</p>
+<h2 id="task">Task</h2>
+<p>You will be predicting the Class of raisin (Kecimen or Besni). Make sure you keep the predictions in order when you submit them.</p>
+<p>Save your answers as a csv with a single column and a column heading of "Class".</p>
+<div class="admonition warning">
+<p class="admonition-title">One Hour Challenge</p>
+<p>This activity is to be completed in an hour. You do NOT need to produce an executive summary for this challenge. </p>
+</div>
+<p>You will still be required to do the following:</p>
+<ul>
+<li><strong>Prepare the data</strong><ul>
+<li>Cleaning the data to remove unwanted data, missing values, rows, and columns, duplicate values, data type conversion, etc. You might even have to restructure the dataset and change the rows and columns or index of rows and columns.</li>
+<li>Visualize the data to understand how it is structured and understand the relationship between various variables and classes present.</li>
+<li>Splitting the cleaned data into at least two sets - a training set and a testing set. You may wish to split the data again to get a validation set as well. The training set is the set your model learns from. A testing set is used to check the accuracy of your model after training.</li>
+</ul>
+</li>
+<li><strong>Choose models</strong><ul>
+<li>You may use any models you'd like. You may use examples from your previous case studies. You can use any class notes or class resources, but you must complete your own work. </li>
+<li>You should use multiple models if time permits.</li>
+</ul>
+</li>
+<li><strong>Train models</strong><ul>
+<li>Train the models on your training dataset</li>
+</ul>
+</li>
+<li><strong>Evaluate the models</strong><ul>
+<li>Using the test dataset, evaluate how your model is performing. </li>
+</ul>
+</li>
+<li><strong>Parameter tuning</strong><ul>
+<li>Tune your model parameters to increase the model's performance.</li>
+</ul>
+</li>
+<li><strong>Make predictions</strong><ul>
+<li>Using the holdout dataset, use your model to make predictions. Make sure you apply any needed transformations to the holdout set. Ensure that you do NOT delete any rows from the holdout set and that they remain in the same order.</li>
+</ul>
+</li>
+<li><strong>Upload your predictions</strong><ul>
+<li>Upload your predictions to the assignment in canvas.</li>
+<li>Post a comment on your submission with <ul>
+<li>any insights you gained into the data.</li>
+<li>a link to your colab notebook.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="data">Data</h2>
+<p>Here are the datasets for this challenge.</p>
+<ul>
+<li><a href="./data/raisin-training.csv">Raisin Data</a></li>
+<li><a href="./data/raisin-holdout.csv">Raisin Holdout</a></li>
+</ul>
+<h4 id="data-dictionary">Data Dictionary</h4>
+<p>Attribute Information:</p>
+<ul>
+<li><strong>Area</strong>: Gives the number of pixels within the boundaries of the raisin.</li>
+<li><strong>Perimeter</strong>: It measures the environment by calculating the distance between the boundaries of the raisin and the pixels around it.</li>
+<li><strong>MajorAxisLength</strong>: Gives the length of the main axis, which is the longest line that can be drawn on the raisin.</li>
+<li><strong>MinorAxisLength</strong>: Gives the length of the small axis, which is the shortest line that can be drawn on the raisin.</li>
+<li><strong>Eccentricity</strong>: It gives a measure of the eccentricity of the ellipse, which has the same moments as raisins.</li>
+<li><strong>ConvexArea</strong>: Gives the number of pixels of the smallest convex shell of the region formed by the raisin.</li>
+<li><strong>Extent</strong>: Gives the ratio of the region formed by the raisin to the total pixels in the bounding box.</li>
+<li><strong>Class</strong>: Kecimen and Besni raisin. </li>
+</ul>
+	</article>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>

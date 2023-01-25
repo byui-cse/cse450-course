@@ -4,7 +4,7 @@ import configparser
 import shutil
 import markdown
 import codecs
-from distutils import dir_util
+# from distutils import dir_util
 from markdown.extensions.toc import TocExtension
 
 # Make our config global so we don't have to pass it to every function
