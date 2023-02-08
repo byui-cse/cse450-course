@@ -58,5 +58,5 @@ Attribute Information:
 * **MinorAxisLength**: Gives the length of the small axis, which is the shortest line that can be drawn on the grain.
 * **Eccentricity**: It gives a measure of the eccentricity of the ellipse, which has the same moments as grain.
 * **ConvexArea**: Gives the number of pixels of the smallest convex shell of the region formed by the grain.
-* **Extent**: Gives the ratio of the region formed by the raisin to the total pixels in the bounding box.
+* **Extent**: Gives the ratio of the region formed by the grain to the total pixels in the bounding box.
 * **Class**: Osmancik and Cammeo grain kernels. 
