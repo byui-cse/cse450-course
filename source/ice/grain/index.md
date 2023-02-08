@@ -3,13 +3,13 @@ title: Module ICE: In-Class Exercise
 body-class: index-page
 ---
 
-## Module ICE - Raisins
+## Module ICE - Grain Kernels
 
 This activity will be completed individually. This will give you a chance to use the skills you've gained throughout the semester. You have the class period to complete this challenge.
 
 ## Task
 
-You will be predicting the class of raisin (Kecimen or Besni). Make sure you keep the predictions in order when you submit them.
+You will be predicting the class of grain (Osmancik and Cammeo). Make sure you keep the predictions in order when you submit them.
 
 Save your answers as a csv with a single column and a column heading of "Class".
 
@@ -45,18 +45,18 @@ You will still be required to do the following:
 
 Here are the datasets for this challenge.
 
-* [Raisin Data](./data/raisin-training.csv)
-* [Raisin Holdout](./data/raisin-holdout.csv)
+* [Grain Data](./data/grain-training.csv)
+* [Grain Holdout](./data/grain-holdout.csv)
 
 #### Data Dictionary
 
 Attribute Information:
 
-* **Area**: Gives the number of pixels within the boundaries of the raisin.
-* **Perimeter**: It measures the environment by calculating the distance between the boundaries of the raisin and the pixels around it.
-* **MajorAxisLength**: Gives the length of the main axis, which is the longest line that can be drawn on the raisin.
-* **MinorAxisLength**: Gives the length of the small axis, which is the shortest line that can be drawn on the raisin.
-* **Eccentricity**: It gives a measure of the eccentricity of the ellipse, which has the same moments as raisins.
-* **ConvexArea**: Gives the number of pixels of the smallest convex shell of the region formed by the raisin.
+* **Area**: Gives the number of pixels within the boundaries of the grain.
+* **Perimeter**: It measures the environment by calculating the distance between the boundaries of the grain and the pixels around it.
+* **MajorAxisLength**: Gives the length of the main axis, which is the longest line that can be drawn on the grain.
+* **MinorAxisLength**: Gives the length of the small axis, which is the shortest line that can be drawn on the grain.
+* **Eccentricity**: It gives a measure of the eccentricity of the ellipse, which has the same moments as grain.
+* **ConvexArea**: Gives the number of pixels of the smallest convex shell of the region formed by the grain.
 * **Extent**: Gives the ratio of the region formed by the raisin to the total pixels in the bounding box.
-* **Class**: Kecimen and Besni raisin. 
+* **Class**: Osmancik and Cammeo grain kernels. 
