@@ -1,14 +1,10 @@
 ﻿Filename,ClassId
 1.jpg,0
-2.jpg,0
-3.jpg,0
-4.jpg,0
-5.jpg,1
-6.jpg,0
-7.jpg,0
-8.jpg,0
-9.jpg,1
 10.jpg,1
+100.jpg,1
+101.jpg,1
+102.jpg,1
+103.jpg,1
 11.jpg,1
 12.jpg,0
 13.jpg,0
@@ -18,6 +14,7 @@
 17.jpg,1
 18.jpg,0
 19.jpg,1
+2.jpg,0
 20.jpg,1
 21.jpg,1
 22.jpg,1
@@ -28,6 +25,7 @@
 27.jpg,0
 28.jpg,0
 29.jpg,0
+3.jpg,0
 30.jpg,0
 31.jpg,1
 32.jpg,0
@@ -38,6 +36,7 @@
 37.jpg,0
 38.jpg,0
 39.jpg,0
+4.jpg,0
 40.jpg,0
 41.jpg,0
 42.jpg,0
@@ -48,6 +47,7 @@
 47.jpg,0
 48.jpg,1
 49.jpg,1
+5.jpg,1
 50.jpg,1
 51.jpg,0
 52.jpg,1
@@ -58,6 +58,7 @@
 57.jpg,0
 58.jpg,0
 59.jpg,1
+6.jpg,0
 60.jpg,0
 61.jpg,1
 62.jpg,1
@@ -68,6 +69,7 @@
 67.jpg,1
 68.jpg,1
 69.jpg,0
+7.jpg,0
 70.jpg,1
 71.jpg,1
 72.jpg,0
@@ -78,6 +80,7 @@
 77.jpg,0
 78.jpg,1
 79.jpg,1
+8.jpg,0
 80.jpg,1
 81.jpg,1
 82.jpg,0
@@ -88,6 +91,7 @@
 87.jpg,0
 88.jpg,1
 89.jpg,0
+9.jpg,1
 90.jpg,1
 91.jpg,1
 92.jpg,1
@@ -98,7 +102,3 @@
 97.jpg,1
 98.jpg,1
 99.jpg,1
-100.jpg,1
-101.jpg,1
-102.jpg,1
-103.jpg,1
