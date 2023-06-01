@@ -105,6 +105,8 @@ header #titles nav a {
   color: var(--white-color);
   padding: 10px;
   text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9em;
 }
 
 header #titles nav a:hover {
