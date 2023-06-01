@@ -94,6 +94,22 @@ header .icon-byui-logo {
   -webkit-font-smoothing: antialiased;
 }
 
+header #titles nav {
+  display:flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+header #titles nav a {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  padding: 10px;
+  text-decoration: none;
+}
+
+header #titles nav a:hover {
+  background-color: var(--code-background-color);
+}
 
 /* Main article styles */
 
