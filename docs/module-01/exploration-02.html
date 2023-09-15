@@ -27,6 +27,7 @@
 <li><a href="#overview">Overview</a></li>
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#assignment">Assignment</a></li>
+<li><a href="#data-dictionary">Data Dictionary</a></li>
 <li><a href="#teachers-solution">Teacher's Solution</a></li>
 </ul>
 </div>
@@ -64,6 +65,35 @@
 <p>Your assignment is to analyze a dataset of nutritional information for major US cereals, and calculate some metrics that can be used by the marketing team.</p>
 <p>Click on the <code>Open In Colab</code> button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, don't forget to take the corresponding quiz in Canvas. </p>
 <p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_02.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<h2 id="data-dictionary">Data Dictionary</h2>
+<p>Fields in the dataset:</p>
+<div class="codehilite"><pre><span></span><code><span class="n">Name</span><span class="o">:</span><span class="w"> </span><span class="n">Name</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">cereal</span>
+<span class="n">mfr</span><span class="o">:</span><span class="w"> </span><span class="n">Manufacturer</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">cereal</span>
+<span class="w">    </span><span class="n">A</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">American</span><span class="w"> </span><span class="n">Home</span><span class="w"> </span><span class="n">Food</span><span class="w"> </span><span class="n">Products</span><span class="o">;</span>
+<span class="w">    </span><span class="n">G</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">General</span><span class="w"> </span><span class="n">Mills</span>
+<span class="w">    </span><span class="n">K</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Kelloggs</span>
+<span class="w">    </span><span class="n">N</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Nabisco</span>
+<span class="w">    </span><span class="n">P</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Post</span>
+<span class="w">    </span><span class="n">Q</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Quaker</span><span class="w"> </span><span class="n">Oats</span>
+<span class="w">    </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Ralston</span><span class="w"> </span><span class="n">Purina</span><span class="w"> </span>
+<span class="n">type</span><span class="o">:</span>
+<span class="w">    </span><span class="n">cold</span>
+<span class="w">    </span><span class="n">hot</span><span class="w"> </span>
+<span class="n">calories</span><span class="o">:</span><span class="w"> </span><span class="n">calories</span><span class="w"> </span><span class="n">per</span><span class="w"> </span><span class="n">serving</span>
+<span class="n">protein</span><span class="o">:</span><span class="w"> </span><span class="n">grams</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">protein</span>
+<span class="n">fat</span><span class="o">:</span><span class="w"> </span><span class="n">grams</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">fat</span>
+<span class="n">sodium</span><span class="o">:</span><span class="w"> </span><span class="n">milligrams</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">sodium</span>
+<span class="n">fiber</span><span class="o">:</span><span class="w"> </span><span class="n">grams</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">dietary</span><span class="w"> </span><span class="n">fiber</span>
+<span class="n">carbo</span><span class="o">:</span><span class="w"> </span><span class="n">grams</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">complex</span><span class="w"> </span><span class="n">carbohydrates</span>
+<span class="n">sugars</span><span class="o">:</span><span class="w"> </span><span class="n">grams</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">sugars</span>
+<span class="n">potass</span><span class="o">:</span><span class="w"> </span><span class="n">milligrams</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">potassium</span>
+<span class="n">vitamins</span><span class="o">:</span><span class="w"> </span><span class="n">vitamins</span><span class="w"> </span><span class="n">and</span><span class="w"> </span><span class="n">minerals</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">0</span><span class="o">,</span><span class="w"> </span><span class="mi">25</span><span class="o">,</span><span class="w"> </span><span class="n">or</span><span class="w"> </span><span class="mi">100</span><span class="o">,</span><span class="w"> </span><span class="n">indicating</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">typical</span><span class="w"> </span><span class="n">percentage</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">FDA</span><span class="w"> </span><span class="n">recommended</span>
+<span class="n">shelf</span><span class="o">:</span><span class="w"> </span><span class="n">display</span><span class="w"> </span><span class="n">shelf</span><span class="w"> </span><span class="o">(</span><span class="mi">1</span><span class="o">,</span><span class="w"> </span><span class="mi">2</span><span class="o">,</span><span class="w"> </span><span class="n">or</span><span class="w"> </span><span class="mi">3</span><span class="o">,</span><span class="w"> </span><span class="n">counting</span><span class="w"> </span><span class="n">from</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">floor</span><span class="o">)</span>
+<span class="n">weight</span><span class="o">:</span><span class="w"> </span><span class="n">weight</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">ounces</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">one</span><span class="w"> </span><span class="n">serving</span>
+<span class="n">cups</span><span class="o">:</span><span class="w"> </span><span class="n">number</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">cups</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">one</span><span class="w"> </span><span class="n">serving</span>
+<span class="n">rating</span><span class="o">:</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">rating</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">cereals</span><span class="w"> </span><span class="o">(</span><span class="n">Possibly</span><span class="w"> </span><span class="n">from</span><span class="w"> </span><span class="n">Consumer</span><span class="w"> </span><span class="n">Reports</span><span class="o">?)</span>
+</code></pre></div>
+
 <h2 id="teachers-solution">Teacher's Solution</h2>
 <p>Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can <a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_02_Solved.ipynb">view the teacher's solution here</a>.</p>
 <div class="footnote">
