@@ -54,6 +54,7 @@ Here are the datasets for this challenge.
 * **Day**, day the reading was taken
 * **Hours**, hour of the day in 0-23 hour format that the reading was taken
 * **Minutes**, beginning of the 10 minute interval during which the reading was * taken (0-50, where 0 means minute 0 through 9)
+* **Time-since-start**, 10 minute increments since the start of the experiment on Jan 11, 2:00 pm.
 * **Appliances**, energy use in Wh 
 * **lights**, energy use of light fixtures in the house in Wh
 * **T1**, Temperature in kitchen area, in Celsius
