@@ -39,6 +39,12 @@ Sometimes we need to calculate the span between two dates using different units.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_dates.ipynb)
 
 
+## One-Hot-Encoding Problems
+Oftentimes when using categorical data that has been one-hot encoded, you'll run into problems with a holdout or test dataset that doesn't have the same categorical data (normally missing values). This colab notebook shows how to align your X_train features and your X_test or holdout features:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_one_hot_encode_align.ipynb)
+
+
 ## Using XGBoost
 If you've read through the official documentation and tutorials about XGBoost on the [project page](./project.html) and still aren't sure how to use it, this colab notebook might help:
 
