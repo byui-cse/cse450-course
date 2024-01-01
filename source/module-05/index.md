@@ -25,7 +25,7 @@ For your convenience, here are links to the module 05 readings and assignments:
 #### Data
 * [Roadsigns Training Data Part 1](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns/training1.zip)
 * [Roadsigns Training Data Part 2](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns/training2.zip)
-* [Roadsigns Test data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns/test.zip)
+* [Roadsigns Holdout data](https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/roadsigns/holdout.zip)
 * [Data Dictionary](./signs-dictionary.txt)
 * [Google Colab Notebook](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/starter_signs.ipynb)
 

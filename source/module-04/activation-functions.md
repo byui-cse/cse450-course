@@ -28,7 +28,7 @@ $$f(x) = x$$
 
 This function just says, whatever $x$ is (the input), $f(x)$ (the output) will be the same thing.
 
-Many activation functions are [piecewise functions](https://www.mathsisfun.com/sets functions-piecewise.html). 
+Many activation functions are [piecewise functions](https://www.mathsisfun.com/sets/functions-piecewise.html). 
 
 For example:
 
@@ -54,6 +54,6 @@ As with most things in machine learning, the general strategy for choosing the b
 
 [^1]: Mathematicians like to say that functions "map a domain to a range". See [this article](https://www.mathsisfun.com/sets/domain-range-codomain.html) for details.
 
-[^2]: [This article](https://missinglink.ai/guides/neural-network-concepts/7-types-neural-network-activation-functions-right/) has a good overview of some of the most common activation functions and their pros and cons. However, most of the pros and cons people associate with activation functions are math-centric, which may not be easily translatable to "is this a good function to use for my data?" 
+[^2]: [This article](https://www.v7labs.com/blog/neural-networks-activation-functions) has a good overview of some of the most common activation functions and their pros and cons. However, most of the pros and cons people associate with activation functions are math-centric, which may not be easily translatable to "is this a good function to use for my data?" 
 
 [^3]: Activation functions are an active area of research, and people are always exploring new functions to use in neural networks. [This Wikipedia article](https://en.wikipedia.org/wiki/Activation_function#Comparison_of_activation_functions) has a good overview of some recent and popular activation functions.
