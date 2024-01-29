@@ -50,5 +50,7 @@ If you've read through the official documentation and tutorials about XGBoost on
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_xgboost.ipynb)
 
+## Choosing the Right Metric
 
+Figuring out which metric to use can be tough. Here is a [quick introduction to different metrics](https://towardsdatascience.com/metrics-to-understand-regression-models-in-plain-english-part-1-c902b2f4156f) you may want to try. 
 
