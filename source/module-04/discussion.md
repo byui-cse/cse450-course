@@ -61,13 +61,6 @@ Be prepared to answer the following questions:
 	<blockquote><p>We would like use AI to predict the likelihood of damage based on user profile data, such as name, birthday, sex, or address, so that we can add an insurance premium to the rental cost. We are concerned that there may be ethical/legal implications here, what would you recommend?</p></blockquote>
 </div>
 
-#### Pandemic and Health Concerns
-
-<div class="dialogue">
-	<img src="{{URLROOT}}/shared/img/zhao.jpg">
-	<h5>Zhao, CEO of WelcomeBike</h5>
-	<blockquote><p>Coming out of the pandemic has put a strain on resources. Our customers are much more concerned about health and safety of sharing bikes.</p><p>In your executive summary, would you add your recommendations for when we could pull bikes out of rotation to clean and disinfect them? For example, what days and times we should bring them in?</p><p>We also need to know if we have any lasting problems now that we are a few years past COVID-19. What can we expect for forcasts into the future? Are we back on track or still recovering?</p></blockquote>
-</div>
 
 Based on your initial analysis of the data, your team feels:
 
@@ -76,6 +69,13 @@ Based on your initial analysis of the data, your team feels:
 3. As long as we only use name and address, that would be fine.
 4. Instead of using their profile data, we could track their usage via GPS and feed those live statistics (speed, angle, direction) into the model and deactivate the bike if the model predicts they will damage the bike. (For example, if they were going extremely fast down a crowded sidewalk.)
 
+#### Pandemic and Health Concerns
+
+<div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/zhao.jpg">
+	<h5>Zhao, CEO of WelcomeBike</h5>
+	<blockquote><p>Coming out of the pandemic has put a strain on resources. Our customers are much more concerned about health and safety of sharing bikes.</p><p>In your executive summary, would you add your recommendations for when we could pull bikes out of rotation to clean and disinfect them? For example, what days and times we should bring them in?</p><p>We also need to know if we have any lasting problems now that we are a few years past COVID-19. What can we expect for forcasts into the future? Are we back on track or still recovering?</p></blockquote>
+</div>
 
 
 [^1]: [CEO photo by Sung Wang on Unsplash](https://unsplash.com/photos/g4DgCF90EM4)
