@@ -22,7 +22,7 @@ After a few more meetings, your team has been assigned to address the following 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/zhao.jpg">
 	<h5>Zhao, CEO of WelcomeBike</h5>
-	<blockquote><p>Oh one more thing, while you've been working with data up through November for your analysis, we just received December's as well, and I'd like to see how your model does with it.</p>
+	<blockquote><p>Oh one more thing, while you've been working with data up through October for your analysis, we just received November and December's as well, and I'd like to see how your model does with it.</p>
 	<p>Could you give me the total number of bikes you'd expect for each day in this dataset? I'm not concerned with whether they are registered or casual at this point, just the total number for each hour of each day found here: <a href="https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bikes_december.csv" download>bikes_december.csv</a>.</p>
 	<p>Please make sure to submit both a .csv with these predictions and your executive summary.</p>
 	</blockquote>

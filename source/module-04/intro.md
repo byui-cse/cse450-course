@@ -15,7 +15,7 @@ These are the individuals your team will be helping during the case study:
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/zhao.jpg">
 	<h5>Zhao, CEO of WelcomeBike</h5>
-	<blockquote><p>Our new DC branch is taking off. I'm excited to see how machine learning can help us to avoid the mistakes of our competitors and prove to our investors that we have a winning business model.</p></blockquote>
+	<blockquote><p>Our new DC branch is taking off again after COVID-19. I'm excited to see how machine learning can help us to avoid the mistakes of our competitors and prove to our investors that we have a winning business model.</p></blockquote>
 </div>
 
 <div class="dialogue">
