@@ -5,7 +5,7 @@ body-class: index-page
 
 ## CSE 450 Course Overview
 
-Welcome to CSE 450 - Machine Learning and Data Mining.
+Welcome to CSE 450 - Machine Learning
 
 ## Course Objectives
 
