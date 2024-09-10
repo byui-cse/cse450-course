@@ -160,3 +160,6 @@ Schedules, assignments, and policies are subject to change. You will be notified
 
 This course uses datasets in the public domain or under a compatible license. Citations and other information for each dataset may be found on the [course data sources page](./data-sources.html).
 
+## Generative AI Policy
+
+The "Generative AI Usage Policy" for the Computer Science and Engineering (CSE) Department provides guidelines for the ethical and practical use of generative AI in education and software development. It encourages students to utilize AI tools for enhancing learning, creativity, and productivity while requiring them to disclose AI assistance in their work. This policy aims to integrate generative AI into the curriculum, fostering a balanced and innovative learning environment. The [CSE Generative AI Policy](https://byui-cse.github.io/department/student-resources/generative-ai/generative-ai-policy.html) can be found here.
