@@ -29,4 +29,3 @@ Read the following sections of Chapter 3 of *Machine Learning and Predictive Dat
 Read the following articles:
 
 * [6 Differences Between Data Exploration and Data Presentation](https://www.juiceanalytics.com/writing/5-differences-between-data-exploration-and-data-presentation)
-* [Data Exploration Vs Data Presentation - Learn More about the 5 Key Differences](https://www.datapine.com/blog/data-exploration-vs-data-presentation/)
