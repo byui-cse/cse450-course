@@ -76,6 +76,22 @@ This notebook can give you an example of how to build a random forest:
 	*	Do NOT sort or shuffle the holdout dataset
 	*	You can test the mini holdout as many times as you'd like, but be careful not to overfit to the mini holdout set. Ideally, you should get similar results to the test dataset you created.
 
+### Sample code to help with the mini holdout
+
+```
+test = pd.read_csv("https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank_holdout_test_mini.csv")
+
+# Do same transformations as on the training set
+
+predictions = clf.predict(test)
+
+# Convert the predictions to a dataframe and label the column 'y'
+my_predictions = pd.DataFrame(predictions, columns = ['y'])
+
+# Replace PUTTEAMNUMBERHERE with your team
+my_predictions.to_csv("teamPUTTEAMNUMBERHERE-module2-predictions.csv",index=False)
+```
+
 #### Templates
 
 * [Team Executive Summary Template]({{URLROOT}}/course/executive-summary.docx)

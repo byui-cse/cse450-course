@@ -27,7 +27,10 @@
 <li><a href="#module-02-overview">Module 02 - Overview</a></li>
 <li><a href="#module-02-assignments">Module 02 Assignments</a></li>
 <li><a href="#use-a-decision-tree">Use a decision tree</a></li>
-<li><a href="#use-a-random-forest">Use a random forest</a></li>
+<li><a href="#use-a-random-forest">Use a random forest</a><ul>
+<li><a href="#sample-code-to-help-with-the-mini-holdout">Sample code to help with the mini holdout</a></li>
+</ul>
+</li>
 </ul>
 </div>
 
@@ -105,6 +108,20 @@
 <li>You can test the mini holdout as many times as you'd like, but be careful not to overfit to the mini holdout set. Ideally, you should get similar results to the test dataset you created.</li>
 </ul>
 </div>
+<h3 id="sample-code-to-help-with-the-mini-holdout">Sample code to help with the mini holdout</h3>
+<div class="codehilite"><pre><span></span><code><span class="nv">test</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">pd</span>.<span class="nv">read_csv</span><span class="ss">(</span><span class="s2">&quot;https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank_holdout_test_mini.csv&quot;</span><span class="ss">)</span>
+
+#<span class="w"> </span><span class="k">Do</span><span class="w"> </span><span class="nv">same</span><span class="w"> </span><span class="nv">transformations</span><span class="w"> </span><span class="nv">as</span><span class="w"> </span><span class="nv">on</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">training</span><span class="w"> </span><span class="nv">set</span>
+
+<span class="nv">predictions</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">clf</span>.<span class="nv">predict</span><span class="ss">(</span><span class="nv">test</span><span class="ss">)</span>
+
+#<span class="w"> </span><span class="nv">Convert</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">predictions</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="nv">dataframe</span><span class="w"> </span><span class="nv">and</span><span class="w"> </span><span class="nv">label</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">column</span><span class="w"> </span><span class="s1">&#39;y&#39;</span>
+<span class="nv">my_predictions</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">pd</span>.<span class="nv">DataFrame</span><span class="ss">(</span><span class="nv">predictions</span>,<span class="w"> </span><span class="nv">columns</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>[<span class="s1">&#39;y&#39;</span>]<span class="ss">)</span>
+
+#<span class="w"> </span><span class="nv">Replace</span><span class="w"> </span><span class="nv">PUTTEAMNUMBERHERE</span><span class="w"> </span><span class="nv">with</span><span class="w"> </span><span class="nv">your</span><span class="w"> </span><span class="nv">team</span>
+<span class="nv">my_predictions</span>.<span class="nv">to_csv</span><span class="ss">(</span><span class="s2">&quot;teamPUTTEAMNUMBERHERE-module2-predictions.csv&quot;</span>,<span class="nv">index</span><span class="o">=</span><span class="nv">False</span><span class="ss">)</span>
+</code></pre></div>
+
 <h4 id="templates">Templates</h4>
 <ul>
 <li><a href="https://byui-cse.github.io/cse450-course/course/executive-summary.docx">Team Executive Summary Template</a></li>
