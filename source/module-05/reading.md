@@ -57,7 +57,9 @@ Please go through this content before class on Monday:
 
 * Read [this collection of tutorials on the Keras library](./keras-cnn.html)
 
+### Sign Information
 
+* Learn about [German street signs](https://www.iamexpat.de/expat-info/driving-germany/road-signs)
 
 
 
