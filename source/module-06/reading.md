@@ -38,6 +38,8 @@ Next, watch this video from MIT, which dives a little deeper into the concepts o
 Please go through this content before class on Monday:
 
 * Read [this page about RNNs](./keras-rnn.html)
+* Read [this page about Temperature](https://medium.com/@harshit158/softmax-temperature-5492e4007f71)
+* Explore [this site about embeddings](https://projector.tensorflow.org/)
 
 
 

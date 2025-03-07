@@ -60,6 +60,10 @@ After a few more meetings, your team has been assigned to address the following 
 
 	This [tutorial](https://machinelearningmastery.com/check-point-deep-learning-models-keras/) may be easier to follow, but remember to update the import statements as needed.
 
+!!!note "Grid Search"
+	There are a lot of hyperparameters to test out. You may want to use either a grid search or a random grid search. Here is an example in Google Colab. 
+
+	[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_nn_grid_search.ipynb)
 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">

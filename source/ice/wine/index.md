@@ -9,7 +9,7 @@ This activity will be completed individually. This will give you a chance to use
 
 ## Task
 
-You will be predicting the classification of a wine (1, 2, or 3). Make sure you keep the predictions in order when you submit them.
+You will be predicting the classification of a wine (0, 1, or 2). Make sure you keep the predictions in order when you submit them.
 
 Save your answers as a csv with a single column and a column heading of "Class".
 
