@@ -63,63 +63,61 @@
             </li>
             <li>
                 <p>Create a python virtual environment</p>
-                <div class="codehilite"><pre><span></span><code><span class="nv">python3 -m venv .venv</span>
-<span class="nv">cd colab</span></code></pre></div>
-                <p><code>python3 -m venv .venv</code></p>
+                <div class="codehilite"><pre><span></span><code><span class="nv">python3 -m venv .venv</span></code></pre></div>
             </li>
             <li>
                 <p>Activate the python virtual environment</p>
-                <p><code>source .venv/bin/activate</code></p>
+                <div class="codehilite"><pre><span></span><code><span class="nv">source .venv/bin/activate</span></code></pre></div>
             </li>
             <li>
                 <p>Install Tensorflow with GPU support (NVIDIA GPUs only)</p>
-                <p><code>python3 -m pip install 'tensorflow[and-cuda]'</code></p>
+                <div class="codehilite"><pre><span></span><code><span class="nv">python3 -m pip install 'tensorflow[and-cuda]'</span></code></pre></div>
                 <p>OR</p>
                 <p>Install Tensorflow with CPU only</p>
-                <p><code>python3 -m pip install tensorflow</code></p>
+                <div class="codehilite"><pre><span></span><code><span class="nv">python3 -m pip install tensorflow</span></code></pre></div>
             </li>
             <li>
                 <p>Test that Tensorflow is installed</p>
-                <p><code>python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"</code></p>
+                <div class="codehilite"><pre><span></span><code><span class="nv">python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"</span></code></pre></div>
                 <p>This should show the GPU if GPU is installed correctly</p>
             </li>
             <li>
                 <p>Install remaining packages for this module</p>
-                <p><code>pip install matplotlib<br />
-pip install scikit-learn<br />
-pip install notebook</code></p>
+                <div class="codehilite"><pre><span></span><code><span class="nv">pip install matplotlib</span>
+<span class="nv">pip install scikit-learn</span></code></pre></div>
+<span class="nv">pip install notebook</span></code></pre></div>
             </li>
         </ol>
         <h3>Mac Installation Instructions</h3>
         <ol>
             <li>
                 <p>Make a folder for you colab data</p>
-                <p><code>mkdir colab</code></p>
-                <p><code>cd colab</code></p>
+                <div class="codehilite"><pre><span></span><code><span class="nv">mkdir colab</span>
+<span class="nv">cd colab</span></code></pre></div>
             </li>
             <li>
                 <p>Create a python virtual environment</p>
-                <p><code>python3 -m venv .venv</code></p>
+                <div class="codehilite"><pre><span></span><code><span class="nv">python3 -m venv .venv</span></code></pre></div>
             </li>
             <li>
                 <p>Activate the python virtual environment</p>
-                <p><code>source .venv/bin/activate</code></p>
+                <div class="codehilite"><pre><span></span><code><span class="nv">source .venv/bin/activate</span></code></pre></div>
             </li>
             <li>
                 <p>Install Tensorflow with macos support</p>
-                <p><code>python3 -m pip install tensorflow-macos</code></p>
-                <p><code>python3 -m pip install tensorflow-metal</code></p>
+                <div class="codehilite"><pre><span></span><code><span class="nv">python3 -m pip install tensorflow-macos</span>
+<span class="nv">python3 -m pip install tensorflow-metal</span></code></pre></div>
             </li>
             <li>
                 <p>Test that Tensorflow is installed</p>
-                <p><code>python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"</code></p>
+                <div class="codehilite"><pre><span></span><code><span class="nv">python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"</span></code></pre></div>
                 <p>This should show the GPU</p>
             </li>
             <li>
                 <p>Install remaining packages for this module</p>
-                <p><code>pip install matplotlib</code></p>
-                <p><code>pip install scikit-learn</code></p>
-                <p><code>pip install notebook</code></p>
+                <div class="codehilite"><pre><span></span><code><span class="nv">pip install matplotlib</span>
+<span class="nv">pip install scikit-learn</span></code></pre></div>
+                <span class="nv">pip install notebook</span></code></pre></div>
             </li>
         </ol>
     <h3>Running Instructions</h3>
@@ -129,11 +127,11 @@ pip install notebook</code></p>
             </li>
             <li>
                 <p>Activate the python virtual environment</p>
-                <p><code>source .venv/bin/activate</code></p>
+                <div class="codehilite"><pre><span></span><code><span class="nv">source .venv/bin/activate</span></code></pre></div>
             </li>
             <li>
                 <p>Run jupyter notebook</p>
-                <p><code>jupyter notebook</code></p>
+                <div class="codehilite"><pre><span></span><code><span class="nv">jupyter notebook</span></code></pre></div>
             </li>
             <li>
                 <p>Copy the localhost URL including token to put in Colab</p>
