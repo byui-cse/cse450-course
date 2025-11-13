@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 03 — More Hints</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css?v1.5">
+    <meta charset="utf-8">
+
+</head>
+<body class="index-page">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#run-locally">Running Your Colab on Your Own Computer</a></li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning</h1>
+            <h2>Module 05 — More Hints</h2>
+            <nav><a href="https://byui-cse.github.io/cse450-course"><i class="fas fa-home"></i></a><a href="https://byui-cse.github.io/cse450-course/module-01/">Module 1</a><a href="https://byui-cse.github.io/cse450-course/module-02/">Module 2</a><a href="https://byui-cse.github.io/cse450-course/module-03/">Module 3</a><a href="https://byui-cse.github.io/cse450-course/module-04/">Module 4</a><a href="https://byui-cse.github.io/cse450-course/module-05/">Module 5</a><a href="https://byui-cse.github.io/cse450-course/module-06/">Module 6</a><a href="https://byui-cse.github.io/cse450-course/module-07/">Module 7</a></nav>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<div class="admonition warning">
+<p class="admonition-title">Don't Sell Yourself Short</p>
+<p>Coding and Data Science is hard. Most of what I'm going to put here, you could look up on your own from official docs, tutorials, and Stack Overflow questions. </p>
+<p>As we proceed throughout the semester, you'll get fewer hints and be expected to look more stuff up on your own.</p>
+<p>If you haven't tried independent research yet, you might want to try that for a few hours, then come back here.</p>
+</div>
+<h2 id="run-locally">Running Your Colab on Your Own Computer</h2>
+<p>Using the free google resources can run out when testing models on the GPU instances. There are several ways to run your notebooks using Colab on your own computers. Here are some instructions that might work for you.</p>
+<h3>Windows</h3>
+        <h4>Installation Instructions</h4>
+        <ol>
+            <li>
+                <p>Install Windows subsystem for Linux (v2)</p>
+                <p>Use powershell to run the following command: <code>wsl --install</code></p>
+                <p>Open up WSL from the start menu</p>
+            </li>
+            <li>
+                <p>Make a folder for you colab data</p>
+                <p><code>mkdir colab</code></p>
+                <p><code>cd colab</code></p>
+            </li>
+            <li>
+                <p>Create a python virtual environment</p>
+                <p><code>python3 -m venv .venv</code></p>
+            </li>
+            <li>
+                <p>Activate the python virtual environment</p>
+                <p><code>source .venv/bin/activate</code></p>
+            </li>
+            <li>
+                <p>Install Tensorflow with GPU support (NVIDIA GPUs only)</p>
+                <p><code>python3 -m pip install 'tensorflow[and-cuda]'</code></p>
+                <p>OR</p>
+                <p>Install Tensorflow with CPU only</p>
+                <p><code>python3 -m pip install tensorflow</code></p>
+            </li>
+            <li>
+                <p>Test that Tensorflow is installed</p>
+                <p><code>python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"</code></p>
+                <p>This should show the GPU if GPU is installed correctly</p>
+            </li>
+            <li>
+                <p>Install remaining packages for this module</p>
+                <p><code>pip install matplotlib</code></p>
+                <p><code>pip install scikit-learn</code></p>
+                <p><code>pip install notebook</code></p>
+            </li>
+        </ol>
+        <h4>Running Instructions</h4>
+        <ol>
+            <li>
+                <p>Navigate to your colab directory</p>
+            </li>
+            <li>
+                <p>Activate the python virtual environment</p>
+                <p><code>source .venv/bin/activate</code></p>
+            </li>
+            <li>
+                <p>Run jupyter notebook</p>
+                <p><code>jupyter notebook</code></p>
+            </li>
+            <li>
+                <p>Copy the localhost URL including token to put in Colab</p>
+                <p><img src="../shared/local-connection.png" alt="Paste local connection URL" /></p>
+            </li>
+        </ol>
+	</article>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>
