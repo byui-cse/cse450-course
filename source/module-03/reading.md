@@ -58,7 +58,7 @@ You might consider watching it with the intent to understand the approach at a h
 	* [API Reference for the SKLearn Wrapper](https://xgboost.readthedocs.io/en/latest/python/python_api.html?highlight=sklearn#module-xgboost.sklearn)
 	* [An XGBoost tutorial that uses the sklearn wrapper](https://machinelearningmastery.com/develop-first-xgboost-model-python-scikit-learn/)
 	* [A more in-depth tutorial on xgboost](https://www.kaggle.com/stuarthallows/using-xgboost-with-scikit-learn)
-	* [An XGBoost tutorial that does not use the sklearn wrapper](https://towardsdatascience.com/a-beginners-guide-to-xgboost-87f5d4c30ed7)
+	* [An XGBoost tutorial that does not use the sklearn wrapper](https://medium.com/low-code-for-advanced-data-science/xgboost-explained-a-beginners-guide-095464ad418f)
 
 <div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/johnny.jpg">

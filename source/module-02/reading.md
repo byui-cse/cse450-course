@@ -77,13 +77,13 @@ You should absolutely still do the reading above. One technique would be to read
 #### Shannon's Entropy Model 
 
 ![Entropy Formula]({{URLROOT}}/shared/img/entropy_formula.png)
-*[Image from The Intuition behind Shannon’s Entropy](https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800)*
+*[Image from The Intuition behind Shannon’s Entropy](https://medium.com/data-science/the-intuition-behind-shannons-entropy-e74820fe9800)*
 
 * [This video](https://www.youtube.com/watch?v=2s3aJfRr9gE) has a nice visual way of explaining the relationship between entropy, questions, and information.
 
-* [The Intuition behind Shannon’s Entropy](https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800) has a nice discussion of the reason behind the log transform part of the entropy formula (equation 4.1 in the text).
+* [The Intuition behind Shannon’s Entropy](https://medium.com/data-science/the-intuition-behind-shannons-entropy-e74820fe9800) has a nice discussion of the reason behind the log transform part of the entropy formula (equation 4.1 in the text).
 
-* [Why take the log of a continuous target variable](https://towardsdatascience.com/why-take-the-log-of-a-continuous-target-variable-1ca0069ee935) has another nice explanation of why we often care about the log transform of a feature, something that's going to come up quite often.
+* [Why take the log of a continuous target variable](https://radekosmulski.com/why-take-the-log-of-a-continuous-target-variable/) has another nice explanation of why we often care about the log transform of a feature, something that's going to come up quite often.
 
 #### Model Evaluation
 

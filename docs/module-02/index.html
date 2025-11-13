@@ -109,17 +109,17 @@
 </ul>
 </div>
 <h3 id="sample-code-to-help-with-the-mini-holdout">Sample code to help with the mini holdout</h3>
-<div class="codehilite"><pre><span></span><code><span class="nv">test</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">pd</span>.<span class="nv">read_csv</span><span class="ss">(</span><span class="s2">&quot;https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank_holdout_test_mini.csv&quot;</span><span class="ss">)</span>
+<div class="codehilite"><pre><span></span><code>test = pd.read_csv(&quot;https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank_holdout_test_mini.csv&quot;)
 
-#<span class="w"> </span><span class="k">Do</span><span class="w"> </span><span class="nv">same</span><span class="w"> </span><span class="nv">transformations</span><span class="w"> </span><span class="nv">as</span><span class="w"> </span><span class="nv">on</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">training</span><span class="w"> </span><span class="nv">set</span>
+<span class="gh">#</span> Do same transformations as on the training set
 
-<span class="nv">predictions</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">clf</span>.<span class="nv">predict</span><span class="ss">(</span><span class="nv">test</span><span class="ss">)</span>
+predictions = clf.predict(test)
 
-#<span class="w"> </span><span class="nv">Convert</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">predictions</span><span class="w"> </span><span class="nv">to</span><span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="nv">dataframe</span><span class="w"> </span><span class="nv">and</span><span class="w"> </span><span class="nv">label</span><span class="w"> </span><span class="nv">the</span><span class="w"> </span><span class="nv">column</span><span class="w"> </span><span class="s1">&#39;y&#39;</span>
-<span class="nv">my_predictions</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">pd</span>.<span class="nv">DataFrame</span><span class="ss">(</span><span class="nv">predictions</span>,<span class="w"> </span><span class="nv">columns</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>[<span class="s1">&#39;y&#39;</span>]<span class="ss">)</span>
+<span class="gh">#</span> Convert the predictions to a dataframe and label the column &#39;y&#39;
+my_predictions = pd.DataFrame(predictions, columns = [&#39;y&#39;])
 
-#<span class="w"> </span><span class="nv">Replace</span><span class="w"> </span><span class="nv">PUTTEAMNUMBERHERE</span><span class="w"> </span><span class="nv">with</span><span class="w"> </span><span class="nv">your</span><span class="w"> </span><span class="nv">team</span>
-<span class="nv">my_predictions</span>.<span class="nv">to_csv</span><span class="ss">(</span><span class="s2">&quot;teamPUTTEAMNUMBERHERE-module2-predictions.csv&quot;</span>,<span class="nv">index</span><span class="o">=</span><span class="nv">False</span><span class="ss">)</span>
+<span class="gh">#</span> Replace PUTTEAMNUMBERHERE with your team
+my_predictions.to_csv(&quot;teamPUTTEAMNUMBERHERE-module2-predictions.csv&quot;,index=False)
 </code></pre></div>
 
 <h4 id="templates">Templates</h4>

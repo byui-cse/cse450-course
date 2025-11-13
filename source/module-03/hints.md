@@ -52,5 +52,5 @@ If you've read through the official documentation and tutorials about XGBoost on
 
 ## Choosing the Right Metric
 
-Figuring out which metric to use can be tough. Here is a [quick introduction to different metrics](https://towardsdatascience.com/metrics-to-understand-regression-models-in-plain-english-part-1-c902b2f4156f) you may want to try. 
+Figuring out which metric to use can be tough. Here is a [quick introduction to different metrics](https://medium.com/data-science/metrics-to-understand-regression-models-in-plain-english-part-1-c902b2f4156f) you may want to try. 
 

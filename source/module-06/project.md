@@ -34,6 +34,13 @@ After a few more meetings, your team has been assigned to address the following 
 </div>
 
 <div class="dialogue">
+	<img src="{{URLROOT}}/shared/img/monika.jpg">
+	<h5>Monika, Senior Developer</h5>
+	<blockquote>
+        <p>We had hired another team of developers to convert the RNN to transformers - a generational improvement over RNNs; however that company's developers all left for new jobs, so they only left us with this <a href="https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/generative/ipynb/text_generation_with_miniature_gpt.ipynb">transformer demo notebook</a>. We'd love to see what you can do with transformers and how it compares to the RNN version.</p></blockquote>
+</div>
+
+<div class="dialogue">
 	<img src="{{URLROOT}}/shared/img/thomas.jpg">
 	<h5>Thomas, COO of HackPressIO</h5>
 	<blockquote><p>Finally, you don't need to use this for all of your styles, but once you have one up and running, could you start a story with the following prompt:</p>
