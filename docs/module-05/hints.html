@@ -49,8 +49,7 @@
 </div>
 <h2 id="run-locally">Running Your Colab on Your Own Computer</h2>
 <p>Using the free google resources can run out when testing models on the GPU instances. There are several ways to run your notebooks using Colab on your own computers. Here are some instructions that might work for you.</p>
-<h3>Windows</h3>
-        <h4>Installation Instructions</h4>
+        <h3>Windows Installation Instructions</h3>
         <ol>
             <li>
                 <p>Install Windows subsystem for Linux (v2)</p>
@@ -89,7 +88,39 @@
                 <p><code>pip install notebook</code></p>
             </li>
         </ol>
-        <h4>Running Instructions</h4>
+        <h3>Mac Installation Instructions</h3>
+        <ol>
+            <li>
+                <p>Make a folder for you colab data</p>
+                <p><code>mkdir colab</code></p>
+                <p><code>cd colab</code></p>
+            </li>
+            <li>
+                <p>Create a python virtual environment</p>
+                <p><code>python3 -m venv .venv</code></p>
+            </li>
+            <li>
+                <p>Activate the python virtual environment</p>
+                <p><code>source .venv/bin/activate</code></p>
+            </li>
+            <li>
+                <p>Install Tensorflow with macos support</p>
+                <p><code>python3 -m pip install tensorflow-macos</code></p>
+                <p><code>python3 -m pip install tensorflow-metal</code></p>
+            </li>
+            <li>
+                <p>Test that Tensorflow is installed</p>
+                <p><code>python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"</code></p>
+                <p>This should show the GPU</p>
+            </li>
+            <li>
+                <p>Install remaining packages for this module</p>
+                <p><code>pip install matplotlib</code></p>
+                <p><code>pip install scikit-learn</code></p>
+                <p><code>pip install notebook</code></p>
+            </li>
+        </ol>
+    <h3>Running Instructions</h3>
         <ol>
             <li>
                 <p>Navigate to your colab directory</p>
