@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 05 — More Hints</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot');
+            src: url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.eot#iefix-8k8p81') format('embedded-opentype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.ttf') format('truetype'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.woff') format('woff'), url('https://byui-cse.github.io/cse450-course/shared/fonts/byui/icomoon.svg#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/lib/highlight/styles/monokai-sublime.min.css">
+	<link rel="stylesheet" type="text/css" href="https://byui-cse.github.io/cse450-course/shared/cse450.css?v1.5">
+    <meta charset="utf-8">
+
+</head>
+<body class="index-page">
+     <div id="modal-screen">
+        <div id="contents-wrapper">
+            <div class="toc">
+<ul>
+<li><a href="#running-your-colab-on-your-own-computer">Running Your Colab on Your Own Computer</a><ul>
+<li><a href="#windows-installation-instructions">Windows Installation Instructions</a></li>
+<li><a href="#mac-installation-instructions-apple-silicon-only-m1-m2-m3">Mac Installation Instructions (Apple Silicon only M1, M2, M3, ...)</a></li>
+<li><a href="#running-instructions">Running Instructions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+            <a href="#" id="hide-contents" title="Close Table of Contents"><i class="far fa-window-close"></i></a>
+        </div>
+    </div>
+	<header>
+        <span class="icon-byui-logo"></span>
+        <div id="titles">
+            <h1>CSE 450 - Machine Learning</h1>
+            <h2>Module 05 — More Hints</h2>
+            <nav><a href="https://byui-cse.github.io/cse450-course"><i class="fas fa-home"></i></a><a href="https://byui-cse.github.io/cse450-course/module-01/">Module 1</a><a href="https://byui-cse.github.io/cse450-course/module-02/">Module 2</a><a href="https://byui-cse.github.io/cse450-course/module-03/">Module 3</a><a href="https://byui-cse.github.io/cse450-course/module-04/">Module 4</a><a href="https://byui-cse.github.io/cse450-course/module-05/">Module 5</a><a href="https://byui-cse.github.io/cse450-course/module-06/">Module 6</a><a href="https://byui-cse.github.io/cse450-course/module-07/">Module 7</a></nav>
+        </div>
+        <a href="#" id="show-contents" title="Show Table of Contents"><i class="far fa-list-alt"></i></a>
+    </header>
+	<article>
+		<div class="admonition warning">
+<p class="admonition-title">Don't Sell Yourself Short</p>
+<p>Coding and Data Science is hard. Most of what I'm going to put here, you could look up on your own from official docs, tutorials, and Stack Overflow questions. </p>
+<p>As we proceed throughout the semester, you'll get fewer hints and be expected to look more stuff up on your own.</p>
+<p>If you haven't tried independent research yet, you might want to try that for a few hours, then come back here.</p>
+</div>
+<h2 id="running-your-colab-on-your-own-computer">Running Your Colab on Your Own Computer</h2>
+<p>Using the free google resources can run out when testing models on the GPU instances. There are several ways to run your notebooks using Colab on your own computers. Here are some instructions that might work for you. </p>
+<h3 id="windows-installation-instructions">Windows Installation Instructions</h3>
+<h4 id="1-install-windows-subsystem-for-linux-v2">1. Install Windows Subsystem for Linux (v2)</h4>
+<p>Use Powershell to run the following command:</p>
+<div class="codehilite"><pre><span></span><code>wsl --install
+</code></pre></div>
+
+<p>Open up WSL from the Start menu</p>
+<h4 id="2-make-a-folder-for-you-colab-data">2. Make a folder for you colab data</h4>
+<div class="codehilite"><pre><span></span><code>mkdir colab
+cd colab
+</code></pre></div>
+
+<h4 id="3-create-a-python-virtual-environment">3. Create a python virtual environment</h4>
+<div class="codehilite"><pre><span></span><code>python3 -m venv .venv
+</code></pre></div>
+
+<h4 id="4-activate-the-python-virtual-environment">4. Activate the python virtual environment</h4>
+<div class="codehilite"><pre><span></span><code>python3 -m venv .venv
+</code></pre></div>
+
+<h4 id="5-install-tensorflow">5. Install Tensorflow</h4>
+<h5 id="with-gpu-support-nvidia-gpus-only">With GPU support (NVIDIA GPUs only)</h5>
+<div class="codehilite"><pre><span></span><code>pip install &#39;tensorflow[and-cuda]&#39;
+</code></pre></div>
+
+<h5 id="with-cpu-only">With CPU only</h5>
+<div class="codehilite"><pre><span></span><code>pip install tensorflow
+</code></pre></div>
+
+<h4 id="6-test-that-tensorflow-is-installed">6. Test that Tensorflow is installed</h4>
+<div class="codehilite"><pre><span></span><code><span class="n">python3</span> <span class="o">-</span><span class="n">c</span> <span class="s2">&quot;import tensorflow as tf; print(tf.config.list_physical_devices(&#39;GPU&#39;))&quot;</span>
+</code></pre></div>
+
+<p>This should show the GPU if your GPU is installed correctly</p>
+<h4 id="7-install-remaining-packages-for-this-module">7. Install remaining packages for this module</h4>
+<div class="codehilite"><pre><span></span><code>pip install matplotlib
+pip install scikit-learn
+pip install notebook
+</code></pre></div>
+
+<h3 id="mac-installation-instructions-apple-silicon-only-m1-m2-m3">Mac Installation Instructions (Apple Silicon only M1, M2, M3, ...)</h3>
+<h4 id="1-make-a-folder-for-you-colab-data">1. Make a folder for you colab data</h4>
+<div class="codehilite"><pre><span></span><code>mkdir colab
+cd colab
+</code></pre></div>
+
+<h4 id="2-create-a-python-virtual-environment">2. Create a python virtual environment</h4>
+<div class="codehilite"><pre><span></span><code>python3 -m venv .venv
+</code></pre></div>
+
+<h4 id="3-activate-the-python-virtual-environment">3. Activate the python virtual environment</h4>
+<div class="codehilite"><pre><span></span><code>source .venv/bin/activate
+</code></pre></div>
+
+<h4 id="4-install-tensorflow-with-macos-support">4. Install Tensorflow with macos support</h4>
+<div class="codehilite"><pre><span></span><code>pip install tensorflow-macos
+pip install tensorflow-metal
+</code></pre></div>
+
+<h4 id="5-test-that-tensorflow-is-installed">5. Test that Tensorflow is installed</h4>
+<div class="codehilite"><pre><span></span><code><span class="n">python3</span> <span class="o">-</span><span class="n">c</span> <span class="s2">&quot;import tensorflow as tf; print(tf.config.list_physical_devices(&#39;GPU&#39;))&quot;</span>
+</code></pre></div>
+
+<p>This should show the GPU</p>
+<h4 id="6-install-remaining-packages-for-this-module">6. Install remaining packages for this module</h4>
+<div class="codehilite"><pre><span></span><code>pip install matplotlib
+pip install scikit-learn
+pip install notebook
+</code></pre></div>
+
+<h3 id="running-instructions">Running Instructions</h3>
+<h4 id="1-navigate-to-your-colab-directory">1. Navigate to your colab directory</h4>
+<div class="codehilite"><pre><span></span><code>cd colab
+</code></pre></div>
+
+<h4 id="3-activate-the-python-virtual-environment_1">3. Activate the python virtual environment</h4>
+<div class="codehilite"><pre><span></span><code>source .venv/bin/activate
+</code></pre></div>
+
+<h4 id="4-run-jupyter-notebook">4. Run jupyter notebook</h4>
+<div class="codehilite"><pre><span></span><code>jupyter notebook
+</code></pre></div>
+
+<h4 id="5-copy-the-localhost-url-including-token-to-put-in-colab">5. Copy the localhost URL including token to put in Colab</h4>
+<p><img alt="Paste local connection URL into colab under server URL" src="https://byui-cse.github.io/cse450-course/shared/img/local-connection.png" /></p>
+	</article>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/highlight/highlight.pack.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/katex.min.js"></script>
+    <script src="https://byui-cse.github.io/cse450-course/shared/lib/katex/contrib/auto-render.min.js"></script>
+	<script src="https://byui-cse.github.io/cse450-course/shared/lib/smartquotes/smartquotes.min.js"></script>
+    <script>
+
+        /* Startup scripts for katex rendering */
+    	renderMathInElement(document.body,
+		{
+			delimiters: [
+				{left: "$$", right: "$$", display: true},
+				{left: "$", right: "$", display: false},
+			]
+    	});
+
+        /* Highlighting code */
+    	hljs.initHighlightingOnLoad();
+    	var elements = document.querySelectorAll('.language-text')
+		for (var i = 0; i < elements.length; i++) {
+  			elements[i].classList.add('hljs');
+		}
+
+        /* TOC support */
+        var hideContents = function(e){
+            console.log(e.target);
+            if(e.target.id === 'modal-screen' || e.target.nodeName.toLowerCase() === 'i') {
+                e.preventDefault();
+                document.querySelector('#contents-wrapper').classList.remove('active');
+                document.querySelector('#modal-screen').classList.remove('active');
+            }
+        }
+
+        var showContents = function(e){
+            e.preventDefault();
+            document.querySelector('#contents-wrapper').classList.add('active');
+            document.querySelector('#modal-screen').classList.add('active');
+        }
+
+        document.querySelector("#hide-contents").addEventListener('click', hideContents);
+        document.querySelector("#modal-screen").addEventListener('click', hideContents);
+        document.querySelector("#show-contents").addEventListener('click', showContents);
+    	
+    </script>
+</body>
+</html>
