@@ -61,6 +61,6 @@ Click on the `Open In Colab` button below to open a Google Colab notebook with t
 
 ## Teacher's Solution
 
-Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can [view the teacher's solution here](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_01_Solved.ipynb).
+Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can [view the teacher's solution here](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_01_Solved.ipynb) or [here for polars](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_01_Polars_Solution.ipynb).
 
 
