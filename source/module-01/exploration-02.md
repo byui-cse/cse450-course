@@ -33,7 +33,9 @@ Your assignment is to analyze a dataset of nutritional information for major US 
 
 Click on the `Open In Colab` button below to open a Google Colab notebook with the template for this assignment. Once you've completed the assignment, don't forget to take the corresponding quiz in Canvas. 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_02.ipynb)
+| Pandas | Polars |
+|--------|--------|
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_02.ipynb) | [![Open In Colab (Polars)](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_02_Polars.ipynb) |
 
 ## Data Dictionary
 
@@ -68,7 +70,7 @@ Fields in the dataset:
 
 ## Teacher's Solution
 
-Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can [view the teacher's solution here](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_02_Solved.ipynb).
+Once you have absolutely exhausted all of your best efforts in solving the data exploration problems, and you are stuck on where to go next, you can [view the teacher's solution here](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_02_Solved.ipynb) or [here for polars](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/Exploration_02_Polars_Solution.ipynb).
 
 
 [^1]: [Business Wire — Feb 25, 2019](https://www.businesswire.com/news/home/20190225005455/en/72-Billion-Weight-Loss-Diet-Control-Market)
