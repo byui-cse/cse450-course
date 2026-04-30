@@ -173,6 +173,16 @@ article iframe {
   margin: 10px auto 20px auto;
 }
 
+article table {
+  border-collapse: collapse;
+  margin: 0 auto 20px auto;
+}
+
+article th,
+article td {
+  padding: 0px 5px;
+}
+
 article ol, article ul {
   margin: -10px 0 20px 20px;
 }
@@ -497,5 +507,3 @@ article .dialogue blockquote em{
 .toc li a:link, .toc li a:visited {
   color: var(--text-color);
 }
-
-
