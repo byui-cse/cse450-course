@@ -37,7 +37,9 @@ If you're really struggling with how to make a decision tree, you should try rea
 
 If that still doesn't help, this notebook can give you some more guidance:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_decisiontrees.ipynb)
+| panads | polars |
+|--------|--------|
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_decisiontrees.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_decisiontrees_polars.ipynb) |
 
 ## Use a random forest
 
@@ -45,7 +47,9 @@ If you want to try different machine learning algorithms on this dataset, you ma
 
 This notebook can give you an example of how to build a random forest:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_randomforest.ipynb)
+| panads | polars |
+|--------|--------|
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_randomforest.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_randomforest_polars.ipynb) |
 
 !!!note "Holdout Dataset"
 	Most of the modules contain a "holdout dataset" which is used by the instructor to see how well your model performs. This dataset has the same fields as the training set except we have removed the value you will be predicting. Your model will not have seen this information before, and the results will indicate how well the model has "learned" during training. 
@@ -78,6 +82,8 @@ This notebook can give you an example of how to build a random forest:
 
 ### Sample code to help with the mini holdout
 
+##### Pandas
+
 ```
 test = pd.read_csv("https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank_holdout_test_mini.csv")
 
@@ -90,6 +96,22 @@ my_predictions = pd.DataFrame(predictions, columns = ['y'])
 
 # Replace PUTTEAMNUMBERHERE with your team
 my_predictions.to_csv("teamPUTTEAMNUMBERHERE-module2-predictions.csv",index=False)
+```
+
+##### Polars
+
+```
+test = pl.read_csv("https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank_holdout_test_mini.csv")
+
+# Do same transformations as on the training set
+
+predictions = clf.predict(test)
+
+# Convert the predictions to a dataframe and label the column 'y'
+my_predictions = pl.DataFrame(predictions, columns = ['y'])
+
+# Replace PUTTEAMNUMBERHERE with your team
+my_predictions.write_csv("teamPUTTEAMNUMBERHERE-module2-predictions.csv")
 ```
 
 #### Templates

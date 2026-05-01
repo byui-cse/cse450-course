@@ -74,11 +74,37 @@
 <h2 id="use-a-decision-tree">Use a decision tree</h2>
 <p>If you're really struggling with how to make a decision tree, you should try reading through the documentation a couple more times.</p>
 <p>If that still doesn't help, this notebook can give you some more guidance:</p>
-<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_decisiontrees.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<table>
+<thead>
+<tr>
+<th>panads</th>
+<th>polars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_decisiontrees.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_decisiontrees_polars.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="use-a-random-forest">Use a random forest</h2>
 <p>If you want to try different machine learning algorithms on this dataset, you may want to try a random forest.</p>
 <p>This notebook can give you an example of how to build a random forest:</p>
-<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_randomforest.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<table>
+<thead>
+<tr>
+<th>panads</th>
+<th>polars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_randomforest.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_randomforest_polars.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+</tr>
+</tbody>
+</table>
 <div class="admonition note">
 <p class="admonition-title">Holdout Dataset</p>
 <p>Most of the modules contain a "holdout dataset" which is used by the instructor to see how well your model performs. This dataset has the same fields as the training set except we have removed the value you will be predicting. Your model will not have seen this information before, and the results will indicate how well the model has "learned" during training. </p>
@@ -109,6 +135,7 @@
 </ul>
 </div>
 <h3 id="sample-code-to-help-with-the-mini-holdout">Sample code to help with the mini holdout</h3>
+<h5 id="pandas">Pandas</h5>
 <div class="codehilite"><pre><span></span><code>test = pd.read_csv(&quot;https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank_holdout_test_mini.csv&quot;)
 
 <span class="gh">#</span> Do same transformations as on the training set
@@ -120,6 +147,20 @@ my_predictions = pd.DataFrame(predictions, columns = [&#39;y&#39;])
 
 <span class="gh">#</span> Replace PUTTEAMNUMBERHERE with your team
 my_predictions.to_csv(&quot;teamPUTTEAMNUMBERHERE-module2-predictions.csv&quot;,index=False)
+</code></pre></div>
+
+<h5 id="polars">Polars</h5>
+<div class="codehilite"><pre><span></span><code>test = pl.read_csv(&quot;https://raw.githubusercontent.com/byui-cse/cse450-course/master/data/bank_holdout_test_mini.csv&quot;)
+
+<span class="gh">#</span> Do same transformations as on the training set
+
+predictions = clf.predict(test)
+
+<span class="gh">#</span> Convert the predictions to a dataframe and label the column &#39;y&#39;
+my_predictions = pl.DataFrame(predictions, columns = [&#39;y&#39;])
+
+<span class="gh">#</span> Replace PUTTEAMNUMBERHERE with your team
+my_predictions.write_csv(&quot;teamPUTTEAMNUMBERHERE-module2-predictions.csv&quot;)
 </code></pre></div>
 
 <h4 id="templates">Templates</h4>

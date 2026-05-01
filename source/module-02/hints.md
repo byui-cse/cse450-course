@@ -12,7 +12,7 @@ body-class: index-page
 	If you haven't tried independent research yet, you might want to try that for a few hours, then come back here.
 
 
-## Using a Function to Transform a Feature
+## Using a Function to Transform a Feature (Pandas)
 
 Sometimes you want to do a complex transformation where you create a new feature based on the data in one or more existing features, or where you need to use boolean logic in your transformation. 
 
@@ -20,6 +20,13 @@ One way to accomplish this is with `apply()` plus a function or lambda, as shown
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_functions.ipynb)
 
+## Using Native Expressions API to Transform a Feature (Polars)
+
+Sometimes you want to do a complex transformation where you create a new feature based on the data in one or more existing features, or where you need to use boolean logic in your transformation. 
+
+One way to accomplish this is with the [native expressions API](https://docs.pola.rs/user-guide/expressions/), as shown in the following colab notebook:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_native_expressions_polars.ipynb)
 
 ## MinMax Scaling a Feature
 If we need to do some kind of distance-based algorithm with these features, it would help to transform them to the same scale first.
@@ -41,7 +48,9 @@ If you're really struggling with how to make a decision tree, you should try rea
 
 If that still doesn't help, this notebook can give you some more guidance:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_decisiontrees.ipynb)
+| panads | polars |
+|--------|--------|
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_decisiontrees.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_decisiontrees_polars.ipynb) |
 
 ## Imbalanced datasets
 
