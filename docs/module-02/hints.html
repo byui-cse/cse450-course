@@ -24,7 +24,8 @@
         <div id="contents-wrapper">
             <div class="toc">
 <ul>
-<li><a href="#using-a-function-to-transform-a-feature">Using a Function to Transform a Feature</a></li>
+<li><a href="#using-a-function-to-transform-a-feature-pandas">Using a Function to Transform a Feature (Pandas)</a></li>
+<li><a href="#using-native-expressions-api-to-transform-a-feature-polars">Using Native Expressions API to Transform a Feature (Polars)</a></li>
 <li><a href="#minmax-scaling-a-feature">MinMax Scaling a Feature</a></li>
 <li><a href="#dealing-with-dates">Dealing with Dates</a></li>
 <li><a href="#use-a-decision-tree">Use a decision tree</a></li>
@@ -51,10 +52,14 @@
 <p>As we proceed throughout the semester, you'll get fewer hints and be expected to look more stuff up on your own.</p>
 <p>If you haven't tried independent research yet, you might want to try that for a few hours, then come back here.</p>
 </div>
-<h2 id="using-a-function-to-transform-a-feature">Using a Function to Transform a Feature</h2>
+<h2 id="using-a-function-to-transform-a-feature-pandas">Using a Function to Transform a Feature (Pandas)</h2>
 <p>Sometimes you want to do a complex transformation where you create a new feature based on the data in one or more existing features, or where you need to use boolean logic in your transformation. </p>
 <p>One way to accomplish this is with <code>apply()</code> plus a function or lambda, as shown in the following colab notebook:</p>
 <p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_functions.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<h2 id="using-native-expressions-api-to-transform-a-feature-polars">Using Native Expressions API to Transform a Feature (Polars)</h2>
+<p>Sometimes you want to do a complex transformation where you create a new feature based on the data in one or more existing features, or where you need to use boolean logic in your transformation. </p>
+<p>One way to accomplish this is with the <a href="https://docs.pola.rs/user-guide/expressions/">native expressions API</a>, as shown in the following colab notebook:</p>
+<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_native_expressions_polars.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
 <h2 id="minmax-scaling-a-feature">MinMax Scaling a Feature</h2>
 <p>If we need to do some kind of distance-based algorithm with these features, it would help to transform them to the same scale first.</p>
 <p>Min-max scaling will make the values span the range 0.0 - 1.0, as shown in the following colab notebook:</p>

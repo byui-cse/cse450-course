@@ -157,7 +157,7 @@ my_predictions.to_csv(&quot;teamPUTTEAMNUMBERHERE-module2-predictions.csv&quot;,
 predictions = clf.predict(test)
 
 <span class="gh">#</span> Convert the predictions to a dataframe and label the column &#39;y&#39;
-my_predictions = pl.DataFrame(predictions, columns = [&#39;y&#39;])
+my_predictions = pl.DataFrame(predictions, schema = [&#39;y&#39;])
 
 <span class="gh">#</span> Replace PUTTEAMNUMBERHERE with your team
 my_predictions.write_csv(&quot;teamPUTTEAMNUMBERHERE-module2-predictions.csv&quot;)

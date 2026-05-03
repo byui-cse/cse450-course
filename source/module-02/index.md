@@ -108,7 +108,7 @@ test = pl.read_csv("https://raw.githubusercontent.com/byui-cse/cse450-course/mas
 predictions = clf.predict(test)
 
 # Convert the predictions to a dataframe and label the column 'y'
-my_predictions = pl.DataFrame(predictions, columns = ['y'])
+my_predictions = pl.DataFrame(predictions, schema = ['y'])
 
 # Replace PUTTEAMNUMBERHERE with your team
 my_predictions.write_csv("teamPUTTEAMNUMBERHERE-module2-predictions.csv")
