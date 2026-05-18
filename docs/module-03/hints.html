@@ -54,23 +54,101 @@
 </div>
 <h2 id="using-a-function-to-transform-a-feature">Using a Function to Transform a Feature</h2>
 <p>Sometimes you want to do a complex transformation where you create a new feature based on the data in one or more existing features, or where you need to use boolean logic in your transformation. </p>
-<p>One way to accomplish this is with <code>apply()</code> plus a function or lambda, as shown in the following colab notebook:</p>
-<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_functions.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<p>One way to accomplish this is with <code>apply()</code> plus a function or lambda, as shown in the following pandas notebook, or native expressions in the polars notebook:</p>
+<table>
+<thead>
+<tr>
+<th>panads</th>
+<th>polars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_functions.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_functions.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="scaling-a-feature">Scaling a Feature</h2>
 <p>Sometimes it is necessary to transform a feature to use a normalized scale.</p>
 <p>Min-max scaling (aka range scaling) will make the values span the range 0.0 - 1.0, as shown in the following colab notebook:</p>
-<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_scaling.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<table>
+<thead>
+<tr>
+<th>panads</th>
+<th>polars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_scaling.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_scaling_polars.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+</tr>
+</tbody>
+</table>
 <p>Standardization, (aka z-score normalization), scales the values so they have a mean of 0 and a standard deviation of 1, as shown in the following colab notebook:</p>
-<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_normalization.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<table>
+<thead>
+<tr>
+<th>panads</th>
+<th>polars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_normalization.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_normalization_polars.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="dealing-with-dates">Dealing with Dates</h2>
 <p>Sometimes we need to calculate the span between two dates using different units. Or, we might need to to do more complex calculations on a date using boolean logic. The following colab notebook shows some examples of that:</p>
-<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_dates.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<table>
+<thead>
+<tr>
+<th>panads</th>
+<th>polars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_dates.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_dates_polars.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="one-hot-encoding-problems">One-Hot-Encoding Problems</h2>
 <p>Oftentimes when using categorical data that has been one-hot encoded, you'll run into problems with a holdout or test dataset that doesn't have the same categorical data (normally missing values). This colab notebook shows how to align your X_train features and your X_test or holdout features:</p>
-<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_one_hot_encode_align.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<table>
+<thead>
+<tr>
+<th>panads</th>
+<th>polars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_one_hot_encode_align.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_one_hot_encode_align_polars.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="using-xgboost">Using XGBoost</h2>
 <p>If you've read through the official documentation and tutorials about XGBoost on the <a href="./project.html">project page</a> and still aren't sure how to use it, this colab notebook might help:</p>
-<p><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_xgboost.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<table>
+<thead>
+<tr>
+<th>panads</th>
+<th>polars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_xgboost.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+<td><a href="https://colab.research.google.com/github/byui-cse/cse450-course/blob/master/notebooks/hint_xgboost_polars.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="choosing-the-right-metric">Choosing the Right Metric</h2>
 <p>Figuring out which metric to use can be tough. Here is a <a href="https://medium.com/data-science/metrics-to-understand-regression-models-in-plain-english-part-1-c902b2f4156f">quick introduction to different metrics</a> you may want to try. </p>
 	</article>
